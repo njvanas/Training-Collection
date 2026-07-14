@@ -1,7 +1,7 @@
 {
-  "id": "hevy-folders",
-  "name": "Hevy Workout Folders",
-  "summary": "Ready-made workout folders you can open in the Hevy app, save to your profile, and start logging. Full exercise detail, set schemes, and methodology write-ups for each legend are on the Methodologies and Training Plans tabs.",
+  "id": "my-routines",
+  "name": "My Personal Routines",
+  "summary": "My own workout folders in Hevy — blocks I've built, run, and log in the app. Tap a folder to open it in Hevy and save it to your profile. Legend methodologies and full training plans with every set spelled out are on the other tabs.",
   "hevyFolders": [
     {
       "id": "bulk-like-dorian",
