@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getRoutinesByStyle, styles } from '../lib/db';
 import { intensityTechniqueLabel } from '../lib/format';
+import { curatorGradient, curatorInitials } from '../lib/curator';
 import type { TrainingStyle } from '../schema';
 import { AccordionItem } from './Accordion';
 
@@ -22,9 +23,18 @@ function StylePickerCard({
       onClick={onSelect}
       aria-pressed={selected}
     >
-      <div className="style-card-head">
-        <h3>{style.name}</h3>
-        <span className="style-card-creator">{style.creator}</span>
+      <div className="method-head compact">
+        <span
+          className="avatar"
+          style={{ background: curatorGradient(style.id) }}
+          aria-hidden
+        >
+          {curatorInitials(style.creator)}
+        </span>
+        <div className="who">
+          <h3>{style.name}</h3>
+          <span className="style-card-creator">{style.creator}</span>
+        </div>
       </div>
       <div className="chips">
         {style.tags.map((tag) => (
@@ -34,7 +44,7 @@ function StylePickerCard({
         ))}
       </div>
       <p className="style-card-meta">
-        {routineCount} routine{routineCount === 1 ? '' : 's'} ·{' '}
+        {routineCount} plan{routineCount === 1 ? '' : 's'} ·{' '}
         {style.guidelines.trainingDaysPerWeek}
       </p>
     </button>
@@ -45,11 +55,20 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
   const routineCount = getRoutinesByStyle(style.id).length;
 
   return (
-      <div className="style-detail" id={`methodology-${style.id}`}>
+    <div className="style-detail" id={`methodology-${style.id}`}>
       <div className="style-detail-header">
-        <div>
-          <h2>{style.name}</h2>
-          <p className="sub">Created by {style.creator}</p>
+        <div className="method-head">
+          <span
+            className="avatar lg"
+            style={{ background: curatorGradient(style.id) }}
+            aria-hidden
+          >
+            {curatorInitials(style.creator)}
+          </span>
+          <div className="who">
+            <h2>{style.name}</h2>
+            <p className="sub">Curated by {style.creator}</p>
+          </div>
         </div>
         <div className="chips">
           {style.tags.map((tag) => (
@@ -62,7 +81,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
 
       <p className="style-summary">{style.summary}</p>
 
-      <nav className="section-index" aria-label="Methodology sections">
+      <nav className="section-index" aria-label="Curator sections">
         <span className="filter-label">On this page</span>
         <div className="index-links">
           <a className="index-link" href={`#${style.id}-principles`}>
@@ -97,7 +116,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
           <span className="stat-value">{style.guidelines.frequencyPerMuscle}</span>
         </div>
         <div className="stat">
-          <span className="stat-label">Reference routines</span>
+          <span className="stat-label">Reference plans</span>
           <span className="stat-value">{routineCount}</span>
         </div>
       </div>
@@ -173,7 +192,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
         >
           <div className="split-grid">
             {style.splitOverview.map((day) => (
-              <div className="split-day" key={day.day}>
+              <div className="split-day" key={`${day.day}-${day.focus}`}>
                 <span className="split-day-label">{day.day}</span>
                 <span className="split-day-focus">{day.focus}</span>
               </div>
@@ -208,16 +227,16 @@ export function StylesView() {
   const selected = styles.find((s) => s.id === selectedId) ?? styles[0];
 
   if (!selected) {
-    return <div className="empty">No methodologies loaded.</div>;
+    return <div className="empty">No curators loaded.</div>;
   }
 
   return (
     <div className="styles-layout">
       <div className="section styles-intro">
-        <h2 className="section-heading">Choose a methodology</h2>
+        <h2 className="section-heading">Choose a curator</h2>
         <p className="sub">
-          Pick one legend at a time. Each card shows the training philosophy at a
-          glance — expand sections below for the full breakdown.
+          One legend at a time — philosophy, guidelines, and weekly split. Legend
+          plans live on the Legend Plans tab.
         </p>
       </div>
 

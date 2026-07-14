@@ -15,6 +15,9 @@ import {
 
 export const myCollection: PersonalCollection =
   personalCollectionFileSchema.parse(myCollectionData);
+export const hevyFoldersById = new Map(
+  myCollection.hevyFolders.map((folder) => [folder.id, folder]),
+);
 export const exercises: Exercise[] = exercisesFileSchema.parse(exercisesData);
 export const styles: TrainingStyle[] = stylesFileSchema
   .parse(stylesData)
@@ -62,6 +65,10 @@ export function getRoutine(id: string): Routine | undefined {
   return routinesById.get(id);
 }
 
+export function getHevyFolder(id: string) {
+  return hevyFoldersById.get(id);
+}
+
 export function getPersonalRoutines(): Routine[] {
   return personalRoutines;
 }
@@ -105,10 +112,16 @@ export function validateReferentialIntegrity(): string[] {
   const personalIds = new Set(
     myCollection.splitOverview.map((entry) => entry.routineId),
   );
+  const folderIds = new Set(myCollection.hevyFolders.map((f) => f.id));
   for (const routine of routines.filter((r) => r.collection === 'personal')) {
     if (!personalIds.has(routine.id)) {
       problems.push(
         `Personal routine "${routine.id}" is missing from my-collection.json splitOverview`,
+      );
+    }
+    if (!routine.hevyFolderId || !folderIds.has(routine.hevyFolderId)) {
+      problems.push(
+        `Personal routine "${routine.id}" references unknown hevyFolderId "${routine.hevyFolderId ?? 'none'}"`,
       );
     }
   }

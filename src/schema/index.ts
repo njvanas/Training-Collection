@@ -140,11 +140,16 @@ export const personalCollectionSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   summary: z.string().min(1),
-  hevyFolder: z.object({
-    name: z.string().min(1),
-    url: z.string().url(),
-    note: z.string().min(1).optional(),
-  }),
+  hevyFolders: z
+    .array(
+      z.object({
+        id: z.string().min(1),
+        name: z.string().min(1),
+        url: z.string().url(),
+        note: z.string().min(1).optional(),
+      }),
+    )
+    .min(1),
   splitOverview: z.array(
     z.object({
       day: z.string().min(1),
@@ -167,6 +172,8 @@ export const routineSchema = z
     styleId: z.string().min(1).optional(),
     /** Lower numbers appear first within the same collection. */
     sortOrder: z.number().int().nonnegative(),
+    /** Required for personal routines; must match an id in my-collection.json. */
+    hevyFolderId: z.string().min(1).optional(),
     /** Short UI labels (e.g. "Classic reference", "Ideal routine"). */
     labels: z.array(z.string().min(1)).default([]),
     focus: z.array(muscleGroupSchema).min(1),
@@ -189,6 +196,20 @@ export const routineSchema = z
         code: z.ZodIssueCode.custom,
         message: 'Personal routines must not reference a legend styleId',
         path: ['styleId'],
+      });
+    }
+    if (routine.collection === 'personal' && !routine.hevyFolderId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Personal routines must reference a hevyFolderId',
+        path: ['hevyFolderId'],
+      });
+    }
+    if (routine.collection === 'legend' && routine.hevyFolderId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Legend routines must not reference a hevyFolderId',
+        path: ['hevyFolderId'],
       });
     }
   });

@@ -12,7 +12,7 @@
     ],
     "description": "My back day in Hevy. Two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -120,7 +120,8 @@
     "labels": [
       "Back day"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "hevy-chest-biceps",
@@ -133,7 +134,7 @@
     ],
     "description": "My chest and biceps day in Hevy.",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -246,7 +247,8 @@
     "labels": [
       "Chest + arms"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "hevy-legs-quad",
@@ -260,7 +262,7 @@
     ],
     "description": "My quad-priority leg day in Hevy.",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -313,7 +315,8 @@
       "Legs",
       "Quad focus"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "hevy-legs-ham",
@@ -328,7 +331,7 @@
     ],
     "description": "My hamstring-priority leg day variant in Hevy.",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -378,7 +381,8 @@
       "Ham focus",
       "Variant"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "hevy-shoulders-triceps",
@@ -392,7 +396,7 @@
     ],
     "description": "My shoulders and triceps day in Hevy.",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -468,7 +472,8 @@
     "labels": [
       "Shoulders + arms"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "hevy-walking",
@@ -478,7 +483,7 @@
     ],
     "description": "Low-intensity steady-state cardio for off-season conditioning.",
     "source": {
-      "name": "Open in Hevy",
+      "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -493,7 +498,8 @@
     "labels": [
       "Cardio"
     ],
-    "collection": "personal"
+    "collection": "personal",
+    "hevyFolderId": "bulk-like-dorian"
   },
   {
     "id": "classic-chest-biceps",

@@ -70,8 +70,17 @@ describe('training database', () => {
 
   it('indexes every personal routine in my-collection.json', () => {
     const indexed = new Set(myCollection.splitOverview.map((e) => e.routineId));
+    const folderIds = new Set(myCollection.hevyFolders.map((f) => f.id));
     for (const routine of getPersonalRoutines()) {
       expect(indexed.has(routine.id), routine.id).toBe(true);
+      expect(routine.hevyFolderId && folderIds.has(routine.hevyFolderId)).toBe(true);
+    }
+  });
+
+  it('lists every Hevy folder with a label and url', () => {
+    for (const folder of myCollection.hevyFolders) {
+      expect(folder.name.length).toBeGreaterThan(0);
+      expect(folder.url).toMatch(/^https:\/\/hevy\.com\//);
     }
   });
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getPersonalRoutines, myCollection } from '../lib/db';
+import { getHevyFolder, getPersonalRoutines, myCollection } from '../lib/db';
 import { RoutineCard } from './RoutineCard';
 import { RoutineIndex } from './RoutineIndex';
 
@@ -12,18 +12,32 @@ export function MyCollectionView() {
       <section className="collection-intro">
         <h2 className="section-heading">{myCollection.name}</h2>
         <p className="sub">{myCollection.summary}</p>
-        <div className="collection-actions">
-          <a
-            className="collection-link"
-            href={myCollection.hevyFolder.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {myCollection.hevyFolder.name} →
-          </a>
-          {myCollection.hevyFolder.note ? (
-            <p className="sub collection-note">{myCollection.hevyFolder.note}</p>
-          ) : null}
+      </section>
+
+      <section className="hevy-folders">
+        <h3 className="mini-heading">Hevy folders</h3>
+        <div className="folder-grid">
+          {myCollection.hevyFolders.map((folder) => {
+            const count = routines.filter((r) => r.hevyFolderId === folder.id).length;
+            return (
+              <a
+                key={folder.id}
+                className="folder-card"
+                href={folder.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="folder-card-head">
+                  <span className="folder-label">{folder.name}</span>
+                  <span className="folder-count">
+                    {count} routine{count === 1 ? '' : 's'}
+                  </span>
+                </div>
+                {folder.note ? <p className="sub folder-note">{folder.note}</p> : null}
+                <span className="folder-open">Open in Hevy →</span>
+              </a>
+            );
+          })}
         </div>
       </section>
 
@@ -50,15 +64,25 @@ export function MyCollectionView() {
           }
         }}
       >
-        {routines.map((routine, index) => (
-          <RoutineCard
-            key={routine.id}
-            routine={routine}
-            collapsible
-            defaultOpen={index === 0}
-            showStyle={false}
-          />
-        ))}
+        {routines.map((routine, index) => {
+          const folder = routine.hevyFolderId
+            ? getHevyFolder(routine.hevyFolderId)
+            : undefined;
+          return (
+            <RoutineCard
+              key={routine.id}
+              routine={{
+                ...routine,
+                source: folder
+                  ? { name: folder.name, url: folder.url }
+                  : routine.source,
+              }}
+              collapsible
+              defaultOpen={index === 0}
+              showStyle={false}
+            />
+          );
+        })}
       </div>
     </div>
   );
