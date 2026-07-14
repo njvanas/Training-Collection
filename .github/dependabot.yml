@@ -5,6 +5,12 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    # Only automate safe minor/patch bumps. Major upgrades (e.g. React,
+    # Vite, ESLint, TypeScript) can break the build/lint config and are
+    # handled deliberately on request instead of auto-merged.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       npm-dependencies:
         patterns:
@@ -14,6 +20,9 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       github-actions:
         patterns:
