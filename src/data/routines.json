@@ -370,5 +370,281 @@
       { "exerciseId": "standing-calf-raise", "sets": 3, "repRange": "10-15" },
       { "exerciseId": "seated-calf-raise", "sets": 2, "repRange": "10-15" }
     ]
+  },
+  {
+    "id": "mentzer-w1-chest-back",
+    "name": "Ideal Routine - Workout 1: Chest & Back",
+    "day": "Workout 1",
+    "styleId": "heavy-duty",
+    "focus": ["chest", "back", "lats", "lower-back"],
+    "description": "Mentzer's Heavy Duty Ideal Routine, Workout 1. Do 1-3 warm-ups per exercise, then ONE all-out working set to failure. Rest 4-7+ days before the next workout in the rotation.",
+    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "exercises": [
+      {
+        "exerciseId": "pec-deck",
+        "sets": 1,
+        "repRange": "6-10",
+        "supersetGroup": "A",
+        "notes": "Pre-exhaust. Straight into the incline press with no rest.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      {
+        "exerciseId": "incline-machine-press",
+        "sets": 1,
+        "repRange": "1-3",
+        "supersetGroup": "A",
+        "notes": "Post-exhaust press to failure immediately after the pec deck.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      {
+        "exerciseId": "reverse-grip-lat-pulldown",
+        "sets": 1,
+        "repRange": "6-10",
+        "notes": "Close-grip, palms-up pulldown. One set to failure."
+      },
+      {
+        "exerciseId": "deadlift",
+        "sets": 1,
+        "repRange": "5-8",
+        "notes": "One heavy set to near-failure. Shrugs can be substituted if needed."
+      }
+    ]
+  },
+  {
+    "id": "mentzer-w2-legs",
+    "name": "Ideal Routine - Workout 2: Legs",
+    "day": "Workout 2",
+    "styleId": "heavy-duty",
+    "focus": ["quads", "hamstrings", "calves"],
+    "description": "Mentzer's Heavy Duty Ideal Routine, Workout 2. Pre-exhaust the quads with extensions straight into the leg press. One working set each to failure.",
+    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 1,
+        "repRange": "8-15",
+        "supersetGroup": "A",
+        "notes": "Pre-exhaust, straight into the leg press.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 1,
+        "repRange": "8-15",
+        "supersetGroup": "A",
+        "notes": "Squat may be substituted if no leg press.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+    ]
+  },
+  {
+    "id": "mentzer-w3-delts-arms",
+    "name": "Ideal Routine - Workout 3: Delts & Arms",
+    "day": "Workout 3",
+    "styleId": "heavy-duty",
+    "focus": ["shoulders", "rear-delts", "biceps", "triceps"],
+    "description": "Mentzer's Heavy Duty Ideal Routine, Workout 3. One all-out set per exercise; finish triceps with a pressdown-to-dip superset.",
+    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "exercises": [
+      { "exerciseId": "dumbbell-lateral-raise", "sets": 1, "repRange": "6-10" },
+      { "exerciseId": "rear-delt-fly-machine", "sets": 1, "repRange": "6-10", "notes": "Reverse pec deck or bent rear-delt raise." },
+      { "exerciseId": "barbell-curl", "sets": 1, "repRange": "6-10", "notes": "Straight bar, one set to failure." },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 1,
+        "repRange": "6-10",
+        "supersetGroup": "A",
+        "notes": "Pre-exhaust into dips.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 1,
+        "repRange": "3-5",
+        "supersetGroup": "A",
+        "notes": "Post-exhaust; use negatives if you can't complete reps.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      }
+    ]
+  },
+  {
+    "id": "mentzer-w4-legs",
+    "name": "Ideal Routine - Workout 4: Legs (Advanced)",
+    "day": "Workout 4",
+    "styleId": "heavy-duty",
+    "focus": ["quads", "calves"],
+    "description": "Mentzer's Heavy Duty Ideal Routine, Workout 4. A leg-extension static hold pre-exhausts the quads straight into squats.",
+    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 1,
+        "repRange": "10-25s hold",
+        "supersetGroup": "A",
+        "notes": "Heavy static hold to failure (10-25 seconds), then straight into squats.",
+        "setScheme": [{ "label": "F1", "intensity": "static hold to failure" }]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 1,
+        "repRange": "8-15",
+        "supersetGroup": "A",
+        "notes": "Smith or free weight, one set to failure.",
+        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+      },
+      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+    ]
+  },
+  {
+    "id": "mentzer-consolidation-a",
+    "name": "Consolidation Routine - Workout A",
+    "day": "Workout A",
+    "styleId": "heavy-duty",
+    "focus": ["quads", "lats", "back"],
+    "description": "The most minimal evolution of Heavy Duty (Heavy Duty II). Two compound lifts, one working set each, performed once every 5-7+ days. Alternate Workout A and B.",
+    "source": { "name": "Mentzer Consolidated Routine - Liftosaur", "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated" },
+    "exercises": [
+      { "exerciseId": "barbell-squat", "sets": 1, "repRange": "8-15", "notes": "One all-out set to failure after warm-ups." },
+      { "exerciseId": "reverse-grip-lat-pulldown", "sets": 1, "repRange": "6-10", "notes": "Close underhand grip, one set to failure." }
+    ]
+  },
+  {
+    "id": "mentzer-consolidation-b",
+    "name": "Consolidation Routine - Workout B",
+    "day": "Workout B",
+    "styleId": "heavy-duty",
+    "focus": ["back", "lower-back", "hamstrings", "triceps", "calves"],
+    "description": "Second consolidation session, alternated with Workout A once every 5-7+ days. Extend rest to 10-14 days if you stop getting stronger.",
+    "source": { "name": "Mentzer Consolidated Routine - Liftosaur", "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated" },
+    "exercises": [
+      { "exerciseId": "deadlift", "sets": 1, "repRange": "5-8", "notes": "One heavy set; CNS-intensive so keep reps lower." },
+      { "exerciseId": "weighted-triceps-dip", "sets": 1, "repRange": "6-10", "notes": "One set to failure." },
+      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+    ]
+  },
+  {
+    "id": "coleman-back-biceps",
+    "name": "Back & Biceps",
+    "day": "Mon & Thu",
+    "styleId": "coleman-powerbuilding",
+    "focus": ["back", "lats", "biceps", "lower-back"],
+    "description": "Ronnie Coleman's high-volume back and biceps day, run twice a week (Monday & Thursday). Heavy rows and deadlifts lead, then curls. Warm up thoroughly before the heavy sets.",
+    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "exercises": [
+      { "exerciseId": "barbell-row", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "t-bar-row", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "seated-cable-row", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "one-arm-dumbbell-row", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "deadlift", "sets": 3, "repRange": "4-8", "notes": "Heavy, controlled - Coleman's signature lift." },
+      { "exerciseId": "barbell-curl", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "alternating-dumbbell-curl", "sets": 3, "repRange": "10-12" }
+    ]
+  },
+  {
+    "id": "coleman-chest-triceps",
+    "name": "Chest & Triceps",
+    "day": "Tue & Fri",
+    "styleId": "coleman-powerbuilding",
+    "focus": ["chest", "triceps"],
+    "description": "Ronnie Coleman's chest and triceps day, run twice a week (Tuesday & Friday). Pressing from every angle followed by flyes and triceps work.",
+    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "exercises": [
+      { "exerciseId": "barbell-bench-press", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "incline-barbell-press", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "decline-bench-press", "sets": 3, "repRange": "8-12" },
+      { "exerciseId": "dumbbell-bench-press", "sets": 3, "repRange": "8-12" },
+      { "exerciseId": "cable-crossover", "sets": 3, "repRange": "12-15", "notes": "Dumbbell flyes or cable crossovers for the stretch and pump." },
+      { "exerciseId": "close-grip-bench-press", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "triceps-pushdown", "sets": 3, "repRange": "12-15" }
+    ]
+  },
+  {
+    "id": "coleman-legs",
+    "name": "Legs",
+    "day": "Wed",
+    "styleId": "coleman-powerbuilding",
+    "focus": ["quads", "hamstrings", "glutes", "calves"],
+    "description": "Ronnie Coleman's legendary leg day - heavy squats first with a powerlifter's mentality, then huge volume on the press and accessories.",
+    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "exercises": [
+      { "exerciseId": "barbell-squat", "sets": 5, "repRange": "4-8", "notes": "Low reps, heavy weight to build raw density." },
+      { "exerciseId": "leg-press", "sets": 4, "repRange": "8-12", "notes": "Pile on the plates for double-digit reps." },
+      { "exerciseId": "walking-lunge", "sets": 3, "repRange": "10-12", "notes": "Per leg." },
+      { "exerciseId": "leg-extension", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "lying-leg-curl", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "standing-calf-raise", "sets": 4, "repRange": "12-15" }
+    ]
+  },
+  {
+    "id": "coleman-shoulders-traps",
+    "name": "Shoulders & Traps",
+    "day": "Sat",
+    "styleId": "coleman-powerbuilding",
+    "focus": ["shoulders", "rear-delts", "traps"],
+    "description": "Ronnie Coleman's shoulders and traps day, closing out the 6-day rotation. Heavy pressing then lateral, front and rear delt volume plus heavy shrugs.",
+    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "exercises": [
+      { "exerciseId": "military-press", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "dumbbell-lateral-raise", "sets": 4, "repRange": "12-15" },
+      { "exerciseId": "front-raise", "sets": 3, "repRange": "12" },
+      { "exerciseId": "rear-delt-fly-machine", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "barbell-shrug", "sets": 4, "repRange": "10-12" },
+      { "exerciseId": "upright-row", "sets": 3, "repRange": "10-12" }
+    ]
+  },
+  {
+    "id": "doucette-legs",
+    "name": "HTLT Hardcore - Legs",
+    "day": "Day 1",
+    "styleId": "htlt",
+    "focus": ["quads", "hamstrings", "glutes", "calves"],
+    "description": "Representative HTLT Hardcore leg day following Doucette's public principles: controlled 2-1-1 tempo, target the rep range, warm-ups stop 3-5 reps shy of failure, and only the last set of each movement goes 'all out'. Beat last time.",
+    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "exercises": [
+      { "exerciseId": "barbell-squat", "sets": 4, "repRange": "8-12", "notes": "Controlled tempo, 3s+ per rep. Last set all out." },
+      { "exerciseId": "leg-press", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "romanian-deadlift", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "leg-extension", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "lying-leg-curl", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "standing-calf-raise", "sets": 4, "repRange": "12-20", "notes": "5-10 partials after failure on the last set." }
+    ]
+  },
+  {
+    "id": "doucette-chest-arms",
+    "name": "HTLT Hardcore - Chest & Arms",
+    "day": "Day 2",
+    "styleId": "htlt",
+    "focus": ["chest", "triceps", "biceps", "shoulders"],
+    "description": "Representative HTLT Hardcore chest and arms day. Slow tempo for time under tension, rep-range targets, and a single 'all out' final set per movement (advanced lifters may add a drop set or partials).",
+    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "exercises": [
+      { "exerciseId": "barbell-bench-press", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "dumbbell-bench-press", "sets": 3, "repRange": "12-15", "notes": "Incline or flat; deep stretch, controlled." },
+      { "exerciseId": "weighted-triceps-dip", "sets": 3, "repRange": "10-15" },
+      { "exerciseId": "lying-triceps-extension", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "barbell-curl", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "cable-biceps-curl", "sets": 3, "repRange": "12-15", "notes": "Squeeze and control; last set all out." },
+      { "exerciseId": "dumbbell-lateral-raise", "sets": 3, "repRange": "12-15" }
+    ]
+  },
+  {
+    "id": "doucette-back-shoulders",
+    "name": "HTLT Hardcore - Back & Shoulders",
+    "day": "Day 3",
+    "styleId": "htlt",
+    "focus": ["back", "lats", "rear-delts", "shoulders", "traps"],
+    "description": "Representative HTLT Hardcore back and shoulders day. Full range of motion, controlled tempo, target the rep range, and progress 'harder than last time'. Run the 3-day split across 5-7 days so each muscle is hit twice weekly.",
+    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "exercises": [
+      { "exerciseId": "pull-up", "sets": 3, "repRange": "8-12", "notes": "Add weight or use a band to stay in range." },
+      { "exerciseId": "barbell-row", "sets": 4, "repRange": "8-12" },
+      { "exerciseId": "lat-pulldown", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "seated-cable-row", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "military-press", "sets": 3, "repRange": "8-12" },
+      { "exerciseId": "rear-delt-fly-machine", "sets": 3, "repRange": "12-15" },
+      { "exerciseId": "face-pull", "sets": 3, "repRange": "15-20" },
+      { "exerciseId": "barbell-shrug", "sets": 3, "repRange": "12-15" }
+    ]
   }
 ]

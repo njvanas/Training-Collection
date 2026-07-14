@@ -549,5 +549,223 @@
       "Raise to shoulder height.",
       "Control the descent, no swinging."
     ]
+  },
+  {
+    "id": "pec-deck",
+    "name": "Pec Deck (Machine Fly)",
+    "primaryMuscle": "chest",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Elbows slightly below shoulder height on the pads.",
+      "Squeeze the pecs together, hold the contraction.",
+      "Controlled stretch on the return."
+    ],
+    "bloodAndGutsNote": "Mentzer's chosen pre-exhaust for the chest, supersetted straight into an incline press to failure."
+  },
+  {
+    "id": "incline-machine-press",
+    "name": "Incline Chest Press (Machine)",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["shoulders", "triceps"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Set the seat so handles sit at the upper chest.",
+      "Press without a hard lockout to keep tension.",
+      "Machine path is safe to push to failure solo."
+    ],
+    "bloodAndGutsNote": "Mentzer preferred a machine incline press so the post-fatigue working set could be taken past failure without a spotter."
+  },
+  {
+    "id": "one-arm-dumbbell-row",
+    "name": "One-Arm Dumbbell Row",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lats", "biceps"],
+    "equipment": "dumbbell",
+    "category": "compound",
+    "cues": [
+      "Brace a hand and knee on the bench, flat back.",
+      "Drive the elbow toward the hip, big stretch at the bottom.",
+      "Squeeze the lat at the top."
+    ]
+  },
+  {
+    "id": "alternating-dumbbell-curl",
+    "name": "Alternating Dumbbell Curl",
+    "primaryMuscle": "biceps",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Curl one arm at a time, supinate the wrist.",
+      "Keep the elbows pinned at the sides.",
+      "Control the negative on each rep."
+    ]
+  },
+  {
+    "id": "barbell-bench-press",
+    "name": "Barbell Bench Press (Flat)",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Retract the shoulder blades, slight arch.",
+      "Lower to the mid-chest under control.",
+      "Drive the bar up and slightly back."
+    ]
+  },
+  {
+    "id": "decline-bench-press",
+    "name": "Decline Barbell Bench Press",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["triceps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Lower to the lower chest.",
+      "Keep elbows tucked ~45 degrees.",
+      "Full press, controlled descent."
+    ]
+  },
+  {
+    "id": "dumbbell-bench-press",
+    "name": "Flat Dumbbell Bench Press",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "equipment": "dumbbell",
+    "category": "compound",
+    "cues": [
+      "Dumbbells over the mid-chest.",
+      "Deep stretch at the bottom without shoulder strain.",
+      "Press up and slightly together."
+    ]
+  },
+  {
+    "id": "cable-crossover",
+    "name": "Cable Crossover",
+    "primaryMuscle": "chest",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Slight forward lean, soft elbows.",
+      "Sweep the hands together in an arc, squeeze.",
+      "Control the stretch back."
+    ]
+  },
+  {
+    "id": "close-grip-bench-press",
+    "name": "Close-Grip Bench Press",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": ["chest", "shoulders"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Grip just inside shoulder width.",
+      "Elbows tucked close to the body.",
+      "Lower to the lower chest, press to lockout."
+    ]
+  },
+  {
+    "id": "walking-lunge",
+    "name": "Walking Lunge",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "equipment": "dumbbell",
+    "category": "compound",
+    "cues": [
+      "Long strides, torso upright.",
+      "Back knee toward the floor.",
+      "Drive through the front heel."
+    ]
+  },
+  {
+    "id": "military-press",
+    "name": "Military Press (Standing Barbell Overhead)",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": ["triceps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Brace the core, glutes tight.",
+      "Press the bar overhead in a straight line.",
+      "Lock out with the head 'through the window'."
+    ]
+  },
+  {
+    "id": "front-raise",
+    "name": "Front Raise",
+    "primaryMuscle": "shoulders",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Raise to about eye level.",
+      "No swinging or leaning back.",
+      "Control the descent."
+    ]
+  },
+  {
+    "id": "barbell-shrug",
+    "name": "Barbell Shrug",
+    "primaryMuscle": "traps",
+    "equipment": "barbell",
+    "category": "isolation",
+    "cues": [
+      "Straight up-and-down, no rolling.",
+      "Hold the top squeeze.",
+      "Full stretch at the bottom, use straps if grip fails."
+    ]
+  },
+  {
+    "id": "upright-row",
+    "name": "Upright Row",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": ["traps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Pull the bar to upper-chest height.",
+      "Lead with the elbows.",
+      "Keep the bar close to the body."
+    ]
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": ["back", "biceps"],
+    "equipment": "bodyweight",
+    "category": "compound",
+    "cues": [
+      "Full hang at the bottom.",
+      "Drive the elbows down, chest to the bar.",
+      "Add weight or use a band as needed."
+    ]
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "primaryMuscle": "rear-delts",
+    "secondaryMuscles": ["traps"],
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Rope at upper-chest/face height.",
+      "Pull toward the forehead, elbows high.",
+      "Externally rotate and squeeze the rear delts."
+    ]
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": ["back", "biceps"],
+    "equipment": "cable",
+    "category": "compound",
+    "cues": [
+      "Chest up, slight lean back.",
+      "Pull the bar to the upper chest, elbows down.",
+      "Control the stretch at the top."
+    ]
   }
 ]

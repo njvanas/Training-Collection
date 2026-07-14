@@ -55,5 +55,143 @@
         "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/"
       }
     ]
+  },
+  {
+    "id": "heavy-duty",
+    "name": "Heavy Duty",
+    "creator": "Mike Mentzer",
+    "summary": "Mike Mentzer's Heavy Duty is the purest expression of High-Intensity Training (HIT): a handful of exercises, exactly one working set taken to absolute momentary muscular failure (often extended with forced/negative reps or a static hold), and long rest periods between infrequent workouts. Mentzer argued that overtraining - not undertraining - is the bodybuilder's biggest mistake.",
+    "principles": [
+      "Intensity is inversely proportional to volume and frequency: the harder you train, the less you can and should do.",
+      "One set to true momentary muscular failure per exercise is not just sufficient - it is optimal.",
+      "Only the last, impossible rep recruits the highest-threshold fibers that trigger growth.",
+      "Recovery is a finite resource; every extra set or session draws from it and delays growth.",
+      "Rest at least 4-7 days between sessions, adding more rest days if progress stalls.",
+      "Progress by double progression: add reps within the range, then add weight."
+    ],
+    "intensityTechniques": ["forced-reps", "negatives", "rest-pause", "iso-hold"],
+    "guidelines": {
+      "trainingDaysPerWeek": "About twice a week (train roughly every 4th day)",
+      "frequencyPerMuscle": "Once every 4-7+ days; the full rotation can span two weeks.",
+      "warmupProtocol": "1-3 progressive warm-up sets per exercise, never approaching failure.",
+      "workingSetProtocol": "Exactly 1 all-out working set to momentary muscular failure, sometimes extended with forced reps, negatives, or a static hold. Pre-exhaust supersets pair an isolation into a compound.",
+      "repRanges": [
+        { "target": "Upper body", "range": "6-10 reps" },
+        { "target": "Compound presses (post-exhaust)", "range": "1-3 reps" },
+        { "target": "Legs", "range": "8-15 reps" },
+        { "target": "Calves", "range": "12-20 reps" }
+      ]
+    },
+    "splitOverview": [
+      { "day": "Workout 1", "focus": "Chest & Back" },
+      { "day": "Workout 2", "focus": "Legs" },
+      { "day": "Workout 3", "focus": "Delts & Arms" },
+      { "day": "Workout 4", "focus": "Legs (static hold + squat)" },
+      { "day": "Between", "focus": "Rest 4-7+ days, then repeat the rotation" }
+    ],
+    "sources": [
+      {
+        "title": "Heavy Duty: The Ideal Routine - MikeMentzer.org",
+        "url": "https://mikementzer.org/heavy-duty-the-ideal-routine/"
+      },
+      {
+        "title": "Mike Mentzer's Ideal Routine: A Heavy Duty Blueprint - MikeMentzer.org",
+        "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/"
+      },
+      {
+        "title": "Mike Mentzer's Consolidated Routine - Liftosaur",
+        "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated"
+      }
+    ]
+  },
+  {
+    "id": "coleman-powerbuilding",
+    "name": "High-Volume Powerbuilding",
+    "creator": "Ronnie Coleman",
+    "summary": "Ronnie Coleman - 8x Mr. Olympia - built the greatest mass in history on a brutally simple formula: heavy compound barbell lifts for low-ish reps followed by mountains of accessory volume, six days a week, hitting each muscle twice. No fancy periodization, no reliance on failure techniques - just enormous poundages moved with control and relentless progressive overload. 'Everybody wanna be a bodybuilder, but nobody wanna lift no heavy-ass weight.'",
+    "principles": [
+      "Heavy compound barbell movements (squat, deadlift, bench, row) are the core of every session.",
+      "Work in the 8-12 range with the heaviest weight you can control - and 4-8 on the main lifts.",
+      "Volume drives growth: 4-6 exercises and 3-5 sets per body part.",
+      "High frequency: train each muscle group twice per week over a 6-day rotation.",
+      "Progressive overload through load and total volume, not intensity gimmicks or drop sets.",
+      "Train through it - Coleman rarely planned deloads; recovery came from food and sleep."
+    ],
+    "intensityTechniques": [],
+    "guidelines": {
+      "trainingDaysPerWeek": "6 (one rest day)",
+      "frequencyPerMuscle": "Twice per week.",
+      "warmupProtocol": "2+ progressive warm-up sets on heavy lifts (e.g. 30% then 60% of your working weight).",
+      "workingSetProtocol": "3-5 straight working sets per exercise with heavy, controlled weight; 16-25 total sets per muscle group per session.",
+      "repRanges": [
+        { "target": "Main compounds", "range": "4-8 reps" },
+        { "target": "Most exercises", "range": "8-12 reps" },
+        { "target": "Isolation & calves", "range": "12-15 reps" }
+      ]
+    },
+    "splitOverview": [
+      { "day": "Mon & Thu", "focus": "Back & Biceps" },
+      { "day": "Tue & Fri", "focus": "Chest & Triceps" },
+      { "day": "Wed", "focus": "Legs" },
+      { "day": "Sat", "focus": "Shoulders & Traps" },
+      { "day": "Sun", "focus": "Rest" }
+    ],
+    "sources": [
+      {
+        "title": "Ronnie Coleman Workout Routine: Complete Weekly Training Split - Ronnie Coleman Nutrition",
+        "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+      },
+      {
+        "title": "Ronnie Coleman Workout Program and Spreadsheet - Fitness Volt",
+        "url": "https://fitnessvolt.com/ronnie-coleman-workout-program/"
+      }
+    ]
+  },
+  {
+    "id": "htlt",
+    "name": "Harder Than Last Time (HTLT)",
+    "creator": "Greg Doucette",
+    "summary": "Greg Doucette's 'Harder Than Last Time' system is built on progressive overload, controlled tempo, and long-term sustainability rather than any single magic split. Every muscle is trained at least twice a week, reps are done slowly for maximum time under tension, and you target rep ranges (not fixed numbers) while striving to beat your previous session. Consistency and effort beat novelty.",
+    "principles": [
+      "Harder than last time: always beat the previous session in reps, weight, tempo, or reduced rest.",
+      "Train every body part at least twice per week (full-body, upper/lower, or a 3-day split by experience).",
+      "Control the tempo - about 2s down, 1s up, 1s pause - to maximize time under tension.",
+      "Target a rep range, not an exact number; stop warm-ups with 3-5 reps in reserve.",
+      "Sustainability and consistency beat short bursts of 'killing it' followed by burnout/injury.",
+      "Advanced 'all-out' sets and techniques (drop sets, partials, forced reps) are earned, not for beginners.",
+      "Do your cardio: about 150 minutes per week, also progressed 'harder than last time'."
+    ],
+    "intensityTechniques": ["drop-set", "forced-reps", "partials"],
+    "guidelines": {
+      "trainingDaysPerWeek": "5-7 for the Hardcore split (Casual 2-3 full-body, Moderate 4 upper/lower)",
+      "frequencyPerMuscle": "At least twice per week.",
+      "warmupProtocol": "Light warm-up sets (12-20 reps) stopping 3-5 reps shy of failure; 10-30 min cardio + mobility first.",
+      "workingSetProtocol": "Straight sets to a target rep range with controlled tempo; only the final set of a movement goes 'all out' (advanced), optionally beyond failure with partials or a drop set.",
+      "repRanges": [
+        { "target": "Hypertrophy working sets", "range": "12-15 reps" },
+        { "target": "Strength working sets", "range": "8-10 reps (occasionally 5-8)" }
+      ]
+    },
+    "splitOverview": [
+      { "day": "Day 1", "focus": "Legs" },
+      { "day": "Day 2", "focus": "Chest & Arms" },
+      { "day": "Day 3", "focus": "Back & Shoulders" },
+      { "day": "Repeat", "focus": "Run the 3-day split across 5-7 days so each muscle is hit 2x" },
+      { "day": "Daily", "focus": "~150 min/week incline-walk cardio" }
+    ],
+    "sources": [
+      {
+        "title": "Harder Than Last Time - Training Programs (Coach Greg Inc.)",
+        "url": "https://www.gregdoucette.com/products/htlt-training-programs"
+      },
+      {
+        "title": "Greg Doucette Profile & Training Principles - Generation Iron",
+        "url": "https://generationiron.com/greg-doucette-profile-bio-stats/"
+      },
+      {
+        "title": "Greg Doucette Workout Routine - Dr Workout",
+        "url": "https://www.drworkout.fitness/greg-doucette-workout-routine/"
+      }
+    ]
   }
 ]
