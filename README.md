@@ -62,3 +62,4 @@ npm run dev      # start the dev server at http://localhost:5173
 
 Vite + React + TypeScript, Zod for schema validation, Vitest for tests, ESLint
 for linting.
+
