@@ -1,7 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   exercises,
+  getLegendRoutines,
+  getPersonalRoutines,
   getSortedRoutines,
+  myCollection,
   routines,
   styles,
   getExercise,
@@ -14,6 +17,7 @@ describe('training database', () => {
     expect(exercises.length).toBeGreaterThan(0);
     expect(styles.length).toBeGreaterThan(0);
     expect(routines.length).toBeGreaterThan(0);
+    expect(myCollection.splitOverview.length).toBeGreaterThan(0);
   });
 
   it('has no referential-integrity problems', () => {
@@ -33,26 +37,42 @@ describe('training database', () => {
     }
   });
 
-  it('every style has tags and routines are sorted within style', () => {
+  it('every style has tags and legend routines are sorted within style', () => {
     for (const style of styles) {
       expect(style.tags.length, style.id).toBeGreaterThan(0);
-      const owned = getSortedRoutines().filter((r) => r.styleId === style.id);
+      const owned = getSortedRoutines().filter(
+        (r) => r.collection === 'legend' && r.styleId === style.id,
+      );
       for (let i = 1; i < owned.length; i++) {
         expect(owned[i].sortOrder).toBeGreaterThanOrEqual(owned[i - 1].sortOrder);
       }
     }
   });
 
-  it('every style has at least one routine', () => {
+  it('every legend style has at least one reference routine', () => {
     for (const style of styles) {
-      const owned = routines.filter((r) => r.styleId === style.id);
+      const owned = getLegendRoutines().filter((r) => r.styleId === style.id);
       expect(owned.length, style.id).toBeGreaterThan(0);
     }
   });
 
-  it('includes the personal Hevy routines', () => {
-    const hevy = routines.filter((r) => r.source?.url.includes('hevy.com'));
-    expect(hevy.length).toBeGreaterThanOrEqual(6);
+  it('keeps personal Hevy routines separate from legend methodologies', () => {
+    const personal = getPersonalRoutines();
+    expect(personal.length).toBeGreaterThanOrEqual(6);
+    for (const routine of personal) {
+      expect(routine.collection).toBe('personal');
+      expect(routine.styleId).toBeUndefined();
+    }
+    expect(
+      getLegendRoutines().some((r) => r.id.startsWith('hevy-')),
+    ).toBe(false);
+  });
+
+  it('indexes every personal routine in my-collection.json', () => {
+    const indexed = new Set(myCollection.splitOverview.map((e) => e.routineId));
+    for (const routine of getPersonalRoutines()) {
+      expect(indexed.has(routine.id), routine.id).toBe(true);
+    }
   });
 
   it('every routine exercise resolves to a real exercise', () => {

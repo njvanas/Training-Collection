@@ -4,6 +4,8 @@ type AccordionItemProps = {
   title: string;
   summary?: string;
   defaultOpen?: boolean;
+  /** Optional id for in-page jump links. */
+  anchorId?: string;
   children: ReactNode;
 };
 
@@ -11,13 +13,17 @@ export function AccordionItem({
   title,
   summary,
   defaultOpen = false,
+  anchorId,
   children,
 }: AccordionItemProps) {
   const [open, setOpen] = useState(defaultOpen);
   const panelId = useId();
 
   return (
-    <div className={`accordion-item${open ? ' open' : ''}`}>
+    <div
+      className={`accordion-item${open ? ' open' : ''}`}
+      id={anchorId}
+    >
       <button
         type="button"
         className="accordion-trigger"

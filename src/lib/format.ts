@@ -67,3 +67,7 @@ export function titleCase(value: string): string {
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');
 }
+
+export function routineAnchorId(routineId: string): string {
+  return `routine-${routineId}`;
+}

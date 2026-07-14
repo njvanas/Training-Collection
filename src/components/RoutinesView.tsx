@@ -1,123 +1,47 @@
 import { useMemo, useState } from 'react';
 import {
-  getExercise,
+  getLegendRoutines,
   getSortedRoutines,
   getStyle,
-  routines,
+  legendRoutines,
   styles,
 } from '../lib/db';
-import { equipmentLabel, muscleLabel } from '../lib/format';
 import type { Routine } from '../schema';
+import { RoutineCard } from './RoutineCard';
+import { RoutineIndex } from './RoutineIndex';
 
-type FilterId = 'all' | 'hevy' | string;
-
-function RoutineCard({ routine }: { routine: Routine }) {
-  const style = getStyle(routine.styleId);
-
-  return (
-    <div className="routine">
-      <div className="routine-head">
-        <div>
-          <h3>
-            {routine.day ? `${routine.day} · ` : ''}
-            {routine.name}
-          </h3>
-          {style ? (
-            <div className="ex-meta" style={{ marginTop: 4 }}>
-              {style.name} · {style.creator}
-            </div>
-          ) : null}
-          <div className="chips routine-chips">
-            {routine.labels.map((label) => (
-              <span className="chip label-chip" key={label}>
-                {label}
-              </span>
-            ))}
-            {routine.focus.map((m) => (
-              <span className="chip accent" key={m}>
-                {muscleLabel(m)}
-              </span>
-            ))}
-          </div>
-        </div>
-        {routine.source ? (
-          <a href={routine.source.url} target="_blank" rel="noreferrer">
-            {routine.source.name}
-          </a>
-        ) : null}
-      </div>
-
-      {routine.description ? (
-        <p className="routine-desc">{routine.description}</p>
-      ) : null}
-
-      <table className="ex">
-        <thead>
-          <tr>
-            <th>Exercise</th>
-            <th>Sets</th>
-            <th>Reps</th>
-            <th>Scheme &amp; notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          {routine.exercises.map((slot, idx) => {
-            const ex = getExercise(slot.exerciseId);
-            return (
-              <tr key={`${slot.exerciseId}-${idx}`}>
-                <td>
-                  <div className="ex-name">
-                    {ex ? ex.name : slot.exerciseId}
-                    {slot.supersetGroup ? (
-                      <span className="superset">SS {slot.supersetGroup}</span>
-                    ) : null}
-                  </div>
-                  {ex ? (
-                    <div className="ex-meta">
-                      {muscleLabel(ex.primaryMuscle)} · {equipmentLabel(ex.equipment)}
-                    </div>
-                  ) : null}
-                </td>
-                <td>{slot.sets}</td>
-                <td>{slot.repRange}</td>
-                <td>
-                  {slot.setScheme.length > 0 ? (
-                    <div className="scheme">
-                      {slot.setScheme.map((s) => (
-                        <span className="seg" key={s.label}>
-                          {s.label} {s.intensity}
-                        </span>
-                      ))}
-                    </div>
-                  ) : null}
-                  {slot.notes ? <div className="set-notes">{slot.notes}</div> : null}
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
-  );
-}
+type FilterId = 'all' | string;
 
 function RoutineGroup({
   title,
   subtitle,
   routines: groupRoutines,
+  showIndex = false,
 }: {
   title: string;
   subtitle?: string;
   routines: Routine[];
+  showIndex?: boolean;
 }) {
+  const indexEntries = groupRoutines
+    .filter((r) => r.day)
+    .map((r) => ({
+      routineId: r.id,
+      day: r.day ?? r.name,
+      focus: r.labels[0] ?? r.focus.map((m) => m).join(', '),
+    }));
+
   return (
     <section className="routine-group">
       <div className="routine-group-head">
         <h2>{title}</h2>
         {subtitle ? <p className="sub">{subtitle}</p> : null}
       </div>
+      {showIndex && indexEntries.length > 1 ? (
+        <RoutineIndex entries={indexEntries} />
+      ) : null}
       {groupRoutines.map((routine) => (
-        <RoutineCard key={routine.id} routine={routine} />
+        <RoutineCard key={routine.id} routine={routine} collapsible defaultOpen={false} />
       ))}
     </section>
   );
@@ -127,13 +51,10 @@ export function RoutinesView() {
   const [filter, setFilter] = useState<FilterId>('all');
 
   const filtered = useMemo(() => {
-    if (filter === 'all') return getSortedRoutines();
-    if (filter === 'hevy') {
-      return getSortedRoutines(
-        routines.filter((r) => r.source?.url.includes('hevy.com')),
-      );
-    }
-    return getSortedRoutines(routines.filter((r) => r.styleId === filter));
+    if (filter === 'all') return getLegendRoutines();
+    return getSortedRoutines(
+      legendRoutines.filter((r) => r.styleId === filter),
+    );
   }, [filter]);
 
   const grouped = useMemo(() => {
@@ -149,29 +70,28 @@ export function RoutinesView() {
     return groups;
   }, [filter, filtered]);
 
-  const hevyCount = routines.filter((r) => r.source?.url.includes('hevy.com')).length;
-
   return (
     <div>
+      <div className="section legend-intro">
+        <h2 className="section-heading">Legend reference routines</h2>
+        <p className="sub">
+          Documented splits from Yates, Mentzer, Coleman, and Doucette — for study
+          and comparison, separate from your personal Hevy programming.
+        </p>
+      </div>
+
       <div className="filter-bar">
-        <span className="filter-label">Show</span>
+        <span className="filter-label">Methodology</span>
         <div className="filter-chips">
           <button
             type="button"
             className={`filter-chip${filter === 'all' ? ' active' : ''}`}
             onClick={() => setFilter('all')}
           >
-            All ({routines.length})
-          </button>
-          <button
-            type="button"
-            className={`filter-chip${filter === 'hevy' ? ' active' : ''}`}
-            onClick={() => setFilter('hevy')}
-          >
-            My Hevy ({hevyCount})
+            All legends ({legendRoutines.length})
           </button>
           {styles.map((s) => {
-            const count = routines.filter((r) => r.styleId === s.id).length;
+            const count = legendRoutines.filter((r) => r.styleId === s.id).length;
             return (
               <button
                 key={s.id}
@@ -198,11 +118,25 @@ export function RoutinesView() {
               title={style.name}
               subtitle={`${style.creator} · ${style.tags.join(' · ')}`}
               routines={group.routines}
+              showIndex
             />
           );
         })
       ) : (
-        filtered.map((routine) => <RoutineCard key={routine.id} routine={routine} />)
+        <>
+          <RoutineIndex
+            entries={filtered
+              .filter((r) => r.day)
+              .map((r) => ({
+                routineId: r.id,
+                day: r.day ?? r.name,
+                focus: r.name,
+              }))}
+          />
+          {filtered.map((routine) => (
+            <RoutineCard key={routine.id} routine={routine} collapsible defaultOpen={false} />
+          ))}
+        </>
       )}
     </div>
   );

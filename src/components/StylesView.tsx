@@ -45,7 +45,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
   const routineCount = getRoutinesByStyle(style.id).length;
 
   return (
-    <div className="style-detail">
+      <div className="style-detail" id={`methodology-${style.id}`}>
       <div className="style-detail-header">
         <div>
           <h2>{style.name}</h2>
@@ -62,6 +62,31 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
 
       <p className="style-summary">{style.summary}</p>
 
+      <nav className="section-index" aria-label="Methodology sections">
+        <span className="filter-label">On this page</span>
+        <div className="index-links">
+          <a className="index-link" href={`#${style.id}-principles`}>
+            <span className="index-link-focus">Principles</span>
+          </a>
+          <a className="index-link" href={`#${style.id}-guidelines`}>
+            <span className="index-link-focus">Guidelines</span>
+          </a>
+          {style.intensityTechniques.length > 0 ? (
+            <a className="index-link" href={`#${style.id}-intensity`}>
+              <span className="index-link-focus">Intensity</span>
+            </a>
+          ) : null}
+          <a className="index-link" href={`#${style.id}-split`}>
+            <span className="index-link-focus">Weekly split</span>
+          </a>
+          {style.sources.length > 0 ? (
+            <a className="index-link" href={`#${style.id}-sources`}>
+              <span className="index-link-focus">Sources</span>
+            </a>
+          ) : null}
+        </div>
+      </nav>
+
       <div className="stat-row">
         <div className="stat">
           <span className="stat-label">Training days</span>
@@ -72,7 +97,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
           <span className="stat-value">{style.guidelines.frequencyPerMuscle}</span>
         </div>
         <div className="stat">
-          <span className="stat-label">Routines in collection</span>
+          <span className="stat-label">Reference routines</span>
           <span className="stat-value">{routineCount}</span>
         </div>
       </div>
@@ -82,6 +107,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
           title="Core principles"
           summary={`${style.principles.length} principles`}
           defaultOpen
+          anchorId={`${style.id}-principles`}
         >
           <ul className="principles">
             {style.principles.map((p, i) => (
@@ -93,6 +119,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
         <AccordionItem
           title="Training guidelines"
           summary="Warm-ups, working sets, rep ranges"
+          anchorId={`${style.id}-guidelines`}
         >
           <div className="grid">
             <div className="card">
@@ -127,6 +154,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
             summary={style.intensityTechniques
               .map(intensityTechniqueLabel)
               .join(', ')}
+            anchorId={`${style.id}-intensity`}
           >
             <div className="chips">
               {style.intensityTechniques.map((t) => (
@@ -141,6 +169,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
         <AccordionItem
           title="Weekly split"
           summary={`${style.splitOverview.length} days`}
+          anchorId={`${style.id}-split`}
         >
           <div className="split-grid">
             {style.splitOverview.map((day) => (
@@ -153,7 +182,11 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
         </AccordionItem>
 
         {style.sources.length > 0 ? (
-          <AccordionItem title="Sources" summary={`${style.sources.length} links`}>
+          <AccordionItem
+            title="Sources"
+            summary={`${style.sources.length} links`}
+            anchorId={`${style.id}-sources`}
+          >
             <ul className="principles source-list">
               {style.sources.map((s) => (
                 <li key={s.url}>

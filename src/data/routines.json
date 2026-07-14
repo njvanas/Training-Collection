@@ -3,7 +3,6 @@
     "id": "hevy-back",
     "name": "Day 1 - Back",
     "day": "Day 1",
-    "styleId": "blood-and-guts",
     "focus": [
       "back",
       "lats",
@@ -11,9 +10,9 @@
       "triceps",
       "lower-back"
     ],
-    "description": "Personal Hevy back day from the 'Bulk like Dorian' folder. Two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
+    "description": "My back day in Hevy. Two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -119,23 +118,22 @@
     ],
     "sortOrder": 1,
     "labels": [
-      "Personal",
-      "Hevy"
-    ]
+      "Back day"
+    ],
+    "collection": "personal"
   },
   {
     "id": "hevy-chest-biceps",
     "name": "Day 2 - Chest + Biceps",
     "day": "Day 2",
-    "styleId": "blood-and-guts",
     "focus": [
       "chest",
       "biceps",
       "triceps"
     ],
-    "description": "Personal Hevy chest and biceps day from the 'Bulk like Dorian' folder.",
+    "description": "My chest and biceps day in Hevy.",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -246,24 +244,23 @@
     ],
     "sortOrder": 2,
     "labels": [
-      "Personal",
-      "Hevy"
-    ]
+      "Chest + arms"
+    ],
+    "collection": "personal"
   },
   {
     "id": "hevy-legs-quad",
     "name": "Day 4 - Legs (Quad-priority)",
     "day": "Day 4",
-    "styleId": "blood-and-guts",
     "focus": [
       "quads",
       "hamstrings",
       "calves",
       "abs"
     ],
-    "description": "Personal Hevy quad-focused leg day from the 'Bulk like Dorian' folder.",
+    "description": "My quad-priority leg day in Hevy.",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -313,15 +310,15 @@
     ],
     "sortOrder": 3,
     "labels": [
-      "Personal",
-      "Hevy"
-    ]
+      "Legs",
+      "Quad focus"
+    ],
+    "collection": "personal"
   },
   {
     "id": "hevy-legs-ham",
     "name": "Day 4 - Legs (Ham-priority)",
     "day": "Day 4",
-    "styleId": "blood-and-guts",
     "focus": [
       "hamstrings",
       "quads",
@@ -329,9 +326,9 @@
       "calves",
       "abs"
     ],
-    "description": "Personal Hevy hamstring-focused leg day variant from the 'Bulk like Dorian' folder.",
+    "description": "My hamstring-priority leg day variant in Hevy.",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -377,25 +374,25 @@
     ],
     "sortOrder": 4,
     "labels": [
-      "Personal",
-      "Hevy",
+      "Legs",
+      "Ham focus",
       "Variant"
-    ]
+    ],
+    "collection": "personal"
   },
   {
     "id": "hevy-shoulders-triceps",
     "name": "Day 5 - Shoulders + Triceps",
     "day": "Day 5",
-    "styleId": "blood-and-guts",
     "focus": [
       "shoulders",
       "rear-delts",
       "traps",
       "triceps"
     ],
-    "description": "Personal Hevy shoulders and triceps day from the 'Bulk like Dorian' folder.",
+    "description": "My shoulders and triceps day in Hevy.",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -469,20 +466,19 @@
     ],
     "sortOrder": 5,
     "labels": [
-      "Personal",
-      "Hevy"
-    ]
+      "Shoulders + arms"
+    ],
+    "collection": "personal"
   },
   {
     "id": "hevy-walking",
     "name": "Walking = Good",
-    "styleId": "blood-and-guts",
     "focus": [
       "cardio"
     ],
-    "description": "Low-intensity steady-state cardio for off-season conditioning. Stay in the fat-burning zone so it doesn't interfere with recovery.",
+    "description": "Low-intensity steady-state cardio for off-season conditioning.",
     "source": {
-      "name": "Hevy - Bulk like Dorian",
+      "name": "Open in Hevy",
       "url": "https://hevy.com/folder/1619207"
     },
     "exercises": [
@@ -495,10 +491,9 @@
     ],
     "sortOrder": 6,
     "labels": [
-      "Personal",
-      "Hevy",
       "Cardio"
-    ]
+    ],
+    "collection": "personal"
   },
   {
     "id": "classic-chest-biceps",
@@ -579,7 +574,8 @@
     "sortOrder": 10,
     "labels": [
       "Classic reference"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "classic-back",
@@ -631,7 +627,8 @@
     "sortOrder": 11,
     "labels": [
       "Classic reference"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "classic-shoulders-triceps",
@@ -680,7 +677,8 @@
     "sortOrder": 12,
     "labels": [
       "Classic reference"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "classic-legs",
@@ -738,7 +736,8 @@
     "sortOrder": 13,
     "labels": [
       "Classic reference"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-w1-chest-back",
@@ -799,7 +798,8 @@
     "sortOrder": 1,
     "labels": [
       "Ideal routine"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-w2-legs",
@@ -852,7 +852,8 @@
     "sortOrder": 2,
     "labels": [
       "Ideal routine"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-w3-delts-arms",
@@ -918,7 +919,8 @@
     "sortOrder": 3,
     "labels": [
       "Ideal routine"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-w4-legs",
@@ -971,7 +973,8 @@
     "labels": [
       "Ideal routine",
       "Advanced"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-consolidation-a",
@@ -1005,7 +1008,8 @@
     "sortOrder": 10,
     "labels": [
       "Consolidation"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "mentzer-consolidation-b",
@@ -1046,7 +1050,8 @@
     "sortOrder": 11,
     "labels": [
       "Consolidation"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "coleman-back-biceps",
@@ -1105,7 +1110,8 @@
     "sortOrder": 1,
     "labels": [
       "Reference split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "coleman-chest-triceps",
@@ -1162,7 +1168,8 @@
     "sortOrder": 2,
     "labels": [
       "Reference split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "coleman-legs",
@@ -1218,7 +1225,8 @@
     "sortOrder": 3,
     "labels": [
       "Reference split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "coleman-shoulders-traps",
@@ -1270,7 +1278,8 @@
     "sortOrder": 4,
     "labels": [
       "Reference split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "doucette-legs",
@@ -1325,7 +1334,8 @@
     "sortOrder": 1,
     "labels": [
       "Hardcore split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "doucette-chest-arms",
@@ -1385,7 +1395,8 @@
     "sortOrder": 2,
     "labels": [
       "Hardcore split"
-    ]
+    ],
+    "collection": "legend"
   },
   {
     "id": "doucette-back-shoulders",
@@ -1450,6 +1461,7 @@
     "sortOrder": 3,
     "labels": [
       "Hardcore split"
-    ]
+    ],
+    "collection": "legend"
   }
 ]

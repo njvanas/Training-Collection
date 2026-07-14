@@ -2,18 +2,27 @@ import { useState } from 'react';
 import { StylesView } from './components/StylesView';
 import { ExercisesView } from './components/ExercisesView';
 import { RoutinesView } from './components/RoutinesView';
-import { exercises, routines, styles } from './lib/db';
+import { MyCollectionView } from './components/MyCollectionView';
+import {
+  exercises,
+  getPersonalRoutines,
+  legendRoutines,
+  styles,
+} from './lib/db';
 
-type Tab = 'routines' | 'exercises' | 'styles';
+type Tab = 'my-hevy' | 'routines' | 'exercises' | 'styles';
 
 const TABS: { id: Tab; label: string }[] = [
-  { id: 'routines', label: 'Routines' },
-  { id: 'exercises', label: 'Exercises' },
+  { id: 'my-hevy', label: 'My Hevy' },
+  { id: 'routines', label: 'Legend Routines' },
   { id: 'styles', label: 'Methodologies' },
+  { id: 'exercises', label: 'Exercises' },
 ];
 
 function renderTab(tab: Tab) {
   switch (tab) {
+    case 'my-hevy':
+      return <MyCollectionView />;
     case 'routines':
       return <RoutinesView />;
     case 'exercises':
@@ -28,7 +37,8 @@ function renderTab(tab: Tab) {
 }
 
 export function App() {
-  const [tab, setTab] = useState<Tab>('routines');
+  const [tab, setTab] = useState<Tab>('my-hevy');
+  const personalCount = getPersonalRoutines().length;
 
   return (
     <div className="app">
@@ -37,11 +47,11 @@ export function App() {
           Iron <span className="accent">Legends</span> — Training Collection
         </h1>
         <p>
-          A personal database of bodybuilding's greatest training methodologies —
-          Dorian Yates' Blood &amp; Guts, Mike Mentzer's Heavy Duty, Ronnie
-          Coleman's high-volume powerbuilding, and Greg Doucette's Harder Than Last
-          Time. {styles.length} methodologies, {routines.length} routines, and{' '}
-          {exercises.length} exercises to reference for your Hevy workouts.
+          Your personal Hevy programming, plus reference splits and methodologies
+          from Dorian Yates, Mike Mentzer, Ronnie Coleman, and Greg Doucette.{' '}
+          {personalCount} personal routines, {legendRoutines.length} legend
+          routines, {styles.length} methodologies, and {exercises.length}{' '}
+          exercises.
         </p>
       </header>
 
