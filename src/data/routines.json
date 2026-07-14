@@ -550,17 +550,17 @@
       "chest",
       "biceps"
     ],
-    "description": "Reference Blood & Guts chest and biceps session as Dorian Yates ran it: a couple of warm-ups then one all-out working set (F1) taken beyond failure.",
+    "description": "Blood & Guts chest and biceps session from the Temple Gym documentary: incline pressing, flyes, crossovers, then incline curls and EZ-bar curls — each exercise is one all-out set (F1) beyond failure.",
     "source": {
-      "name": "The Barbell - Dorian Yates Guide",
-      "url": "https://thebarbell.com/dorian-yates-workout/"
+      "name": "Blood & Guts — Chest & Biceps (Dorian Yates Nutrition)",
+      "url": "https://www.youtube.com/watch?v=UHymqS5bZdg"
     },
     "exercises": [
       {
         "exerciseId": "incline-barbell-press",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "Two warm-ups then one working set to failure + 2-3 forced reps.",
+        "notes": "Opens chest day in the Blood & Guts DVD. Two warm-ups then one working set to failure + forced reps.",
         "setScheme": [
           {
             "label": "W1",
@@ -576,6 +576,24 @@
             "label": "F1",
             "intensity": "100%",
             "kind": "failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-bench-press-smith",
+        "sets": 2,
+        "repRange": "6-8",
+        "notes": "Low incline to keep tension on upper pecs. One warm-up then one set to failure; rest-pause on the Smith.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + forced reps or rest-pause"
           }
         ]
       },
@@ -597,9 +615,10 @@
         ]
       },
       {
-        "exerciseId": "chest-press-machine",
+        "exerciseId": "cable-crossover",
         "sets": 2,
-        "repRange": "6-8",
+        "repRange": "8-12",
+        "notes": "Filmed in Blood & Guts: 13 reps to failure + 2 forced reps.",
         "setScheme": [
           {
             "label": "W1",
@@ -614,26 +633,28 @@
         ]
       },
       {
-        "exerciseId": "barbell-curl",
+        "exerciseId": "incline-dumbbell-curl",
         "sets": 2,
         "repRange": "6-8",
+        "notes": "Seated on incline bench. Curl both arms together; after failure, finish one arm at a time.",
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "60%",
-            "kind": "warmup"
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
           },
           {
             "label": "F1",
-            "intensity": "100%",
-            "kind": "failure"
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
           }
         ]
       },
       {
-        "exerciseId": "dumbbell-concentration-curl",
+        "exerciseId": "ez-bar-curl",
         "sets": 2,
         "repRange": "6-8",
+        "notes": "Final biceps movement. Partner-assisted negatives optional if the brachialis is fresh.",
         "setScheme": [
           {
             "label": "W1",
@@ -666,10 +687,10 @@
       "biceps",
       "lower-back"
     ],
-    "description": "Reference Blood & Guts back session. Yates pre-exhausted the lats with pullovers before heavy rows and finished with deadlifts.",
+    "description": "Blood & Guts back and rear delts from the Temple Gym documentary: Nautilus pullover pre-exhaust, reverse-grip pulldowns, Yates rows, cable rows, rear delts, hyperextensions, then deadlifts last on an exhausted back.",
     "source": {
-      "name": "Fitness Volt - Blood and Guts",
-      "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/"
+      "name": "Blood & Guts — Back & Rear Delts (Dorian Yates Nutrition)",
+      "url": "https://www.youtube.com/watch?v=vZnLRqD4M-I"
     },
     "exercises": [
       {
@@ -711,7 +732,7 @@
         "exerciseId": "barbell-row",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "The signature Yates underhand row. Straps on, one all-out set.",
+        "notes": "Underhand Yates row — torso ~30°, not parallel to the floor. Straps on, one all-out set.",
         "setScheme": [
           {
             "label": "W1",
@@ -748,10 +769,46 @@
         ]
       },
       {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 2,
+        "repRange": "6-10",
+        "notes": "Rear delt finisher on back day in the DVD.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
+      },
+      {
+        "exerciseId": "back-extension",
+        "sets": 2,
+        "repRange": "10-12",
+        "notes": "Weighted hyperextension before the final deadlift.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
+      },
+      {
         "exerciseId": "deadlift",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "Two warm-ups, then one heavy working set.",
+        "notes": "Last exercise — back is pre-fatigued so weight is lower but muscular stress is maximal.",
         "setScheme": [
           {
             "label": "W1",
@@ -779,25 +836,25 @@
   },
   {
     "id": "classic-shoulders-triceps",
-    "name": "Classic - Shoulders & Triceps",
+    "name": "Classic - Shoulders, Triceps & Traps",
     "day": "Day 4",
     "styleId": "blood-and-guts",
     "focus": [
       "shoulders",
-      "rear-delts",
-      "triceps"
+      "triceps",
+      "traps"
     ],
-    "description": "Reference Blood & Guts shoulders and triceps session, opening with heavy pressing then isolation to failure.",
+    "description": "Blood & Guts shoulders, traps, and triceps from the Temple Gym documentary: Smith overhead press, seated laterals, one-arm cable laterals, shrugs, then pushdowns, EZ-bar extensions, and one-arm pushdowns — all one all-out set to failure.",
     "source": {
-      "name": "Generation Iron - Dorian Yates Routine",
-      "url": "https://generationiron.com/dorian-yates-workout-routine/"
+      "name": "Blood & Guts — Shoulders & Triceps (Dorian Yates Nutrition)",
+      "url": "https://www.youtube.com/watch?v=X8-1RTPUVfg"
     },
     "exercises": [
       {
         "exerciseId": "smith-machine-shoulder-press",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "Working set to failure + 3-4 forced reps.",
+        "notes": "Opens shoulder day in the DVD. Working set to failure + 3-4 forced reps.",
         "setScheme": [
           {
             "label": "W1",
@@ -820,6 +877,7 @@
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 2,
         "repRange": "8-10",
+        "notes": "Seated to minimize momentum — as filmed in Blood & Guts.",
         "setScheme": [
           {
             "label": "W1",
@@ -834,7 +892,7 @@
         ]
       },
       {
-        "exerciseId": "rear-delt-fly-machine",
+        "exerciseId": "one-arm-cable-lateral-raise",
         "sets": 2,
         "repRange": "8-10",
         "setScheme": [
@@ -851,9 +909,10 @@
         ]
       },
       {
-        "exerciseId": "lying-triceps-extension",
+        "exerciseId": "dumbbell-shrug",
         "sets": 2,
-        "repRange": "6-8",
+        "repRange": "8-12",
+        "notes": "Trap work on shoulder day in the DVD.",
         "setScheme": [
           {
             "label": "W1",
@@ -869,9 +928,50 @@
       },
       {
         "exerciseId": "triceps-pushdown",
+        "sets": 3,
+        "repRange": "6-8",
+        "notes": "Opens triceps in Blood & Guts — often 2 warm-ups on the first triceps movement.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
         "sets": 2,
         "repRange": "6-8",
-        "notes": "Finish with a drop set.",
+        "notes": "EZ-bar skull crushers — hold at failure, then negative reps.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
+      },
+      {
+        "exerciseId": "one-arm-triceps-pushdown",
+        "sets": 2,
+        "repRange": "6-8",
+        "notes": "Finisher — one arm at a time for full ROM past failure.",
         "setScheme": [
           {
             "label": "W1",
@@ -902,17 +1002,17 @@
       "hamstrings",
       "calves"
     ],
-    "description": "Reference Blood & Guts leg session. Leg extensions pre-exhaust the quads before heavy presses and hacks.",
+    "description": "Blood & Guts leg day from the Temple Gym documentary: leg extensions, leg press, hack squats, lying leg curls, stiff-leg deadlifts, then standing and seated calf raises — 12-15 reps on lower body, one brutal working set each.",
     "source": {
-      "name": "SET FOR SET - Blood and Guts",
-      "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts"
+      "name": "Blood & Guts — Full Documentary (Temple Gym)",
+      "url": "https://www.youtube.com/watch?v=K4i856tQZvY"
     },
     "exercises": [
       {
         "exerciseId": "leg-extension",
         "sets": 2,
-        "repRange": "10-12",
-        "notes": "Quad pre-exhaust.",
+        "repRange": "12-15",
+        "notes": "Quad pre-exhaust — first exercise may use 2-3 warm-ups in the DVD.",
         "setScheme": [
           {
             "label": "W1",
@@ -929,7 +1029,7 @@
       {
         "exerciseId": "leg-press",
         "sets": 3,
-        "repRange": "10-12",
+        "repRange": "12-15",
         "setScheme": [
           {
             "label": "W1",
@@ -951,7 +1051,7 @@
       {
         "exerciseId": "hack-squat",
         "sets": 2,
-        "repRange": "10-12",
+        "repRange": "12-15",
         "setScheme": [
           {
             "label": "W1",
@@ -985,7 +1085,8 @@
       {
         "exerciseId": "romanian-deadlift",
         "sets": 2,
-        "repRange": "8-10",
+        "repRange": "10-12",
+        "notes": "Stiff-leg deadlift in the DVD — legs nearly straight, feel the hamstring stretch.",
         "setScheme": [
           {
             "label": "W1",

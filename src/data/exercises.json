@@ -56,7 +56,7 @@
       "Full lockout, control the return.",
       "Keep torso still."
     ],
-    "bloodAndGutsNote": "Great finisher; extend the failure set with a drop set or rest-pause."
+    "bloodAndGutsNote": "Opens triceps on shoulder day in Blood & Guts — pyramids through warm-ups then one set to failure; drop sets and rest-pause on the cable."
   },
   {
     "id": "cable-biceps-curl",
@@ -83,7 +83,8 @@
       "Pure hip hinge, keep a neutral spine.",
       "Squeeze glutes at the top.",
       "10s iso-hold at the end of the set."
-    ]
+    ],
+    "bloodAndGutsNote": "Weighted hyperextensions on back day in Blood & Guts — one all-out set before the final deadlift."
   },
   {
     "id": "chest-fly-machine",
@@ -112,7 +113,7 @@
       "Lower to the upper chest with control.",
       "Drive up hard; the Smith path lets you push to failure solo."
     ],
-    "bloodAndGutsNote": "Yates favored the Smith machine for pressing because the fixed path is safe to take beyond failure with forced reps."
+    "bloodAndGutsNote": "Low-incline Smith press added after the 1991 Olympia to bring up upper pecs — one warm-up then one set to failure, rest-pause, and forced reps."
   },
   {
     "id": "chest-press-machine",
@@ -313,7 +314,8 @@
       "Straight up-and-down, no rolling.",
       "Hold the top squeeze for a second.",
       "Full stretch at the bottom."
-    ]
+    ],
+    "bloodAndGutsNote": "Dumbbell shrugs for traps on shoulder day in Blood & Guts — squeeze at the top, controlled negative."
   },
   {
     "id": "rear-delt-fly-machine",
@@ -326,7 +328,8 @@
       "Sweep the arms wide, avoid using the traps.",
       "Squeeze the rear delts at the back.",
       "First warm-up very light."
-    ]
+    ],
+    "bloodAndGutsNote": "Rear delt work on back day in Blood & Guts — Hammer Strength reverse fly or bent-over dumbbell raise."
   },
   {
     "id": "weighted-triceps-dip",
@@ -380,7 +383,7 @@
       "Lower to the upper chest, elbows ~45 degrees.",
       "Explode up, control down."
     ],
-    "bloodAndGutsNote": "Yates opened his chest workout with incline pressing to prioritize the upper chest."
+    "bloodAndGutsNote": "Yates opened chest day with incline barbell pressing in the Blood & Guts DVD — two warm-ups (50%, 75%) then one all-out set to failure plus forced reps."
   },
   {
     "id": "incline-dumbbell-flye",
@@ -392,7 +395,8 @@
       "Slight, fixed elbow bend.",
       "Deep stretch, don't overextend the shoulders.",
       "Squeeze at the top."
-    ]
+    ],
+    "bloodAndGutsNote": "Filmed in Blood & Guts: 100 lb dumbbells for 10 reps plus a forced rep — deep stretch, squeeze at the top, slow negative."
   },
   {
     "id": "barbell-row",
@@ -402,11 +406,11 @@
     "equipment": "barbell",
     "category": "compound",
     "cues": [
-      "Torso ~45 degrees, neutral spine.",
+      "Torso ~30 degrees (Yates style), neutral spine.",
       "Row to the lower ribs.",
       "Straps on so grip doesn't fail first."
     ],
-    "bloodAndGutsNote": "The signature Yates underhand-grip row that built his legendary back thickness."
+    "bloodAndGutsNote": "The signature Yates row from Blood & Guts: more upright torso (~30°) than a traditional bent-over row — safer for the lower back and stronger for lat thickness."
   },
   {
     "id": "machine-pullover",
@@ -434,7 +438,7 @@
       "Push the floor away, bar close to the body.",
       "Lock out with the glutes."
     ],
-    "bloodAndGutsNote": "Yates finished back day with heavy deadlifts for one brutal all-out set."
+    "bloodAndGutsNote": "Yates finished back day with deadlifts last — back already exhausted, so less weight but maximum stress on the muscles."
   },
   {
     "id": "seated-cable-row",
@@ -474,7 +478,8 @@
       "Bar starts at chin height.",
       "Press overhead in the fixed track.",
       "Lower under control to the top of the chest."
-    ]
+    ],
+    "bloodAndGutsNote": "Smith machine overhead press opens shoulder day in Blood & Guts — safe to push past failure with forced reps on the fixed track."
   },
   {
     "id": "barbell-curl",
@@ -487,6 +492,61 @@
       "No swinging or leaning back.",
       "Full squeeze, controlled negative."
     ]
+  },
+  {
+    "id": "incline-dumbbell-curl",
+    "name": "Incline Dumbbell Curl",
+    "hevyName": "Incline Curl (Dumbbell)",
+    "primaryMuscle": "biceps",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Bench at ~45 degrees, arms hanging straight.",
+      "Curl without swinging; peak squeeze at the top.",
+      "Slow negative — no momentum."
+    ],
+    "bloodAndGutsNote": "First biceps movement in Blood & Guts — curl both arms together, then finish one side at a time after failure."
+  },
+  {
+    "id": "ez-bar-curl",
+    "name": "EZ-Bar Curl",
+    "hevyName": "Bicep Curl (EZ Bar)",
+    "primaryMuscle": "biceps",
+    "equipment": "barbell",
+    "category": "isolation",
+    "cues": [
+      "Elbows pinned at the sides.",
+      "Full squeeze at the top, controlled negative.",
+      "Partner can assist the positive for forced reps or negatives."
+    ],
+    "bloodAndGutsNote": "Final biceps exercise in Blood & Guts — 155 lbs for 6 reps to failure; often extended with partner-assisted negatives."
+  },
+  {
+    "id": "one-arm-cable-lateral-raise",
+    "name": "One-Arm Cable Lateral Raise",
+    "primaryMuscle": "shoulders",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Stand sideways to the stack, cable behind you.",
+      "Raise to shoulder height with constant tension.",
+      "Control the descent — no swinging."
+    ],
+    "bloodAndGutsNote": "One-arm cable laterals in Blood & Guts after seated dumbbell raises — constant tension through the full arc."
+  },
+  {
+    "id": "one-arm-triceps-pushdown",
+    "name": "One-Arm Triceps Pushdown",
+    "hevyName": "Triceps Pushdown (Cable)",
+    "primaryMuscle": "triceps",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Elbow pinned at the side.",
+      "Full extension and squeeze at the bottom.",
+      "Control the return — don't let the stack pull you."
+    ],
+    "bloodAndGutsNote": "Finisher on shoulder day in Blood & Guts — one arm at a time for full range of motion past failure."
   },
   {
     "id": "dumbbell-concentration-curl",
@@ -510,7 +570,8 @@
       "Elbows pointed at the ceiling, kept still.",
       "Lower to the forehead/behind the head.",
       "Extend to a strong lockout."
-    ]
+    ],
+    "bloodAndGutsNote": "Lying EZ-bar extensions in Blood & Guts — elbows fixed, slow negative, partner-assisted negatives optional."
   },
   {
     "id": "leg-press",
@@ -548,7 +609,8 @@
       "Lead with the elbows, slight lean forward.",
       "Raise to shoulder height.",
       "Control the descent, no swinging."
-    ]
+    ],
+    "bloodAndGutsNote": "Seated laterals in Blood & Guts — minimize momentum, raise to shoulder height, hold the peak contraction."
   },
   {
     "id": "pec-deck",
@@ -651,7 +713,8 @@
       "Slight forward lean, soft elbows.",
       "Sweep the hands together in an arc, squeeze.",
       "Control the stretch back."
-    ]
+    ],
+    "bloodAndGutsNote": "Filmed in Blood & Guts: 80 lbs per side for 13 reps to failure plus 2 forced reps."
   },
   {
     "id": "close-grip-bench-press",

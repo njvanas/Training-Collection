@@ -5,14 +5,15 @@
     "creator": "Dorian Yates",
     "displayOrder": 1,
     "tags": ["HIT", "Beyond failure", "4-day split", "Low frequency"],
-    "summary": "Dorian Yates' brand of high-intensity training (HIT): after a few progressive warm-ups, you take one all-out working set per exercise to absolute muscular failure and then beyond it with an intensity technique. Low volume, low frequency, maximal effort, and full recovery drive the growth.",
+    "summary": "Dorian Yates' Blood & Guts HIT: filmed at Temple Gym in the 1996 documentary, this is one progressive warm-up pyramid (50%, 75%) then a single all-out working set per exercise taken to absolute failure and beyond with a partner. Each body part is hit once every six days on a four-day split (two days on, one off, two days on, one off). Controlled negatives, full range of motion, and textbook form under maximal load — stress the muscle, not the ego.",
     "principles": [
-      "Quality over quantity: one all-out working set beats many submaximal sets.",
-      "Train each muscle to complete failure, then push past it.",
-      "Hit every muscle group only once every 5-7 days for full recovery.",
-      "Warm up progressively, then commit fully to the single working set.",
-      "Track every set and add weight or reps over time (progressive overload).",
-      "Strict form and constant tension - use the weight as a tool, not an ego lift."
+      "One maximum-intensity working set per exercise — quality over quantity.",
+      "Warm-ups fire up the muscle but never approach failure (typically 50% then 75% of working weight).",
+      "Train each body part once every six days; recovery is when growth happens.",
+      "Control the negative, drive the positive with precision (not sloppy momentum), full range of motion.",
+      "Every rep has three phases — positive, static hold, and negative — and each can be pushed past normal limits.",
+      "Beyond failure with a training partner: forced reps, rest-pause, negatives, partials, and iso-holds.",
+      "Log every workout; progressive overload is non-negotiable."
     ],
     "intensityTechniques": [
       "forced-reps",
@@ -24,10 +25,10 @@
       "static-stretch"
     ],
     "guidelines": {
-      "trainingDaysPerWeek": "4 (classically Mon, Tue, Thu, Fri)",
-      "frequencyPerMuscle": "Once every 5-7 days.",
-      "warmupProtocol": "1-3 progressive warm-up sets pyramiding up to the working weight; never taken near failure.",
-      "workingSetProtocol": "1-2 all-out working sets per exercise taken to failure, finished with forced reps, rest-pause, negatives, drops, or partials.",
+      "trainingDaysPerWeek": "4 training days in a repeating 7-day cycle (2 on, 1 off, 2 on, 1 off)",
+      "frequencyPerMuscle": "Once every 6 days (as stated in the Blood & Guts documentary).",
+      "warmupProtocol": "1-3 progressive warm-up sets on the first exercise (50% then 75%); 1 warm-up on later exercises when the muscle is already warm — never near failure.",
+      "workingSetProtocol": "Exactly one all-out working set per exercise to muscular failure, then beyond with forced reps, rest-pause, negatives, partials, or iso-holds. Sessions run 45-60 minutes.",
       "repRanges": [
         { "target": "Most upper body", "range": "6-8 reps" },
         { "target": "Legs", "range": "8-12 reps" },
@@ -38,23 +39,35 @@
       { "day": "Day 1", "focus": "Chest & Biceps" },
       { "day": "Day 2", "focus": "Legs" },
       { "day": "Day 3", "focus": "Rest" },
-      { "day": "Day 4", "focus": "Shoulders & Triceps" },
+      { "day": "Day 4", "focus": "Shoulders, Triceps & Traps" },
       { "day": "Day 5", "focus": "Back & Rear Delts" },
       { "day": "Day 6", "focus": "Rest" },
       { "day": "Day 7", "focus": "Rest" }
     ],
     "sources": [
       {
-        "title": "Dorian Yates Workout: Complete Training Guide - The Barbell",
-        "url": "https://thebarbell.com/dorian-yates-workout/"
+        "title": "Blood & Guts — Full Documentary (Temple Gym, Birmingham)",
+        "url": "https://www.youtube.com/watch?v=K4i856tQZvY"
       },
       {
-        "title": "Dorian Yates' Blood And Guts Training System Done Right - SET FOR SET",
-        "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts"
+        "title": "Blood & Guts — Chest & Biceps (Dorian Yates Nutrition)",
+        "url": "https://www.youtube.com/watch?v=UHymqS5bZdg"
       },
       {
-        "title": "Dorian Yates' Blood and Guts Workout for Naturals - Fitness Volt",
-        "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/"
+        "title": "Blood & Guts — Back & Rear Delts (Dorian Yates Nutrition)",
+        "url": "https://www.youtube.com/watch?v=vZnLRqD4M-I"
+      },
+      {
+        "title": "Blood & Guts — Shoulders & Triceps (Dorian Yates Nutrition)",
+        "url": "https://www.youtube.com/watch?v=X8-1RTPUVfg"
+      },
+      {
+        "title": "Blood & Guts — Every. Last. Rep. (Dorian Yates Nutrition)",
+        "url": "https://www.youtube.com/watch?v=-gNZPzefdlI"
+      },
+      {
+        "title": "Blood And Guts Program — The Legacy of HIT (DY Nutrition)",
+        "url": "https://dynutrition.co.uk/blogs/news/blood-and-guts-program-the-legacy-of-the-hit-workout"
       }
     ]
   },
