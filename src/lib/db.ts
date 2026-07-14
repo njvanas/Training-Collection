@@ -6,16 +6,19 @@ import {
   exercisesFileSchema,
   stylesFileSchema,
   routinesFileSchema,
-  personalCollectionFileSchema,
+  hevyFoldersCatalogFileSchema,
   type Exercise,
-  type PersonalCollection,
+  type HevyFoldersCatalog,
   type Routine,
   type TrainingStyle,
 } from '../schema';
 
-export const myCollection: PersonalCollection =
-  personalCollectionFileSchema.parse(myCollectionData);
-export const hevyFolders = [...myCollection.hevyFolders].sort(
+export const hevyCatalog: HevyFoldersCatalog =
+  hevyFoldersCatalogFileSchema.parse(myCollectionData);
+/** @deprecated alias */
+export const myCollection = hevyCatalog;
+
+export const hevyFolders = [...hevyCatalog.hevyFolders].sort(
   (a, b) => a.displayOrder - b.displayOrder,
 );
 export const hevyFoldersById = new Map(
@@ -29,13 +32,9 @@ export const routines: Routine[] = routinesFileSchema.parse(routinesData);
 
 const styleOrder = new Map(styles.map((s) => [s.id, s.displayOrder]));
 
-/** Routines sorted by collection/methodology order, then sort order. */
-export function getSortedRoutines(list: Routine[] = routines): Routine[] {
+/** Legend training plans sorted by methodology order, then sort order. */
+export function getSortedRoutines(list: Routine[]): Routine[] {
   return [...list].sort((a, b) => {
-    const collectionDiff =
-      (a.collection === 'personal' ? 0 : 1) - (b.collection === 'personal' ? 0 : 1);
-    if (collectionDiff !== 0) return collectionDiff;
-
     const styleDiff =
       (styleOrder.get(a.styleId ?? '') ?? Number.MAX_SAFE_INTEGER) -
       (styleOrder.get(b.styleId ?? '') ?? Number.MAX_SAFE_INTEGER);
@@ -44,17 +43,12 @@ export function getSortedRoutines(list: Routine[] = routines): Routine[] {
   });
 }
 
-export const personalRoutines = getSortedRoutines(
-  routines.filter((r) => r.collection === 'personal'),
-);
-
 export const legendRoutines = getSortedRoutines(
   routines.filter((r) => r.collection === 'legend'),
 );
 
 const exercisesById = new Map(exercises.map((e) => [e.id, e]));
 const stylesById = new Map(styles.map((s) => [s.id, s]));
-const routinesById = new Map(routines.map((r) => [r.id, r]));
 
 export function getExercise(id: string): Exercise | undefined {
   return exercisesById.get(id);
@@ -65,15 +59,11 @@ export function getStyle(id: string): TrainingStyle | undefined {
 }
 
 export function getRoutine(id: string): Routine | undefined {
-  return routinesById.get(id);
+  return routines.find((r) => r.id === id);
 }
 
 export function getHevyFolder(id: string) {
   return hevyFoldersById.get(id);
-}
-
-export function getPersonalRoutines(): Routine[] {
-  return personalRoutines;
 }
 
 export function getLegendRoutines(): Routine[] {
@@ -82,20 +72,20 @@ export function getLegendRoutines(): Routine[] {
 
 export function getRoutinesByStyle(styleId: string): Routine[] {
   return getSortedRoutines(
-    routines.filter((r) => r.collection === 'legend' && r.styleId === styleId),
+    legendRoutines.filter((r) => r.styleId === styleId),
   );
 }
 
-/** Every routine that programs a given exercise. */
+/** Every legend plan that programs a given exercise. */
 export function getRoutinesForExercise(exerciseId: string): Routine[] {
-  return routines.filter((r) =>
+  return legendRoutines.filter((r) =>
     r.exercises.some((slot) => slot.exerciseId === exerciseId),
   );
 }
 
 /**
- * Validates cross-file references (routine -> exercise, routine -> style) and
- * uniqueness of ids. Returns the list of problems; empty means the DB is sound.
+ * Validates cross-file references and uniqueness of ids.
+ * Returns the list of problems; empty means the DB is sound.
  */
 export function validateReferentialIntegrity(): string[] {
   const problems: string[] = [];
@@ -112,11 +102,7 @@ export function validateReferentialIntegrity(): string[] {
   checkUnique('style', styles.map((s) => s.id));
   checkUnique('routine', routines.map((r) => r.id));
 
-  const personalIds = new Set(
-    myCollection.splitOverview.map((entry) => entry.routineId),
-  );
-  const folderIds = new Set(myCollection.hevyFolders.map((f) => f.id));
-  for (const folder of myCollection.hevyFolders) {
+  for (const folder of hevyFolders) {
     if (!folder.url.endsWith(`/folder/${folder.hevyId}`)) {
       problems.push(
         `Hevy folder "${folder.id}" url does not match hevyId ${folder.hevyId}`,
@@ -126,43 +112,22 @@ export function validateReferentialIntegrity(): string[] {
       problems.push(`Hevy folder "${folder.id}" has no routinesInHevy listed`);
     }
   }
-  for (const routine of routines.filter((r) => r.collection === 'personal')) {
-    if (!personalIds.has(routine.id)) {
-      problems.push(
-        `Personal routine "${routine.id}" is missing from my-collection.json splitOverview`,
-      );
-    }
-    if (!routine.hevyFolderId || !folderIds.has(routine.hevyFolderId)) {
-      problems.push(
-        `Personal routine "${routine.id}" references unknown hevyFolderId "${routine.hevyFolderId ?? 'none'}"`,
-      );
-    }
-  }
-  for (const entry of myCollection.splitOverview) {
-    const routine = routinesById.get(entry.routineId);
-    if (!routine) {
-      problems.push(
-        `my-collection.json references unknown routine "${entry.routineId}"`,
-      );
-    } else if (routine.collection !== 'personal') {
-      problems.push(
-        `my-collection.json routine "${entry.routineId}" is not marked personal`,
-      );
-    }
-  }
 
-  for (const routine of routines) {
-    if (routine.collection === 'legend') {
-      if (!routine.styleId || !stylesById.has(routine.styleId)) {
-        problems.push(
-          `Legend routine "${routine.id}" references unknown style "${routine.styleId ?? 'none'}"`,
-        );
-      }
+  for (const routine of legendRoutines) {
+    if (!routine.styleId || !stylesById.has(routine.styleId)) {
+      problems.push(
+        `Legend routine "${routine.id}" references unknown style "${routine.styleId ?? 'none'}"`,
+      );
     }
     for (const slot of routine.exercises) {
       if (!exercisesById.has(slot.exerciseId)) {
         problems.push(
           `Routine "${routine.id}" references unknown exercise "${slot.exerciseId}"`,
+        );
+      }
+      if (slot.setScheme.length === 0) {
+        problems.push(
+          `Legend routine "${routine.id}" exercise "${slot.exerciseId}" is missing a set scheme`,
         );
       }
     }

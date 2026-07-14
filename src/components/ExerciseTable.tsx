@@ -51,7 +51,7 @@ function ExerciseSetRows({
 
   return (
     <div className="set-breakdown">
-      {inferred ? (
+      {inferred && routine.collection === 'personal' ? (
         <div className="set-inferred-note">Typical scheme for this methodology</div>
       ) : null}
       <div className="set-rows">

@@ -67,7 +67,7 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
           </span>
           <div className="who">
             <h2>{style.name}</h2>
-            <p className="sub">Curated by {style.creator}</p>
+            <p className="sub">{style.creator}</p>
           </div>
         </div>
         <div className="chips">
@@ -227,16 +227,18 @@ export function StylesView() {
   const selected = styles.find((s) => s.id === selectedId) ?? styles[0];
 
   if (!selected) {
-    return <div className="empty">No curators loaded.</div>;
+    return <div className="empty">No methodologies loaded.</div>;
   }
 
   return (
     <div className="styles-layout">
       <div className="section styles-intro">
-        <h2 className="section-heading">Choose a curator</h2>
+        <h2 className="section-heading">Training methodologies</h2>
         <p className="sub">
-          One legend at a time — philosophy, guidelines, and weekly split. Legend
-          plans live on the Legend Plans tab.
+          How the legends actually trained — philosophy, warm-up and working-set
+          rules, intensity techniques, weekly splits, and sources. Pick a
+          methodology to read through, then open the matching training plans for
+          every exercise, set, and rep range.
         </p>
       </div>
 
