@@ -147,8 +147,8 @@ export type RoutineExercise = z.infer<typeof routineExerciseSchema>;
 export const routineCollectionSchema = z.enum(['personal', 'legend']);
 export type RoutineCollection = z.infer<typeof routineCollectionSchema>;
 
-/** Owner profile and index for personal Hevy routines. */
-export const personalCollectionSchema = z.object({
+/** Public catalog of Hevy workout folders (links only — full plans live in Training Plans). */
+export const hevyFoldersCatalogSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   summary: z.string().min(1),
@@ -156,27 +156,22 @@ export const personalCollectionSchema = z.object({
     .array(
       z.object({
         id: z.string().min(1),
-        /** Numeric Hevy folder id from the share URL. */
         hevyId: z.string().min(1),
         name: z.string().min(1),
         url: z.string().url(),
         displayOrder: z.number().int().nonnegative(),
         note: z.string().min(1).optional(),
-        /** Routine titles as they appear inside the Hevy folder. */
         routinesInHevy: z.array(z.string().min(1)).default([]),
       }),
     )
     .min(1),
-  splitOverview: z.array(
-    z.object({
-      day: z.string().min(1),
-      focus: z.string().min(1),
-      routineId: z.string().min(1),
-    }),
-  ).min(1),
-  trainingNotes: z.array(z.string().min(1)).default([]),
 });
-export type PersonalCollection = z.infer<typeof personalCollectionSchema>;
+export type HevyFoldersCatalog = z.infer<typeof hevyFoldersCatalogSchema>;
+
+/** @deprecated Use HevyFoldersCatalog */
+export type PersonalCollection = HevyFoldersCatalog;
+/** @deprecated Use hevyFoldersCatalogSchema */
+export const personalCollectionSchema = hevyFoldersCatalogSchema;
 
 /** A concrete workout — either a legend reference split or a personal Hevy day. */
 export const routineSchema = z
@@ -235,4 +230,6 @@ export type Routine = z.infer<typeof routineSchema>;
 export const exercisesFileSchema = z.array(exerciseSchema);
 export const stylesFileSchema = z.array(trainingStyleSchema);
 export const routinesFileSchema = z.array(routineSchema);
-export const personalCollectionFileSchema = personalCollectionSchema;
+export const hevyFoldersCatalogFileSchema = hevyFoldersCatalogSchema;
+/** @deprecated */
+export const personalCollectionFileSchema = hevyFoldersCatalogSchema;

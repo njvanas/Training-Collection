@@ -2,11 +2,10 @@ import { describe, expect, it } from 'vitest';
 import {
   exercises,
   getLegendRoutines,
-  getPersonalRoutines,
   getSortedRoutines,
+  hevyCatalog,
   hevyFolders,
-  myCollection,
-  routines,
+  legendRoutines,
   styles,
   getExercise,
   getRoutinesForExercise,
@@ -17,8 +16,8 @@ describe('training database', () => {
   it('loads and validates all data files', () => {
     expect(exercises.length).toBeGreaterThan(0);
     expect(styles.length).toBeGreaterThan(0);
-    expect(routines.length).toBeGreaterThan(0);
-    expect(myCollection.splitOverview.length).toBeGreaterThan(0);
+    expect(legendRoutines.length).toBeGreaterThan(0);
+    expect(hevyFolders.length).toBeGreaterThan(0);
   });
 
   it('has no referential-integrity problems', () => {
@@ -38,11 +37,11 @@ describe('training database', () => {
     }
   });
 
-  it('every style has tags and legend routines are sorted within style', () => {
+  it('every style has tags and legend plans are sorted within style', () => {
     for (const style of styles) {
       expect(style.tags.length, style.id).toBeGreaterThan(0);
-      const owned = getSortedRoutines().filter(
-        (r) => r.collection === 'legend' && r.styleId === style.id,
+      const owned = getSortedRoutines(
+        legendRoutines.filter((r) => r.styleId === style.id),
       );
       for (let i = 1; i < owned.length; i++) {
         expect(owned[i].sortOrder).toBeGreaterThanOrEqual(owned[i - 1].sortOrder);
@@ -50,31 +49,18 @@ describe('training database', () => {
     }
   });
 
-  it('every legend style has at least one reference routine', () => {
+  it('every legend style has at least one training plan', () => {
     for (const style of styles) {
       const owned = getLegendRoutines().filter((r) => r.styleId === style.id);
       expect(owned.length, style.id).toBeGreaterThan(0);
     }
   });
 
-  it('keeps personal Hevy routines separate from legend methodologies', () => {
-    const personal = getPersonalRoutines();
-    expect(personal.length).toBeGreaterThanOrEqual(6);
-    for (const routine of personal) {
-      expect(routine.collection).toBe('personal');
-      expect(routine.styleId).toBeUndefined();
-    }
-    expect(
-      getLegendRoutines().some((r) => r.id.startsWith('hevy-')),
-    ).toBe(false);
-  });
-
-  it('indexes every personal routine in my-collection.json', () => {
-    const indexed = new Set(myCollection.splitOverview.map((e) => e.routineId));
-    const folderIds = new Set(myCollection.hevyFolders.map((f) => f.id));
-    for (const routine of getPersonalRoutines()) {
-      expect(indexed.has(routine.id), routine.id).toBe(true);
-      expect(routine.hevyFolderId && folderIds.has(routine.hevyFolderId)).toBe(true);
+  it('every legend exercise has an explicit set scheme', () => {
+    for (const routine of getLegendRoutines()) {
+      for (const slot of routine.exercises) {
+        expect(slot.setScheme.length, `${routine.id}/${slot.exerciseId}`).toBeGreaterThan(0);
+      }
     }
   });
 
@@ -88,21 +74,27 @@ describe('training database', () => {
     }
   });
 
-  it('every routine exercise resolves to a real exercise', () => {
-    for (const routine of routines) {
+  it('hevy catalog has public-facing copy', () => {
+    expect(hevyCatalog.summary).toMatch(/Hevy/i);
+    expect(hevyCatalog.name.length).toBeGreaterThan(0);
+  });
+
+  it('every legend plan exercise resolves to a real exercise', () => {
+    for (const routine of getLegendRoutines()) {
       for (const slot of routine.exercises) {
         expect(getExercise(slot.exerciseId), slot.exerciseId).toBeDefined();
       }
     }
   });
 
-  it('finds routines that use a given exercise', () => {
+  it('finds legend plans that use a given exercise', () => {
     const used = getRoutinesForExercise('triceps-pushdown');
     expect(used.length).toBeGreaterThan(0);
+    expect(used.every((r) => r.collection === 'legend')).toBe(true);
   });
 
   it('has positive set counts and non-empty rep ranges', () => {
-    for (const routine of routines) {
+    for (const routine of getLegendRoutines()) {
       for (const slot of routine.exercises) {
         expect(slot.sets).toBeGreaterThan(0);
         expect(slot.repRange.length).toBeGreaterThan(0);

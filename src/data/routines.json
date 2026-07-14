@@ -599,7 +599,19 @@
       {
         "exerciseId": "chest-press-machine",
         "sets": 2,
-        "repRange": "6-8"
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-curl",
@@ -621,7 +633,19 @@
       {
         "exerciseId": "dumbbell-concentration-curl",
         "sets": 2,
-        "repRange": "6-8"
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       }
     ],
     "sortOrder": 10,
@@ -652,29 +676,99 @@
         "exerciseId": "machine-pullover",
         "sets": 2,
         "repRange": "8-10",
-        "notes": "Lat pre-exhaust."
+        "notes": "Lat pre-exhaust.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "reverse-grip-lat-pulldown",
         "sets": 2,
-        "repRange": "6-8"
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-row",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "The signature Yates underhand row. Straps on, one all-out set."
+        "notes": "The signature Yates underhand row. Straps on, one all-out set.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
       },
       {
         "exerciseId": "seated-cable-row",
         "sets": 2,
-        "repRange": "6-8"
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "deadlift",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "Two warm-ups, then one heavy working set."
+        "notes": "Two warm-ups, then one heavy working set.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
       }
     ],
     "sortOrder": 11,
@@ -703,28 +797,93 @@
         "exerciseId": "smith-machine-shoulder-press",
         "sets": 3,
         "repRange": "6-8",
-        "notes": "Working set to failure + 3-4 forced reps."
+        "notes": "Working set to failure + 3-4 forced reps.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 2,
-        "repRange": "8-10"
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
         "sets": 2,
-        "repRange": "8-10"
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "lying-triceps-extension",
         "sets": 2,
-        "repRange": "6-8"
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "triceps-pushdown",
         "sets": 2,
         "repRange": "6-8",
-        "notes": "Finish with a drop set."
+        "notes": "Finish with a drop set.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       }
     ],
     "sortOrder": 12,
@@ -753,37 +912,131 @@
         "exerciseId": "leg-extension",
         "sets": 2,
         "repRange": "10-12",
-        "notes": "Quad pre-exhaust."
+        "notes": "Quad pre-exhaust.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "leg-press",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
       },
       {
         "exerciseId": "hack-squat",
         "sets": 2,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "lying-leg-curl",
         "sets": 2,
-        "repRange": "8-10"
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "romanian-deadlift",
         "sets": 2,
-        "repRange": "8-10"
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       },
       {
         "exerciseId": "standing-calf-raise",
         "sets": 3,
-        "repRange": "10-15"
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50% — groove the movement"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "75% — still submaximal"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — to failure + forced reps or rest-pause"
+          }
+        ]
       },
       {
         "exerciseId": "seated-calf-raise",
         "sets": 2,
-        "repRange": "10-15"
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "50–60% — never near failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "100% — all-out to failure + intensity technique"
+          }
+        ]
       }
     ],
     "sortOrder": 13,
@@ -841,13 +1094,37 @@
         "exerciseId": "reverse-grip-lat-pulldown",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "Close-grip, palms-up pulldown. One set to failure."
+        "notes": "Close-grip, palms-up pulldown. One set to failure.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "deadlift",
         "sets": 1,
         "repRange": "5-8",
-        "notes": "One heavy set to near-failure. Shrugs can be substituted if needed."
+        "notes": "One heavy set to near-failure. Shrugs can be substituted if needed.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       }
     ],
     "sortOrder": 1,
@@ -903,7 +1180,19 @@
       {
         "exerciseId": "standing-calf-raise",
         "sets": 1,
-        "repRange": "12-20"
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       }
     ],
     "sortOrder": 2,
@@ -932,19 +1221,55 @@
       {
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 1,
-        "repRange": "6-10"
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "Reverse pec deck or bent rear-delt raise."
+        "notes": "Reverse pec deck or bent rear-delt raise.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-curl",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "Straight bar, one set to failure."
+        "notes": "Straight bar, one set to failure.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "triceps-pushdown",
@@ -1027,7 +1352,19 @@
       {
         "exerciseId": "standing-calf-raise",
         "sets": 1,
-        "repRange": "12-20"
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       }
     ],
     "sortOrder": 4,
@@ -1057,13 +1394,37 @@
         "exerciseId": "barbell-squat",
         "sets": 1,
         "repRange": "8-15",
-        "notes": "One all-out set to failure after warm-ups."
+        "notes": "One all-out set to failure after warm-ups.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "reverse-grip-lat-pulldown",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "Close underhand grip, one set to failure."
+        "notes": "Close underhand grip, one set to failure.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       }
     ],
     "sortOrder": 10,
@@ -1094,18 +1455,54 @@
         "exerciseId": "deadlift",
         "sets": 1,
         "repRange": "5-8",
-        "notes": "One heavy set; CNS-intensive so keep reps lower."
+        "notes": "One heavy set; CNS-intensive so keep reps lower.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "weighted-triceps-dip",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "One set to failure."
+        "notes": "One set to failure.",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       },
       {
         "exerciseId": "standing-calf-raise",
         "sets": 1,
-        "repRange": "12-20"
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "Warm-ups",
+            "kind": "warmup",
+            "intensity": "1–3 progressive sets — never to failure"
+          },
+          {
+            "label": "F1",
+            "kind": "failure",
+            "intensity": "One all-out set to momentary muscular failure"
+          }
+        ]
       }
     ],
     "sortOrder": 11,
@@ -1134,38 +1531,237 @@
       {
         "exerciseId": "barbell-row",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "t-bar-row",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "seated-cable-row",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "one-arm-dumbbell-row",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "deadlift",
         "sets": 3,
         "repRange": "4-8",
-        "notes": "Heavy, controlled - Coleman's signature lift."
+        "notes": "Heavy, controlled - Coleman's signature lift.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-curl",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "alternating-dumbbell-curl",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       }
     ],
     "sortOrder": 1,
@@ -1192,38 +1788,237 @@
       {
         "exerciseId": "barbell-bench-press",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "incline-barbell-press",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "decline-bench-press",
         "sets": 3,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "dumbbell-bench-press",
         "sets": 3,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "cable-crossover",
         "sets": 3,
         "repRange": "12-15",
-        "notes": "Dumbbell flyes or cable crossovers for the stretch and pump."
+        "notes": "Dumbbell flyes or cable crossovers for the stretch and pump.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "close-grip-bench-press",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "triceps-pushdown",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       }
     ],
     "sortOrder": 2,
@@ -1253,34 +2048,216 @@
         "exerciseId": "barbell-squat",
         "sets": 5,
         "repRange": "4-8",
-        "notes": "Low reps, heavy weight to build raw density."
+        "notes": "Low reps, heavy weight to build raw density.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "leg-press",
         "sets": 4,
         "repRange": "8-12",
-        "notes": "Pile on the plates for double-digit reps."
+        "notes": "Pile on the plates for double-digit reps.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "walking-lunge",
         "sets": 3,
         "repRange": "10-12",
-        "notes": "Per leg."
+        "notes": "Per leg.",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "leg-extension",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "lying-leg-curl",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "standing-calf-raise",
         "sets": 4,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       }
     ],
     "sortOrder": 3,
@@ -1308,32 +2285,209 @@
       {
         "exerciseId": "military-press",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 4,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "front-raise",
         "sets": 3,
-        "repRange": "12"
+        "repRange": "12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-shrug",
         "sets": 4,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       },
       {
         "exerciseId": "upright-row",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
       }
     ],
     "sortOrder": 4,
@@ -1363,33 +2517,175 @@
         "exerciseId": "barbell-squat",
         "sets": 4,
         "repRange": "8-12",
-        "notes": "Controlled tempo, 3s+ per rep. Last set all out."
+        "notes": "Controlled tempo, 3s+ per rep. Last set all out.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "4",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "leg-press",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "romanian-deadlift",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "leg-extension",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "lying-leg-curl",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "standing-calf-raise",
         "sets": 4,
         "repRange": "12-20",
-        "notes": "5-10 partials after failure on the last set."
+        "notes": "5-10 partials after failure on the last set.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "4",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       }
     ],
     "sortOrder": 1,
@@ -1418,39 +2714,198 @@
       {
         "exerciseId": "barbell-bench-press",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "4",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "dumbbell-bench-press",
         "sets": 3,
         "repRange": "12-15",
-        "notes": "Incline or flat; deep stretch, controlled."
+        "notes": "Incline or flat; deep stretch, controlled.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "weighted-triceps-dip",
         "sets": 3,
-        "repRange": "10-15"
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "lying-triceps-extension",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-curl",
         "sets": 3,
-        "repRange": "10-12"
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "cable-biceps-curl",
         "sets": 3,
         "repRange": "12-15",
-        "notes": "Squeeze and control; last set all out."
+        "notes": "Squeeze and control; last set all out.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       }
     ],
     "sortOrder": 2,
@@ -1481,42 +2936,223 @@
         "exerciseId": "pull-up",
         "sets": 3,
         "repRange": "8-12",
-        "notes": "Add weight or use a band to stay in range."
+        "notes": "Add weight or use a band to stay in range.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-row",
         "sets": 4,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "4",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "lat-pulldown",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "seated-cable-row",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "military-press",
         "sets": 3,
-        "repRange": "8-12"
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "face-pull",
         "sets": 3,
-        "repRange": "15-20"
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-shrug",
         "sets": 3,
-        "repRange": "12-15"
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 reps in reserve"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target rep range, 2-1-1 tempo"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
+          }
+        ]
       }
     ],
     "sortOrder": 3,

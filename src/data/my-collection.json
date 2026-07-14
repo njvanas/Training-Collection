@@ -1,7 +1,7 @@
 {
-  "id": "my-hevy",
-  "name": "My Hevy Collection",
-  "summary": "Every Hevy folder I train from — personal programming across bulk blocks, arm/chest focus phases, and alternate splits. Open a folder in Hevy or browse indexed routines below.",
+  "id": "hevy-folders",
+  "name": "Hevy Workout Folders",
+  "summary": "Ready-made workout folders you can open in the Hevy app, save to your profile, and start logging. Full exercise detail, set schemes, and methodology write-ups for each legend are on the Methodologies and Training Plans tabs.",
   "hevyFolders": [
     {
       "id": "bulk-like-dorian",
@@ -9,7 +9,7 @@
       "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207",
       "displayOrder": 1,
-      "note": "Main bulk block — fully indexed in this app.",
+      "note": "HIT-style bulk block inspired by Dorian Yates.",
       "routinesInHevy": [
         "Day 1 – Back",
         "Day 2 – Chest + Biceps",
@@ -117,19 +117,5 @@
         "Friday: Upperbody (shoulder focus)"
       ]
     }
-  ],
-  "splitOverview": [
-    { "day": "Day 1", "focus": "Back", "routineId": "hevy-back" },
-    { "day": "Day 2", "focus": "Chest + Biceps", "routineId": "hevy-chest-biceps" },
-    { "day": "Day 4", "focus": "Legs (quad-priority)", "routineId": "hevy-legs-quad" },
-    { "day": "Day 4", "focus": "Legs (ham-priority)", "routineId": "hevy-legs-ham" },
-    { "day": "Day 5", "focus": "Shoulders + Triceps", "routineId": "hevy-shoulders-triceps" },
-    { "day": "Any", "focus": "Walking / cardio", "routineId": "hevy-walking" }
-  ],
-  "trainingNotes": [
-    "Bulk like Dorian is fully indexed below with set schemes (W1/W2/F1/F2).",
-    "Other folders open directly in Hevy — routine titles are listed on each folder card.",
-    "Leg day has quad- and ham-priority variants in Bulk like Dorian — pick one per rotation.",
-    "Supersets are marked SS A/B in indexed exercise tables."
   ]
 }

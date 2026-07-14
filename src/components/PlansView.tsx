@@ -47,7 +47,7 @@ function RoutineDetail({
   return (
     <div>
       <button type="button" className="back" onClick={onBack}>
-        ← All legend plans
+        ← All training plans
       </button>
       <div className="detail">
         <div className="detail-head">
@@ -177,10 +177,11 @@ export function PlansView() {
   return (
     <div>
       <div className="section legend-intro">
-        <h2 className="section-heading">Legend reference plans</h2>
+        <h2 className="section-heading">Training plans</h2>
         <p className="sub">
-          Documented splits from the curators — for study and comparison. Your
-          personal Hevy days are on the My Hevy tab.
+          Complete workout days from each legend — every exercise, warm-up, and
+          working set spelled out. Read the Methodologies tab first for context,
+          then pick a plan to study or run.
         </p>
       </div>
 
@@ -193,7 +194,7 @@ export function PlansView() {
         />
       </div>
 
-      <div className="section-title">Curators</div>
+      <div className="section-title">Filter by legend</div>
       <div className="curators">
         <button
           type="button"
