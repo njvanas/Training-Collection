@@ -58,8 +58,36 @@ npm run dev      # start the dev server at http://localhost:5173
 | `npm run typecheck` | Type-check without emitting. |
 | `npm test` | Run the Vitest data-integrity suite. |
 
+## Automated workflow
+
+This repo is set up so a plain-language request turns into a deployed change with
+no manual build/deploy steps:
+
+1. **Request** — describe the change (e.g. "add a push day", "bump the RDL to 4
+   sets", "fix the calf rep range"). A Cursor cloud agent edits the JSON in
+   `src/data/` (and any UI as needed).
+2. **Verify** — the agent runs `npm run lint`, `npm run typecheck`, `npm test`,
+   and `npm run build` locally, and the **CI** workflow
+   (`.github/workflows/ci.yml`) re-runs them on every push/PR. `npm test`
+   enforces schema validity and referential integrity, so broken data can't ship.
+3. **Integrate** — the change lands on `main` (direct commit for quick edits, or a
+   PR that gets merged once green).
+4. **Deploy** — pushing to `main` triggers `.github/workflows/deploy.yml`, which
+   builds and publishes to **GitHub Pages** at
+   `https://njvanas.github.io/Training-Collection/`. The deploy self-enables Pages
+   on first run, so there's nothing to toggle in settings.
+5. **Maintain** — **Dependabot** (`.github/dependabot.yml`) opens weekly PRs to
+   keep npm packages and GitHub Actions up to date; CI validates them
+   automatically.
+
+GitHub Actions used:
+
+| Workflow | Trigger | Purpose |
+| --- | --- | --- |
+| `ci.yml` | push to `main`, PRs, manual | Lint, type-check, test, build (the review gate). |
+| `deploy.yml` | push to `main`, manual | Build and deploy to GitHub Pages. |
+
 ## Tech stack
 
 Vite + React + TypeScript, Zod for schema validation, Vitest for tests, ESLint
-for linting.
-
+for linting, GitHub Actions for CI/CD, GitHub Pages for hosting.
