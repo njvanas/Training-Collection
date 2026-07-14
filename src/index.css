@@ -912,6 +912,22 @@ table.ex tr:last-child td {
   color: var(--accent-bright);
 }
 
+.folder-routines {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.folder-routines li {
+  margin-bottom: 2px;
+}
+
+.indexed-routines .section-lead {
+  margin: 0 0 12px;
+}
+
 .method-head.compact {
   display: flex;
   align-items: center;

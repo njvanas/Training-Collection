@@ -7,7 +7,7 @@ import {
   exercises,
   getPersonalRoutines,
   getLegendRoutines,
-  myCollection,
+  hevyFolders,
   styles,
 } from './lib/db';
 
@@ -55,7 +55,7 @@ export function App() {
         </p>
         <div className="hero-stats">
           <div className="hero-stat">
-            <div className="n">{myCollection.hevyFolders.length}</div>
+            <div className="n">{hevyFolders.length}</div>
             <div className="l">Hevy folders</div>
           </div>
           <div className="hero-stat">

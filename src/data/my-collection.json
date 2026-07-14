@@ -1,13 +1,121 @@
 {
   "id": "my-hevy",
   "name": "My Hevy Collection",
-  "summary": "My personal workout programs in Hevy — programmed for how I train, track, and recover. These are not a legend's reference split; they are my own days with my set schemes, notes, and exercise picks.",
+  "summary": "Every Hevy folder I train from — personal programming across bulk blocks, arm/chest focus phases, and alternate splits. Open a folder in Hevy or browse indexed routines below.",
   "hevyFolders": [
     {
       "id": "bulk-like-dorian",
+      "hevyId": "1619207",
       "name": "Bulk like Dorian",
       "url": "https://hevy.com/folder/1619207",
-      "note": "Main bulk block — back, chest, legs, shoulders, and cardio days."
+      "displayOrder": 1,
+      "note": "Main bulk block — fully indexed in this app.",
+      "routinesInHevy": [
+        "Day 1 – Back",
+        "Day 2 – Chest + Biceps",
+        "Day 4 – Legs (Quad‑priority)",
+        "Day 4 – Legs (Ham‑priority)",
+        "Day 5 – Shoulders + Triceps",
+        "Walking = Good"
+      ]
+    },
+    {
+      "id": "alternate-dori-goat",
+      "hevyId": "3228642",
+      "name": "Alternate Dori-Goat",
+      "url": "https://hevy.com/folder/3228642",
+      "displayOrder": 2,
+      "routinesInHevy": [
+        "Workout 1: Chest & Biceps",
+        "Workout 2: Back",
+        "Workout 3: Shoulders & Triceps",
+        "Workout 4: Legs"
+      ]
+    },
+    {
+      "id": "legs-for-days",
+      "hevyId": "1367429",
+      "name": "Legs for Days",
+      "url": "https://hevy.com/folder/1367429",
+      "displayOrder": 3,
+      "routinesInHevy": [
+        "Workout A: Upper (low volume x high intensity)",
+        "Workout B: Lower Body High Volume"
+      ]
+    },
+    {
+      "id": "perplexed-by-dumbbells",
+      "hevyId": "1155031",
+      "name": "Perplexed by Dumbbells",
+      "url": "https://hevy.com/folder/1155031",
+      "displayOrder": 4,
+      "routinesInHevy": [
+        "Day 1: Upper Body Push (Pyramid Sets)",
+        "Day 2: Upper Body Pull (Back, Biceps, Rear Delts)",
+        "Day 3: Lower Body & Full Body (Myo-Reps)"
+      ]
+    },
+    {
+      "id": "alter-growth",
+      "hevyId": "820934",
+      "name": "Alter Growth",
+      "url": "https://hevy.com/folder/820934",
+      "displayOrder": 5,
+      "routinesInHevy": [
+        "Workout A - Chest, Triceps & Shoulders",
+        "Workout B (1) - Back, Shoulders, Biceps & Legs",
+        "Workout B (2) - Back, Shoulders, Biceps & Legs"
+      ]
+    },
+    {
+      "id": "arm-mastery",
+      "hevyId": "646977",
+      "name": "Arm Mastery",
+      "url": "https://hevy.com/folder/646977",
+      "displayOrder": 6,
+      "routinesInHevy": ["Day 1", "Day 2", "Day 3"]
+    },
+    {
+      "id": "6-weeks-chest-focus",
+      "hevyId": "521019",
+      "name": "6 Weeks Chest Focus",
+      "url": "https://hevy.com/folder/521019",
+      "displayOrder": 7,
+      "routinesInHevy": ["Day 1", "Day 2", "Day 3"]
+    },
+    {
+      "id": "6-weeks-arm-focus",
+      "hevyId": "521059",
+      "name": "6 Weeks Arm Focus",
+      "url": "https://hevy.com/folder/521059",
+      "displayOrder": 8,
+      "routinesInHevy": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday (Optional)"
+      ]
+    },
+    {
+      "id": "ez",
+      "hevyId": "412482",
+      "name": "EZ",
+      "url": "https://hevy.com/folder/412482",
+      "displayOrder": 9,
+      "routinesInHevy": ["Back & Biceps", "Chest/Triceps", "Legs/Shoulder"]
+    },
+    {
+      "id": "tristan",
+      "hevyId": "429300",
+      "name": "Tristan",
+      "url": "https://hevy.com/folder/429300",
+      "displayOrder": 10,
+      "routinesInHevy": [
+        "Monday: Upperbody (chest focus)",
+        "Wednesday: Legs",
+        "Friday: Upperbody (shoulder focus)"
+      ]
     }
   ],
   "splitOverview": [
@@ -19,9 +127,9 @@
     { "day": "Any", "focus": "Walking / cardio", "routineId": "hevy-walking" }
   ],
   "trainingNotes": [
-    "Most lifts use two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
-    "Leg day has quad- and ham-priority variants — pick one per rotation.",
-    "Supersets are marked SS A/B in the exercise table.",
-    "Open a folder below to run these workouts in the Hevy app."
+    "Bulk like Dorian is fully indexed below with set schemes (W1/W2/F1/F2).",
+    "Other folders open directly in Hevy — routine titles are listed on each folder card.",
+    "Leg day has quad- and ham-priority variants in Bulk like Dorian — pick one per rotation.",
+    "Supersets are marked SS A/B in indexed exercise tables."
   ]
 }

@@ -4,6 +4,7 @@ import {
   getLegendRoutines,
   getPersonalRoutines,
   getSortedRoutines,
+  hevyFolders,
   myCollection,
   routines,
   styles,
@@ -78,9 +79,12 @@ describe('training database', () => {
   });
 
   it('lists every Hevy folder with a label and url', () => {
-    for (const folder of myCollection.hevyFolders) {
+    expect(hevyFolders.length).toBe(10);
+    for (const folder of hevyFolders) {
       expect(folder.name.length).toBeGreaterThan(0);
-      expect(folder.url).toMatch(/^https:\/\/hevy\.com\//);
+      expect(folder.url).toMatch(/^https:\/\/hevy\.com\/folder\/\d+$/);
+      expect(folder.url.endsWith(folder.hevyId)).toBe(true);
+      expect(folder.routinesInHevy.length).toBeGreaterThan(0);
     }
   });
 

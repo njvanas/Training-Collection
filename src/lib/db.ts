@@ -15,8 +15,11 @@ import {
 
 export const myCollection: PersonalCollection =
   personalCollectionFileSchema.parse(myCollectionData);
+export const hevyFolders = [...myCollection.hevyFolders].sort(
+  (a, b) => a.displayOrder - b.displayOrder,
+);
 export const hevyFoldersById = new Map(
-  myCollection.hevyFolders.map((folder) => [folder.id, folder]),
+  hevyFolders.map((folder) => [folder.id, folder]),
 );
 export const exercises: Exercise[] = exercisesFileSchema.parse(exercisesData);
 export const styles: TrainingStyle[] = stylesFileSchema
@@ -113,6 +116,16 @@ export function validateReferentialIntegrity(): string[] {
     myCollection.splitOverview.map((entry) => entry.routineId),
   );
   const folderIds = new Set(myCollection.hevyFolders.map((f) => f.id));
+  for (const folder of myCollection.hevyFolders) {
+    if (!folder.url.endsWith(`/folder/${folder.hevyId}`)) {
+      problems.push(
+        `Hevy folder "${folder.id}" url does not match hevyId ${folder.hevyId}`,
+      );
+    }
+    if (folder.routinesInHevy.length === 0) {
+      problems.push(`Hevy folder "${folder.id}" has no routinesInHevy listed`);
+    }
+  }
   for (const routine of routines.filter((r) => r.collection === 'personal')) {
     if (!personalIds.has(routine.id)) {
       problems.push(

@@ -144,9 +144,14 @@ export const personalCollectionSchema = z.object({
     .array(
       z.object({
         id: z.string().min(1),
+        /** Numeric Hevy folder id from the share URL. */
+        hevyId: z.string().min(1),
         name: z.string().min(1),
         url: z.string().url(),
+        displayOrder: z.number().int().nonnegative(),
         note: z.string().min(1).optional(),
+        /** Routine titles as they appear inside the Hevy folder. */
+        routinesInHevy: z.array(z.string().min(1)).default([]),
       }),
     )
     .min(1),

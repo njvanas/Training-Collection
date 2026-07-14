@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getHevyFolder, getPersonalRoutines, myCollection } from '../lib/db';
+import { getHevyFolder, getPersonalRoutines, hevyFolders, myCollection } from '../lib/db';
 import { RoutineCard } from './RoutineCard';
 import { RoutineIndex } from './RoutineIndex';
 
@@ -15,10 +15,13 @@ export function MyCollectionView() {
       </section>
 
       <section className="hevy-folders">
-        <h3 className="mini-heading">Hevy folders</h3>
+        <h3 className="mini-heading">Hevy folders ({hevyFolders.length})</h3>
         <div className="folder-grid">
-          {myCollection.hevyFolders.map((folder) => {
-            const count = routines.filter((r) => r.hevyFolderId === folder.id).length;
+          {hevyFolders.map((folder) => {
+            const indexedCount = routines.filter(
+              (r) => r.hevyFolderId === folder.id,
+            ).length;
+            const hevyCount = folder.routinesInHevy.length;
             return (
               <a
                 key={folder.id}
@@ -30,10 +33,17 @@ export function MyCollectionView() {
                 <div className="folder-card-head">
                   <span className="folder-label">{folder.name}</span>
                   <span className="folder-count">
-                    {count} routine{count === 1 ? '' : 's'}
+                    {indexedCount > 0
+                      ? `${indexedCount} indexed`
+                      : `${hevyCount} in Hevy`}
                   </span>
                 </div>
                 {folder.note ? <p className="sub folder-note">{folder.note}</p> : null}
+                <ul className="folder-routines">
+                  {folder.routinesInHevy.map((title) => (
+                    <li key={title}>{title}</li>
+                  ))}
+                </ul>
                 <span className="folder-open">Open in Hevy →</span>
               </a>
             );
@@ -52,7 +62,14 @@ export function MyCollectionView() {
         </section>
       ) : null}
 
-      <RoutineIndex entries={myCollection.splitOverview} activeId={activeId} />
+      <section className="indexed-routines">
+        <h3 className="mini-heading">Indexed routines — Bulk like Dorian</h3>
+        <p className="sub section-lead">
+          Full set schemes for the main bulk folder. Other folders open in Hevy
+          above.
+        </p>
+        <RoutineIndex entries={myCollection.splitOverview} activeId={activeId} />
+      </section>
 
       <div
         className="routine-list"
