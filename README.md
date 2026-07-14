@@ -1,12 +1,22 @@
-# Training Collection — Blood & Guts
+# Training Collection — Iron Legends
 
-A personal training database built around Dorian Yates' **Blood & Guts**
-high-intensity method. It catalogs training **styles**, an **exercise** library,
-and concrete **routines** (including my personal [Hevy](https://hevy.com/folder/1619207)
-"Bulk like Dorian" folder) so I can reference them while programming workouts.
+A personal training database of bodybuilding's greatest training methodologies. It
+catalogs training **styles/methodologies**, an **exercise** library, and concrete
+**routines** with exact splits, so I can reference them while programming workouts.
+
+Methodologies currently covered:
+
+- **Blood & Guts** — Dorian Yates (HIT, one all-out set beyond failure), including
+  my personal [Hevy](https://hevy.com/folder/1619207) "Bulk like Dorian" folder.
+- **Heavy Duty** — Mike Mentzer (HIT, one set to failure, long rest, Ideal &
+  Consolidation routines).
+- **High-Volume Powerbuilding** — Ronnie Coleman (heavy compounds + high volume,
+  6-day split hitting each muscle twice).
+- **Harder Than Last Time (HTLT)** — Greg Doucette (progressive overload,
+  controlled tempo, train each muscle 2×/week, sustainability).
 
 The data lives as validated JSON and is served by a small React app for easy
-browsing and searching.
+browsing, filtering by methodology, and searching.
 
 ## What's inside
 

@@ -19,8 +19,18 @@ describe('training database', () => {
     expect(validateReferentialIntegrity()).toEqual([]);
   });
 
-  it('includes the Blood & Guts style', () => {
-    expect(styles.some((s) => s.id === 'blood-and-guts')).toBe(true);
+  it('includes all expected methodologies', () => {
+    const ids = new Set(styles.map((s) => s.id));
+    for (const id of ['blood-and-guts', 'heavy-duty', 'coleman-powerbuilding', 'htlt']) {
+      expect(ids.has(id), id).toBe(true);
+    }
+  });
+
+  it('every style has at least one routine', () => {
+    for (const style of styles) {
+      const owned = routines.filter((r) => r.styleId === style.id);
+      expect(owned.length, style.id).toBeGreaterThan(0);
+    }
   });
 
   it('includes the personal Hevy routines', () => {
