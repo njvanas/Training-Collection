@@ -74,9 +74,10 @@ describe('training database', () => {
     }
   });
 
-  it('hevy catalog has public-facing copy', () => {
+  it('personal routines catalog has Hevy folder links', () => {
+    expect(hevyCatalog.name).toMatch(/personal/i);
     expect(hevyCatalog.summary).toMatch(/Hevy/i);
-    expect(hevyCatalog.name.length).toBeGreaterThan(0);
+    expect(hevyCatalog.id).toBe('my-routines');
   });
 
   it('every legend plan exercise resolves to a real exercise', () => {

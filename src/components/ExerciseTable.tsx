@@ -72,43 +72,45 @@ export function ExerciseTable({ routine }: { routine: Routine }) {
   return (
     <>
       <SetProtocolBanner routine={routine} />
-      <table className="ex">
-        <thead>
-          <tr>
-            <th>Exercise</th>
-            <th>Sets</th>
-            <th>Reps</th>
-            <th>Warm-up → working → failure</th>
-          </tr>
-        </thead>
-        <tbody>
-          {routine.exercises.map((slot, idx) => {
-            const ex = getExercise(slot.exerciseId);
-            return (
-              <tr key={`${slot.exerciseId}-${idx}`}>
-                <td>
-                  <div className="ex-name">
-                    {ex ? ex.name : slot.exerciseId}
-                    {slot.supersetGroup ? (
-                      <span className="superset">SS {slot.supersetGroup}</span>
-                    ) : null}
-                  </div>
-                  {ex ? (
-                    <div className="ex-meta">
-                      {muscleLabel(ex.primaryMuscle)} · {equipmentLabel(ex.equipment)}
+      <div className="ex-table-wrap">
+        <table className="ex">
+          <thead>
+            <tr>
+              <th>Exercise</th>
+              <th>Sets</th>
+              <th>Reps</th>
+              <th>Warm-up → working → failure</th>
+            </tr>
+          </thead>
+          <tbody>
+            {routine.exercises.map((slot, idx) => {
+              const ex = getExercise(slot.exerciseId);
+              return (
+                <tr key={`${slot.exerciseId}-${idx}`}>
+                  <td data-label="Exercise">
+                    <div className="ex-name">
+                      {ex ? ex.name : slot.exerciseId}
+                      {slot.supersetGroup ? (
+                        <span className="superset">SS {slot.supersetGroup}</span>
+                      ) : null}
                     </div>
-                  ) : null}
-                </td>
-                <td>{slot.sets}</td>
-                <td>{slot.repRange}</td>
-                <td>
-                  <ExerciseSetRows slot={slot} routine={routine} />
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+                    {ex ? (
+                      <div className="ex-meta">
+                        {muscleLabel(ex.primaryMuscle)} · {equipmentLabel(ex.equipment)}
+                      </div>
+                    ) : null}
+                  </td>
+                  <td data-label="Sets">{slot.sets}</td>
+                  <td data-label="Reps">{slot.repRange}</td>
+                  <td data-label="Set scheme">
+                    <ExerciseSetRows slot={slot} routine={routine} />
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </>
   );
 }

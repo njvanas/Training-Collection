@@ -3,16 +3,17 @@ import { hevyFolders, myCollection } from '../lib/db';
 export function HevyFoldersView() {
   return (
     <div className="collection-layout">
-      <section className="collection-intro">
+      <section className="collection-intro personal-intro">
+        <div className="personal-badge">Personal collection</div>
         <h2 className="section-heading">{myCollection.name}</h2>
         <p className="sub">{myCollection.summary}</p>
         <p className="sub section-lead">
-          Tap a folder to open it in Hevy. Save it to your profile and log workouts
-          there — no account needed to browse this site.
+          These are my folders in Hevy — not legend reference plans. Tap a folder
+          to open it in the app, save it to your profile, and start logging.
         </p>
       </section>
 
-      <section className="hevy-folders">
+      <section className="hevy-folders personal-folders">
         <div className="folder-grid">
           {hevyFolders.map((folder) => (
             <a
