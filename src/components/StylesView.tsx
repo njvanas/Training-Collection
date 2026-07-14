@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getRoutinesByStyle, styles } from '../lib/db';
+import { getLegendRoutineGroupsByStyle, getRoutinesByStyle, styles } from '../lib/db';
 import { intensityTechniqueLabel } from '../lib/format';
 import { curatorGradient, curatorInitials } from '../lib/curator';
 import type { TrainingStyle } from '../schema';
@@ -14,7 +14,8 @@ function StylePickerCard({
   selected: boolean;
   onSelect: () => void;
 }) {
-  const routineCount = getRoutinesByStyle(style.id).length;
+  const routineCount = getLegendRoutineGroupsByStyle(style.id).length;
+  const workoutCount = getRoutinesByStyle(style.id).length;
 
   return (
     <button
@@ -44,15 +45,16 @@ function StylePickerCard({
         ))}
       </div>
       <p className="style-card-meta">
-        {routineCount} plan{routineCount === 1 ? '' : 's'} ·{' '}
-        {style.guidelines.trainingDaysPerWeek}
+        {routineCount} routine{routineCount === 1 ? '' : 's'} · {workoutCount}{' '}
+        workout{workoutCount === 1 ? '' : 's'} · {style.guidelines.trainingDaysPerWeek}
       </p>
     </button>
   );
 }
 
 function StyleDetail({ style }: { style: TrainingStyle }) {
-  const routineCount = getRoutinesByStyle(style.id).length;
+  const routineCount = getLegendRoutineGroupsByStyle(style.id).length;
+  const workoutCount = getRoutinesByStyle(style.id).length;
 
   return (
     <div className="style-detail" id={`methodology-${style.id}`}>
@@ -116,8 +118,10 @@ function StyleDetail({ style }: { style: TrainingStyle }) {
           <span className="stat-value">{style.guidelines.frequencyPerMuscle}</span>
         </div>
         <div className="stat">
-          <span className="stat-label">Reference plans</span>
-          <span className="stat-value">{routineCount}</span>
+          <span className="stat-label">Reference routines</span>
+          <span className="stat-value">
+            {routineCount} · {workoutCount} workouts
+          </span>
         </div>
       </div>
 
@@ -237,8 +241,8 @@ export function StylesView() {
         <p className="sub">
           How the legends actually trained — philosophy, warm-up and working-set
           rules, intensity techniques, weekly splits, and sources. Pick a
-          methodology to read through, then open the matching training plans for
-          every exercise, set, and rep range.
+          methodology to read through, then open the matching training routines
+          for every exercise, set, and rep range.
         </p>
       </div>
 

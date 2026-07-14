@@ -4,7 +4,12 @@
     "name": "Blood & Guts",
     "creator": "Dorian Yates",
     "displayOrder": 1,
-    "tags": ["HIT", "Beyond failure", "4-day split", "Low frequency"],
+    "tags": [
+      "HIT",
+      "Beyond failure",
+      "4-day split",
+      "Low frequency"
+    ],
     "summary": "Dorian Yates' Blood & Guts HIT: filmed at Temple Gym in the 1996 documentary, this is one progressive warm-up pyramid (50%, 75%) then a single all-out working set per exercise taken to absolute failure and beyond with a partner. Each body part is hit once every six days on a four-day split (two days on, one off, two days on, one off). Controlled negatives, full range of motion, and textbook form under maximal load — stress the muscle, not the ego.",
     "principles": [
       "One maximum-intensity working set per exercise — quality over quantity.",
@@ -30,19 +35,49 @@
       "warmupProtocol": "1-3 progressive warm-up sets on the first exercise (50% then 75%); 1 warm-up on later exercises when the muscle is already warm — never near failure.",
       "workingSetProtocol": "Exactly one all-out working set per exercise to muscular failure, then beyond with forced reps, rest-pause, negatives, partials, or iso-holds. Sessions run 45-60 minutes.",
       "repRanges": [
-        { "target": "Most upper body", "range": "6-8 reps" },
-        { "target": "Legs", "range": "8-12 reps" },
-        { "target": "Calves & abs", "range": "10-20 reps" }
+        {
+          "target": "Most upper body",
+          "range": "6-8 reps"
+        },
+        {
+          "target": "Legs",
+          "range": "8-12 reps"
+        },
+        {
+          "target": "Calves & abs",
+          "range": "10-20 reps"
+        }
       ]
     },
     "splitOverview": [
-      { "day": "Day 1", "focus": "Chest & Biceps" },
-      { "day": "Day 2", "focus": "Legs" },
-      { "day": "Day 3", "focus": "Rest" },
-      { "day": "Day 4", "focus": "Shoulders, Triceps & Traps" },
-      { "day": "Day 5", "focus": "Back & Rear Delts" },
-      { "day": "Day 6", "focus": "Rest" },
-      { "day": "Day 7", "focus": "Rest" }
+      {
+        "day": "Day 1",
+        "focus": "Chest & Biceps"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Legs"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Shoulders, Triceps & Traps"
+      },
+      {
+        "day": "Day 5",
+        "focus": "Back & Rear Delts"
+      },
+      {
+        "day": "Day 6",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 7",
+        "focus": "Rest"
+      }
     ],
     "sources": [
       {
@@ -76,7 +111,12 @@
     "name": "Heavy Duty",
     "creator": "Mike Mentzer",
     "displayOrder": 2,
-    "tags": ["HIT", "One set to failure", "Infrequent", "Pre-exhaust"],
+    "tags": [
+      "HIT",
+      "One set to failure",
+      "Infrequent",
+      "Pre-exhaust"
+    ],
     "summary": "Mike Mentzer's Heavy Duty is the purest expression of High-Intensity Training (HIT): a handful of exercises, exactly one working set taken to absolute momentary muscular failure (often extended with forced/negative reps or a static hold), and long rest periods between infrequent workouts. Mentzer argued that overtraining - not undertraining - is the bodybuilder's biggest mistake.",
     "principles": [
       "Intensity is inversely proportional to volume and frequency: the harder you train, the less you can and should do.",
@@ -86,25 +126,57 @@
       "Rest at least 4-7 days between sessions, adding more rest days if progress stalls.",
       "Progress by double progression: add reps within the range, then add weight."
     ],
-    "intensityTechniques": ["forced-reps", "negatives", "rest-pause", "iso-hold"],
+    "intensityTechniques": [
+      "forced-reps",
+      "negatives",
+      "rest-pause",
+      "iso-hold"
+    ],
     "guidelines": {
       "trainingDaysPerWeek": "About twice a week (train roughly every 4th day)",
       "frequencyPerMuscle": "Once every 4-7+ days; the full rotation can span two weeks.",
       "warmupProtocol": "1-3 progressive warm-up sets per exercise, never approaching failure.",
       "workingSetProtocol": "Exactly 1 all-out working set to momentary muscular failure, sometimes extended with forced reps, negatives, or a static hold. Pre-exhaust supersets pair an isolation into a compound.",
       "repRanges": [
-        { "target": "Upper body", "range": "6-10 reps" },
-        { "target": "Compound presses (post-exhaust)", "range": "1-3 reps" },
-        { "target": "Legs", "range": "8-15 reps" },
-        { "target": "Calves", "range": "12-20 reps" }
+        {
+          "target": "Upper body",
+          "range": "6-10 reps"
+        },
+        {
+          "target": "Compound presses (post-exhaust)",
+          "range": "1-3 reps"
+        },
+        {
+          "target": "Legs",
+          "range": "8-15 reps"
+        },
+        {
+          "target": "Calves",
+          "range": "12-20 reps"
+        }
       ]
     },
     "splitOverview": [
-      { "day": "Workout 1", "focus": "Chest & Back" },
-      { "day": "Workout 2", "focus": "Legs" },
-      { "day": "Workout 3", "focus": "Delts & Arms" },
-      { "day": "Workout 4", "focus": "Legs (static hold + squat)" },
-      { "day": "Between", "focus": "Rest 4-7+ days, then repeat the rotation" }
+      {
+        "day": "Workout 1",
+        "focus": "Chest & Back"
+      },
+      {
+        "day": "Workout 2",
+        "focus": "Legs"
+      },
+      {
+        "day": "Workout 3",
+        "focus": "Delts & Arms"
+      },
+      {
+        "day": "Workout 4",
+        "focus": "Legs (static hold + squat)"
+      },
+      {
+        "day": "Between",
+        "focus": "Rest 4-7+ days, then repeat the rotation"
+      }
     ],
     "sources": [
       {
@@ -126,7 +198,12 @@
     "name": "High-Volume Powerbuilding",
     "creator": "Ronnie Coleman",
     "displayOrder": 3,
-    "tags": ["High volume", "6-day split", "Heavy compounds", "2× weekly"],
+    "tags": [
+      "High volume",
+      "6-day split",
+      "Heavy compounds",
+      "2× weekly"
+    ],
     "summary": "Ronnie Coleman - 8x Mr. Olympia - built the greatest mass in history on a brutally simple formula: heavy compound barbell lifts for low-ish reps followed by mountains of accessory volume, six days a week, hitting each muscle twice. No fancy periodization, no reliance on failure techniques - just enormous poundages moved with control and relentless progressive overload. 'Everybody wanna be a bodybuilder, but nobody wanna lift no heavy-ass weight.'",
     "principles": [
       "Heavy compound barbell movements (squat, deadlift, bench, row) are the core of every session.",
@@ -143,17 +220,41 @@
       "warmupProtocol": "2+ progressive warm-up sets on heavy lifts (e.g. 30% then 60% of your working weight).",
       "workingSetProtocol": "3-5 straight working sets per exercise with heavy, controlled weight; 16-25 total sets per muscle group per session.",
       "repRanges": [
-        { "target": "Main compounds", "range": "4-8 reps" },
-        { "target": "Most exercises", "range": "8-12 reps" },
-        { "target": "Isolation & calves", "range": "12-15 reps" }
+        {
+          "target": "Main compounds",
+          "range": "4-8 reps"
+        },
+        {
+          "target": "Most exercises",
+          "range": "8-12 reps"
+        },
+        {
+          "target": "Isolation & calves",
+          "range": "12-15 reps"
+        }
       ]
     },
     "splitOverview": [
-      { "day": "Mon & Thu", "focus": "Back & Biceps" },
-      { "day": "Tue & Fri", "focus": "Chest & Triceps" },
-      { "day": "Wed", "focus": "Legs" },
-      { "day": "Sat", "focus": "Shoulders & Traps" },
-      { "day": "Sun", "focus": "Rest" }
+      {
+        "day": "Mon & Thu",
+        "focus": "Back & Biceps"
+      },
+      {
+        "day": "Tue & Fri",
+        "focus": "Chest & Triceps"
+      },
+      {
+        "day": "Wed",
+        "focus": "Legs"
+      },
+      {
+        "day": "Sat",
+        "focus": "Shoulders & Traps"
+      },
+      {
+        "day": "Sun",
+        "focus": "Rest"
+      }
     ],
     "sources": [
       {
@@ -171,7 +272,12 @@
     "name": "Harder Than Last Time (HTLT)",
     "creator": "Greg Doucette",
     "displayOrder": 4,
-    "tags": ["Progressive overload", "Controlled tempo", "2× weekly", "Sustainable"],
+    "tags": [
+      "Progressive overload",
+      "Controlled tempo",
+      "2× weekly",
+      "Sustainable"
+    ],
     "summary": "Greg Doucette's 'Harder Than Last Time' system is built on progressive overload, controlled tempo, and long-term sustainability rather than any single magic split. Every muscle is trained at least twice a week, reps are done slowly for maximum time under tension, and you target rep ranges (not fixed numbers) while striving to beat your previous session. Consistency and effort beat novelty.",
     "principles": [
       "Harder than last time: always beat the previous session in reps, weight, tempo, or reduced rest.",
@@ -182,23 +288,48 @@
       "Advanced 'all-out' sets and techniques (drop sets, partials, forced reps) are earned, not for beginners.",
       "Do your cardio: about 150 minutes per week, also progressed 'harder than last time'."
     ],
-    "intensityTechniques": ["drop-set", "forced-reps", "partials"],
+    "intensityTechniques": [
+      "drop-set",
+      "forced-reps",
+      "partials"
+    ],
     "guidelines": {
       "trainingDaysPerWeek": "5-7 for the Hardcore split (Casual 2-3 full-body, Moderate 4 upper/lower)",
       "frequencyPerMuscle": "At least twice per week.",
       "warmupProtocol": "Light warm-up sets (12-20 reps) stopping 3-5 reps shy of failure; 10-30 min cardio + mobility first.",
       "workingSetProtocol": "Straight sets to a target rep range with controlled tempo; only the final set of a movement goes 'all out' (advanced), optionally beyond failure with partials or a drop set.",
       "repRanges": [
-        { "target": "Hypertrophy working sets", "range": "12-15 reps" },
-        { "target": "Strength working sets", "range": "8-10 reps (occasionally 5-8)" }
+        {
+          "target": "Hypertrophy working sets",
+          "range": "12-15 reps"
+        },
+        {
+          "target": "Strength working sets",
+          "range": "8-10 reps (occasionally 5-8)"
+        }
       ]
     },
     "splitOverview": [
-      { "day": "Day 1", "focus": "Legs" },
-      { "day": "Day 2", "focus": "Chest & Arms" },
-      { "day": "Day 3", "focus": "Back & Shoulders" },
-      { "day": "Repeat", "focus": "Run the 3-day split across 5-7 days so each muscle is hit 2x" },
-      { "day": "Daily", "focus": "~150 min/week incline-walk cardio" }
+      {
+        "day": "Day 1",
+        "focus": "Legs"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Chest & Arms"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Back & Shoulders"
+      },
+      {
+        "day": "Repeat",
+        "focus": "Run the 3-day split across 5-7 days so each muscle is hit 2x"
+      },
+      {
+        "day": "Daily",
+        "focus": "~150 min/week incline-walk cardio"
+      }
     ],
     "sources": [
       {
@@ -212,6 +343,680 @@
       {
         "title": "Greg Doucette Workout Routine - Dr Workout",
         "url": "https://www.drworkout.fitness/greg-doucette-workout-routine/"
+      }
+    ]
+  },
+  {
+    "id": "heath-fst7",
+    "name": "FST-7",
+    "creator": "Phil Heath",
+    "displayOrder": 5,
+    "tags": [
+      "High volume",
+      "FST-7",
+      "5-day split",
+      "Mind-muscle"
+    ],
+    "summary": "Phil Heath's Olympia-era training with coach Hany Rambod: a five-day body-part split built on the pump, strict form, and FST-7 finishers — seven sets of 10-12 reps on an isolation movement with only 30-45 seconds rest to stretch the fascia. Three to five exercises per session, abs trained first when included, and every muscle hit once per week with brutal focus.",
+    "principles": [
+      "Chase the pump and roundness — the muscle should feel full and stretched.",
+      "Finish each body part with FST-7: 7 sets, 10-12 reps, 30-45s rest; flex and stretch between sets.",
+      "Control every rep; use weight as a tool for the target muscle, not ego lifting.",
+      "Train five to six days per week on a traditional body-part split.",
+      "Time under tension matters — static holds and ladder sets when plateaus hit.",
+      "Log sessions and progress load or reps over time."
+    ],
+    "intensityTechniques": [
+      "partials",
+      "iso-hold",
+      "drop-set",
+      "static-stretch"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "5-6 (one muscle group per day)",
+      "frequencyPerMuscle": "Once per week.",
+      "warmupProtocol": "1-2 progressive warm-up sets per exercise; abs first when trained.",
+      "workingSetProtocol": "3-5 exercises per body part with 3-4 straight working sets, then one FST-7 isolation finisher (7×10-12, 30-45s rest). Sessions run 70-90 minutes.",
+      "repRanges": [
+        {
+          "target": "Compounds",
+          "range": "8-12 reps"
+        },
+        {
+          "target": "FST-7 finishers",
+          "range": "10-12 reps × 7 sets"
+        },
+        {
+          "target": "Calves & abs",
+          "range": "12-20 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Legs"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Chest & Triceps"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Back & Biceps"
+      },
+      {
+        "day": "Day 5",
+        "focus": "Shoulders & Traps"
+      },
+      {
+        "day": "Day 6",
+        "focus": "Arms (optional)"
+      },
+      {
+        "day": "Day 7",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "8 Tips to Train Like Phil Heath - Muscle & Fitness",
+        "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
+      },
+      {
+        "title": "Training with THE GIFT - Mr Olympia Phil Heath - Muscle & Fitness",
+        "url": "https://www.muscleandfitness.com/flexonline/flex-news/training-gift-mr-olympia-phil-heath/"
+      },
+      {
+        "title": "Phil Heath Workout Routine - SET FOR SET",
+        "url": "https://www.setforset.com/blogs/news/phil-heath-workout-routine"
+      }
+    ]
+  },
+  {
+    "id": "arnold-golden-era",
+    "name": "Golden Era Volume",
+    "creator": "Arnold Schwarzenegger",
+    "displayOrder": 6,
+    "tags": [
+      "High volume",
+      "6-day split",
+      "Supersets",
+      "Classic"
+    ],
+    "summary": "Arnold Schwarzenegger's competitive-era approach: enormous volume (15-20 sets for large parts), twice-weekly body-part hits on a six-day split, and frequent supersets and giant sets. Before the split days he famously ran the simple Golden Six full-body routine three days per week — six basic lifts, 3-4 sets of 10, progressive overload when reps exceed target.",
+    "principles": [
+      "Shock the muscle — change exercises, angles, and techniques so the body never adapts.",
+      "Use supersets and giant sets to extend intensity when straight sets stall.",
+      "Pyramid up in weight across warm-up and working sets.",
+      "Train six days per week in peak years; hit each muscle twice weekly.",
+      "The pump is the goal — chase blood volume and a full stretch on every rep.",
+      "Start beginners on full-body fundamentals (Golden Six) before high-volume splits."
+    ],
+    "intensityTechniques": [
+      "drop-set",
+      "partials",
+      "forced-reps"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "6 (Golden Six: 3 full-body days, non-consecutive)",
+      "frequencyPerMuscle": "Twice per week on the competitive split; 3×/week full-body on Golden Six.",
+      "warmupProtocol": "Progressive warm-ups on the first compound; light sets to groove form.",
+      "workingSetProtocol": "Golden Six: 3-4 sets × 10 reps (AMRAP on chin-ups and sit-ups). Competitive split: 10-20 sets per body part with supersets on arms and chest/back pairings.",
+      "repRanges": [
+        {
+          "target": "Golden Six",
+          "range": "10 reps (AMRAP on chin-ups & sit-ups)"
+        },
+        {
+          "target": "Competitive split",
+          "range": "8-12 reps"
+        },
+        {
+          "target": "Calves & abs",
+          "range": "15-25 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Mon & Thu",
+        "focus": "Chest & Back"
+      },
+      {
+        "day": "Tue & Fri",
+        "focus": "Legs"
+      },
+      {
+        "day": "Wed & Sat",
+        "focus": "Shoulders & Arms"
+      },
+      {
+        "day": "Sun",
+        "focus": "Rest"
+      },
+      {
+        "day": "Golden Six alt.",
+        "focus": "Full body — Mon / Wed / Fri"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Arnold's Golden Six Routine - Fitness Volt",
+        "url": "https://fitnessvolt.com/arnolds-golden-six-routine/"
+      },
+      {
+        "title": "Tip: Train With Arnold's Golden Six - T Nation",
+        "url": "https://archive.t-nation.com/training/tip-train-with-arnolds-golden-six/"
+      },
+      {
+        "title": "Golden Six - Boostcamp (Arnold Schwarzenegger)",
+        "url": "https://www.boostcamp.app/coaches/arnold-schwarzenegger/golden-six"
+      }
+    ]
+  },
+  {
+    "id": "haney-stimulate",
+    "name": "Stimulate, Don't Annihilate",
+    "creator": "Lee Haney",
+    "displayOrder": 7,
+    "tags": [
+      "Moderate volume",
+      "3-on-1-off",
+      "Push-pull",
+      "Longevity"
+    ],
+    "summary": "Lee Haney's eight-Olympia philosophy: stimulate the muscle without annihilating it. A three-days-on, one-day-off split gives each body part three full recovery days. Pyramid the weight, pair push and pull movements to spare the joints, pre-exhaust when needed, and train calves and abs every session. Four working sets max on heavy compounds — never grind to failure every week.",
+    "principles": [
+      "Stimulate, don't annihilate — hard work without reckless failure every set.",
+      "Three days on, one day off; each muscle gets three days to recover.",
+      "Pair push with pull (e.g. chest with biceps) to reduce joint stress.",
+      "Pyramid weight set to set — never jump straight to your heaviest load.",
+      "Pre-exhaust isolation before compounds when you need more intensity safely.",
+      "Calves and abs every training day; legs in the middle of the rotation."
+    ],
+    "intensityTechniques": [
+      "forced-reps"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "3 on, 1 off (repeating cycle)",
+      "frequencyPerMuscle": "Once every four days in the cycle (~ twice per 8 days).",
+      "warmupProtocol": "Pyramid warm-ups — light 15 reps, then 10, then 8 before top work.",
+      "workingSetProtocol": "3-4 exercises per body part, pyramiding to 4 working sets on compounds (6-10 reps top set). Avoid training to failure every session.",
+      "repRanges": [
+        {
+          "target": "Warm-up pyramid",
+          "range": "15 → 10 → 8"
+        },
+        {
+          "target": "Working sets",
+          "range": "6-10 reps"
+        },
+        {
+          "target": "Calves & abs",
+          "range": "15-25 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Chest & Arms"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Legs"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Back & Shoulders"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lee Haney Workout: His Top 10 Training Tips - The Barbell",
+        "url": "https://thebarbell.com/lee-haney-workout/"
+      },
+      {
+        "title": "Lee Haney Training Split - Fitness Volt",
+        "url": "https://fitnessvolt.com/lee-haney-training-split-protein-sources/"
+      },
+      {
+        "title": "Workout Systems: Lee Haney's 4-Day Training Split - Poliquin Group",
+        "url": "https://poliquingroup.com/ArticlesMultimedia/Articles/Article/2690/Workout_Systems_Lee_Haneys_4-Day_Training_Split.aspx"
+      }
+    ]
+  },
+  {
+    "id": "zane-aesthetics",
+    "name": "Growth Program",
+    "creator": "Frank Zane",
+    "displayOrder": 8,
+    "tags": [
+      "Aesthetics",
+      "3-day split",
+      "Mind-muscle",
+      "Stretching"
+    ],
+    "summary": "Frank Zane's three-way split prioritized symmetry over sheer mass: pull (back, biceps, forearms), legs, push (chest, shoulders, triceps), then rest — three training days in a row followed by one off. Moderate weight, perfect form, stretches held 10-15 seconds between sets, and daily abs plus short cardio. The mind-muscle connection and constant tension beat moving heavy weight sloppily.",
+    "principles": [
+      "Aesthetics and proportion over maximum size — every rep should improve the silhouette.",
+      "Three-way split: pull, legs, push, rest — more recovery per section than upper/lower.",
+      "Stretch the target muscle 10-15 seconds between sets to enhance pump and detail.",
+      "Control the negative; avoid locking out to keep tension on the muscle.",
+      "Pyramid weight up while keeping reps in the 8-12 range for most work.",
+      "Daily ab work and ~12 minutes of cardio after training."
+    ],
+    "intensityTechniques": [
+      "static-stretch",
+      "iso-hold",
+      "partials"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "3 on, 1 off (4-day micro-cycle)",
+      "frequencyPerMuscle": "Once every four days.",
+      "warmupProtocol": "One light warm-up set per exercise; never rush into heavy weight.",
+      "workingSetProtocol": "3-4 sets × 8-12 reps with moderate loads and strict form; inter-set stretching on key movements.",
+      "repRanges": [
+        {
+          "target": "Most exercises",
+          "range": "8-12 reps"
+        },
+        {
+          "target": "Calves",
+          "range": "12-15 reps"
+        },
+        {
+          "target": "Abs",
+          "range": "15-25 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Back, Biceps & Forearms"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Legs & Calves"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Chest, Shoulders & Triceps"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Growth Program, Then and Now - Frank Zane",
+        "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/"
+      },
+      {
+        "title": "Frank Zane Three-Way Training Split - Fitness Volt",
+        "url": "https://fitnessvolt.com/frank-zane-training-split/"
+      },
+      {
+        "title": "The Legend of Frank Zane - SimplyShredded",
+        "url": "https://simplyshredded.com/the-legend-of-zane-an-interview.html"
+      }
+    ]
+  },
+  {
+    "id": "cutler-volume",
+    "name": "High-Volume Split",
+    "creator": "Jay Cutler",
+    "displayOrder": 9,
+    "tags": [
+      "High volume",
+      "5-day split",
+      "Short rest",
+      "Mind-muscle"
+    ],
+    "summary": "Jay Cutler's Olympia-era training: a three-on, one-off, two-on, one-off five-day split with legendary session volume — often 20-30 sets per body part built up over years. Short 30-60 second rest periods, relentless mind-muscle connection, and working for the pump over pure strength. Back and leg days are brutal enough to always follow with a rest day.",
+    "principles": [
+      "Volume drives growth — add sets gradually over years, not all at once.",
+      "Rest 30-60 seconds between most sets to keep metabolic stress high.",
+      "Control the rep; feel the muscle through the full range — no ego lifting.",
+      "Train each body part once per week on a dedicated day; calves twice.",
+      "Place rest days after back and legs — the hardest sessions in the rotation.",
+      "Consistency beats novelty — same split for decades with progressive volume."
+    ],
+    "intensityTechniques": [
+      "drop-set",
+      "forced-reps",
+      "partials"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "5 (3 on, 1 off, 2 on, 1 off)",
+      "frequencyPerMuscle": "Once per week; calves twice.",
+      "warmupProtocol": "2 warm-up sets on the first compound; quick warm-ups thereafter.",
+      "workingSetProtocol": "15-25+ sets per large body part for advanced lifters; 3-4 working sets per exercise with short rest. Scale volume down to 12-16 sets when adapting the split.",
+      "repRanges": [
+        {
+          "target": "Compounds",
+          "range": "6-12 reps"
+        },
+        {
+          "target": "Isolation",
+          "range": "10-15 reps"
+        },
+        {
+          "target": "Calves",
+          "range": "12-20 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Chest & Calves"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Triceps & Biceps"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Back"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 5",
+        "focus": "Shoulders & Traps"
+      },
+      {
+        "day": "Day 6",
+        "focus": "Quads, Hamstrings & Calves"
+      },
+      {
+        "day": "Day 7",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jay Cutler Workout: The Mr. Olympia Routine - Hunt Fitness",
+        "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+      },
+      {
+        "title": "How Strong Was Jay Cutler? - BarBend",
+        "url": "https://barbend.com/news/how-strong-was-jay-cutler/"
+      },
+      {
+        "title": "Jay Cutler Bodybuilder Workout Routine - SET FOR SET",
+        "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+      }
+    ]
+  },
+  {
+    "id": "bannout-lion",
+    "name": "Lion of Lebanon",
+    "creator": "Samir Bannout",
+    "displayOrder": 10,
+    "tags": [
+      "Old school",
+      "3-on-1-off",
+      "High intensity",
+      "Dense physique"
+    ],
+    "summary": "Samir Bannout's 1983 Mr. Olympia prep: a three-days-on, one-day-off cycle with old-school heavy compounds, short 35-second rest periods, and training by feel rather than rigid rep counts. Olympic lifting roots built the dense back (\"Christmas tree\") that defined his silhouette. Shoulders and arms, legs and abs, then chest and back — repeated with maximum intensity when fresh.",
+    "principles": [
+      "Train hard when you train — short rests (~35 seconds) and heavy compounds.",
+      "Three days on, one off; fully recovered before repeating the cycle.",
+      "Listen to the body — adjust exercises and reps by feel, not only by numbers.",
+      "Build the back with rows, pulldowns, and Olympic-lifting roots for density.",
+      "Morning and afternoon sessions in peak prep to hit weak points twice.",
+      "Art and aesthetics matter as much as the weight on the bar."
+    ],
+    "intensityTechniques": [
+      "forced-reps",
+      "drop-set",
+      "partials"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "3 on, 1 off (repeating)",
+      "frequencyPerMuscle": "Once every four days in the cycle.",
+      "warmupProtocol": "One high-rep warm-up on the first compound (20-25 reps), then pyramid up.",
+      "workingSetProtocol": "4-6 sets per exercise, 6-15 reps by feel; 35-second rest between sets in competition prep.",
+      "repRanges": [
+        {
+          "target": "Heavy compounds",
+          "range": "4-10 reps"
+        },
+        {
+          "target": "Isolation",
+          "range": "8-15 reps"
+        },
+        {
+          "target": "Calves & abs",
+          "range": "15-25+ reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Shoulders, Biceps & Triceps"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Legs, Calves & Abs"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Chest & Back"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Samir Bannout's Workout and Diet - Iron and Grit Fitness",
+        "url": "https://ironandgrit.com/2021/05/02/samir-bannout-workout/"
+      },
+      {
+        "title": "Samir Bannout - The Lion of Lebanon - Fitness Volt",
+        "url": "https://fitnessvolt.com/1725/samir-bannout-the-lion-of-lebanon/"
+      },
+      {
+        "title": "Old School Bodybuilder: Samir Bannout Workout - Nutribody",
+        "url": "https://nutribody.com/old-school-bodybuilder-samir-bannout-workout/"
+      }
+    ]
+  },
+  {
+    "id": "jackson-blade",
+    "name": "The Blade",
+    "creator": "Dexter Jackson",
+    "displayOrder": 11,
+    "tags": [
+      "Consistency",
+      "5-day split",
+      "Supersets",
+      "Conditioning"
+    ],
+    "summary": "Dexter Jackson's decades-long approach — nicknamed The Blade for never coming in off-condition: a five-day split emphasizing compounds first, moderate volume (3-4 sets per exercise), and relentless consistency. Evolved from three days weekly to five as career demands grew; supersets common, forced reps occasional, and rep tempo typically one second up, one second down.",
+    "principles": [
+      "Consistency beats extremes — show up prepared, year after year.",
+      "Compounds first for strength and shape; machines and isolation to refine.",
+      "Moderate volume — about 10 working sets per body part across 2-3 exercises.",
+      "Use supersets to save time and increase density; forced reps sparingly.",
+      "Train abs in prep; high-rep leg extensions and curls for quad/ham detail.",
+      "Conditioning is non-negotiable — The Blade never missed peak sharpness."
+    ],
+    "intensityTechniques": [
+      "forced-reps"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "5",
+      "frequencyPerMuscle": "Once per week.",
+      "warmupProtocol": "2-3 warm-up sets on the first compound of each session.",
+      "workingSetProtocol": "3-4 sets × 8-15 reps per exercise; supersets on arms and some upper-body pairings. Sessions 60-90 minutes.",
+      "repRanges": [
+        {
+          "target": "Compounds",
+          "range": "6-12 reps"
+        },
+        {
+          "target": "Isolation & detail work",
+          "range": "10-20 reps"
+        },
+        {
+          "target": "Calves",
+          "range": "12-15 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Chest & Biceps"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Quads & Calves"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Shoulders, Triceps & Calves"
+      },
+      {
+        "day": "Day 5",
+        "focus": "Back & Hamstrings"
+      },
+      {
+        "day": "Day 6",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 7",
+        "focus": "Rest / light cardio"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Blade - Iron Man Magazine (Dexter Jackson interview)",
+        "url": "https://www.ironmanmagazine.com/the-blade/"
+      },
+      {
+        "title": "Dexter Jackson Diet and Workout Program - Fitness Volt",
+        "url": "https://fitnessvolt.com/dexter-jackson-diet-training-program/"
+      },
+      {
+        "title": "Dynamite Full Body Workout With Dexter Jackson - Generation Iron",
+        "url": "https://generationiron.com/dexter-jackson-workout/"
+      }
+    ]
+  },
+  {
+    "id": "gaspari-annihilation",
+    "name": "Annihilation Training",
+    "creator": "Rich Gaspari",
+    "displayOrder": 12,
+    "tags": [
+      "Pre-exhaust",
+      "Failure training",
+      "4-5 day split",
+      "Old school"
+    ],
+    "summary": "Rich Gaspari's old-school intensity: pre-exhaust supersets, training to complete failure with drop sets and forced reps, then moderating the following week so muscles recover and grow. Four to five training days per week, each muscle once weekly, warm-up and cool-down rituals mandatory, and total focus in the gym — no phone, no distractions, war mindset on every set.",
+    "principles": [
+      "Pre-exhaust isolation before compounds so the target muscle fails first.",
+      "Train to complete failure on intense weeks; follow with a moderate pump week.",
+      "Four training days minimum for recovery — six-day grinding stalls growth.",
+      "Warm up thoroughly and stretch after; longevity depends on joint care.",
+      "No distractions — total focus and intensity every working set.",
+      "Alternate annihilation weeks with moderate pump sessions for the same muscle."
+    ],
+    "intensityTechniques": [
+      "forced-reps",
+      "drop-set",
+      "negatives",
+      "partials"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "4-5 (3 on, 1 off in off-season)",
+      "frequencyPerMuscle": "Once per week; intense week then moderate week.",
+      "warmupProtocol": "Extended warm-ups and mobility before heavy work; cool-down stretches after.",
+      "workingSetProtocol": "Pre-exhaust: isolation to failure, then compound. Intense weeks use drop sets, forced reps, and supersets; next week moderate sets for blood flow and recovery.",
+      "repRanges": [
+        {
+          "target": "Pre-exhaust isolation",
+          "range": "12-20 reps"
+        },
+        {
+          "target": "Compound work",
+          "range": "6-12 reps"
+        },
+        {
+          "target": "Moderate pump week",
+          "range": "12-15 reps"
+        }
+      ]
+    },
+    "splitOverview": [
+      {
+        "day": "Day 1",
+        "focus": "Chest & Triceps"
+      },
+      {
+        "day": "Day 2",
+        "focus": "Back & Biceps"
+      },
+      {
+        "day": "Day 3",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 4",
+        "focus": "Shoulders & Traps"
+      },
+      {
+        "day": "Day 5",
+        "focus": "Legs"
+      },
+      {
+        "day": "Day 6",
+        "focus": "Rest"
+      },
+      {
+        "day": "Day 7",
+        "focus": "Rest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pre-Exhaustion Shoulder Training - Gaspari Nutrition",
+        "url": "https://gasparinutrition.com/blogs/old-school-training-tips/pre-exhaustion-in-a-shoulder-workout"
+      },
+      {
+        "title": "Rich Gaspari on Training to Complete Failure - Fitness Volt",
+        "url": "https://fitnessvolt.com/rich-gaspari-best-method-building-muscle/"
+      },
+      {
+        "title": "Rich Gaspari Training Intensity for Hypertrophy - Fitness Volt",
+        "url": "https://fitnessvolt.com/rich-gaspari-abs-training-intensity-hypertrophy/"
       }
     ]
   }

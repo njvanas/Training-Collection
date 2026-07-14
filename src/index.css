@@ -335,6 +335,28 @@ a:hover {
 }
 
 /* Plan grid + cards */
+.routine-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.routine-group-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.routine-group-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.routine-group-sub {
+  margin: 4px 0 0;
+}
+
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -812,6 +834,11 @@ table.ex tr:last-child td {
 .accordion-panel {
   padding: 0 16px 16px;
   border-top: 1px solid var(--border);
+}
+
+.accordion-panel .chips,
+.accordion-panel .principles {
+  margin-top: 12px;
 }
 
 .accordion-panel .grid {

@@ -4,7 +4,10 @@
     "name": "Reverse Grip Lat Pulldown",
     "hevyName": "Reverse Grip Lat Pulldown (Cable)",
     "primaryMuscle": "lats",
-    "secondaryMuscles": ["back", "biceps"],
+    "secondaryMuscles": [
+      "back",
+      "biceps"
+    ],
     "equipment": "cable",
     "category": "compound",
     "cues": [
@@ -19,7 +22,11 @@
     "name": "T-Bar Row",
     "hevyName": "T Bar Row",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lats", "biceps", "traps"],
+    "secondaryMuscles": [
+      "lats",
+      "biceps",
+      "traps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -34,7 +41,10 @@
     "name": "Iso-Lateral Row",
     "hevyName": "Iso-Lateral Row (Machine)",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lats", "biceps"],
+    "secondaryMuscles": [
+      "lats",
+      "biceps"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -76,7 +86,10 @@
     "name": "Back Extension (Weighted Hyperextension)",
     "hevyName": "Back Extension (Weighted Hyperextension)",
     "primaryMuscle": "lower-back",
-    "secondaryMuscles": ["glutes", "hamstrings"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
     "equipment": "bodyweight",
     "category": "isolation",
     "cues": [
@@ -105,7 +118,10 @@
     "name": "Incline Bench Press (Smith Machine)",
     "hevyName": "Incline Bench Press (Smith Machine)",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["shoulders", "triceps"],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
     "equipment": "smith-machine",
     "category": "compound",
     "cues": [
@@ -120,7 +136,10 @@
     "name": "Chest Press (Machine)",
     "hevyName": "Chest Press (Machine)",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["triceps", "shoulders"],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -200,7 +219,10 @@
     "name": "Hack Squat (Machine)",
     "hevyName": "Hack Squat (Machine)",
     "primaryMuscle": "quads",
-    "secondaryMuscles": ["glutes", "hamstrings"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -228,7 +250,10 @@
     "name": "Romanian Deadlift (Barbell)",
     "hevyName": "Romanian Deadlift (Barbell)",
     "primaryMuscle": "hamstrings",
-    "secondaryMuscles": ["glutes", "lower-back"],
+    "secondaryMuscles": [
+      "glutes",
+      "lower-back"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -255,7 +280,10 @@
     "name": "Leg Press (Horizontal)",
     "hevyName": "Leg Press Horizontal (Machine)",
     "primaryMuscle": "quads",
-    "secondaryMuscles": ["glutes", "hamstrings"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -336,7 +364,10 @@
     "name": "Weighted Triceps Dip",
     "hevyName": "Triceps Dip (Weighted)",
     "primaryMuscle": "triceps",
-    "secondaryMuscles": ["chest", "shoulders"],
+    "secondaryMuscles": [
+      "chest",
+      "shoulders"
+    ],
     "equipment": "bodyweight",
     "category": "compound",
     "cues": [
@@ -375,7 +406,10 @@
     "id": "incline-barbell-press",
     "name": "Incline Barbell Press",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["shoulders", "triceps"],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -402,7 +436,11 @@
     "id": "barbell-row",
     "name": "Barbell Row (Bent-Over)",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lats", "biceps", "traps"],
+    "secondaryMuscles": [
+      "lats",
+      "biceps",
+      "traps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -416,7 +454,9 @@
     "id": "machine-pullover",
     "name": "Machine Pullover",
     "primaryMuscle": "lats",
-    "secondaryMuscles": ["chest"],
+    "secondaryMuscles": [
+      "chest"
+    ],
     "equipment": "machine",
     "category": "isolation",
     "cues": [
@@ -430,7 +470,12 @@
     "id": "deadlift",
     "name": "Deadlift (Barbell)",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lower-back", "hamstrings", "glutes", "traps"],
+    "secondaryMuscles": [
+      "lower-back",
+      "hamstrings",
+      "glutes",
+      "traps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -444,7 +489,10 @@
     "id": "seated-cable-row",
     "name": "Seated Cable Row",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lats", "biceps"],
+    "secondaryMuscles": [
+      "lats",
+      "biceps"
+    ],
     "equipment": "cable",
     "category": "compound",
     "cues": [
@@ -457,7 +505,9 @@
     "id": "machine-shoulder-press",
     "name": "Shoulder Press (Machine)",
     "primaryMuscle": "shoulders",
-    "secondaryMuscles": ["triceps"],
+    "secondaryMuscles": [
+      "triceps"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -471,7 +521,9 @@
     "id": "smith-machine-shoulder-press",
     "name": "Shoulder Press (Smith Machine)",
     "primaryMuscle": "shoulders",
-    "secondaryMuscles": ["triceps"],
+    "secondaryMuscles": [
+      "triceps"
+    ],
     "equipment": "smith-machine",
     "category": "compound",
     "cues": [
@@ -577,7 +629,10 @@
     "id": "leg-press",
     "name": "Leg Press (45-Degree)",
     "primaryMuscle": "quads",
-    "secondaryMuscles": ["glutes", "hamstrings"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -590,7 +645,11 @@
     "id": "barbell-squat",
     "name": "Barbell Back Squat",
     "primaryMuscle": "quads",
-    "secondaryMuscles": ["glutes", "hamstrings", "lower-back"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "lower-back"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -629,7 +688,10 @@
     "id": "incline-machine-press",
     "name": "Incline Chest Press (Machine)",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["shoulders", "triceps"],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
     "equipment": "machine",
     "category": "compound",
     "cues": [
@@ -643,7 +705,10 @@
     "id": "one-arm-dumbbell-row",
     "name": "One-Arm Dumbbell Row",
     "primaryMuscle": "back",
-    "secondaryMuscles": ["lats", "biceps"],
+    "secondaryMuscles": [
+      "lats",
+      "biceps"
+    ],
     "equipment": "dumbbell",
     "category": "compound",
     "cues": [
@@ -668,7 +733,10 @@
     "id": "barbell-bench-press",
     "name": "Barbell Bench Press (Flat)",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["triceps", "shoulders"],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -681,7 +749,9 @@
     "id": "decline-bench-press",
     "name": "Decline Barbell Bench Press",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["triceps"],
+    "secondaryMuscles": [
+      "triceps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -694,7 +764,10 @@
     "id": "dumbbell-bench-press",
     "name": "Flat Dumbbell Bench Press",
     "primaryMuscle": "chest",
-    "secondaryMuscles": ["triceps", "shoulders"],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
     "equipment": "dumbbell",
     "category": "compound",
     "cues": [
@@ -720,7 +793,10 @@
     "id": "close-grip-bench-press",
     "name": "Close-Grip Bench Press",
     "primaryMuscle": "triceps",
-    "secondaryMuscles": ["chest", "shoulders"],
+    "secondaryMuscles": [
+      "chest",
+      "shoulders"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -733,7 +809,10 @@
     "id": "walking-lunge",
     "name": "Walking Lunge",
     "primaryMuscle": "quads",
-    "secondaryMuscles": ["glutes", "hamstrings"],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+    ],
     "equipment": "dumbbell",
     "category": "compound",
     "cues": [
@@ -746,7 +825,9 @@
     "id": "military-press",
     "name": "Military Press (Standing Barbell Overhead)",
     "primaryMuscle": "shoulders",
-    "secondaryMuscles": ["triceps"],
+    "secondaryMuscles": [
+      "triceps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -783,7 +864,9 @@
     "id": "upright-row",
     "name": "Upright Row",
     "primaryMuscle": "shoulders",
-    "secondaryMuscles": ["traps"],
+    "secondaryMuscles": [
+      "traps"
+    ],
     "equipment": "barbell",
     "category": "compound",
     "cues": [
@@ -796,7 +879,10 @@
     "id": "pull-up",
     "name": "Pull-Up",
     "primaryMuscle": "lats",
-    "secondaryMuscles": ["back", "biceps"],
+    "secondaryMuscles": [
+      "back",
+      "biceps"
+    ],
     "equipment": "bodyweight",
     "category": "compound",
     "cues": [
@@ -809,7 +895,9 @@
     "id": "face-pull",
     "name": "Face Pull",
     "primaryMuscle": "rear-delts",
-    "secondaryMuscles": ["traps"],
+    "secondaryMuscles": [
+      "traps"
+    ],
     "equipment": "cable",
     "category": "isolation",
     "cues": [
@@ -822,13 +910,48 @@
     "id": "lat-pulldown",
     "name": "Lat Pulldown",
     "primaryMuscle": "lats",
-    "secondaryMuscles": ["back", "biceps"],
+    "secondaryMuscles": [
+      "back",
+      "biceps"
+    ],
     "equipment": "cable",
     "category": "compound",
     "cues": [
       "Chest up, slight lean back.",
       "Pull the bar to the upper chest, elbows down.",
       "Control the stretch at the top."
+    ]
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl (Dumbbell)",
+    "hevyName": "Hammer Curl (Dumbbell)",
+    "primaryMuscle": "biceps",
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Neutral grip throughout.",
+      "Curl without swinging the torso.",
+      "Squeeze the brachialis at the top."
+    ]
+  },
+  {
+    "id": "dumbbell-pullover",
+    "name": "Dumbbell Pullover",
+    "hevyName": "Pullover (Dumbbell)",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": [
+      "chest"
+    ],
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Lie across a flat bench, hips low.",
+      "Deep stretch overhead, pull the weight over the chest.",
+      "Keep elbows slightly bent and fixed."
     ]
   }
 ]

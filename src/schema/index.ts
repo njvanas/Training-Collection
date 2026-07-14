@@ -147,7 +147,7 @@ export type RoutineExercise = z.infer<typeof routineExerciseSchema>;
 export const routineCollectionSchema = z.enum(['personal', 'legend']);
 export type RoutineCollection = z.infer<typeof routineCollectionSchema>;
 
-/** Public catalog of Hevy workout folders (links only — full plans live in Training Plans). */
+/** Public catalog of Hevy workout folders (links only — full routines live on Training Routines). */
 export const hevyFoldersCatalogSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),

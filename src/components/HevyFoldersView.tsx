@@ -8,7 +8,7 @@ export function HevyFoldersView() {
         <h2 className="section-heading">{myCollection.name}</h2>
         <p className="sub">{myCollection.summary}</p>
         <p className="sub section-lead">
-          These are my folders in Hevy — not legend reference plans. Tap a folder
+          These are my folders in Hevy — not legend reference routines. Tap a folder
           to open it in the app, save it to your profile, and start logging.
         </p>
       </section>

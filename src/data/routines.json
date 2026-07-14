@@ -828,7 +828,7 @@
         ]
       }
     ],
-    "sortOrder": 11,
+    "sortOrder": 13,
     "labels": [
       "Classic reference"
     ],
@@ -1140,7 +1140,7 @@
         ]
       }
     ],
-    "sortOrder": 13,
+    "sortOrder": 11,
     "labels": [
       "Classic reference"
     ],
@@ -3259,6 +3259,6001 @@
     "sortOrder": 3,
     "labels": [
       "Hardcore split"
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "heath-legs",
+    "name": "FST-7 - Legs",
+    "day": "Day 1",
+    "styleId": "heath-fst7",
+    "sortOrder": 1,
+    "labels": [
+      "FST-7 reference"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
+    "description": "Phil Heath leg day with FST-7 finisher — compounds for 3-4 sets then 7×10-12 lying leg curls with 30-45s rest.",
+    "source": {
+      "name": "Phil Heath Workout - SET FOR SET",
+      "url": "https://www.setforset.com/blogs/news/phil-heath-workout-routine"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 9,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          }
+        ],
+        "notes": "FST-7 finisher — 7 sets after warm-ups."
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "heath-chest-triceps",
+    "name": "FST-7 - Chest & Triceps",
+    "day": "Day 2",
+    "styleId": "heath-fst7",
+    "sortOrder": 2,
+    "labels": [
+      "FST-7 reference"
+    ],
+    "focus": [
+      "chest",
+      "triceps"
+    ],
+    "description": "Incline-heavy chest session ending with cable crossover FST-7.",
+    "source": {
+      "name": "Training with THE GIFT - Muscle & Fitness",
+      "url": "https://www.muscleandfitness.com/flexonline/flex-news/training-gift-mr-olympia-phil-heath/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-bench-press-smith",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 9,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          }
+        ],
+        "notes": "FST-7 finisher."
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "heath-back-biceps",
+    "name": "FST-7 - Back & Biceps",
+    "day": "Day 4",
+    "styleId": "heath-fst7",
+    "sortOrder": 3,
+    "labels": [
+      "FST-7 reference"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "biceps"
+    ],
+    "description": "Width and thickness work, finishing biceps with FST-7 cable curls.",
+    "source": {
+      "name": "8 Tips to Train Like Phil Heath - Muscle & Fitness",
+      "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-biceps-curl",
+        "sets": 9,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          }
+        ],
+        "notes": "FST-7 finisher for biceps."
+      },
+      {
+        "exerciseId": "incline-dumbbell-curl",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "heath-shoulders",
+    "name": "FST-7 - Shoulders & Traps",
+    "day": "Day 5",
+    "styleId": "heath-fst7",
+    "sortOrder": 4,
+    "labels": [
+      "FST-7 reference"
+    ],
+    "focus": [
+      "shoulders",
+      "traps",
+      "rear-delts"
+    ],
+    "description": "Smith presses and laterals; FST-7 on rear-delt or lateral machine.",
+    "source": {
+      "name": "Phil Heath Workout - SET FOR SET",
+      "url": "https://www.setforset.com/blogs/news/phil-heath-workout-routine"
+    },
+    "exercises": [
+      {
+        "exerciseId": "smith-machine-shoulder-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-shrug",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 9,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+          }
+        ],
+        "notes": "FST-7 finisher."
+      },
+      {
+        "exerciseId": "face-pull",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "arnold-golden-six",
+    "name": "Golden Six - Full Body",
+    "day": "Workout A",
+    "styleId": "arnold-golden-era",
+    "sortOrder": 1,
+    "labels": [
+      "Golden Six"
+    ],
+    "focus": [
+      "chest",
+      "back",
+      "shoulders",
+      "biceps",
+      "quads",
+      "abs"
+    ],
+    "description": "Arnold's early full-body routine — six lifts, 3× per week on non-consecutive days. Add weight when you exceed rep targets.",
+    "source": {
+      "name": "Arnold's Golden Six - Fitness Volt",
+      "url": "https://fitnessvolt.com/arnolds-golden-six-routine/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 4,
+        "repRange": "10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Empty bar or 50%"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working weight × 10"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working weight × 10"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working weight × 10 — add weight if 4th set would exceed 13 reps"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Top set × 10"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 3,
+        "repRange": "10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "pull-up",
+        "sets": 3,
+        "repRange": "AMRAP",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "To failure or near failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "To failure or near failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "To failure or near failure"
+          }
+        ],
+        "notes": "Wide grip; add weight when bodyweight is easy."
+      },
+      {
+        "exerciseId": "military-press",
+        "sets": 4,
+        "repRange": "10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Behind-the-neck or standard overhead press."
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 3,
+        "repRange": "10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "AMRAP",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "To failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "To failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "To failure"
+          }
+        ],
+        "notes": "Bent-knee sit-ups in the original program."
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "arnold-chest-back",
+    "name": "Competitive Split - Chest & Back",
+    "day": "Mon & Thu",
+    "styleId": "arnold-golden-era",
+    "sortOrder": 2,
+    "labels": [
+      "Competitive split"
+    ],
+    "focus": [
+      "chest",
+      "back",
+      "lats"
+    ],
+    "description": "Golden-era volume: supersets and high set counts for the two largest upper-body groups.",
+    "source": {
+      "name": "Golden Six - T Nation",
+      "url": "https://archive.t-nation.com/training/tip-train-with-arnolds-golden-six/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "pull-up",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "arnold-legs",
+    "name": "Competitive Split - Legs",
+    "day": "Tue & Fri",
+    "styleId": "arnold-golden-era",
+    "sortOrder": 3,
+    "labels": [
+      "Competitive split"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
+    "description": "Heavy squats and leg work twice weekly — high volume golden-era leg day.",
+    "source": {
+      "name": "Golden Six - Boostcamp",
+      "url": "https://www.boostcamp.app/coaches/arnold-schwarzenegger/golden-six"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 5,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-extension",
+        "sets": 4,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "arnold-shoulders-arms",
+    "name": "Competitive Split - Shoulders & Arms",
+    "day": "Wed & Sat",
+    "styleId": "arnold-golden-era",
+    "sortOrder": 4,
+    "labels": [
+      "Competitive split"
+    ],
+    "focus": [
+      "shoulders",
+      "biceps",
+      "triceps"
+    ],
+    "description": "Dedicated arm and delt volume with supersets — the classic Arnold pairing day.",
+    "source": {
+      "name": "Arnold's Golden Six - Fitness Volt",
+      "url": "https://fitnessvolt.com/arnolds-golden-six-routine/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "military-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "supersetGroup": "A"
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "supersetGroup": "A"
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "supersetGroup": "B"
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "supersetGroup": "B"
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "haney-chest-arms",
+    "name": "Classic - Chest & Arms",
+    "day": "Day 1",
+    "styleId": "haney-stimulate",
+    "sortOrder": 1,
+    "labels": [
+      "Classic reference"
+    ],
+    "focus": [
+      "chest",
+      "biceps",
+      "triceps"
+    ],
+    "description": "Haney day one — chest with arms; pyramid up, stimulate without annihilating.",
+    "source": {
+      "name": "Lee Haney Workout - The Barbell",
+      "url": "https://thebarbell.com/lee-haney-workout/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 6,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 5,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "haney-legs",
+    "name": "Classic - Legs",
+    "day": "Day 2",
+    "styleId": "haney-stimulate",
+    "sortOrder": 2,
+    "labels": [
+      "Classic reference"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves",
+      "abs"
+    ],
+    "description": "Legs in the middle of the rotation — pre-exhaust extensions before squats when needed.",
+    "source": {
+      "name": "Lee Haney Training Split - Fitness Volt",
+      "url": "https://fitnessvolt.com/lee-haney-training-split-protein-sources/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 5,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Optional pre-exhaust before squats."
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 6,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "haney-back-shoulders",
+    "name": "Classic - Back & Shoulders",
+    "day": "Day 3",
+    "styleId": "haney-stimulate",
+    "sortOrder": 3,
+    "labels": [
+      "Classic reference"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "shoulders",
+      "traps"
+    ],
+    "description": "Pulling and pressing paired — push-pull logic to spare the joints.",
+    "source": {
+      "name": "Lee Haney's 4-Day Training Split - Poliquin Group",
+      "url": "https://poliquingroup.com/ArticlesMultimedia/Articles/Article/2690/Workout_Systems_Lee_Haneys_4-Day_Training_Split.aspx"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 6,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "machine-shoulder-press",
+        "sets": 5,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "Light — ~15 reps, never near failure"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "Moderate — ~10 reps"
+          },
+          {
+            "label": "W3",
+            "kind": "warmup",
+            "intensity": "Heavier — ~8 reps"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Pyramid up — 8-10 reps"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Top set — stimulate, do not annihilate; 6-8 reps"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-shrug",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "zane-pull",
+    "name": "Growth Program - Pull",
+    "day": "Day 1",
+    "styleId": "zane-aesthetics",
+    "sortOrder": 1,
+    "labels": [
+      "Growth Program"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "biceps",
+      "forearms"
+    ],
+    "description": "Pull day — stretch between sets, moderate loads, mind-muscle connection.",
+    "source": {
+      "name": "The Growth Program - Frank Zane",
+      "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "zane-legs",
+    "name": "Growth Program - Legs",
+    "day": "Day 2",
+    "styleId": "zane-aesthetics",
+    "sortOrder": 2,
+    "labels": [
+      "Growth Program"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
+    "description": "Extensions, curls, squats, leg press — Zane's leg template with daily abs.",
+    "source": {
+      "name": "Frank Zane Training Split - Fitness Volt",
+      "url": "https://fitnessvolt.com/frank-zane-training-split/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "zane-push",
+    "name": "Growth Program - Push",
+    "day": "Day 3",
+    "styleId": "zane-aesthetics",
+    "sortOrder": 3,
+    "labels": [
+      "Growth Program"
+    ],
+    "focus": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "description": "Push day — chest, delts, triceps with controlled negatives and inter-set stretching.",
+    "source": {
+      "name": "Frank Zane - SimplyShredded interview",
+      "url": "https://simplyshredded.com/the-legend-of-zane-an-interview.html"
+    },
+    "exercises": [
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "machine-shoulder-press",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "cutler-chest-calves",
+    "name": "Olympia Split - Chest & Calves",
+    "day": "Day 1",
+    "styleId": "cutler-volume",
+    "sortOrder": 1,
+    "labels": [
+      "Olympia-era split"
+    ],
+    "focus": [
+      "chest",
+      "calves"
+    ],
+    "description": "High-volume chest with short rest; calves hit twice weekly in this split.",
+    "source": {
+      "name": "Jay Cutler Workout - Hunt Fitness",
+      "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "cutler-arms",
+    "name": "Olympia Split - Arms",
+    "day": "Day 2",
+    "styleId": "cutler-volume",
+    "sortOrder": 2,
+    "labels": [
+      "Olympia-era split"
+    ],
+    "focus": [
+      "biceps",
+      "triceps"
+    ],
+    "description": "Dedicated arm day — alternating bis and tris with high set counts.",
+    "source": {
+      "name": "Jay Cutler - SET FOR SET",
+      "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+    },
+    "exercises": [
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "hammer-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "one-arm-triceps-pushdown",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "preacher-curl-barbell",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "cutler-back",
+    "name": "Olympia Split - Back",
+    "day": "Day 3",
+    "styleId": "cutler-volume",
+    "sortOrder": 3,
+    "labels": [
+      "Olympia-era split"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "lower-back"
+    ],
+    "description": "Brutal back volume — always followed by a rest day in Cutler's rotation.",
+    "source": {
+      "name": "Jay Cutler - BarBend",
+      "url": "https://barbend.com/news/how-strong-was-jay-cutler/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "deadlift",
+        "sets": 4,
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "cutler-shoulders-traps",
+    "name": "Olympia Split - Shoulders & Traps",
+    "day": "Day 5",
+    "styleId": "cutler-volume",
+    "sortOrder": 4,
+    "labels": [
+      "Olympia-era split"
+    ],
+    "focus": [
+      "shoulders",
+      "traps",
+      "rear-delts"
+    ],
+    "description": "Delts and traps with high volume and short rest.",
+    "source": {
+      "name": "Jay Cutler Workout - Hunt Fitness",
+      "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "smith-machine-shoulder-press",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-shrug",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "upright-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "cutler-legs",
+    "name": "Olympia Split - Legs",
+    "day": "Day 6",
+    "styleId": "cutler-volume",
+    "sortOrder": 5,
+    "labels": [
+      "Olympia-era split"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
+    "description": "Quad-dominant leg day — extensions, press, squats, then hamstrings and calves.",
+    "source": {
+      "name": "Jay Cutler - SET FOR SET",
+      "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 5,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 5,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "sets": 4,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "bannout-shoulders-arms",
+    "name": "1983 Prep - Shoulders & Arms",
+    "day": "Day 1",
+    "styleId": "bannout-lion",
+    "sortOrder": 1,
+    "labels": [
+      "1983 Olympia prep"
+    ],
+    "focus": [
+      "shoulders",
+      "biceps",
+      "triceps"
+    ],
+    "description": "Old-school shoulder and arm assault — ~35s rest between sets in peak prep.",
+    "source": {
+      "name": "Samir Bannout Workout - Iron and Grit",
+      "url": "https://ironandgrit.com/2021/05/02/samir-bannout-workout/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "front-raise",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "8-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "military-press",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Behind-the-neck press in original program."
+      },
+      {
+        "exerciseId": "upright-row",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 4,
+        "repRange": "6-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "preacher-curl-barbell",
+        "sets": 4,
+        "repRange": "6-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "bannout-legs-abs",
+    "name": "1983 Prep - Legs & Abs",
+    "day": "Day 2",
+    "styleId": "bannout-lion",
+    "sortOrder": 2,
+    "labels": [
+      "1983 Olympia prep"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves",
+      "abs"
+    ],
+    "description": "Heavy squats and high-rep calf work — dense leg development.",
+    "source": {
+      "name": "Samir Bannout - MuscleNet",
+      "url": "https://www.musclenet.com/samir-bannout-workout.html"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 8,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "6",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Light stiff-leg style."
+      },
+      {
+        "exerciseId": "hack-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 6,
+        "repRange": "6-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 8,
+        "repRange": "15+",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "6",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 4,
+        "repRange": "15+",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 4,
+        "repRange": "25+",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-raise-parallel-bars",
+        "sets": 4,
+        "repRange": "25+",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "bannout-chest-back",
+    "name": "1983 Prep - Chest & Back",
+    "day": "Day 3",
+    "styleId": "bannout-lion",
+    "sortOrder": 3,
+    "labels": [
+      "1983 Olympia prep"
+    ],
+    "focus": [
+      "chest",
+      "back",
+      "lats"
+    ],
+    "description": "Dense back and chest — the Christmas-tree back built from rows, chins, and heavy pressing.",
+    "source": {
+      "name": "Samir Bannout - Fitness Volt",
+      "url": "https://fitnessvolt.com/1725/samir-bannout-the-lion-of-lebanon/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 6,
+        "repRange": "4-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 6,
+        "repRange": "6-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-pullover",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 4,
+        "repRange": "8-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Weighted chest dips."
+      },
+      {
+        "exerciseId": "pull-up",
+        "sets": 6,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-chest-biceps",
+    "name": "The Blade - Chest & Biceps",
+    "day": "Day 1",
+    "styleId": "jackson-blade",
+    "sortOrder": 1,
+    "labels": [
+      "Reference split"
+    ],
+    "focus": [
+      "chest",
+      "biceps"
+    ],
+    "description": "Dexter's chest and biceps pairing — compounds first, moderate consistent volume.",
+    "source": {
+      "name": "Dexter Jackson - Generation Iron",
+      "url": "https://generationiron.com/dexter-jackson-workout/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "incline-bench-press-smith",
+        "sets": 4,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "preacher-curl-barbell",
+        "sets": 4,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-biceps-curl",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-quads-calves",
+    "name": "The Blade - Quads & Calves",
+    "day": "Day 2",
+    "styleId": "jackson-blade",
+    "sortOrder": 2,
+    "labels": [
+      "Reference split"
+    ],
+    "focus": [
+      "quads",
+      "calves"
+    ],
+    "description": "High-rep extensions and heavy leg press — quad detail for stage conditioning.",
+    "source": {
+      "name": "The Blade - Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 4,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 5,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-shoulders-triceps",
+    "name": "The Blade - Shoulders, Triceps & Calves",
+    "day": "Day 4",
+    "styleId": "jackson-blade",
+    "sortOrder": 3,
+    "labels": [
+      "Reference split"
+    ],
+    "focus": [
+      "shoulders",
+      "triceps",
+      "calves"
+    ],
+    "description": "Machine pressing and high-rep arm work — supersets common in Dexter's prep.",
+    "source": {
+      "name": "Dexter Jackson Workout - SPC Fitz",
+      "url": "https://www.spcfitz.com/dexter-jackson-workout-routine/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "machine-shoulder-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 5,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 3,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-back-hams",
+    "name": "The Blade - Back & Hamstrings",
+    "day": "Day 5",
+    "styleId": "jackson-blade",
+    "sortOrder": 4,
+    "labels": [
+      "Reference split"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "hamstrings",
+      "lower-back"
+    ],
+    "description": "Back thickness and ham detail — deadlifts, rows, and high-rep leg curls.",
+    "source": {
+      "name": "Dexter Jackson - Fitness Volt",
+      "url": "https://fitnessvolt.com/dexter-jackson-diet-training-program/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "deadlift",
+        "sets": 4,
+        "repRange": "6-8",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-leg-curl",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "gaspari-chest-triceps",
+    "name": "Annihilation - Chest & Triceps",
+    "day": "Day 1",
+    "styleId": "gaspari-annihilation",
+    "sortOrder": 1,
+    "labels": [
+      "Annihilation reference"
+    ],
+    "focus": [
+      "chest",
+      "triceps"
+    ],
+    "description": "Pre-exhaust flyes into pressing — intense week; moderate pump session the following week.",
+    "source": {
+      "name": "Rich Gaspari on Failure Training - Fitness Volt",
+      "url": "https://fitnessvolt.com/rich-gaspari-best-method-building-muscle/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Pre-exhaust before presses on intense weeks."
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "gaspari-back-biceps",
+    "name": "Annihilation - Back & Biceps",
+    "day": "Day 2",
+    "styleId": "gaspari-annihilation",
+    "sortOrder": 2,
+    "labels": [
+      "Annihilation reference"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "biceps"
+    ],
+    "description": "Heavy rows and pulldowns to failure on intense weeks; stretch thoroughly after.",
+    "source": {
+      "name": "Rich Gaspari Profile - Fitness Volt",
+      "url": "https://fitnessvolt.com/15742/rich-gaspari/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "preacher-curl-barbell",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "hammer-curl",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "gaspari-shoulders-traps",
+    "name": "Annihilation - Shoulders & Traps",
+    "day": "Day 4",
+    "styleId": "gaspari-annihilation",
+    "sortOrder": 3,
+    "labels": [
+      "Annihilation reference"
+    ],
+    "focus": [
+      "shoulders",
+      "traps",
+      "rear-delts"
+    ],
+    "description": "Gaspari pre-exhaust shoulder template — laterals and front raises before pressing.",
+    "source": {
+      "name": "Pre-Exhaust Shoulder Training - Gaspari Nutrition",
+      "url": "https://gasparinutrition.com/blogs/old-school-training-tips/pre-exhaustion-in-a-shoulder-workout"
+    },
+    "exercises": [
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Phase 1 pre-exhaust."
+      },
+      {
+        "exerciseId": "front-raise",
+        "sets": 3,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Phase 1 pre-exhaust."
+      },
+      {
+        "exerciseId": "military-press",
+        "sets": 4,
+        "repRange": "8-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Phase 2 compound — moderate weight after pre-exhaust."
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-shrug",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "gaspari-legs",
+    "name": "Annihilation - Legs",
+    "day": "Day 5",
+    "styleId": "gaspari-annihilation",
+    "sortOrder": 4,
+    "labels": [
+      "Annihilation reference"
+    ],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
+    "description": "Leg extensions pre-exhaust into presses and squats — total focus, no distractions.",
+    "source": {
+      "name": "Rich Gaspari Intensity Tips - Fitness Volt",
+      "url": "https://fitnessvolt.com/rich-gaspari-abs-training-intensity-hypertrophy/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ],
+        "notes": "Pre-exhaust quads."
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "hack-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
     ],
     "collection": "legend"
   }

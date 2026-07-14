@@ -13,6 +13,14 @@ const gradients: Record<string, string> = {
   'heavy-duty': 'linear-gradient(135deg, #7a70ff, #3a2fb0)',
   'coleman-powerbuilding': 'linear-gradient(135deg, #f5a524, #b45309)',
   htlt: 'linear-gradient(135deg, #2dd4bf, #0e8a8a)',
+  'heath-fst7': 'linear-gradient(135deg, #e879f9, #86198f)',
+  'arnold-golden-era': 'linear-gradient(135deg, #fcd34d, #b45309)',
+  'haney-stimulate': 'linear-gradient(135deg, #34d399, #047857)',
+  'zane-aesthetics': 'linear-gradient(135deg, #93c5fd, #1d4ed8)',
+  'cutler-volume': 'linear-gradient(135deg, #fb7185, #be123c)',
+  'bannout-lion': 'linear-gradient(135deg, #fbbf24, #92400e)',
+  'jackson-blade': 'linear-gradient(135deg, #cbd5e1, #475569)',
+  'gaspari-annihilation': 'linear-gradient(135deg, #f87171, #991b1b)',
 };
 
 /** A distinct avatar gradient per curator (keyed by style id). */

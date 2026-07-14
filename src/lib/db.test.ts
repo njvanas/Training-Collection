@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
+  compareWorkouts,
   exercises,
   getLegendRoutines,
-  getSortedRoutines,
+  getLegendRoutineGroups,
+  getRoutinesByStyle,
   hevyCatalog,
   hevyFolders,
   legendRoutines,
@@ -10,6 +12,7 @@ import {
   getExercise,
   getRoutinesForExercise,
   validateReferentialIntegrity,
+  workoutDayOrder,
 } from './db';
 
 describe('training database', () => {
@@ -26,7 +29,20 @@ describe('training database', () => {
 
   it('includes all expected methodologies', () => {
     const ids = new Set(styles.map((s) => s.id));
-    for (const id of ['blood-and-guts', 'heavy-duty', 'coleman-powerbuilding', 'htlt']) {
+    for (const id of [
+      'blood-and-guts',
+      'heavy-duty',
+      'coleman-powerbuilding',
+      'htlt',
+      'heath-fst7',
+      'arnold-golden-era',
+      'haney-stimulate',
+      'zane-aesthetics',
+      'cutler-volume',
+      'bannout-lion',
+      'jackson-blade',
+      'gaspari-annihilation',
+    ]) {
       expect(ids.has(id), id).toBe(true);
     }
   });
@@ -37,19 +53,17 @@ describe('training database', () => {
     }
   });
 
-  it('every style has tags and legend plans are sorted within style', () => {
+  it('every style has tags and legend workouts are sorted within routine', () => {
     for (const style of styles) {
       expect(style.tags.length, style.id).toBeGreaterThan(0);
-      const owned = getSortedRoutines(
-        legendRoutines.filter((r) => r.styleId === style.id),
-      );
+      const owned = getRoutinesByStyle(style.id);
       for (let i = 1; i < owned.length; i++) {
-        expect(owned[i].sortOrder).toBeGreaterThanOrEqual(owned[i - 1].sortOrder);
+        expect(compareWorkouts(owned[i - 1], owned[i])).toBeLessThanOrEqual(0);
       }
     }
   });
 
-  it('every legend style has at least one training plan', () => {
+  it('every legend style has at least one training routine workout', () => {
     for (const style of styles) {
       const owned = getLegendRoutines().filter((r) => r.styleId === style.id);
       expect(owned.length, style.id).toBeGreaterThan(0);
@@ -80,7 +94,26 @@ describe('training database', () => {
     expect(hevyCatalog.id).toBe('my-routines');
   });
 
-  it('every legend plan exercise resolves to a real exercise', () => {
+  it('orders Blood & Guts classic workouts by split day', () => {
+    const classic = getRoutinesByStyle('blood-and-guts').map((r) => r.id);
+    expect(classic).toEqual([
+      'classic-chest-biceps',
+      'classic-legs',
+      'classic-shoulders-triceps',
+      'classic-back',
+    ]);
+    expect(workoutDayOrder('Day 5', 99)).toBe(5);
+  });
+
+  it('groups legend workouts into training routines', () => {
+    const groups = getLegendRoutineGroups();
+    expect(groups.length).toBeGreaterThan(0);
+    for (const group of groups) {
+      expect(group.workouts.length).toBeGreaterThan(0);
+    }
+  });
+
+  it('every legend workout exercise resolves to a real exercise', () => {
     for (const routine of getLegendRoutines()) {
       for (const slot of routine.exercises) {
         expect(getExercise(slot.exerciseId), slot.exerciseId).toBeDefined();
@@ -88,7 +121,7 @@ describe('training database', () => {
     }
   });
 
-  it('finds legend plans that use a given exercise', () => {
+  it('finds legend workouts that use a given exercise', () => {
     const used = getRoutinesForExercise('triceps-pushdown');
     expect(used.length).toBeGreaterThan(0);
     expect(used.every((r) => r.collection === 'legend')).toBe(true);

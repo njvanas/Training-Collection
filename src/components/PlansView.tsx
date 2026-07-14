@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
 import {
-  getLegendRoutines,
+  getLegendRoutineGroups,
   getStyle,
   legendRoutines,
   styles,
+  type LegendRoutineGroup,
 } from '../lib/db';
 import { muscleLabel } from '../lib/format';
 import { curatorGradient, curatorInitials } from '../lib/curator';
@@ -34,7 +35,7 @@ function totalSets(routine: Routine): number {
   return routine.exercises.reduce((sum, slot) => sum + slot.sets, 0);
 }
 
-function RoutineDetail({
+function WorkoutDetail({
   routine,
   onBack,
 }: {
@@ -47,7 +48,7 @@ function RoutineDetail({
   return (
     <div>
       <button type="button" className="back" onClick={onBack}>
-        ← All training plans
+        ← All training routines
       </button>
       <div className="detail">
         <div className="detail-head">
@@ -94,35 +95,18 @@ function RoutineDetail({
   );
 }
 
-function PlanCard({
+function WorkoutCard({
   routine,
   onOpen,
 }: {
   routine: Routine;
   onOpen: (id: string) => void;
 }) {
-  const style = routine.styleId ? getStyle(routine.styleId) : undefined;
-  const creator = style?.creator ?? 'Unknown';
-
   return (
     <button type="button" className="plan-card" onClick={() => onOpen(routine.id)}>
-      <div className="plan-curator">
-        {routine.styleId ? (
-          <Avatar name={creator} styleId={routine.styleId} />
-        ) : null}
-        <div className="meta">
-          <div className="k">{style?.name ?? 'Routine'}</div>
-          <div className="v">{creator}</div>
-        </div>
-      </div>
       <h3 className="plan-title">{routine.name}</h3>
       {routine.day ? <div className="plan-day">{routine.day}</div> : null}
       <div className="chips">
-        {routine.labels.slice(0, 2).map((label) => (
-          <span className="chip label-chip" key={label}>
-            {label}
-          </span>
-        ))}
         {routine.focus.slice(0, 3).map((m) => (
           <span className="chip" key={m}>
             {muscleLabel(m)}
@@ -133,9 +117,42 @@ function PlanCard({
         <span className="count">
           {routine.exercises.length} exercises · {totalSets(routine)} sets
         </span>
-        <span className="view-pill">View plan</span>
+        <span className="view-pill">View workout</span>
       </div>
     </button>
+  );
+}
+
+function RoutineGroupSection({
+  group,
+  onOpenWorkout,
+}: {
+  group: LegendRoutineGroup;
+  onOpenWorkout: (id: string) => void;
+}) {
+  const style = getStyle(group.styleId);
+  const creator = style?.creator ?? 'Unknown';
+
+  return (
+    <section className="routine-group" aria-labelledby={`routine-group-${group.id}`}>
+      <div className="routine-group-header" id={`routine-group-${group.id}`}>
+        <Avatar name={creator} styleId={group.styleId} />
+        <div className="routine-group-meta">
+          <h3 className="routine-group-title">
+            {style?.name ?? 'Training routine'}
+          </h3>
+          <p className="sub routine-group-sub">
+            {creator} · {group.label} · {group.workouts.length} workout
+            {group.workouts.length === 1 ? '' : 's'}
+          </p>
+        </div>
+      </div>
+      <div className="plan-grid">
+        {group.workouts.map((workout) => (
+          <WorkoutCard key={workout.id} routine={workout} onOpen={onOpenWorkout} />
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -148,47 +165,60 @@ export function PlansView() {
     ? legendRoutines.find((r) => r.id === selectedId)
     : null;
 
-  const filtered = useMemo(() => {
+  const filteredGroups = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return getLegendRoutines().filter((r) => {
-      if (curator !== 'all' && r.styleId !== curator) return false;
-      if (!q) return true;
-      const style = r.styleId ? getStyle(r.styleId) : undefined;
-      const haystack = [
-        r.name,
-        r.day ?? '',
-        style?.name ?? '',
-        style?.creator ?? '',
-        ...r.labels,
-        ...r.focus,
-      ]
-        .join(' ')
-        .toLowerCase();
-      return haystack.includes(q);
+    return getLegendRoutineGroups().flatMap((group) => {
+      if (curator !== 'all' && group.styleId !== curator) return [];
+
+      const style = getStyle(group.styleId);
+      const workouts = group.workouts.filter((workout) => {
+        if (!q) return true;
+        const haystack = [
+          workout.name,
+          workout.day ?? '',
+          style?.name ?? '',
+          style?.creator ?? '',
+          group.label,
+          ...workout.labels,
+          ...workout.focus,
+        ]
+          .join(' ')
+          .toLowerCase();
+        return haystack.includes(q);
+      });
+
+      if (workouts.length === 0) return [];
+      return [{ ...group, workouts }];
     });
   }, [query, curator]);
 
+  const workoutCount = filteredGroups.reduce(
+    (sum, group) => sum + group.workouts.length,
+    0,
+  );
+
   if (selected) {
     return (
-      <RoutineDetail routine={selected} onBack={() => setSelectedId(null)} />
+      <WorkoutDetail routine={selected} onBack={() => setSelectedId(null)} />
     );
   }
 
   return (
     <div>
       <div className="section legend-intro">
-        <h2 className="section-heading">Training plans</h2>
+        <h2 className="section-heading">Training routines</h2>
         <p className="sub">
-          Complete workout days from each legend — every exercise, warm-up, and
-          working set spelled out. Read the Methodologies tab first for context,
-          then pick a plan to study or run.
+          Each training routine is a full legend split — a collection of
+          workout days with every exercise, warm-up, and working set spelled
+          out. Read the Methodologies tab first for context, then open a workout
+          to study or run.
         </p>
       </div>
 
       <div className="toolbar">
         <input
           className="search"
-          placeholder="Search plans by name, muscle, or curator..."
+          placeholder="Search routines, workouts, muscles, or curator..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -224,14 +254,19 @@ export function PlansView() {
       </div>
 
       <div className="section-title">
-        Training plans ({filtered.length})
+        Training routines ({filteredGroups.length}) · {workoutCount} workout
+        {workoutCount === 1 ? '' : 's'}
       </div>
-      {filtered.length === 0 ? (
-        <div className="empty">No plans match your search.</div>
+      {filteredGroups.length === 0 ? (
+        <div className="empty">No routines match your search.</div>
       ) : (
-        <div className="plan-grid">
-          {filtered.map((routine) => (
-            <PlanCard key={routine.id} routine={routine} onOpen={setSelectedId} />
+        <div className="routine-groups">
+          {filteredGroups.map((group) => (
+            <RoutineGroupSection
+              key={group.id}
+              group={group}
+              onOpenWorkout={setSelectedId}
+            />
           ))}
         </div>
       )}
