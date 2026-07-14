@@ -22,7 +22,7 @@ jobs:
       - name: Setup Pages
         # enablement: true turns GitHub Pages on automatically the first time
         # this runs, so no manual repo-settings toggle is required.
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
           enablement: true
       - uses: actions/setup-node@v4
