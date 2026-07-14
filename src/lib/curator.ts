@@ -1,0 +1,21 @@
+/** Two-letter initials for a curator/creator name, e.g. "Dorian Yates" -> "DY". */
+export function curatorInitials(name: string): string {
+  return name
+    .split(/\s+/)
+    .map((word) => word.charAt(0))
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+}
+
+const gradients: Record<string, string> = {
+  'blood-and-guts': 'linear-gradient(135deg, #ef5350, #8b1a1a)',
+  'heavy-duty': 'linear-gradient(135deg, #7a70ff, #3a2fb0)',
+  'coleman-powerbuilding': 'linear-gradient(135deg, #f5a524, #b45309)',
+  htlt: 'linear-gradient(135deg, #2dd4bf, #0e8a8a)',
+};
+
+/** A distinct avatar gradient per curator (keyed by style id). */
+export function curatorGradient(styleId: string): string {
+  return gradients[styleId] ?? 'linear-gradient(135deg, #5b4fe8, #7a70ff)';
+}

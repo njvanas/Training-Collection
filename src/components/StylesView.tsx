@@ -1,5 +1,6 @@
 import { styles } from '../lib/db';
 import { titleCase } from '../lib/format';
+import { curatorGradient, curatorInitials } from '../lib/curator';
 
 export function StylesView() {
   return (
@@ -7,8 +8,19 @@ export function StylesView() {
       {styles.map((style) => (
         <div key={style.id} style={{ marginBottom: 32 }}>
           <div className="section">
-            <h2>{style.name}</h2>
-            <p className="sub">Created by {style.creator}</p>
+            <div className="method-head">
+              <span
+                className="avatar lg"
+                style={{ background: curatorGradient(style.id) }}
+                aria-hidden
+              >
+                {curatorInitials(style.creator)}
+              </span>
+              <div className="who">
+                <div className="name">{style.name}</div>
+                <div className="by">Curated by {style.creator}</div>
+              </div>
+            </div>
             <p className="principles">{style.summary}</p>
           </div>
 

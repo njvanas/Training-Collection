@@ -1,21 +1,21 @@
 import { useState } from 'react';
 import { StylesView } from './components/StylesView';
 import { ExercisesView } from './components/ExercisesView';
-import { RoutinesView } from './components/RoutinesView';
+import { PlansView } from './components/PlansView';
 import { exercises, routines, styles } from './lib/db';
 
-type Tab = 'routines' | 'exercises' | 'styles';
+type Tab = 'plans' | 'exercises' | 'styles';
 
 const TABS: { id: Tab; label: string }[] = [
-  { id: 'routines', label: 'Routines' },
+  { id: 'plans', label: 'Plans' },
   { id: 'exercises', label: 'Exercises' },
-  { id: 'styles', label: 'Methodologies' },
+  { id: 'styles', label: 'Curators' },
 ];
 
 function renderTab(tab: Tab) {
   switch (tab) {
-    case 'routines':
-      return <RoutinesView />;
+    case 'plans':
+      return <PlansView />;
     case 'exercises':
       return <ExercisesView />;
     case 'styles':
@@ -28,21 +28,33 @@ function renderTab(tab: Tab) {
 }
 
 export function App() {
-  const [tab, setTab] = useState<Tab>('routines');
+  const [tab, setTab] = useState<Tab>('plans');
 
   return (
     <div className="app">
-      <header className="header">
+      <header className="hero">
         <h1>
-          Iron <span className="accent">Legends</span> — Training Collection
+          Iron <span className="accent">Legends</span>
         </h1>
         <p>
-          A personal database of bodybuilding's greatest training methodologies —
-          Dorian Yates' Blood &amp; Guts, Mike Mentzer's Heavy Duty, Ronnie
-          Coleman's high-volume powerbuilding, and Greg Doucette's Harder Than Last
-          Time. {styles.length} methodologies, {routines.length} routines, and{' '}
-          {exercises.length} exercises to reference for your Hevy workouts.
+          Training plans from bodybuilding's greatest, each with the curator behind
+          it — Dorian Yates, Mike Mentzer, Ronnie Coleman &amp; Greg Doucette. Find a
+          plan, follow the exact split, and log it in Hevy.
         </p>
+        <div className="hero-stats">
+          <div className="hero-stat">
+            <div className="n">{styles.length}</div>
+            <div className="l">Curators</div>
+          </div>
+          <div className="hero-stat">
+            <div className="n">{routines.length}</div>
+            <div className="l">Plans</div>
+          </div>
+          <div className="hero-stat">
+            <div className="n">{exercises.length}</div>
+            <div className="l">Exercises</div>
+          </div>
+        </div>
       </header>
 
       <nav className="tabs">
