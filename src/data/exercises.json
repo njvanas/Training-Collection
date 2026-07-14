@@ -1,0 +1,553 @@
+[
+  {
+    "id": "reverse-grip-lat-pulldown",
+    "name": "Reverse Grip Lat Pulldown",
+    "hevyName": "Reverse Grip Lat Pulldown (Cable)",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": ["back", "biceps"],
+    "equipment": "cable",
+    "category": "compound",
+    "cues": [
+      "Chest up, drive elbows down toward your hips.",
+      "Underhand grip roughly shoulder-width.",
+      "1-2s stretch pause at the top on the last rep."
+    ],
+    "bloodAndGutsNote": "A Yates staple for the lower lats. Pull with the elbows, not the hands, and hold the fully stretched position before the working set's final reps."
+  },
+  {
+    "id": "t-bar-row",
+    "name": "T-Bar Row",
+    "hevyName": "T Bar Row",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lats", "biceps", "traps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Hinge at the hips with a neutral spine.",
+      "Row the bar to the lower ribs, squeeze the shoulder blades.",
+      "Controlled negative, no jerking."
+    ],
+    "bloodAndGutsNote": "Yates built his thickness on heavy rows. Use straps so grip never limits the back, and take the one all-out set to failure."
+  },
+  {
+    "id": "iso-lateral-row",
+    "name": "Iso-Lateral Row",
+    "hevyName": "Iso-Lateral Row (Machine)",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lats", "biceps"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Full stretch at the front, slight torso twist.",
+      "Drive elbow back and down.",
+      "Pause and squeeze at the contracted position."
+    ],
+    "bloodAndGutsNote": "Machine rows let you push to failure safely without a spotter. First warm-up is very light to groove the movement."
+  },
+  {
+    "id": "triceps-pushdown",
+    "name": "Triceps Pushdown",
+    "hevyName": "Triceps Pushdown",
+    "primaryMuscle": "triceps",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Elbows pinned to your sides.",
+      "Full lockout, control the return.",
+      "Keep torso still."
+    ],
+    "bloodAndGutsNote": "Great finisher; extend the failure set with a drop set or rest-pause."
+  },
+  {
+    "id": "cable-biceps-curl",
+    "name": "Cable Biceps Curl",
+    "hevyName": "Bicep Curl (Cable)",
+    "primaryMuscle": "biceps",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Elbows fixed at the sides.",
+      "Constant tension - don't fully relax at the bottom.",
+      "Squeeze hard at the top."
+    ]
+  },
+  {
+    "id": "back-extension",
+    "name": "Back Extension (Weighted Hyperextension)",
+    "hevyName": "Back Extension (Weighted Hyperextension)",
+    "primaryMuscle": "lower-back",
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "equipment": "bodyweight",
+    "category": "isolation",
+    "cues": [
+      "Pure hip hinge, keep a neutral spine.",
+      "Squeeze glutes at the top.",
+      "10s iso-hold at the end of the set."
+    ]
+  },
+  {
+    "id": "chest-fly-machine",
+    "name": "Chest Fly (Machine)",
+    "hevyName": "Chest Fly (Machine)",
+    "primaryMuscle": "chest",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Slight elbow bend held constant.",
+      "Feel the stretch across the chest.",
+      "Squeeze the pecs together at the front."
+    ],
+    "bloodAndGutsNote": "Used as a pre-exhaust before pressing so the chest fails before the triceps."
+  },
+  {
+    "id": "incline-bench-press-smith",
+    "name": "Incline Bench Press (Smith Machine)",
+    "hevyName": "Incline Bench Press (Smith Machine)",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["shoulders", "triceps"],
+    "equipment": "smith-machine",
+    "category": "compound",
+    "cues": [
+      "Bench set to ~30 degrees.",
+      "Lower to the upper chest with control.",
+      "Drive up hard; the Smith path lets you push to failure solo."
+    ],
+    "bloodAndGutsNote": "Yates favored the Smith machine for pressing because the fixed path is safe to take beyond failure with forced reps."
+  },
+  {
+    "id": "chest-press-machine",
+    "name": "Chest Press (Machine)",
+    "hevyName": "Chest Press (Machine)",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["triceps", "shoulders"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Handles at mid-chest height.",
+      "Full press without locking out hard.",
+      "Controlled 2-3s negative."
+    ]
+  },
+  {
+    "id": "preacher-curl-barbell",
+    "name": "Preacher Curl (Barbell)",
+    "hevyName": "Preacher Curl (Barbell)",
+    "primaryMuscle": "biceps",
+    "equipment": "barbell",
+    "category": "isolation",
+    "cues": [
+      "Back of arms flat on the pad.",
+      "Don't bounce out of the bottom.",
+      "Control the stretch, hard squeeze at the top."
+    ]
+  },
+  {
+    "id": "behind-the-back-cable-curl",
+    "name": "Behind the Back Cable Curl",
+    "hevyName": "Behind the Back Curl (Cable)",
+    "primaryMuscle": "biceps",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Stand slightly ahead of the low pulley so the arm is behind the torso.",
+      "Keep the elbow back to load the long head.",
+      "Constant tension throughout."
+    ]
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension (Machine)",
+    "hevyName": "Leg Extension (Machine)",
+    "primaryMuscle": "quads",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Lock the hips down, control any swing.",
+      "Squeeze at full lockout.",
+      "10-15s iso-hold plus 2-3 partials on the last rep."
+    ],
+    "bloodAndGutsNote": "Yates used leg extensions to pre-exhaust the quads before hack squats or leg presses."
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": "Lying Leg Curl (Machine)",
+    "hevyName": "Lying Leg Curl (Machine)",
+    "primaryMuscle": "hamstrings",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Hips pressed into the pad.",
+      "Curl fully, squeeze the hamstrings.",
+      "Slow the eccentric, no dropping the weight."
+    ]
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "Seated Calf Raise",
+    "hevyName": "Seated Calf Raise",
+    "primaryMuscle": "calves",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "2-3s stretch at the bottom, 1s peak hold at the top.",
+      "Full range every rep.",
+      "Drop ~25% and rep to a burn to finish."
+    ]
+  },
+  {
+    "id": "hack-squat",
+    "name": "Hack Squat (Machine)",
+    "hevyName": "Hack Squat (Machine)",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Feet mid-platform, shoulder-width.",
+      "Descend under control to depth.",
+      "Drive through mid-foot; keep constant tension."
+    ],
+    "bloodAndGutsNote": "A safer alternative to the barbell squat that still lets you go to failure. Yates leaned on machines to overload the quads."
+  },
+  {
+    "id": "leg-raise-parallel-bars",
+    "name": "Leg Raise (Parallel Bars)",
+    "hevyName": "Leg Raise Parallel Bars",
+    "primaryMuscle": "abs",
+    "equipment": "bodyweight",
+    "category": "isolation",
+    "cues": [
+      "Support on the elbows, back flat against the pad.",
+      "Raise with a posterior pelvic tilt, not just the hip flexors.",
+      "Lower slowly, no swinging."
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift (Barbell)",
+    "hevyName": "Romanian Deadlift (Barbell)",
+    "primaryMuscle": "hamstrings",
+    "secondaryMuscles": ["glutes", "lower-back"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Hinge at the hips, soft knees.",
+      "Bar tracks close to the shins.",
+      "2s stretch at the bottom, feel the hamstrings load."
+    ]
+  },
+  {
+    "id": "standing-leg-curl",
+    "name": "Standing Leg Curl",
+    "hevyName": "Standing Leg Curls",
+    "primaryMuscle": "hamstrings",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "One leg at a time, hips still.",
+      "Curl fully and squeeze.",
+      "Slow controlled return."
+    ]
+  },
+  {
+    "id": "leg-press-horizontal",
+    "name": "Leg Press (Horizontal)",
+    "hevyName": "Leg Press Horizontal (Machine)",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Control depth with the pelvis, don't let the low back round.",
+      "Push through the mid-foot.",
+      "3-4 slow eccentrics to finish the set."
+    ]
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": "Standing Calf Raise (Machine)",
+    "hevyName": "Standing Calf Raise (Machine)",
+    "primaryMuscle": "calves",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Full stretch at the bottom.",
+      "Rise onto the big toe, peak squeeze.",
+      "High reps, constant tension."
+    ]
+  },
+  {
+    "id": "decline-crunch",
+    "name": "Decline Crunch",
+    "hevyName": "Decline Crunch",
+    "primaryMuscle": "abs",
+    "equipment": "bodyweight",
+    "category": "isolation",
+    "cues": [
+      "Posterior pelvic tilt, no pulling on the neck.",
+      "Full exhale at the top.",
+      "Control the way down."
+    ]
+  },
+  {
+    "id": "lateral-raise-machine",
+    "name": "Lateral Raise (Machine)",
+    "hevyName": "Lateral Raise (Machine)",
+    "primaryMuscle": "shoulders",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Lead with the elbows.",
+      "Raise to shoulder height, no shrugging.",
+      "Controlled descent."
+    ]
+  },
+  {
+    "id": "dumbbell-shrug",
+    "name": "Dumbbell Shrug",
+    "hevyName": "Shrug (Dumbbell)",
+    "primaryMuscle": "traps",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Straight up-and-down, no rolling.",
+      "Hold the top squeeze for a second.",
+      "Full stretch at the bottom."
+    ]
+  },
+  {
+    "id": "rear-delt-fly-machine",
+    "name": "Rear Delt Reverse Fly (Machine)",
+    "hevyName": "Rear Delt Reverse Fly (Machine)",
+    "primaryMuscle": "rear-delts",
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Sweep the arms wide, avoid using the traps.",
+      "Squeeze the rear delts at the back.",
+      "First warm-up very light."
+    ]
+  },
+  {
+    "id": "weighted-triceps-dip",
+    "name": "Weighted Triceps Dip",
+    "hevyName": "Triceps Dip (Weighted)",
+    "primaryMuscle": "triceps",
+    "secondaryMuscles": ["chest", "shoulders"],
+    "equipment": "bodyweight",
+    "category": "compound",
+    "cues": [
+      "Torso fairly upright to bias triceps.",
+      "Elbows tucked, press through the heel of the palm.",
+      "Full lockout at the top."
+    ]
+  },
+  {
+    "id": "overhead-triceps-extension-cable",
+    "name": "Overhead Triceps Extension (Cable)",
+    "hevyName": "Overhead Triceps Extension (Cable)",
+    "primaryMuscle": "triceps",
+    "equipment": "cable",
+    "category": "isolation",
+    "cues": [
+      "Split the rope at the bottom.",
+      "Keep the shoulders from drifting forward.",
+      "10s stretch on the last rep."
+    ]
+  },
+  {
+    "id": "treadmill",
+    "name": "Treadmill",
+    "hevyName": "Treadmill",
+    "primaryMuscle": "cardio",
+    "equipment": "machine",
+    "category": "cardio",
+    "cues": [
+      "Target fat-burning zone: (220 - age) x 50-70%.",
+      "Steady pace, upright posture.",
+      "Used for off-season conditioning, not to interfere with recovery."
+    ]
+  },
+  {
+    "id": "incline-barbell-press",
+    "name": "Incline Barbell Press",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": ["shoulders", "triceps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Bench at ~30 degrees.",
+      "Lower to the upper chest, elbows ~45 degrees.",
+      "Explode up, control down."
+    ],
+    "bloodAndGutsNote": "Yates opened his chest workout with incline pressing to prioritize the upper chest."
+  },
+  {
+    "id": "incline-dumbbell-flye",
+    "name": "Incline Dumbbell Flye",
+    "primaryMuscle": "chest",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Slight, fixed elbow bend.",
+      "Deep stretch, don't overextend the shoulders.",
+      "Squeeze at the top."
+    ]
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row (Bent-Over)",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lats", "biceps", "traps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Torso ~45 degrees, neutral spine.",
+      "Row to the lower ribs.",
+      "Straps on so grip doesn't fail first."
+    ],
+    "bloodAndGutsNote": "The signature Yates underhand-grip row that built his legendary back thickness."
+  },
+  {
+    "id": "machine-pullover",
+    "name": "Machine Pullover",
+    "primaryMuscle": "lats",
+    "secondaryMuscles": ["chest"],
+    "equipment": "machine",
+    "category": "isolation",
+    "cues": [
+      "Drive elbows down and through.",
+      "Feel the lats stretch overhead.",
+      "Controlled squeeze at the bottom."
+    ],
+    "bloodAndGutsNote": "Yates used the Nautilus pullover as a lat pre-exhaust before rows and pulldowns."
+  },
+  {
+    "id": "deadlift",
+    "name": "Deadlift (Barbell)",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lower-back", "hamstrings", "glutes", "traps"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Neutral spine, brace hard.",
+      "Push the floor away, bar close to the body.",
+      "Lock out with the glutes."
+    ],
+    "bloodAndGutsNote": "Yates finished back day with heavy deadlifts for one brutal all-out set."
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "primaryMuscle": "back",
+    "secondaryMuscles": ["lats", "biceps"],
+    "equipment": "cable",
+    "category": "compound",
+    "cues": [
+      "Tall torso, minimal swing.",
+      "Pull to the navel, squeeze the shoulder blades.",
+      "Full stretch each rep."
+    ]
+  },
+  {
+    "id": "machine-shoulder-press",
+    "name": "Shoulder Press (Machine)",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": ["triceps"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Handles at shoulder height.",
+      "Press without slamming the lockout.",
+      "Controlled negative."
+    ],
+    "bloodAndGutsNote": "Yates pressed on a machine so he could safely take shoulders to failure with forced reps."
+  },
+  {
+    "id": "smith-machine-shoulder-press",
+    "name": "Shoulder Press (Smith Machine)",
+    "primaryMuscle": "shoulders",
+    "secondaryMuscles": ["triceps"],
+    "equipment": "smith-machine",
+    "category": "compound",
+    "cues": [
+      "Bar starts at chin height.",
+      "Press overhead in the fixed track.",
+      "Lower under control to the top of the chest."
+    ]
+  },
+  {
+    "id": "barbell-curl",
+    "name": "Barbell Curl",
+    "primaryMuscle": "biceps",
+    "equipment": "barbell",
+    "category": "isolation",
+    "cues": [
+      "Elbows pinned at the sides.",
+      "No swinging or leaning back.",
+      "Full squeeze, controlled negative."
+    ]
+  },
+  {
+    "id": "dumbbell-concentration-curl",
+    "name": "Dumbbell Concentration Curl",
+    "primaryMuscle": "biceps",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Elbow braced on the inner thigh.",
+      "Curl fully, hard peak squeeze.",
+      "Slow negative."
+    ]
+  },
+  {
+    "id": "lying-triceps-extension",
+    "name": "Lying Triceps Extension (Skull Crusher)",
+    "primaryMuscle": "triceps",
+    "equipment": "barbell",
+    "category": "isolation",
+    "cues": [
+      "Elbows pointed at the ceiling, kept still.",
+      "Lower to the forehead/behind the head.",
+      "Extend to a strong lockout."
+    ]
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press (45-Degree)",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": ["glutes", "hamstrings"],
+    "equipment": "machine",
+    "category": "compound",
+    "cues": [
+      "Feet shoulder-width, mid-platform.",
+      "Lower to a deep but safe range.",
+      "Push through the whole foot, no locking hard."
+    ]
+  },
+  {
+    "id": "barbell-squat",
+    "name": "Barbell Back Squat",
+    "primaryMuscle": "quads",
+    "secondaryMuscles": ["glutes", "hamstrings", "lower-back"],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Brace, chest up.",
+      "Descend to at least parallel.",
+      "Drive through mid-foot."
+    ]
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell Lateral Raise",
+    "primaryMuscle": "shoulders",
+    "equipment": "dumbbell",
+    "category": "isolation",
+    "cues": [
+      "Lead with the elbows, slight lean forward.",
+      "Raise to shoulder height.",
+      "Control the descent, no swinging."
+    ]
+  }
+]

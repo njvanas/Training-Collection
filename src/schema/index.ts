@@ -1,0 +1,144 @@
+import { z } from 'zod';
+
+/** Muscle groups used to classify exercises and routine focus. */
+export const muscleGroupSchema = z.enum([
+  'chest',
+  'back',
+  'lats',
+  'traps',
+  'shoulders',
+  'rear-delts',
+  'biceps',
+  'triceps',
+  'forearms',
+  'quads',
+  'hamstrings',
+  'glutes',
+  'calves',
+  'abs',
+  'lower-back',
+  'cardio',
+]);
+export type MuscleGroup = z.infer<typeof muscleGroupSchema>;
+
+/** Equipment required to perform an exercise. */
+export const equipmentSchema = z.enum([
+  'barbell',
+  'dumbbell',
+  'cable',
+  'machine',
+  'smith-machine',
+  'bodyweight',
+  'plate-loaded',
+  'other',
+]);
+export type Equipment = z.infer<typeof equipmentSchema>;
+
+/** Whether an exercise trains many joints, one joint, or is conditioning. */
+export const exerciseCategorySchema = z.enum(['compound', 'isolation', 'cardio']);
+export type ExerciseCategory = z.infer<typeof exerciseCategorySchema>;
+
+/** Beyond-failure intensity techniques that define the Blood & Guts style. */
+export const intensityTechniqueSchema = z.enum([
+  'forced-reps',
+  'rest-pause',
+  'negatives',
+  'drop-set',
+  'partials',
+  'iso-hold',
+  'static-stretch',
+]);
+export type IntensityTechnique = z.infer<typeof intensityTechniqueSchema>;
+
+/** A single exercise in the library. */
+export const exerciseSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  /** Name as it appears in the Hevy app, when it differs from `name`. */
+  hevyName: z.string().min(1).optional(),
+  aliases: z.array(z.string().min(1)).default([]),
+  primaryMuscle: muscleGroupSchema,
+  secondaryMuscles: z.array(muscleGroupSchema).default([]),
+  equipment: equipmentSchema,
+  category: exerciseCategorySchema,
+  /** Short execution cues (setup, tempo, range of motion). */
+  cues: z.array(z.string().min(1)).default([]),
+  /** How this movement is used within Blood & Guts training. */
+  bloodAndGutsNote: z.string().min(1).optional(),
+});
+export type Exercise = z.infer<typeof exerciseSchema>;
+
+/** A single line of a training style's weekly split. */
+export const splitDaySchema = z.object({
+  day: z.string().min(1),
+  focus: z.string().min(1),
+});
+export type SplitDay = z.infer<typeof splitDaySchema>;
+
+export const sourceSchema = z.object({
+  title: z.string().min(1),
+  url: z.string().url(),
+});
+export type Source = z.infer<typeof sourceSchema>;
+
+/** A training methodology such as Dorian Yates' Blood & Guts. */
+export const trainingStyleSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  creator: z.string().min(1),
+  summary: z.string().min(1),
+  principles: z.array(z.string().min(1)).min(1),
+  intensityTechniques: z.array(intensityTechniqueSchema).default([]),
+  guidelines: z.object({
+    trainingDaysPerWeek: z.string().min(1),
+    frequencyPerMuscle: z.string().min(1),
+    warmupProtocol: z.string().min(1),
+    workingSetProtocol: z.string().min(1),
+    repRanges: z
+      .array(z.object({ target: z.string().min(1), range: z.string().min(1) }))
+      .min(1),
+  }),
+  splitOverview: z.array(splitDaySchema).min(1),
+  sources: z.array(sourceSchema).default([]),
+});
+export type TrainingStyle = z.infer<typeof trainingStyleSchema>;
+
+/** A weight/intensity target for one set (e.g. warm-up or working set). */
+export const setTargetSchema = z.object({
+  /** Short label such as W1, W2, F1 (failure set), F2. */
+  label: z.string().min(1),
+  /** Guidance for the load, e.g. "30-40%" of the working weight. */
+  intensity: z.string().min(1),
+});
+export type SetTarget = z.infer<typeof setTargetSchema>;
+
+/** One exercise slot inside a routine. */
+export const routineExerciseSchema = z.object({
+  exerciseId: z.string().min(1),
+  sets: z.number().int().positive(),
+  repRange: z.string().min(1),
+  /** Exercises sharing a superset group id are performed back-to-back. */
+  supersetGroup: z.string().min(1).optional(),
+  setScheme: z.array(setTargetSchema).default([]),
+  notes: z.string().min(1).optional(),
+});
+export type RoutineExercise = z.infer<typeof routineExerciseSchema>;
+
+/** A concrete workout that references exercises and a training style. */
+export const routineSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  day: z.string().min(1).optional(),
+  styleId: z.string().min(1),
+  focus: z.array(muscleGroupSchema).min(1),
+  description: z.string().min(1).optional(),
+  source: z
+    .object({ name: z.string().min(1), url: z.string().url() })
+    .optional(),
+  exercises: z.array(routineExerciseSchema).min(1),
+});
+export type Routine = z.infer<typeof routineSchema>;
+
+export const exercisesFileSchema = z.array(exerciseSchema);
+export const stylesFileSchema = z.array(trainingStyleSchema);
+export const routinesFileSchema = z.array(routineSchema);

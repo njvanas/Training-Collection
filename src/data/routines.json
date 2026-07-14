@@ -1,0 +1,374 @@
+[
+  {
+    "id": "hevy-back",
+    "name": "Day 1 - Back",
+    "day": "Day 1",
+    "styleId": "blood-and-guts",
+    "focus": ["back", "lats", "biceps", "triceps", "lower-back"],
+    "description": "Personal Hevy back day from the 'Bulk like Dorian' folder. Two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      {
+        "exerciseId": "reverse-grip-lat-pulldown",
+        "sets": 4,
+        "repRange": "6-12",
+        "notes": "Chest up, elbows to hips. 1-2s stretch pause on the last rep.",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "iso-lateral-row",
+        "sets": 4,
+        "repRange": "6-15",
+        "notes": "Full stretch, slight torso twist.",
+        "setScheme": [
+          { "label": "W1", "intensity": "very light" },
+          { "label": "W2", "intensity": "60-70%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "12-16",
+        "supersetGroup": "A"
+      },
+      {
+        "exerciseId": "cable-biceps-curl",
+        "sets": 4,
+        "repRange": "8-15",
+        "supersetGroup": "A"
+      },
+      {
+        "exerciseId": "back-extension",
+        "sets": 3,
+        "repRange": "8-12",
+        "notes": "Pure hinge, neutral spine. 10s iso-hold at the end. First set easy.",
+        "setScheme": [
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hevy-chest-biceps",
+    "name": "Day 2 - Chest + Biceps",
+    "day": "Day 2",
+    "styleId": "blood-and-guts",
+    "focus": ["chest", "biceps", "triceps"],
+    "description": "Personal Hevy chest and biceps day from the 'Bulk like Dorian' folder.",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      {
+        "exerciseId": "chest-fly-machine",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "incline-bench-press-smith",
+        "sets": 6,
+        "repRange": "4-15"
+      },
+      {
+        "exerciseId": "chest-press-machine",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "preacher-curl-barbell",
+        "sets": 4,
+        "repRange": "6-15",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "behind-the-back-cable-curl",
+        "sets": 4,
+        "repRange": "6-15",
+        "supersetGroup": "A",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" },
+          { "label": "F2", "intensity": "90%" }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "8-15",
+        "supersetGroup": "A"
+      }
+    ]
+  },
+  {
+    "id": "hevy-legs-quad",
+    "name": "Day 4 - Legs (Quad-priority)",
+    "day": "Day 4",
+    "styleId": "blood-and-guts",
+    "focus": ["quads", "hamstrings", "calves", "abs"],
+    "description": "Personal Hevy quad-focused leg day from the 'Bulk like Dorian' folder.",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      {
+        "exerciseId": "leg-extension",
+        "sets": 6,
+        "repRange": "6-15",
+        "notes": "Lock hips down, control the swing. 10-15s iso-hold + 2-3 partials on the last rep. First set very light.",
+        "setScheme": [
+          { "label": "W2", "intensity": "60-70%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      { "exerciseId": "lying-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 5,
+        "repRange": "6-14",
+        "notes": "2-3s stretch, 1s peak hold. Drop ~25% then rep to a burn. First set easy with long stretches.",
+        "setScheme": [{ "label": "F1", "intensity": "100%" }]
+      },
+      { "exerciseId": "hack-squat", "sets": 6, "repRange": "8-15" },
+      { "exerciseId": "leg-raise-parallel-bars", "sets": 5, "repRange": "10-17" }
+    ]
+  },
+  {
+    "id": "hevy-legs-ham",
+    "name": "Day 4 - Legs (Ham-priority)",
+    "day": "Day 4",
+    "styleId": "blood-and-guts",
+    "focus": ["hamstrings", "quads", "glutes", "calves", "abs"],
+    "description": "Personal Hevy hamstring-focused leg day variant from the 'Bulk like Dorian' folder.",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      { "exerciseId": "lying-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 6,
+        "repRange": "6-12",
+        "notes": "Hinge, 2s stretch, keep the bar close to the shins."
+      },
+      { "exerciseId": "standing-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "leg-press-horizontal",
+        "sets": 5,
+        "repRange": "6-15",
+        "notes": "Depth with pelvis control, push through the mid-foot. 3-4 slow eccentrics at the end."
+      },
+      {
+        "exerciseId": "leg-extension",
+        "sets": 6,
+        "repRange": "6-15",
+        "notes": "Lock hips down, control the swing. 10-15s iso-hold + 2-3 partials on the last rep."
+      },
+      { "exerciseId": "standing-calf-raise", "sets": 5, "repRange": "10-30" },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 5,
+        "repRange": "8-20",
+        "notes": "Posterior pelvic tilt, no neck pull. Full exhale at the top."
+      }
+    ]
+  },
+  {
+    "id": "hevy-shoulders-triceps",
+    "name": "Day 5 - Shoulders + Triceps",
+    "day": "Day 5",
+    "styleId": "blood-and-guts",
+    "focus": ["shoulders", "rear-delts", "traps", "triceps"],
+    "description": "Personal Hevy shoulders and triceps day from the 'Bulk like Dorian' folder.",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      { "exerciseId": "lateral-raise-machine", "sets": 4, "repRange": "8-15" },
+      { "exerciseId": "dumbbell-shrug", "sets": 5, "repRange": "8-15" },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 4,
+        "repRange": "8-15",
+        "notes": "Sweep wide, avoid the traps. First set very light.",
+        "setScheme": [
+          { "label": "W2", "intensity": "60-70%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 4,
+        "repRange": "5-10",
+        "notes": "Elbows tucked, press through the heel of the palm.",
+        "setScheme": [
+          { "label": "W1", "intensity": "30-40%" },
+          { "label": "W2", "intensity": "55-65%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      {
+        "exerciseId": "overhead-triceps-extension-cable",
+        "sets": 4,
+        "repRange": "8-15",
+        "notes": "Split the rope at the bottom, no shoulder drift. 10s stretch on the last rep. First set very light.",
+        "setScheme": [
+          { "label": "W2", "intensity": "60-70%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      { "exerciseId": "triceps-pushdown", "sets": 4, "repRange": "8-15" }
+    ]
+  },
+  {
+    "id": "hevy-walking",
+    "name": "Walking = Good",
+    "styleId": "blood-and-guts",
+    "focus": ["cardio"],
+    "description": "Low-intensity steady-state cardio for off-season conditioning. Stay in the fat-burning zone so it doesn't interfere with recovery.",
+    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "exercises": [
+      {
+        "exerciseId": "treadmill",
+        "sets": 1,
+        "repRange": "20-40 min",
+        "notes": "Fat-burning HR = (220 - age) x 50-70%. e.g. 30y ~122-144 bpm, 40y ~115-137 bpm."
+      }
+    ]
+  },
+  {
+    "id": "classic-chest-biceps",
+    "name": "Classic - Chest & Biceps",
+    "day": "Day 1",
+    "styleId": "blood-and-guts",
+    "focus": ["chest", "biceps"],
+    "description": "Reference Blood & Guts chest and biceps session as Dorian Yates ran it: a couple of warm-ups then one all-out working set (F1) taken beyond failure.",
+    "source": { "name": "The Barbell - Dorian Yates Guide", "url": "https://thebarbell.com/dorian-yates-workout/" },
+    "exercises": [
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 3,
+        "repRange": "6-8",
+        "notes": "Two warm-ups then one working set to failure + 2-3 forced reps.",
+        "setScheme": [
+          { "label": "W1", "intensity": "50%" },
+          { "label": "W2", "intensity": "75%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-flye",
+        "sets": 2,
+        "repRange": "6-10",
+        "setScheme": [
+          { "label": "W1", "intensity": "60%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      { "exerciseId": "chest-press-machine", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 2,
+        "repRange": "6-8",
+        "setScheme": [
+          { "label": "W1", "intensity": "60%" },
+          { "label": "F1", "intensity": "100%" }
+        ]
+      },
+      { "exerciseId": "dumbbell-concentration-curl", "sets": 2, "repRange": "6-8" }
+    ]
+  },
+  {
+    "id": "classic-back",
+    "name": "Classic - Back & Rear Delts",
+    "day": "Day 5",
+    "styleId": "blood-and-guts",
+    "focus": ["back", "lats", "rear-delts", "biceps", "lower-back"],
+    "description": "Reference Blood & Guts back session. Yates pre-exhausted the lats with pullovers before heavy rows and finished with deadlifts.",
+    "source": { "name": "Fitness Volt - Blood and Guts", "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/" },
+    "exercises": [
+      { "exerciseId": "machine-pullover", "sets": 2, "repRange": "8-10", "notes": "Lat pre-exhaust." },
+      { "exerciseId": "reverse-grip-lat-pulldown", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 3,
+        "repRange": "6-8",
+        "notes": "The signature Yates underhand row. Straps on, one all-out set."
+      },
+      { "exerciseId": "seated-cable-row", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "deadlift",
+        "sets": 3,
+        "repRange": "6-8",
+        "notes": "Two warm-ups, then one heavy working set."
+      }
+    ]
+  },
+  {
+    "id": "classic-shoulders-triceps",
+    "name": "Classic - Shoulders & Triceps",
+    "day": "Day 4",
+    "styleId": "blood-and-guts",
+    "focus": ["shoulders", "rear-delts", "triceps"],
+    "description": "Reference Blood & Guts shoulders and triceps session, opening with heavy pressing then isolation to failure.",
+    "source": { "name": "Generation Iron - Dorian Yates Routine", "url": "https://generationiron.com/dorian-yates-workout-routine/" },
+    "exercises": [
+      {
+        "exerciseId": "smith-machine-shoulder-press",
+        "sets": 3,
+        "repRange": "6-8",
+        "notes": "Working set to failure + 3-4 forced reps."
+      },
+      { "exerciseId": "dumbbell-lateral-raise", "sets": 2, "repRange": "8-10" },
+      { "exerciseId": "rear-delt-fly-machine", "sets": 2, "repRange": "8-10" },
+      { "exerciseId": "lying-triceps-extension", "sets": 2, "repRange": "6-8" },
+      { "exerciseId": "triceps-pushdown", "sets": 2, "repRange": "6-8", "notes": "Finish with a drop set." }
+    ]
+  },
+  {
+    "id": "classic-legs",
+    "name": "Classic - Legs",
+    "day": "Day 2",
+    "styleId": "blood-and-guts",
+    "focus": ["quads", "hamstrings", "calves"],
+    "description": "Reference Blood & Guts leg session. Leg extensions pre-exhaust the quads before heavy presses and hacks.",
+    "source": { "name": "SET FOR SET - Blood and Guts", "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts" },
+    "exercises": [
+      { "exerciseId": "leg-extension", "sets": 2, "repRange": "10-12", "notes": "Quad pre-exhaust." },
+      { "exerciseId": "leg-press", "sets": 3, "repRange": "10-12" },
+      { "exerciseId": "hack-squat", "sets": 2, "repRange": "10-12" },
+      { "exerciseId": "lying-leg-curl", "sets": 2, "repRange": "8-10" },
+      { "exerciseId": "romanian-deadlift", "sets": 2, "repRange": "8-10" },
+      { "exerciseId": "standing-calf-raise", "sets": 3, "repRange": "10-15" },
+      { "exerciseId": "seated-calf-raise", "sets": 2, "repRange": "10-15" }
+    ]
+  }
+]
