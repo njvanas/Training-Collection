@@ -1,6 +1,7 @@
-import { getExercise, getStyle } from '../lib/db';
-import { equipmentLabel, muscleLabel, routineAnchorId } from '../lib/format';
+import { getStyle } from '../lib/db';
+import { muscleLabel, routineAnchorId } from '../lib/format';
 import type { Routine } from '../schema';
+import { ExerciseTable } from './ExerciseTable';
 
 type RoutineCardProps = {
   routine: Routine;
@@ -67,52 +68,7 @@ export function RoutineCard({
         <p className="routine-desc">{routine.description}</p>
       ) : null}
 
-      <table className="ex">
-        <thead>
-          <tr>
-            <th>Exercise</th>
-            <th>Sets</th>
-            <th>Reps</th>
-            <th>Scheme &amp; notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          {routine.exercises.map((slot, idx) => {
-            const ex = getExercise(slot.exerciseId);
-            return (
-              <tr key={`${slot.exerciseId}-${idx}`}>
-                <td>
-                  <div className="ex-name">
-                    {ex ? ex.name : slot.exerciseId}
-                    {slot.supersetGroup ? (
-                      <span className="superset">SS {slot.supersetGroup}</span>
-                    ) : null}
-                  </div>
-                  {ex ? (
-                    <div className="ex-meta">
-                      {muscleLabel(ex.primaryMuscle)} · {equipmentLabel(ex.equipment)}
-                    </div>
-                  ) : null}
-                </td>
-                <td>{slot.sets}</td>
-                <td>{slot.repRange}</td>
-                <td>
-                  {slot.setScheme.length > 0 ? (
-                    <div className="scheme">
-                      {slot.setScheme.map((s) => (
-                        <span className="seg" key={s.label}>
-                          {s.label} {s.intensity}
-                        </span>
-                      ))}
-                    </div>
-                  ) : null}
-                  {slot.notes ? <div className="set-notes">{slot.notes}</div> : null}
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+      <ExerciseTable routine={routine} />
     </>
   );
 

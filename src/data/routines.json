@@ -24,19 +24,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -47,19 +51,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -71,19 +79,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "very light"
+            "intensity": "very light",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "60-70%"
+            "intensity": "60-70%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -107,11 +119,13 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       }
@@ -145,19 +159,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -173,19 +191,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -196,19 +218,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -220,19 +246,23 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           },
           {
             "label": "F2",
-            "intensity": "90%"
+            "intensity": "90%",
+            "kind": "backoff"
           }
         ]
       },
@@ -274,11 +304,13 @@
         "setScheme": [
           {
             "label": "W2",
-            "intensity": "60-70%"
+            "intensity": "60-70%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -295,7 +327,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -418,11 +451,13 @@
         "setScheme": [
           {
             "label": "W2",
-            "intensity": "60-70%"
+            "intensity": "60-70%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -434,15 +469,18 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "30-40%"
+            "intensity": "30-40%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "55-65%"
+            "intensity": "55-65%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -454,11 +492,13 @@
         "setScheme": [
           {
             "label": "W2",
-            "intensity": "60-70%"
+            "intensity": "60-70%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -524,15 +564,18 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "50%"
+            "intensity": "50%",
+            "kind": "warmup"
           },
           {
             "label": "W2",
-            "intensity": "75%"
+            "intensity": "75%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -543,11 +586,13 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "60%"
+            "intensity": "60%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -563,11 +608,13 @@
         "setScheme": [
           {
             "label": "W1",
-            "intensity": "60%"
+            "intensity": "60%",
+            "kind": "warmup"
           },
           {
             "label": "F1",
-            "intensity": "100%"
+            "intensity": "100%",
+            "kind": "failure"
           }
         ]
       },
@@ -771,7 +818,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -784,7 +832,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -832,7 +881,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -845,7 +895,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -904,7 +955,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -917,7 +969,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       }
@@ -952,7 +1005,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "static hold to failure"
+            "intensity": "static hold to failure",
+            "kind": "failure"
           }
         ]
       },
@@ -965,7 +1019,8 @@
         "setScheme": [
           {
             "label": "F1",
-            "intensity": "100% to failure"
+            "intensity": "100% to failure",
+            "kind": "failure"
           }
         ]
       },

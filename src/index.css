@@ -1073,3 +1073,137 @@ table.ex tr:last-child td {
 .routine-style-line {
   margin-top: 4px;
 }
+
+/* ── Set scheme breakdown ── */
+
+.set-protocol-banner {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.set-protocol-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.set-protocol-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px 16px;
+  margin: 0 0 12px;
+}
+
+.set-protocol-grid dt {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.set-protocol-grid dd {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+.set-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.set-legend-item {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.set-breakdown {
+  min-width: 220px;
+}
+
+.set-inferred-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.set-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.set-row {
+  display: grid;
+  grid-template-columns: 42px 78px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--chip);
+}
+
+.set-row-label {
+  font-weight: 700;
+}
+
+.set-row-kind {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.3px;
+}
+
+.set-row-intensity {
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.kind-warmup,
+.set-row.kind-warmup,
+.set-legend-item.kind-warmup {
+  border-color: #4a5568;
+  color: #a8b0bd;
+}
+
+.kind-working,
+.set-row.kind-working,
+.set-legend-item.kind-working {
+  border-color: #3b6ea8;
+  color: #8ec5ff;
+}
+
+.kind-failure,
+.set-row.kind-failure,
+.set-legend-item.kind-failure {
+  border-color: var(--accent);
+  color: var(--accent-bright);
+  background: var(--accent-soft);
+}
+
+.kind-backoff,
+.set-row.kind-backoff,
+.set-legend-item.kind-backoff {
+  border-color: #9a6b2f;
+  color: #f5c26b;
+}
+
+.kind-all-out,
+.set-row.kind-all-out,
+.set-legend-item.kind-all-out {
+  border-color: #7a3fb0;
+  color: #d9a8ff;
+  background: rgba(122, 63, 176, 0.12);
+}

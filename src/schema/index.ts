@@ -110,10 +110,22 @@ export const trainingStyleSchema = z.object({
 });
 export type TrainingStyle = z.infer<typeof trainingStyleSchema>;
 
+/** Role of a set within an exercise's scheme. */
+export const setKindSchema = z.enum([
+  'warmup',
+  'working',
+  'failure',
+  'backoff',
+  'all-out',
+]);
+export type SetKind = z.infer<typeof setKindSchema>;
+
 /** A weight/intensity target for one set (e.g. warm-up or working set). */
 export const setTargetSchema = z.object({
   /** Short label such as W1, W2, F1 (failure set), F2. */
   label: z.string().min(1),
+  /** Warm-up, working, failure, back-off, or all-out finisher. Inferred from label when omitted. */
+  kind: setKindSchema.optional(),
   /** Guidance for the load, e.g. "30-40%" of the working weight. */
   intensity: z.string().min(1),
 });
