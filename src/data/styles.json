@@ -3,6 +3,8 @@
     "id": "blood-and-guts",
     "name": "Blood & Guts",
     "creator": "Dorian Yates",
+    "displayOrder": 1,
+    "tags": ["HIT", "Beyond failure", "4-day split", "Low frequency"],
     "summary": "Dorian Yates' brand of high-intensity training (HIT): after a few progressive warm-ups, you take one all-out working set per exercise to absolute muscular failure and then beyond it with an intensity technique. Low volume, low frequency, maximal effort, and full recovery drive the growth.",
     "principles": [
       "Quality over quantity: one all-out working set beats many submaximal sets.",
@@ -60,6 +62,8 @@
     "id": "heavy-duty",
     "name": "Heavy Duty",
     "creator": "Mike Mentzer",
+    "displayOrder": 2,
+    "tags": ["HIT", "One set to failure", "Infrequent", "Pre-exhaust"],
     "summary": "Mike Mentzer's Heavy Duty is the purest expression of High-Intensity Training (HIT): a handful of exercises, exactly one working set taken to absolute momentary muscular failure (often extended with forced/negative reps or a static hold), and long rest periods between infrequent workouts. Mentzer argued that overtraining - not undertraining - is the bodybuilder's biggest mistake.",
     "principles": [
       "Intensity is inversely proportional to volume and frequency: the harder you train, the less you can and should do.",
@@ -108,6 +112,8 @@
     "id": "coleman-powerbuilding",
     "name": "High-Volume Powerbuilding",
     "creator": "Ronnie Coleman",
+    "displayOrder": 3,
+    "tags": ["High volume", "6-day split", "Heavy compounds", "2× weekly"],
     "summary": "Ronnie Coleman - 8x Mr. Olympia - built the greatest mass in history on a brutally simple formula: heavy compound barbell lifts for low-ish reps followed by mountains of accessory volume, six days a week, hitting each muscle twice. No fancy periodization, no reliance on failure techniques - just enormous poundages moved with control and relentless progressive overload. 'Everybody wanna be a bodybuilder, but nobody wanna lift no heavy-ass weight.'",
     "principles": [
       "Heavy compound barbell movements (squat, deadlift, bench, row) are the core of every session.",
@@ -151,6 +157,8 @@
     "id": "htlt",
     "name": "Harder Than Last Time (HTLT)",
     "creator": "Greg Doucette",
+    "displayOrder": 4,
+    "tags": ["Progressive overload", "Controlled tempo", "2× weekly", "Sustainable"],
     "summary": "Greg Doucette's 'Harder Than Last Time' system is built on progressive overload, controlled tempo, and long-term sustainability rather than any single magic split. Every muscle is trained at least twice a week, reps are done slowly for maximum time under tension, and you target rep ranges (not fixed numbers) while striving to beat your previous session. Consistency and effort beat novelty.",
     "principles": [
       "Harder than last time: always beat the previous session in reps, weight, tempo, or reduced rest.",

@@ -1,0 +1,27 @@
+{
+  "id": "my-hevy",
+  "name": "My Hevy Collection",
+  "summary": "My personal workout programs in Hevy — programmed for how I train, track, and recover. These are not a legend's reference split; they are my own days with my set schemes, notes, and exercise picks.",
+  "hevyFolders": [
+    {
+      "id": "bulk-like-dorian",
+      "name": "Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207",
+      "note": "Main bulk block — back, chest, legs, shoulders, and cardio days."
+    }
+  ],
+  "splitOverview": [
+    { "day": "Day 1", "focus": "Back", "routineId": "hevy-back" },
+    { "day": "Day 2", "focus": "Chest + Biceps", "routineId": "hevy-chest-biceps" },
+    { "day": "Day 4", "focus": "Legs (quad-priority)", "routineId": "hevy-legs-quad" },
+    { "day": "Day 4", "focus": "Legs (ham-priority)", "routineId": "hevy-legs-ham" },
+    { "day": "Day 5", "focus": "Shoulders + Triceps", "routineId": "hevy-shoulders-triceps" },
+    { "day": "Any", "focus": "Walking / cardio", "routineId": "hevy-walking" }
+  ],
+  "trainingNotes": [
+    "Most lifts use two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
+    "Leg day has quad- and ham-priority variants — pick one per rotation.",
+    "Supersets are marked SS A/B in the exercise table.",
+    "Open a folder below to run these workouts in the Hevy app."
+  ]
+}

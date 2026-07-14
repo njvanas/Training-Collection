@@ -81,11 +81,18 @@ export const sourceSchema = z.object({
 });
 export type Source = z.infer<typeof sourceSchema>;
 
+/** Short UI labels that categorize a methodology (e.g. "HIT", "6-day split"). */
+export const styleTagSchema = z.string().min(1);
+
 /** A training methodology such as Dorian Yates' Blood & Guts. */
 export const trainingStyleSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   creator: z.string().min(1),
+  /** Lower numbers appear first in navigation and filters. */
+  displayOrder: z.number().int().nonnegative(),
+  /** Compact labels for filtering and at-a-glance comparison. */
+  tags: z.array(styleTagSchema).min(1),
   summary: z.string().min(1),
   principles: z.array(z.string().min(1)).min(1),
   intensityTechniques: z.array(intensityTechniqueSchema).default([]),
@@ -124,21 +131,91 @@ export const routineExerciseSchema = z.object({
 });
 export type RoutineExercise = z.infer<typeof routineExerciseSchema>;
 
-/** A concrete workout that references exercises and a training style. */
-export const routineSchema = z.object({
+/** Whether a routine belongs to a legend's reference split or the owner's personal Hevy collection. */
+export const routineCollectionSchema = z.enum(['personal', 'legend']);
+export type RoutineCollection = z.infer<typeof routineCollectionSchema>;
+
+/** Owner profile and index for personal Hevy routines. */
+export const personalCollectionSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  day: z.string().min(1).optional(),
-  styleId: z.string().min(1),
-  focus: z.array(muscleGroupSchema).min(1),
-  description: z.string().min(1).optional(),
-  source: z
-    .object({ name: z.string().min(1), url: z.string().url() })
-    .optional(),
-  exercises: z.array(routineExerciseSchema).min(1),
+  summary: z.string().min(1),
+  hevyFolders: z
+    .array(
+      z.object({
+        id: z.string().min(1),
+        name: z.string().min(1),
+        url: z.string().url(),
+        note: z.string().min(1).optional(),
+      }),
+    )
+    .min(1),
+  splitOverview: z.array(
+    z.object({
+      day: z.string().min(1),
+      focus: z.string().min(1),
+      routineId: z.string().min(1),
+    }),
+  ).min(1),
+  trainingNotes: z.array(z.string().min(1)).default([]),
 });
+export type PersonalCollection = z.infer<typeof personalCollectionSchema>;
+
+/** A concrete workout — either a legend reference split or a personal Hevy day. */
+export const routineSchema = z
+  .object({
+    id: z.string().min(1),
+    name: z.string().min(1),
+    day: z.string().min(1).optional(),
+    collection: routineCollectionSchema.default('legend'),
+    /** Required for legend routines; omitted for personal Hevy routines. */
+    styleId: z.string().min(1).optional(),
+    /** Lower numbers appear first within the same collection. */
+    sortOrder: z.number().int().nonnegative(),
+    /** Required for personal routines; must match an id in my-collection.json. */
+    hevyFolderId: z.string().min(1).optional(),
+    /** Short UI labels (e.g. "Classic reference", "Ideal routine"). */
+    labels: z.array(z.string().min(1)).default([]),
+    focus: z.array(muscleGroupSchema).min(1),
+    description: z.string().min(1).optional(),
+    source: z
+      .object({ name: z.string().min(1), url: z.string().url() })
+      .optional(),
+    exercises: z.array(routineExerciseSchema).min(1),
+  })
+  .superRefine((routine, ctx) => {
+    if (routine.collection === 'legend' && !routine.styleId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Legend routines must reference a styleId',
+        path: ['styleId'],
+      });
+    }
+    if (routine.collection === 'personal' && routine.styleId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Personal routines must not reference a legend styleId',
+        path: ['styleId'],
+      });
+    }
+    if (routine.collection === 'personal' && !routine.hevyFolderId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Personal routines must reference a hevyFolderId',
+        path: ['hevyFolderId'],
+      });
+    }
+    if (routine.collection === 'legend' && routine.hevyFolderId) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: 'Legend routines must not reference a hevyFolderId',
+        path: ['hevyFolderId'],
+      });
+    }
+  });
 export type Routine = z.infer<typeof routineSchema>;
 
 export const exercisesFileSchema = z.array(exerciseSchema);
 export const stylesFileSchema = z.array(trainingStyleSchema);
 export const routinesFileSchema = z.array(routineSchema);
+export const personalCollectionFileSchema = personalCollectionSchema;

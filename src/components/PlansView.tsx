@@ -1,5 +1,11 @@
 import { useMemo, useState } from 'react';
-import { getExercise, getStyle, routines, styles } from '../lib/db';
+import {
+  getExercise,
+  getLegendRoutines,
+  getStyle,
+  legendRoutines,
+  styles,
+} from '../lib/db';
 import { equipmentLabel, muscleLabel } from '../lib/format';
 import { curatorGradient, curatorInitials } from '../lib/curator';
 import type { Routine } from '../schema';
@@ -35,17 +41,20 @@ function RoutineDetail({
   routine: Routine;
   onBack: () => void;
 }) {
-  const style = getStyle(routine.styleId);
+  const style = routine.styleId ? getStyle(routine.styleId) : undefined;
   const creator = style?.creator ?? 'Unknown';
+
   return (
     <div>
-      <button className="back" onClick={onBack}>
-        ← All plans
+      <button type="button" className="back" onClick={onBack}>
+        ← All legend plans
       </button>
       <div className="detail">
         <div className="detail-head">
           <div className="who">
-            <Avatar name={creator} styleId={routine.styleId} size="lg" />
+            {routine.styleId ? (
+              <Avatar name={creator} styleId={routine.styleId} size="lg" />
+            ) : null}
             <div>
               <div className="k">Curated by</div>
               <div className="v">{creator}</div>
@@ -63,6 +72,11 @@ function RoutineDetail({
         {routine.day ? <div className="plan-day">{routine.day}</div> : null}
 
         <div className="chips" style={{ marginTop: 12 }}>
+          {routine.labels.map((label) => (
+            <span className="chip label-chip" key={label}>
+              {label}
+            </span>
+          ))}
           {routine.focus.map((m) => (
             <span className="chip accent" key={m}>
               {muscleLabel(m)}
@@ -134,12 +148,15 @@ function PlanCard({
   routine: Routine;
   onOpen: (id: string) => void;
 }) {
-  const style = getStyle(routine.styleId);
+  const style = routine.styleId ? getStyle(routine.styleId) : undefined;
   const creator = style?.creator ?? 'Unknown';
+
   return (
-    <button className="plan-card" onClick={() => onOpen(routine.id)}>
+    <button type="button" className="plan-card" onClick={() => onOpen(routine.id)}>
       <div className="plan-curator">
-        <Avatar name={creator} styleId={routine.styleId} />
+        {routine.styleId ? (
+          <Avatar name={creator} styleId={routine.styleId} />
+        ) : null}
         <div className="meta">
           <div className="k">{style?.name ?? 'Routine'}</div>
           <div className="v">{creator}</div>
@@ -148,7 +165,12 @@ function PlanCard({
       <h3 className="plan-title">{routine.name}</h3>
       {routine.day ? <div className="plan-day">{routine.day}</div> : null}
       <div className="chips">
-        {routine.focus.slice(0, 4).map((m) => (
+        {routine.labels.slice(0, 2).map((label) => (
+          <span className="chip label-chip" key={label}>
+            {label}
+          </span>
+        ))}
+        {routine.focus.slice(0, 3).map((m) => (
           <span className="chip" key={m}>
             {muscleLabel(m)}
           </span>
@@ -169,19 +191,22 @@ export function PlansView() {
   const [curator, setCurator] = useState<string>('all');
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const selected = selectedId ? routines.find((r) => r.id === selectedId) : null;
+  const selected = selectedId
+    ? legendRoutines.find((r) => r.id === selectedId)
+    : null;
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return routines.filter((r) => {
+    return getLegendRoutines().filter((r) => {
       if (curator !== 'all' && r.styleId !== curator) return false;
       if (!q) return true;
-      const style = getStyle(r.styleId);
+      const style = r.styleId ? getStyle(r.styleId) : undefined;
       const haystack = [
         r.name,
         r.day ?? '',
         style?.name ?? '',
         style?.creator ?? '',
+        ...r.labels,
         ...r.focus,
       ]
         .join(' ')
@@ -198,6 +223,14 @@ export function PlansView() {
 
   return (
     <div>
+      <div className="section legend-intro">
+        <h2 className="section-heading">Legend reference plans</h2>
+        <p className="sub">
+          Documented splits from the curators — for study and comparison. Your
+          personal Hevy days are on the My Hevy tab.
+        </p>
+      </div>
+
       <div className="toolbar">
         <input
           className="search"
@@ -210,6 +243,7 @@ export function PlansView() {
       <div className="section-title">Curators</div>
       <div className="curators">
         <button
+          type="button"
           className={`curator${curator === 'all' ? ' active' : ''}`}
           onClick={() => setCurator('all')}
         >
@@ -225,6 +259,7 @@ export function PlansView() {
         {styles.map((s) => (
           <button
             key={s.id}
+            type="button"
             className={`curator${curator === s.id ? ' active' : ''}`}
             onClick={() => setCurator(s.id)}
           >
