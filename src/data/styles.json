@@ -1,0 +1,59 @@
+[
+  {
+    "id": "blood-and-guts",
+    "name": "Blood & Guts",
+    "creator": "Dorian Yates",
+    "summary": "Dorian Yates' brand of high-intensity training (HIT): after a few progressive warm-ups, you take one all-out working set per exercise to absolute muscular failure and then beyond it with an intensity technique. Low volume, low frequency, maximal effort, and full recovery drive the growth.",
+    "principles": [
+      "Quality over quantity: one all-out working set beats many submaximal sets.",
+      "Train each muscle to complete failure, then push past it.",
+      "Hit every muscle group only once every 5-7 days for full recovery.",
+      "Warm up progressively, then commit fully to the single working set.",
+      "Track every set and add weight or reps over time (progressive overload).",
+      "Strict form and constant tension - use the weight as a tool, not an ego lift."
+    ],
+    "intensityTechniques": [
+      "forced-reps",
+      "rest-pause",
+      "negatives",
+      "drop-set",
+      "partials",
+      "iso-hold",
+      "static-stretch"
+    ],
+    "guidelines": {
+      "trainingDaysPerWeek": "4 (classically Mon, Tue, Thu, Fri)",
+      "frequencyPerMuscle": "Once every 5-7 days.",
+      "warmupProtocol": "1-3 progressive warm-up sets pyramiding up to the working weight; never taken near failure.",
+      "workingSetProtocol": "1-2 all-out working sets per exercise taken to failure, finished with forced reps, rest-pause, negatives, drops, or partials.",
+      "repRanges": [
+        { "target": "Most upper body", "range": "6-8 reps" },
+        { "target": "Legs", "range": "8-12 reps" },
+        { "target": "Calves & abs", "range": "10-20 reps" }
+      ]
+    },
+    "splitOverview": [
+      { "day": "Day 1", "focus": "Chest & Biceps" },
+      { "day": "Day 2", "focus": "Legs" },
+      { "day": "Day 3", "focus": "Rest" },
+      { "day": "Day 4", "focus": "Shoulders & Triceps" },
+      { "day": "Day 5", "focus": "Back & Rear Delts" },
+      { "day": "Day 6", "focus": "Rest" },
+      { "day": "Day 7", "focus": "Rest" }
+    ],
+    "sources": [
+      {
+        "title": "Dorian Yates Workout: Complete Training Guide - The Barbell",
+        "url": "https://thebarbell.com/dorian-yates-workout/"
+      },
+      {
+        "title": "Dorian Yates' Blood And Guts Training System Done Right - SET FOR SET",
+        "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts"
+      },
+      {
+        "title": "Dorian Yates' Blood and Guts Workout for Naturals - Fitness Volt",
+        "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/"
+      }
+    ]
+  }
+]
