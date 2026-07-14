@@ -11,8 +11,23 @@ import {
 } from '../schema';
 
 export const exercises: Exercise[] = exercisesFileSchema.parse(exercisesData);
-export const styles: TrainingStyle[] = stylesFileSchema.parse(stylesData);
+export const styles: TrainingStyle[] = stylesFileSchema
+  .parse(stylesData)
+  .sort((a, b) => a.displayOrder - b.displayOrder);
 export const routines: Routine[] = routinesFileSchema.parse(routinesData);
+
+const styleOrder = new Map(styles.map((s) => [s.id, s.displayOrder]));
+
+/** Routines sorted by methodology order, then within-style sort order. */
+export function getSortedRoutines(list: Routine[] = routines): Routine[] {
+  return [...list].sort((a, b) => {
+    const styleDiff =
+      (styleOrder.get(a.styleId) ?? Number.MAX_SAFE_INTEGER) -
+      (styleOrder.get(b.styleId) ?? Number.MAX_SAFE_INTEGER);
+    if (styleDiff !== 0) return styleDiff;
+    return a.sortOrder - b.sortOrder;
+  });
+}
 
 const exercisesById = new Map(exercises.map((e) => [e.id, e]));
 const stylesById = new Map(styles.map((s) => [s.id, s]));
@@ -31,7 +46,7 @@ export function getRoutine(id: string): Routine | undefined {
 }
 
 export function getRoutinesByStyle(styleId: string): Routine[] {
-  return routines.filter((r) => r.styleId === styleId);
+  return getSortedRoutines(routines.filter((r) => r.styleId === styleId));
 }
 
 /** Every routine that programs a given exercise. */

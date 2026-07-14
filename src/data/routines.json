@@ -4,9 +4,18 @@
     "name": "Day 1 - Back",
     "day": "Day 1",
     "styleId": "blood-and-guts",
-    "focus": ["back", "lats", "biceps", "triceps", "lower-back"],
+    "focus": [
+      "back",
+      "lats",
+      "biceps",
+      "triceps",
+      "lower-back"
+    ],
     "description": "Personal Hevy back day from the 'Bulk like Dorian' folder. Two progressive warm-ups (W1/W2) then all-out failure sets (F1/F2).",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
       {
         "exerciseId": "reverse-grip-lat-pulldown",
@@ -14,10 +23,22 @@
         "repRange": "6-12",
         "notes": "Chest up, elbows to hips. 1-2s stretch pause on the last rep.",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -25,10 +46,22 @@
         "sets": 4,
         "repRange": "6-15",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -37,10 +70,22 @@
         "repRange": "6-15",
         "notes": "Full stretch, slight torso twist.",
         "setScheme": [
-          { "label": "W1", "intensity": "very light" },
-          { "label": "W2", "intensity": "60-70%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "very light"
+          },
+          {
+            "label": "W2",
+            "intensity": "60-70%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -61,10 +106,21 @@
         "repRange": "8-12",
         "notes": "Pure hinge, neutral spine. 10s iso-hold at the end. First set easy.",
         "setScheme": [
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       }
+    ],
+    "sortOrder": 1,
+    "labels": [
+      "Personal",
+      "Hevy"
     ]
   },
   {
@@ -72,19 +128,38 @@
     "name": "Day 2 - Chest + Biceps",
     "day": "Day 2",
     "styleId": "blood-and-guts",
-    "focus": ["chest", "biceps", "triceps"],
+    "focus": [
+      "chest",
+      "biceps",
+      "triceps"
+    ],
     "description": "Personal Hevy chest and biceps day from the 'Bulk like Dorian' folder.",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
       {
         "exerciseId": "chest-fly-machine",
         "sets": 4,
         "repRange": "6-15",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -97,10 +172,22 @@
         "sets": 4,
         "repRange": "6-15",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -108,10 +195,22 @@
         "sets": 4,
         "repRange": "6-15",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -120,10 +219,22 @@
         "repRange": "6-15",
         "supersetGroup": "A",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" },
-          { "label": "F2", "intensity": "90%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          },
+          {
+            "label": "F2",
+            "intensity": "90%"
+          }
         ]
       },
       {
@@ -132,6 +243,11 @@
         "repRange": "8-15",
         "supersetGroup": "A"
       }
+    ],
+    "sortOrder": 2,
+    "labels": [
+      "Personal",
+      "Hevy"
     ]
   },
   {
@@ -139,9 +255,17 @@
     "name": "Day 4 - Legs (Quad-priority)",
     "day": "Day 4",
     "styleId": "blood-and-guts",
-    "focus": ["quads", "hamstrings", "calves", "abs"],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves",
+      "abs"
+    ],
     "description": "Personal Hevy quad-focused leg day from the 'Bulk like Dorian' folder.",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
       {
         "exerciseId": "leg-extension",
@@ -149,20 +273,48 @@
         "repRange": "6-15",
         "notes": "Lock hips down, control the swing. 10-15s iso-hold + 2-3 partials on the last rep. First set very light.",
         "setScheme": [
-          { "label": "W2", "intensity": "60-70%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W2",
+            "intensity": "60-70%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
-      { "exerciseId": "lying-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 6,
+        "repRange": "8-15"
+      },
       {
         "exerciseId": "seated-calf-raise",
         "sets": 5,
         "repRange": "6-14",
         "notes": "2-3s stretch, 1s peak hold. Drop ~25% then rep to a burn. First set easy with long stretches.",
-        "setScheme": [{ "label": "F1", "intensity": "100%" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
+        ]
       },
-      { "exerciseId": "hack-squat", "sets": 6, "repRange": "8-15" },
-      { "exerciseId": "leg-raise-parallel-bars", "sets": 5, "repRange": "10-17" }
+      {
+        "exerciseId": "hack-squat",
+        "sets": 6,
+        "repRange": "8-15"
+      },
+      {
+        "exerciseId": "leg-raise-parallel-bars",
+        "sets": 5,
+        "repRange": "10-17"
+      }
+    ],
+    "sortOrder": 3,
+    "labels": [
+      "Personal",
+      "Hevy"
     ]
   },
   {
@@ -170,18 +322,35 @@
     "name": "Day 4 - Legs (Ham-priority)",
     "day": "Day 4",
     "styleId": "blood-and-guts",
-    "focus": ["hamstrings", "quads", "glutes", "calves", "abs"],
+    "focus": [
+      "hamstrings",
+      "quads",
+      "glutes",
+      "calves",
+      "abs"
+    ],
     "description": "Personal Hevy hamstring-focused leg day variant from the 'Bulk like Dorian' folder.",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
-      { "exerciseId": "lying-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 6,
+        "repRange": "8-15"
+      },
       {
         "exerciseId": "romanian-deadlift",
         "sets": 6,
         "repRange": "6-12",
         "notes": "Hinge, 2s stretch, keep the bar close to the shins."
       },
-      { "exerciseId": "standing-leg-curl", "sets": 6, "repRange": "8-15" },
+      {
+        "exerciseId": "standing-leg-curl",
+        "sets": 6,
+        "repRange": "8-15"
+      },
       {
         "exerciseId": "leg-press-horizontal",
         "sets": 5,
@@ -194,13 +363,23 @@
         "repRange": "6-15",
         "notes": "Lock hips down, control the swing. 10-15s iso-hold + 2-3 partials on the last rep."
       },
-      { "exerciseId": "standing-calf-raise", "sets": 5, "repRange": "10-30" },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "10-30"
+      },
       {
         "exerciseId": "decline-crunch",
         "sets": 5,
         "repRange": "8-20",
         "notes": "Posterior pelvic tilt, no neck pull. Full exhale at the top."
       }
+    ],
+    "sortOrder": 4,
+    "labels": [
+      "Personal",
+      "Hevy",
+      "Variant"
     ]
   },
   {
@@ -208,20 +387,42 @@
     "name": "Day 5 - Shoulders + Triceps",
     "day": "Day 5",
     "styleId": "blood-and-guts",
-    "focus": ["shoulders", "rear-delts", "traps", "triceps"],
+    "focus": [
+      "shoulders",
+      "rear-delts",
+      "traps",
+      "triceps"
+    ],
     "description": "Personal Hevy shoulders and triceps day from the 'Bulk like Dorian' folder.",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
-      { "exerciseId": "lateral-raise-machine", "sets": 4, "repRange": "8-15" },
-      { "exerciseId": "dumbbell-shrug", "sets": 5, "repRange": "8-15" },
+      {
+        "exerciseId": "lateral-raise-machine",
+        "sets": 4,
+        "repRange": "8-15"
+      },
+      {
+        "exerciseId": "dumbbell-shrug",
+        "sets": 5,
+        "repRange": "8-15"
+      },
       {
         "exerciseId": "rear-delt-fly-machine",
         "sets": 4,
         "repRange": "8-15",
         "notes": "Sweep wide, avoid the traps. First set very light.",
         "setScheme": [
-          { "label": "W2", "intensity": "60-70%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W2",
+            "intensity": "60-70%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
       {
@@ -230,9 +431,18 @@
         "repRange": "5-10",
         "notes": "Elbows tucked, press through the heel of the palm.",
         "setScheme": [
-          { "label": "W1", "intensity": "30-40%" },
-          { "label": "W2", "intensity": "55-65%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W1",
+            "intensity": "30-40%"
+          },
+          {
+            "label": "W2",
+            "intensity": "55-65%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
       {
@@ -241,20 +451,40 @@
         "repRange": "8-15",
         "notes": "Split the rope at the bottom, no shoulder drift. 10s stretch on the last rep. First set very light.",
         "setScheme": [
-          { "label": "W2", "intensity": "60-70%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W2",
+            "intensity": "60-70%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
-      { "exerciseId": "triceps-pushdown", "sets": 4, "repRange": "8-15" }
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "8-15"
+      }
+    ],
+    "sortOrder": 5,
+    "labels": [
+      "Personal",
+      "Hevy"
     ]
   },
   {
     "id": "hevy-walking",
     "name": "Walking = Good",
     "styleId": "blood-and-guts",
-    "focus": ["cardio"],
+    "focus": [
+      "cardio"
+    ],
     "description": "Low-intensity steady-state cardio for off-season conditioning. Stay in the fat-burning zone so it doesn't interfere with recovery.",
-    "source": { "name": "Hevy - Bulk like Dorian", "url": "https://hevy.com/folder/1619207" },
+    "source": {
+      "name": "Hevy - Bulk like Dorian",
+      "url": "https://hevy.com/folder/1619207"
+    },
     "exercises": [
       {
         "exerciseId": "treadmill",
@@ -262,6 +492,12 @@
         "repRange": "20-40 min",
         "notes": "Fat-burning HR = (220 - age) x 50-70%. e.g. 30y ~122-144 bpm, 40y ~115-137 bpm."
       }
+    ],
+    "sortOrder": 6,
+    "labels": [
+      "Personal",
+      "Hevy",
+      "Cardio"
     ]
   },
   {
@@ -269,9 +505,15 @@
     "name": "Classic - Chest & Biceps",
     "day": "Day 1",
     "styleId": "blood-and-guts",
-    "focus": ["chest", "biceps"],
+    "focus": [
+      "chest",
+      "biceps"
+    ],
     "description": "Reference Blood & Guts chest and biceps session as Dorian Yates ran it: a couple of warm-ups then one all-out working set (F1) taken beyond failure.",
-    "source": { "name": "The Barbell - Dorian Yates Guide", "url": "https://thebarbell.com/dorian-yates-workout/" },
+    "source": {
+      "name": "The Barbell - Dorian Yates Guide",
+      "url": "https://thebarbell.com/dorian-yates-workout/"
+    },
     "exercises": [
       {
         "exerciseId": "incline-barbell-press",
@@ -279,9 +521,18 @@
         "repRange": "6-8",
         "notes": "Two warm-ups then one working set to failure + 2-3 forced reps.",
         "setScheme": [
-          { "label": "W1", "intensity": "50%" },
-          { "label": "W2", "intensity": "75%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W1",
+            "intensity": "50%"
+          },
+          {
+            "label": "W2",
+            "intensity": "75%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
       {
@@ -289,21 +540,45 @@
         "sets": 2,
         "repRange": "6-10",
         "setScheme": [
-          { "label": "W1", "intensity": "60%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W1",
+            "intensity": "60%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
-      { "exerciseId": "chest-press-machine", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "chest-press-machine",
+        "sets": 2,
+        "repRange": "6-8"
+      },
       {
         "exerciseId": "barbell-curl",
         "sets": 2,
         "repRange": "6-8",
         "setScheme": [
-          { "label": "W1", "intensity": "60%" },
-          { "label": "F1", "intensity": "100%" }
+          {
+            "label": "W1",
+            "intensity": "60%"
+          },
+          {
+            "label": "F1",
+            "intensity": "100%"
+          }
         ]
       },
-      { "exerciseId": "dumbbell-concentration-curl", "sets": 2, "repRange": "6-8" }
+      {
+        "exerciseId": "dumbbell-concentration-curl",
+        "sets": 2,
+        "repRange": "6-8"
+      }
+    ],
+    "sortOrder": 10,
+    "labels": [
+      "Classic reference"
     ]
   },
   {
@@ -311,25 +586,51 @@
     "name": "Classic - Back & Rear Delts",
     "day": "Day 5",
     "styleId": "blood-and-guts",
-    "focus": ["back", "lats", "rear-delts", "biceps", "lower-back"],
+    "focus": [
+      "back",
+      "lats",
+      "rear-delts",
+      "biceps",
+      "lower-back"
+    ],
     "description": "Reference Blood & Guts back session. Yates pre-exhausted the lats with pullovers before heavy rows and finished with deadlifts.",
-    "source": { "name": "Fitness Volt - Blood and Guts", "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/" },
+    "source": {
+      "name": "Fitness Volt - Blood and Guts",
+      "url": "https://fitnessvolt.com/dorian-yates-workout-natural-bodybuilding/"
+    },
     "exercises": [
-      { "exerciseId": "machine-pullover", "sets": 2, "repRange": "8-10", "notes": "Lat pre-exhaust." },
-      { "exerciseId": "reverse-grip-lat-pulldown", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "machine-pullover",
+        "sets": 2,
+        "repRange": "8-10",
+        "notes": "Lat pre-exhaust."
+      },
+      {
+        "exerciseId": "reverse-grip-lat-pulldown",
+        "sets": 2,
+        "repRange": "6-8"
+      },
       {
         "exerciseId": "barbell-row",
         "sets": 3,
         "repRange": "6-8",
         "notes": "The signature Yates underhand row. Straps on, one all-out set."
       },
-      { "exerciseId": "seated-cable-row", "sets": 2, "repRange": "6-8" },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 2,
+        "repRange": "6-8"
+      },
       {
         "exerciseId": "deadlift",
         "sets": 3,
         "repRange": "6-8",
         "notes": "Two warm-ups, then one heavy working set."
       }
+    ],
+    "sortOrder": 11,
+    "labels": [
+      "Classic reference"
     ]
   },
   {
@@ -337,9 +638,16 @@
     "name": "Classic - Shoulders & Triceps",
     "day": "Day 4",
     "styleId": "blood-and-guts",
-    "focus": ["shoulders", "rear-delts", "triceps"],
+    "focus": [
+      "shoulders",
+      "rear-delts",
+      "triceps"
+    ],
     "description": "Reference Blood & Guts shoulders and triceps session, opening with heavy pressing then isolation to failure.",
-    "source": { "name": "Generation Iron - Dorian Yates Routine", "url": "https://generationiron.com/dorian-yates-workout-routine/" },
+    "source": {
+      "name": "Generation Iron - Dorian Yates Routine",
+      "url": "https://generationiron.com/dorian-yates-workout-routine/"
+    },
     "exercises": [
       {
         "exerciseId": "smith-machine-shoulder-press",
@@ -347,10 +655,31 @@
         "repRange": "6-8",
         "notes": "Working set to failure + 3-4 forced reps."
       },
-      { "exerciseId": "dumbbell-lateral-raise", "sets": 2, "repRange": "8-10" },
-      { "exerciseId": "rear-delt-fly-machine", "sets": 2, "repRange": "8-10" },
-      { "exerciseId": "lying-triceps-extension", "sets": 2, "repRange": "6-8" },
-      { "exerciseId": "triceps-pushdown", "sets": 2, "repRange": "6-8", "notes": "Finish with a drop set." }
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 2,
+        "repRange": "8-10"
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 2,
+        "repRange": "8-10"
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 2,
+        "repRange": "6-8"
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 2,
+        "repRange": "6-8",
+        "notes": "Finish with a drop set."
+      }
+    ],
+    "sortOrder": 12,
+    "labels": [
+      "Classic reference"
     ]
   },
   {
@@ -358,17 +687,57 @@
     "name": "Classic - Legs",
     "day": "Day 2",
     "styleId": "blood-and-guts",
-    "focus": ["quads", "hamstrings", "calves"],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
     "description": "Reference Blood & Guts leg session. Leg extensions pre-exhaust the quads before heavy presses and hacks.",
-    "source": { "name": "SET FOR SET - Blood and Guts", "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts" },
+    "source": {
+      "name": "SET FOR SET - Blood and Guts",
+      "url": "https://www.setforset.com/blogs/news/dorian-yates-blood-and-guts"
+    },
     "exercises": [
-      { "exerciseId": "leg-extension", "sets": 2, "repRange": "10-12", "notes": "Quad pre-exhaust." },
-      { "exerciseId": "leg-press", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "hack-squat", "sets": 2, "repRange": "10-12" },
-      { "exerciseId": "lying-leg-curl", "sets": 2, "repRange": "8-10" },
-      { "exerciseId": "romanian-deadlift", "sets": 2, "repRange": "8-10" },
-      { "exerciseId": "standing-calf-raise", "sets": 3, "repRange": "10-15" },
-      { "exerciseId": "seated-calf-raise", "sets": 2, "repRange": "10-15" }
+      {
+        "exerciseId": "leg-extension",
+        "sets": 2,
+        "repRange": "10-12",
+        "notes": "Quad pre-exhaust."
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "hack-squat",
+        "sets": 2,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 2,
+        "repRange": "8-10"
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 2,
+        "repRange": "8-10"
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 3,
+        "repRange": "10-15"
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 2,
+        "repRange": "10-15"
+      }
+    ],
+    "sortOrder": 13,
+    "labels": [
+      "Classic reference"
     ]
   },
   {
@@ -376,9 +745,17 @@
     "name": "Ideal Routine - Workout 1: Chest & Back",
     "day": "Workout 1",
     "styleId": "heavy-duty",
-    "focus": ["chest", "back", "lats", "lower-back"],
+    "focus": [
+      "chest",
+      "back",
+      "lats",
+      "lower-back"
+    ],
     "description": "Mentzer's Heavy Duty Ideal Routine, Workout 1. Do 1-3 warm-ups per exercise, then ONE all-out working set to failure. Rest 4-7+ days before the next workout in the rotation.",
-    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "source": {
+      "name": "MikeMentzer.org - Ideal Routine",
+      "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/"
+    },
     "exercises": [
       {
         "exerciseId": "pec-deck",
@@ -386,7 +763,12 @@
         "repRange": "6-10",
         "supersetGroup": "A",
         "notes": "Pre-exhaust. Straight into the incline press with no rest.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
       {
         "exerciseId": "incline-machine-press",
@@ -394,7 +776,12 @@
         "repRange": "1-3",
         "supersetGroup": "A",
         "notes": "Post-exhaust press to failure immediately after the pec deck.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
       {
         "exerciseId": "reverse-grip-lat-pulldown",
@@ -408,6 +795,10 @@
         "repRange": "5-8",
         "notes": "One heavy set to near-failure. Shrugs can be substituted if needed."
       }
+    ],
+    "sortOrder": 1,
+    "labels": [
+      "Ideal routine"
     ]
   },
   {
@@ -415,9 +806,16 @@
     "name": "Ideal Routine - Workout 2: Legs",
     "day": "Workout 2",
     "styleId": "heavy-duty",
-    "focus": ["quads", "hamstrings", "calves"],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "calves"
+    ],
     "description": "Mentzer's Heavy Duty Ideal Routine, Workout 2. Pre-exhaust the quads with extensions straight into the leg press. One working set each to failure.",
-    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "source": {
+      "name": "MikeMentzer.org - Ideal Routine",
+      "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/"
+    },
     "exercises": [
       {
         "exerciseId": "leg-extension",
@@ -425,7 +823,12 @@
         "repRange": "8-15",
         "supersetGroup": "A",
         "notes": "Pre-exhaust, straight into the leg press.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
       {
         "exerciseId": "leg-press",
@@ -433,9 +836,22 @@
         "repRange": "8-15",
         "supersetGroup": "A",
         "notes": "Squat may be substituted if no leg press.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
-      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 1,
+        "repRange": "12-20"
+      }
+    ],
+    "sortOrder": 2,
+    "labels": [
+      "Ideal routine"
     ]
   },
   {
@@ -443,20 +859,47 @@
     "name": "Ideal Routine - Workout 3: Delts & Arms",
     "day": "Workout 3",
     "styleId": "heavy-duty",
-    "focus": ["shoulders", "rear-delts", "biceps", "triceps"],
+    "focus": [
+      "shoulders",
+      "rear-delts",
+      "biceps",
+      "triceps"
+    ],
     "description": "Mentzer's Heavy Duty Ideal Routine, Workout 3. One all-out set per exercise; finish triceps with a pressdown-to-dip superset.",
-    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "source": {
+      "name": "MikeMentzer.org - Ideal Routine",
+      "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/"
+    },
     "exercises": [
-      { "exerciseId": "dumbbell-lateral-raise", "sets": 1, "repRange": "6-10" },
-      { "exerciseId": "rear-delt-fly-machine", "sets": 1, "repRange": "6-10", "notes": "Reverse pec deck or bent rear-delt raise." },
-      { "exerciseId": "barbell-curl", "sets": 1, "repRange": "6-10", "notes": "Straight bar, one set to failure." },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 1,
+        "repRange": "6-10"
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 1,
+        "repRange": "6-10",
+        "notes": "Reverse pec deck or bent rear-delt raise."
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 1,
+        "repRange": "6-10",
+        "notes": "Straight bar, one set to failure."
+      },
       {
         "exerciseId": "triceps-pushdown",
         "sets": 1,
         "repRange": "6-10",
         "supersetGroup": "A",
         "notes": "Pre-exhaust into dips.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
       {
         "exerciseId": "weighted-triceps-dip",
@@ -464,8 +907,17 @@
         "repRange": "3-5",
         "supersetGroup": "A",
         "notes": "Post-exhaust; use negatives if you can't complete reps.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       }
+    ],
+    "sortOrder": 3,
+    "labels": [
+      "Ideal routine"
     ]
   },
   {
@@ -473,9 +925,15 @@
     "name": "Ideal Routine - Workout 4: Legs (Advanced)",
     "day": "Workout 4",
     "styleId": "heavy-duty",
-    "focus": ["quads", "calves"],
+    "focus": [
+      "quads",
+      "calves"
+    ],
     "description": "Mentzer's Heavy Duty Ideal Routine, Workout 4. A leg-extension static hold pre-exhausts the quads straight into squats.",
-    "source": { "name": "MikeMentzer.org - Ideal Routine", "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/" },
+    "source": {
+      "name": "MikeMentzer.org - Ideal Routine",
+      "url": "https://mikementzer.org/mike-mentzers-ideal-routine-a-heavy-duty-blueprint/"
+    },
     "exercises": [
       {
         "exerciseId": "leg-extension",
@@ -483,7 +941,12 @@
         "repRange": "10-25s hold",
         "supersetGroup": "A",
         "notes": "Heavy static hold to failure (10-25 seconds), then straight into squats.",
-        "setScheme": [{ "label": "F1", "intensity": "static hold to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "static hold to failure"
+          }
+        ]
       },
       {
         "exerciseId": "barbell-squat",
@@ -491,9 +954,23 @@
         "repRange": "8-15",
         "supersetGroup": "A",
         "notes": "Smith or free weight, one set to failure.",
-        "setScheme": [{ "label": "F1", "intensity": "100% to failure" }]
+        "setScheme": [
+          {
+            "label": "F1",
+            "intensity": "100% to failure"
+          }
+        ]
       },
-      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 1,
+        "repRange": "12-20"
+      }
+    ],
+    "sortOrder": 4,
+    "labels": [
+      "Ideal routine",
+      "Advanced"
     ]
   },
   {
@@ -501,12 +978,33 @@
     "name": "Consolidation Routine - Workout A",
     "day": "Workout A",
     "styleId": "heavy-duty",
-    "focus": ["quads", "lats", "back"],
+    "focus": [
+      "quads",
+      "lats",
+      "back"
+    ],
     "description": "The most minimal evolution of Heavy Duty (Heavy Duty II). Two compound lifts, one working set each, performed once every 5-7+ days. Alternate Workout A and B.",
-    "source": { "name": "Mentzer Consolidated Routine - Liftosaur", "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated" },
+    "source": {
+      "name": "Mentzer Consolidated Routine - Liftosaur",
+      "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated"
+    },
     "exercises": [
-      { "exerciseId": "barbell-squat", "sets": 1, "repRange": "8-15", "notes": "One all-out set to failure after warm-ups." },
-      { "exerciseId": "reverse-grip-lat-pulldown", "sets": 1, "repRange": "6-10", "notes": "Close underhand grip, one set to failure." }
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 1,
+        "repRange": "8-15",
+        "notes": "One all-out set to failure after warm-ups."
+      },
+      {
+        "exerciseId": "reverse-grip-lat-pulldown",
+        "sets": 1,
+        "repRange": "6-10",
+        "notes": "Close underhand grip, one set to failure."
+      }
+    ],
+    "sortOrder": 10,
+    "labels": [
+      "Consolidation"
     ]
   },
   {
@@ -514,13 +1012,40 @@
     "name": "Consolidation Routine - Workout B",
     "day": "Workout B",
     "styleId": "heavy-duty",
-    "focus": ["back", "lower-back", "hamstrings", "triceps", "calves"],
+    "focus": [
+      "back",
+      "lower-back",
+      "hamstrings",
+      "triceps",
+      "calves"
+    ],
     "description": "Second consolidation session, alternated with Workout A once every 5-7+ days. Extend rest to 10-14 days if you stop getting stronger.",
-    "source": { "name": "Mentzer Consolidated Routine - Liftosaur", "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated" },
+    "source": {
+      "name": "Mentzer Consolidated Routine - Liftosaur",
+      "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated"
+    },
     "exercises": [
-      { "exerciseId": "deadlift", "sets": 1, "repRange": "5-8", "notes": "One heavy set; CNS-intensive so keep reps lower." },
-      { "exerciseId": "weighted-triceps-dip", "sets": 1, "repRange": "6-10", "notes": "One set to failure." },
-      { "exerciseId": "standing-calf-raise", "sets": 1, "repRange": "12-20" }
+      {
+        "exerciseId": "deadlift",
+        "sets": 1,
+        "repRange": "5-8",
+        "notes": "One heavy set; CNS-intensive so keep reps lower."
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 1,
+        "repRange": "6-10",
+        "notes": "One set to failure."
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 1,
+        "repRange": "12-20"
+      }
+    ],
+    "sortOrder": 11,
+    "labels": [
+      "Consolidation"
     ]
   },
   {
@@ -528,17 +1053,58 @@
     "name": "Back & Biceps",
     "day": "Mon & Thu",
     "styleId": "coleman-powerbuilding",
-    "focus": ["back", "lats", "biceps", "lower-back"],
+    "focus": [
+      "back",
+      "lats",
+      "biceps",
+      "lower-back"
+    ],
     "description": "Ronnie Coleman's high-volume back and biceps day, run twice a week (Monday & Thursday). Heavy rows and deadlifts lead, then curls. Warm up thoroughly before the heavy sets.",
-    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "source": {
+      "name": "Ronnie Coleman Nutrition - Workout Routine",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+    },
     "exercises": [
-      { "exerciseId": "barbell-row", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "t-bar-row", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "seated-cable-row", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "one-arm-dumbbell-row", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "deadlift", "sets": 3, "repRange": "4-8", "notes": "Heavy, controlled - Coleman's signature lift." },
-      { "exerciseId": "barbell-curl", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "alternating-dumbbell-curl", "sets": 3, "repRange": "10-12" }
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "deadlift",
+        "sets": 3,
+        "repRange": "4-8",
+        "notes": "Heavy, controlled - Coleman's signature lift."
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 3,
+        "repRange": "10-12"
+      }
+    ],
+    "sortOrder": 1,
+    "labels": [
+      "Reference split"
     ]
   },
   {
@@ -546,17 +1112,56 @@
     "name": "Chest & Triceps",
     "day": "Tue & Fri",
     "styleId": "coleman-powerbuilding",
-    "focus": ["chest", "triceps"],
+    "focus": [
+      "chest",
+      "triceps"
+    ],
     "description": "Ronnie Coleman's chest and triceps day, run twice a week (Tuesday & Friday). Pressing from every angle followed by flyes and triceps work.",
-    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "source": {
+      "name": "Ronnie Coleman Nutrition - Workout Routine",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+    },
     "exercises": [
-      { "exerciseId": "barbell-bench-press", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "incline-barbell-press", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "decline-bench-press", "sets": 3, "repRange": "8-12" },
-      { "exerciseId": "dumbbell-bench-press", "sets": 3, "repRange": "8-12" },
-      { "exerciseId": "cable-crossover", "sets": 3, "repRange": "12-15", "notes": "Dumbbell flyes or cable crossovers for the stretch and pump." },
-      { "exerciseId": "close-grip-bench-press", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "triceps-pushdown", "sets": 3, "repRange": "12-15" }
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "decline-bench-press",
+        "sets": 3,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "dumbbell-bench-press",
+        "sets": 3,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 3,
+        "repRange": "12-15",
+        "notes": "Dumbbell flyes or cable crossovers for the stretch and pump."
+      },
+      {
+        "exerciseId": "close-grip-bench-press",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 3,
+        "repRange": "12-15"
+      }
+    ],
+    "sortOrder": 2,
+    "labels": [
+      "Reference split"
     ]
   },
   {
@@ -564,16 +1169,55 @@
     "name": "Legs",
     "day": "Wed",
     "styleId": "coleman-powerbuilding",
-    "focus": ["quads", "hamstrings", "glutes", "calves"],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
     "description": "Ronnie Coleman's legendary leg day - heavy squats first with a powerlifter's mentality, then huge volume on the press and accessories.",
-    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "source": {
+      "name": "Ronnie Coleman Nutrition - Workout Routine",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+    },
     "exercises": [
-      { "exerciseId": "barbell-squat", "sets": 5, "repRange": "4-8", "notes": "Low reps, heavy weight to build raw density." },
-      { "exerciseId": "leg-press", "sets": 4, "repRange": "8-12", "notes": "Pile on the plates for double-digit reps." },
-      { "exerciseId": "walking-lunge", "sets": 3, "repRange": "10-12", "notes": "Per leg." },
-      { "exerciseId": "leg-extension", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "lying-leg-curl", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "standing-calf-raise", "sets": 4, "repRange": "12-15" }
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 5,
+        "repRange": "4-8",
+        "notes": "Low reps, heavy weight to build raw density."
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 4,
+        "repRange": "8-12",
+        "notes": "Pile on the plates for double-digit reps."
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "sets": 3,
+        "repRange": "10-12",
+        "notes": "Per leg."
+      },
+      {
+        "exerciseId": "leg-extension",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-15"
+      }
+    ],
+    "sortOrder": 3,
+    "labels": [
+      "Reference split"
     ]
   },
   {
@@ -581,16 +1225,51 @@
     "name": "Shoulders & Traps",
     "day": "Sat",
     "styleId": "coleman-powerbuilding",
-    "focus": ["shoulders", "rear-delts", "traps"],
+    "focus": [
+      "shoulders",
+      "rear-delts",
+      "traps"
+    ],
     "description": "Ronnie Coleman's shoulders and traps day, closing out the 6-day rotation. Heavy pressing then lateral, front and rear delt volume plus heavy shrugs.",
-    "source": { "name": "Ronnie Coleman Nutrition - Workout Routine", "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/" },
+    "source": {
+      "name": "Ronnie Coleman Nutrition - Workout Routine",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+    },
     "exercises": [
-      { "exerciseId": "military-press", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "dumbbell-lateral-raise", "sets": 4, "repRange": "12-15" },
-      { "exerciseId": "front-raise", "sets": 3, "repRange": "12" },
-      { "exerciseId": "rear-delt-fly-machine", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "barbell-shrug", "sets": 4, "repRange": "10-12" },
-      { "exerciseId": "upright-row", "sets": 3, "repRange": "10-12" }
+      {
+        "exerciseId": "military-press",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "front-raise",
+        "sets": 3,
+        "repRange": "12"
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "barbell-shrug",
+        "sets": 4,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "upright-row",
+        "sets": 3,
+        "repRange": "10-12"
+      }
+    ],
+    "sortOrder": 4,
+    "labels": [
+      "Reference split"
     ]
   },
   {
@@ -598,16 +1277,54 @@
     "name": "HTLT Hardcore - Legs",
     "day": "Day 1",
     "styleId": "htlt",
-    "focus": ["quads", "hamstrings", "glutes", "calves"],
+    "focus": [
+      "quads",
+      "hamstrings",
+      "glutes",
+      "calves"
+    ],
     "description": "Representative HTLT Hardcore leg day following Doucette's public principles: controlled 2-1-1 tempo, target the rep range, warm-ups stop 3-5 reps shy of failure, and only the last set of each movement goes 'all out'. Beat last time.",
-    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "source": {
+      "name": "Greg Doucette - HTLT Programs",
+      "url": "https://www.gregdoucette.com/products/htlt-training-programs"
+    },
     "exercises": [
-      { "exerciseId": "barbell-squat", "sets": 4, "repRange": "8-12", "notes": "Controlled tempo, 3s+ per rep. Last set all out." },
-      { "exerciseId": "leg-press", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "romanian-deadlift", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "leg-extension", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "lying-leg-curl", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "standing-calf-raise", "sets": 4, "repRange": "12-20", "notes": "5-10 partials after failure on the last set." }
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "notes": "Controlled tempo, 3s+ per rep. Last set all out."
+      },
+      {
+        "exerciseId": "leg-press",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "leg-extension",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-20",
+        "notes": "5-10 partials after failure on the last set."
+      }
+    ],
+    "sortOrder": 1,
+    "labels": [
+      "Hardcore split"
     ]
   },
   {
@@ -615,17 +1332,59 @@
     "name": "HTLT Hardcore - Chest & Arms",
     "day": "Day 2",
     "styleId": "htlt",
-    "focus": ["chest", "triceps", "biceps", "shoulders"],
+    "focus": [
+      "chest",
+      "triceps",
+      "biceps",
+      "shoulders"
+    ],
     "description": "Representative HTLT Hardcore chest and arms day. Slow tempo for time under tension, rep-range targets, and a single 'all out' final set per movement (advanced lifters may add a drop set or partials).",
-    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "source": {
+      "name": "Greg Doucette - HTLT Programs",
+      "url": "https://www.gregdoucette.com/products/htlt-training-programs"
+    },
     "exercises": [
-      { "exerciseId": "barbell-bench-press", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "dumbbell-bench-press", "sets": 3, "repRange": "12-15", "notes": "Incline or flat; deep stretch, controlled." },
-      { "exerciseId": "weighted-triceps-dip", "sets": 3, "repRange": "10-15" },
-      { "exerciseId": "lying-triceps-extension", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "barbell-curl", "sets": 3, "repRange": "10-12" },
-      { "exerciseId": "cable-biceps-curl", "sets": 3, "repRange": "12-15", "notes": "Squeeze and control; last set all out." },
-      { "exerciseId": "dumbbell-lateral-raise", "sets": 3, "repRange": "12-15" }
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "dumbbell-bench-press",
+        "sets": 3,
+        "repRange": "12-15",
+        "notes": "Incline or flat; deep stretch, controlled."
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 3,
+        "repRange": "10-15"
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 3,
+        "repRange": "10-12"
+      },
+      {
+        "exerciseId": "cable-biceps-curl",
+        "sets": 3,
+        "repRange": "12-15",
+        "notes": "Squeeze and control; last set all out."
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 3,
+        "repRange": "12-15"
+      }
+    ],
+    "sortOrder": 2,
+    "labels": [
+      "Hardcore split"
     ]
   },
   {
@@ -633,18 +1392,64 @@
     "name": "HTLT Hardcore - Back & Shoulders",
     "day": "Day 3",
     "styleId": "htlt",
-    "focus": ["back", "lats", "rear-delts", "shoulders", "traps"],
+    "focus": [
+      "back",
+      "lats",
+      "rear-delts",
+      "shoulders",
+      "traps"
+    ],
     "description": "Representative HTLT Hardcore back and shoulders day. Full range of motion, controlled tempo, target the rep range, and progress 'harder than last time'. Run the 3-day split across 5-7 days so each muscle is hit twice weekly.",
-    "source": { "name": "Greg Doucette - HTLT Programs", "url": "https://www.gregdoucette.com/products/htlt-training-programs" },
+    "source": {
+      "name": "Greg Doucette - HTLT Programs",
+      "url": "https://www.gregdoucette.com/products/htlt-training-programs"
+    },
     "exercises": [
-      { "exerciseId": "pull-up", "sets": 3, "repRange": "8-12", "notes": "Add weight or use a band to stay in range." },
-      { "exerciseId": "barbell-row", "sets": 4, "repRange": "8-12" },
-      { "exerciseId": "lat-pulldown", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "seated-cable-row", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "military-press", "sets": 3, "repRange": "8-12" },
-      { "exerciseId": "rear-delt-fly-machine", "sets": 3, "repRange": "12-15" },
-      { "exerciseId": "face-pull", "sets": 3, "repRange": "15-20" },
-      { "exerciseId": "barbell-shrug", "sets": 3, "repRange": "12-15" }
+      {
+        "exerciseId": "pull-up",
+        "sets": 3,
+        "repRange": "8-12",
+        "notes": "Add weight or use a band to stay in range."
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "military-press",
+        "sets": 3,
+        "repRange": "8-12"
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 3,
+        "repRange": "12-15"
+      },
+      {
+        "exerciseId": "face-pull",
+        "sets": 3,
+        "repRange": "15-20"
+      },
+      {
+        "exerciseId": "barbell-shrug",
+        "sets": 3,
+        "repRange": "12-15"
+      }
+    ],
+    "sortOrder": 3,
+    "labels": [
+      "Hardcore split"
     ]
   }
 ]

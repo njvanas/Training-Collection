@@ -81,11 +81,18 @@ export const sourceSchema = z.object({
 });
 export type Source = z.infer<typeof sourceSchema>;
 
+/** Short UI labels that categorize a methodology (e.g. "HIT", "6-day split"). */
+export const styleTagSchema = z.string().min(1);
+
 /** A training methodology such as Dorian Yates' Blood & Guts. */
 export const trainingStyleSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   creator: z.string().min(1),
+  /** Lower numbers appear first in navigation and filters. */
+  displayOrder: z.number().int().nonnegative(),
+  /** Compact labels for filtering and at-a-glance comparison. */
+  tags: z.array(styleTagSchema).min(1),
   summary: z.string().min(1),
   principles: z.array(z.string().min(1)).min(1),
   intensityTechniques: z.array(intensityTechniqueSchema).default([]),
@@ -130,6 +137,10 @@ export const routineSchema = z.object({
   name: z.string().min(1),
   day: z.string().min(1).optional(),
   styleId: z.string().min(1),
+  /** Lower numbers appear first within the same methodology. */
+  sortOrder: z.number().int().nonnegative(),
+  /** Short UI labels (e.g. "Personal Hevy", "Classic reference"). */
+  labels: z.array(z.string().min(1)).default([]),
   focus: z.array(muscleGroupSchema).min(1),
   description: z.string().min(1).optional(),
   source: z

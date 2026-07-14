@@ -48,6 +48,19 @@ export function categoryLabel(category: ExerciseCategory): string {
   return categoryLabels[category];
 }
 
+export function intensityTechniqueLabel(technique: string): string {
+  const labels: Record<string, string> = {
+    'forced-reps': 'Forced reps',
+    'rest-pause': 'Rest-pause',
+    negatives: 'Negatives',
+    'drop-set': 'Drop set',
+    partials: 'Partials',
+    'iso-hold': 'Iso hold',
+    'static-stretch': 'Static stretch',
+  };
+  return labels[technique] ?? titleCase(technique);
+}
+
 export function titleCase(value: string): string {
   return value
     .split('-')

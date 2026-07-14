@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   exercises,
+  getSortedRoutines,
   routines,
   styles,
   getExercise,
@@ -23,6 +24,22 @@ describe('training database', () => {
     const ids = new Set(styles.map((s) => s.id));
     for (const id of ['blood-and-guts', 'heavy-duty', 'coleman-powerbuilding', 'htlt']) {
       expect(ids.has(id), id).toBe(true);
+    }
+  });
+
+  it('orders methodologies by displayOrder', () => {
+    for (let i = 1; i < styles.length; i++) {
+      expect(styles[i].displayOrder).toBeGreaterThanOrEqual(styles[i - 1].displayOrder);
+    }
+  });
+
+  it('every style has tags and routines are sorted within style', () => {
+    for (const style of styles) {
+      expect(style.tags.length, style.id).toBeGreaterThan(0);
+      const owned = getSortedRoutines().filter((r) => r.styleId === style.id);
+      for (let i = 1; i < owned.length; i++) {
+        expect(owned[i].sortOrder).toBeGreaterThanOrEqual(owned[i - 1].sortOrder);
+      }
     }
   });
 
