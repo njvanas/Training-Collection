@@ -50,16 +50,18 @@ export function StylesView() {
             </div>
           </div>
 
-          <div className="section">
-            <h2>Intensity techniques</h2>
-            <div className="chips">
-              {style.intensityTechniques.map((t) => (
-                <span className="chip accent" key={t}>
-                  {titleCase(t)}
-                </span>
-              ))}
+          {style.intensityTechniques.length > 0 ? (
+            <div className="section">
+              <h2>Intensity techniques</h2>
+              <div className="chips">
+                {style.intensityTechniques.map((t) => (
+                  <span className="chip accent" key={t}>
+                    {titleCase(t)}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          ) : null}
 
           <div className="section">
             <h2>Weekly split</h2>

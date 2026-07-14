@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
-import { getExercise, routines } from '../lib/db';
+import { getExercise, getStyle, routines, styles } from '../lib/db';
 import { equipmentLabel, muscleLabel } from '../lib/format';
 import type { Routine } from '../schema';
 
 function RoutineCard({ routine }: { routine: Routine }) {
+  const style = getStyle(routine.styleId);
   return (
     <div className="routine">
       <div className="routine-head">
@@ -12,6 +13,11 @@ function RoutineCard({ routine }: { routine: Routine }) {
             {routine.day ? `${routine.day} · ` : ''}
             {routine.name}
           </h3>
+          {style ? (
+            <div className="ex-meta" style={{ marginTop: 4 }}>
+              {style.name} · {style.creator}
+            </div>
+          ) : null}
           <div className="chips" style={{ marginTop: 8 }}>
             {routine.focus.map((m) => (
               <span className="chip accent" key={m}>
@@ -82,31 +88,31 @@ function RoutineCard({ routine }: { routine: Routine }) {
 }
 
 export function RoutinesView() {
-  const [group, setGroup] = useState<'all' | 'hevy' | 'classic'>('all');
+  const [filter, setFilter] = useState<string>('all');
 
   const filtered = useMemo(() => {
-    if (group === 'hevy') {
+    if (filter === 'all') return routines;
+    if (filter === 'hevy') {
       return routines.filter((r) => r.source?.url.includes('hevy.com'));
     }
-    if (group === 'classic') {
-      return routines.filter((r) => r.id.startsWith('classic-'));
-    }
-    return routines;
-  }, [group]);
+    return routines.filter((r) => r.styleId === filter);
+  }, [filter]);
 
   return (
     <div>
       <div className="toolbar">
         <select
           className="select"
-          value={group}
-          onChange={(e) =>
-            setGroup(e.target.value as 'all' | 'hevy' | 'classic')
-          }
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
         >
-          <option value="all">All routines</option>
+          <option value="all">All routines ({routines.length})</option>
           <option value="hevy">My Hevy routines</option>
-          <option value="classic">Classic Dorian Yates</option>
+          {styles.map((s) => (
+            <option key={s.id} value={s.id}>
+              {s.name} — {s.creator}
+            </option>
+          ))}
         </select>
       </div>
 

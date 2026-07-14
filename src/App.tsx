@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { StylesView } from './components/StylesView';
 import { ExercisesView } from './components/ExercisesView';
 import { RoutinesView } from './components/RoutinesView';
-import { exercises, routines } from './lib/db';
+import { exercises, routines, styles } from './lib/db';
 
 type Tab = 'routines' | 'exercises' | 'styles';
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'routines', label: 'Routines' },
   { id: 'exercises', label: 'Exercises' },
-  { id: 'styles', label: 'Training Style' },
+  { id: 'styles', label: 'Methodologies' },
 ];
 
 function renderTab(tab: Tab) {
@@ -34,12 +34,14 @@ export function App() {
     <div className="app">
       <header className="header">
         <h1>
-          Blood &amp; <span className="accent">Guts</span> — Training Collection
+          Iron <span className="accent">Legends</span> — Training Collection
         </h1>
         <p>
-          A personal training database built around Dorian Yates' Blood &amp; Guts
-          high-intensity method: {routines.length} routines and {exercises.length}{' '}
-          exercises to reference for your Hevy workouts.
+          A personal database of bodybuilding's greatest training methodologies —
+          Dorian Yates' Blood &amp; Guts, Mike Mentzer's Heavy Duty, Ronnie
+          Coleman's high-volume powerbuilding, and Greg Doucette's Harder Than Last
+          Time. {styles.length} methodologies, {routines.length} routines, and{' '}
+          {exercises.length} exercises to reference for your Hevy workouts.
         </p>
       </header>
 
@@ -58,8 +60,8 @@ export function App() {
       {renderTab(tab)}
 
       <footer className="footer">
-        Train hard, recover fully, track everything. — inspired by Dorian Yates,
-        6× Mr. Olympia.
+        Train hard, recover fully, track everything. — inspired by the greats:
+        Yates, Mentzer, Coleman &amp; Doucette.
       </footer>
     </div>
   );
