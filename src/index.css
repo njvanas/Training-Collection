@@ -121,7 +121,7 @@ a:hover {
   pointer-events: none;
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   background-color: var(--bg);
   background-image:
     radial-gradient(ellipse 70% 45% at 50% -5%, rgba(196, 92, 38, 0.16), transparent 55%),
@@ -1904,12 +1904,16 @@ table.ex tr:last-child td {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--surface);
-  border: 1.5px solid var(--border);
+  background: #fff;
+  border: 2px solid color-mix(in srgb, var(--accent) 35%, var(--border));
   border-radius: 999px;
   padding: 5px 5px 5px 18px;
   box-shadow: var(--shadow);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-theme='dark'] .legends-search-row {
+  background: var(--surface);
 }
 
 .legends-search-row:focus-within {
