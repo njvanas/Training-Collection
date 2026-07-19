@@ -17,6 +17,58 @@ type View =
   | { kind: 'legend'; styleId: string }
   | { kind: 'workout'; styleId: string; routineId: string };
 
+type FilterChip = {
+  id: string;
+  label: string;
+  match: (style: TrainingStyle) => boolean;
+};
+
+/** Editorial browse chips — Stereo-style category rail, not a dashboard. */
+const FILTER_CHIPS: FilterChip[] = [
+  {
+    id: 'hit',
+    label: 'HIT',
+    match: (s) =>
+      s.tags.some((t) =>
+        /hit|one set|beyond failure|infrequent|low frequency/i.test(t),
+      ),
+  },
+  {
+    id: 'volume',
+    label: 'High volume',
+    match: (s) =>
+      s.tags.some((t) => /high volume|20 working|moderate volume/i.test(t)),
+  },
+  {
+    id: 'old-school',
+    label: 'Old school',
+    match: (s) =>
+      s.tags.some((t) => /old school|golden|olympia|nickname/i.test(t)),
+  },
+  {
+    id: 'aesthetics',
+    label: 'Aesthetics',
+    match: (s) =>
+      s.tags.some((t) => /aesthetics|mind-muscle|stretching|longevity/i.test(t)),
+  },
+  {
+    id: 'pump',
+    label: 'Pump / FST',
+    match: (s) =>
+      s.tags.some((t) => /fst|fascia|pump|pre-exhaust/i.test(t)),
+  },
+  {
+    id: 'power',
+    label: 'Power / compounds',
+    match: (s) =>
+      s.tags.some((t) =>
+        /heavy compounds|metroflex|progressive overload|failure training/i.test(
+          t,
+        ),
+      ),
+  },
+];
+
 function totalSets(routine: Routine): number {
   return routine.exercises.reduce((sum, slot) => sum + slot.sets, 0);
 }
@@ -54,6 +106,12 @@ function matchesQuery(style: TrainingStyle, query: string): boolean {
   }
 
   return false;
+}
+
+function matchesFilter(style: TrainingStyle, filterId: string | null): boolean {
+  if (!filterId) return true;
+  const chip = FILTER_CHIPS.find((c) => c.id === filterId);
+  return chip ? chip.match(style) : true;
 }
 
 function Avatar({
@@ -443,13 +501,17 @@ function LegendCard({
 
 export function LegendsExplorer() {
   const [query, setQuery] = useState('');
+  const [filterId, setFilterId] = useState<string | null>(null);
   const [view, setView] = useState<View>({ kind: 'browse' });
 
   const normalized = query.trim().toLowerCase();
 
   const filtered = useMemo(
-    () => styles.filter((s) => matchesQuery(s, normalized)),
-    [normalized],
+    () =>
+      styles.filter(
+        (s) => matchesQuery(s, normalized) && matchesFilter(s, filterId),
+      ),
+    [normalized, filterId],
   );
 
   if (view.kind === 'workout') {
@@ -524,19 +586,50 @@ export function LegendsExplorer() {
             onChange={(e) => setQuery(e.target.value)}
             autoComplete="off"
           />
-          {query ? (
+          {query || filterId ? (
             <button
               type="button"
               className="legends-search-clear"
-              onClick={() => setQuery('')}
+              onClick={() => {
+                setQuery('');
+                setFilterId(null);
+              }}
             >
               Clear
             </button>
           ) : null}
         </div>
+
+        <div className="legends-filter-rail" role="group" aria-label="Browse by school">
+          <button
+            type="button"
+            className={`legends-filter-chip${filterId === null ? ' active' : ''}`}
+            onClick={() => setFilterId(null)}
+            aria-pressed={filterId === null}
+          >
+            All
+          </button>
+          {FILTER_CHIPS.map((chip) => (
+            <button
+              type="button"
+              key={chip.id}
+              className={`legends-filter-chip${filterId === chip.id ? ' active' : ''}`}
+              onClick={() =>
+                setFilterId((current) => (current === chip.id ? null : chip.id))
+              }
+              aria-pressed={filterId === chip.id}
+            >
+              {chip.label}
+            </button>
+          ))}
+        </div>
+
         <p className="legends-search-hint">
           {filtered.length} of {styles.length} legends
           {normalized ? ` matching “${query.trim()}”` : ''}
+          {filterId
+            ? ` · ${FILTER_CHIPS.find((c) => c.id === filterId)?.label ?? ''}`
+            : ''}
         </p>
       </div>
 

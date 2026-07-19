@@ -2236,3 +2236,36 @@ table.ex tr:last-child td {
     transition: none;
   }
 }
+
+.legends-filter-rail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.legends-filter-chip {
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.legends-filter-chip:hover {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+}
+
+.legends-filter-chip.active {
+  background: var(--tab-active-bg);
+  border-color: var(--tab-active-bg);
+  color: var(--tab-active-fg);
+}
