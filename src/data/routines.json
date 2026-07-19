@@ -1485,22 +1485,22 @@
       "lats",
       "back"
     ],
-    "description": "The most minimal evolution of Heavy Duty (Heavy Duty II). Two compound lifts, one working set each, performed once every 5-7+ days. Alternate Workout A and B.",
+    "description": "Heavy Duty Consolidation Workout A (MikeMentzer.org): squat then close-grip palms-up pulldown — one set each to failure. Alternate with Workout B every 7–10+ days.",
     "source": {
-      "name": "Mentzer Consolidated Routine - Liftosaur",
-      "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated"
+      "name": "Consolidation Program — MikeMentzer.org",
+      "url": "https://mikementzer.org/the-consolidation-program-and-the-indirect-effect/"
     },
     "exercises": [
       {
         "exerciseId": "barbell-squat",
         "sets": 1,
         "repRange": "8-15",
-        "notes": "One all-out set to failure after warm-ups.",
+        "notes": "Systemic catalyst — one set to failure.",
         "setScheme": [
           {
             "label": "Warm-ups",
             "kind": "warmup",
-            "intensity": "1–3 progressive sets — never to failure"
+            "intensity": "1–3 progressive — never to failure"
           },
           {
             "label": "F1",
@@ -1513,12 +1513,12 @@
         "exerciseId": "reverse-grip-lat-pulldown",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "Close underhand grip, one set to failure.",
+        "notes": "Close-grip palms-up pulldown.",
         "setScheme": [
           {
             "label": "Warm-ups",
             "kind": "warmup",
-            "intensity": "1–3 progressive sets — never to failure"
+            "intensity": "1–2 progressive — never to failure"
           },
           {
             "label": "F1",
@@ -1544,24 +1544,24 @@
       "lower-back",
       "hamstrings",
       "triceps",
-      "calves"
+      "chest"
     ],
-    "description": "Second consolidation session, alternated with Workout A once every 5-7+ days. Extend rest to 10-14 days if you stop getting stronger.",
+    "description": "Heavy Duty Consolidation Workout B (MikeMentzer.org): deadlift then dips — one set each to failure. Alternate with Workout A every 7–10+ days; extend rest if progress stalls.",
     "source": {
-      "name": "Mentzer Consolidated Routine - Liftosaur",
-      "url": "https://www.liftosaur.com/programs/mike-mentzer-consolidated"
+      "name": "Consolidation Program — MikeMentzer.org",
+      "url": "https://mikementzer.org/consolidated-program-final-heavy-duty-logic/"
     },
     "exercises": [
       {
         "exerciseId": "deadlift",
         "sets": 1,
         "repRange": "5-8",
-        "notes": "One heavy set; CNS-intensive so keep reps lower.",
+        "notes": "Total-body deadlift to near/true failure.",
         "setScheme": [
           {
             "label": "Warm-ups",
             "kind": "warmup",
-            "intensity": "1–3 progressive sets — never to failure"
+            "intensity": "1–3 progressive — never to failure"
           },
           {
             "label": "F1",
@@ -1574,29 +1574,12 @@
         "exerciseId": "weighted-triceps-dip",
         "sets": 1,
         "repRange": "6-10",
-        "notes": "One set to failure.",
+        "notes": "Parallel-bar dips — Mentzer called these the upper-body squat.",
         "setScheme": [
           {
             "label": "Warm-ups",
             "kind": "warmup",
-            "intensity": "1–3 progressive sets — never to failure"
-          },
-          {
-            "label": "F1",
-            "kind": "failure",
-            "intensity": "One all-out set to momentary muscular failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 1,
-        "repRange": "12-20",
-        "setScheme": [
-          {
-            "label": "Warm-ups",
-            "kind": "warmup",
-            "intensity": "1–3 progressive sets — never to failure"
+            "intensity": "1–2 progressive — never to failure"
           },
           {
             "label": "F1",
@@ -1623,16 +1606,16 @@
       "biceps",
       "lower-back"
     ],
-    "description": "Ronnie Coleman's high-volume back and biceps day, run twice a week (Monday & Thursday). Heavy rows and deadlifts lead, then curls. Warm up thoroughly before the heavy sets.",
+    "description": "Ronnie Coleman back and biceps — high-volume Metroflex style (~20+ working sets on back plus arms), run Mon & Thu.",
     "source": {
-      "name": "Ronnie Coleman Nutrition - Workout Routine",
-      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+      "name": "Ronnie Coleman Workout Guide — RC Nutrition",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-guide/"
     },
     "exercises": [
       {
-        "exerciseId": "barbell-row",
+        "exerciseId": "deadlift",
         "sets": 4,
-        "repRange": "8-12",
+        "repRange": "4-8",
         "setScheme": [
           {
             "label": "W1",
@@ -1647,22 +1630,50 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Heavy deadlifts — Olympia-era staple."
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -1672,66 +1683,24 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "seated-cable-row",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -1741,94 +1710,90 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
-        "exerciseId": "deadlift",
+        "exerciseId": "seated-cable-row",
         "sets": 3,
-        "repRange": "4-8",
-        "notes": "Heavy, controlled - Coleman's signature lift.",
+        "repRange": "10-12",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "barbell-curl",
-        "sets": 3,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -1838,29 +1803,41 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "hammer-curl",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       }
@@ -1882,14 +1859,14 @@
     ],
     "description": "Ronnie Coleman's chest and triceps day, run twice a week (Tuesday & Friday). Pressing from every angle followed by flyes and triceps work.",
     "source": {
-      "name": "Ronnie Coleman Nutrition - Workout Routine",
-      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+      "name": "Ronnie Coleman Workout Guide — RC Nutrition",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-guide/"
     },
     "exercises": [
       {
         "exerciseId": "barbell-bench-press",
-        "sets": 4,
-        "repRange": "8-12",
+        "sets": 5,
+        "repRange": "6-12",
         "setScheme": [
           {
             "label": "W1",
@@ -1904,22 +1881,27 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -1929,66 +1911,24 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "decline-bench-press",
-        "sets": 3,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -1998,29 +1938,41 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-bench-press",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2028,64 +1980,70 @@
         "exerciseId": "cable-crossover",
         "sets": 3,
         "repRange": "12-15",
-        "notes": "Dumbbell flyes or cable crossovers for the stretch and pump.",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "close-grip-bench-press",
-        "sets": 3,
-        "repRange": "10-12",
+        "sets": 4,
+        "repRange": "8-12",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2095,29 +2053,19 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       }
@@ -2141,15 +2089,14 @@
     ],
     "description": "Ronnie Coleman's legendary leg day - heavy squats first with a powerlifter's mentality, then huge volume on the press and accessories.",
     "source": {
-      "name": "Ronnie Coleman Nutrition - Workout Routine",
-      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+      "name": "Ronnie Coleman Workout Guide — RC Nutrition",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-guide/"
     },
     "exercises": [
       {
         "exerciseId": "barbell-squat",
         "sets": 5,
         "repRange": "4-8",
-        "notes": "Low reps, heavy weight to build raw density.",
         "setScheme": [
           {
             "label": "W1",
@@ -2164,65 +2111,55 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "5",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Heavy squats — powerbuilding cornerstone."
       },
       {
         "exerciseId": "leg-press",
         "sets": 4,
         "repRange": "8-12",
-        "notes": "Pile on the plates for double-digit reps.",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2230,32 +2167,21 @@
         "exerciseId": "walking-lunge",
         "sets": 3,
         "repRange": "10-12",
-        "notes": "Per leg.",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2265,61 +2191,68 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "lying-leg-curl",
-        "sets": 3,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2329,34 +2262,24 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       }
@@ -2379,8 +2302,8 @@
     ],
     "description": "Ronnie Coleman's shoulders and traps day, closing out the 6-day rotation. Heavy pressing then lateral, front and rear delt volume plus heavy shrugs.",
     "source": {
-      "name": "Ronnie Coleman Nutrition - Workout Routine",
-      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-routine/"
+      "name": "Ronnie Coleman Workout Guide — RC Nutrition",
+      "url": "https://ronniecolemannutrition.com/blog/ronnie-coleman-workout-guide/"
     },
     "exercises": [
       {
@@ -2401,22 +2324,22 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2426,98 +2349,73 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "front-raise",
         "sets": 3,
-        "repRange": "12",
+        "repRange": "10-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
-        "sets": 3,
+        "sets": 4,
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2527,34 +2425,24 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       },
@@ -2564,29 +2452,19 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Heavy Metroflex volume — controlled, stop shy of failure"
           }
         ]
       }
@@ -3276,15 +3154,15 @@
       "hamstrings",
       "calves"
     ],
-    "description": "Phil Heath leg day with FST-7 finisher — compounds for 3-4 sets then 7×10-12 lying leg curls with 30-45s rest.",
+    "description": "Phil Heath / Hany Rambod leg day: compounds for 4 working sets, then FST-7 lying leg curls (7×8-12, 30-45s).",
     "source": {
-      "name": "Phil Heath Workout - SET FOR SET",
-      "url": "https://www.setforset.com/blogs/news/phil-heath-workout-routine"
+      "name": "FST-7 / Hany Rambod + Phil Heath (Muscle & Fitness)",
+      "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
     },
     "exercises": [
       {
         "exerciseId": "leg-extension",
-        "sets": 5,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
@@ -3300,176 +3178,146 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "leg-press",
-        "sets": 5,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "barbell-squat",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "lying-leg-curl",
-        "sets": 9,
-        "repRange": "10-12",
+        "sets": 7,
+        "repRange": "8-12",
+        "notes": "FST-7 hamstring finisher.",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           }
-        ],
-        "notes": "FST-7 finisher — 7 sets after warm-ups."
+        ]
       },
       {
         "exerciseId": "standing-calf-raise",
-        "sets": 5,
-        "repRange": "10-12",
+        "sets": 4,
+        "repRange": "12-20",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -3491,13 +3339,13 @@
     ],
     "description": "Incline-heavy chest session ending with cable crossover FST-7.",
     "source": {
-      "name": "Training with THE GIFT - Muscle & Fitness",
-      "url": "https://www.muscleandfitness.com/flexonline/flex-news/training-gift-mr-olympia-phil-heath/"
+      "name": "FST-7 / Hany Rambod + Phil Heath (Muscle & Fitness)",
+      "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
     },
     "exercises": [
       {
         "exerciseId": "incline-barbell-press",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
@@ -3513,208 +3361,173 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "incline-bench-press-smith",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "incline-dumbbell-flye",
-        "sets": 5,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "cable-crossover",
-        "sets": 9,
-        "repRange": "10-12",
+        "sets": 7,
+        "repRange": "8-12",
+        "notes": "FST-7 chest finisher.",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           }
-        ],
-        "notes": "FST-7 finisher."
+        ]
       },
       {
         "exerciseId": "triceps-pushdown",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "lying-triceps-extension",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -3737,13 +3550,13 @@
     ],
     "description": "Width and thickness work, finishing biceps with FST-7 cable curls.",
     "source": {
-      "name": "8 Tips to Train Like Phil Heath - Muscle & Fitness",
+      "name": "FST-7 / Hany Rambod + Phil Heath (Muscle & Fitness)",
       "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
     },
     "exercises": [
       {
         "exerciseId": "lat-pulldown",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
@@ -3759,176 +3572,146 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "barbell-row",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "seated-cable-row",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-dumbbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "cable-biceps-curl",
-        "sets": 9,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          }
-        ],
-        "notes": "FST-7 finisher for biceps."
-      },
-      {
-        "exerciseId": "incline-dumbbell-curl",
-        "sets": 5,
+        "sets": 7,
         "repRange": "8-12",
+        "notes": "FST-7 biceps finisher.",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
+          },
+          {
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           }
         ]
       }
@@ -3951,13 +3734,13 @@
     ],
     "description": "Smith presses and laterals; FST-7 on rear-delt or lateral machine.",
     "source": {
-      "name": "Phil Heath Workout - SET FOR SET",
-      "url": "https://www.setforset.com/blogs/news/phil-heath-workout-routine"
+      "name": "FST-7 / Hany Rambod + Phil Heath (Muscle & Fitness)",
+      "url": "https://www.muscleandfitness.com/athletes-celebrities/pro-tips/8-tips-train-phil-heath/"
     },
     "exercises": [
       {
         "exerciseId": "smith-machine-shoulder-press",
-        "sets": 5,
+        "sets": 4,
         "repRange": "8-12",
         "setScheme": [
           {
@@ -3973,146 +3756,121 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
-        "sets": 5,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "dumbbell-shrug",
-        "sets": 5,
+        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "rear-delt-fly-machine",
-        "sets": 9,
-        "repRange": "10-12",
+        "sets": 7,
+        "repRange": "8-12",
+        "notes": "FST-7 rear-delt finisher.",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "label": "F7",
+            "kind": "all-out",
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           },
           {
             "label": "F7",
             "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
-          },
-          {
-            "label": "F7",
-            "kind": "all-out",
-            "intensity": "FST-7 finisher — 7×10-12 with 30-45s rest; stretch/flex between sets"
+            "intensity": "FST-7 — 7×8-12, 30-45s rest; flex/stretch between sets"
           }
-        ],
-        "notes": "FST-7 finisher."
+        ]
       },
       {
         "exerciseId": "face-pull",
@@ -4120,24 +3878,24 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -4334,10 +4092,10 @@
       "back",
       "lats"
     ],
-    "description": "Golden-era volume: supersets and high set counts for the two largest upper-body groups.",
+    "description": "Encyclopedia Level-1 chest and back — agonist/antagonist pairing for supersets and an upper-body pump. Trained Monday & Thursday.",
     "source": {
-      "name": "Golden Six - T Nation",
-      "url": "https://archive.t-nation.com/training/tip-train-with-arnolds-golden-six/"
+      "name": "The New Encyclopedia of Modern Bodybuilding (Arnold Split)",
+      "url": "https://www.strengthlog.com/arnold-split/"
     },
     "exercises": [
       {
@@ -4358,17 +4116,27 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -4378,88 +4146,84 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
-        "exerciseId": "cable-crossover",
+        "exerciseId": "dumbbell-pullover",
         "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "pull-up",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Pullovers bridge chest and lats — Encyclopedia staple."
+      },
+      {
+        "exerciseId": "pull-up",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -4469,29 +4233,29 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -4501,24 +4265,24 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -4527,22 +4291,23 @@
   },
   {
     "id": "arnold-legs",
-    "name": "Competitive Split - Legs",
-    "day": "Tue & Fri",
+    "name": "Competitive Split - Legs & Lower Back",
+    "day": "Wed & Sat",
     "styleId": "arnold-golden-era",
-    "sortOrder": 3,
+    "sortOrder": 4,
     "labels": [
       "Competitive split"
     ],
     "focus": [
       "quads",
       "hamstrings",
-      "calves"
+      "calves",
+      "lower-back"
     ],
-    "description": "Heavy squats and leg work twice weekly — high volume golden-era leg day.",
+    "description": "Encyclopedia Level-1 legs day — squats, presses, extensions, curls, and calves. Runs Wednesday & Saturday after chest/back and shoulders/arms days.",
     "source": {
-      "name": "Golden Six - Boostcamp",
-      "url": "https://www.boostcamp.app/coaches/arnold-schwarzenegger/golden-six"
+      "name": "The New Encyclopedia of Modern Bodybuilding (Arnold Split)",
+      "url": "https://www.strengthlog.com/arnold-split/"
     },
     "exercises": [
       {
@@ -4701,9 +4466,9 @@
   {
     "id": "arnold-shoulders-arms",
     "name": "Competitive Split - Shoulders & Arms",
-    "day": "Wed & Sat",
+    "day": "Tue & Fri",
     "styleId": "arnold-golden-era",
-    "sortOrder": 4,
+    "sortOrder": 3,
     "labels": [
       "Competitive split"
     ],
@@ -4712,10 +4477,10 @@
       "biceps",
       "triceps"
     ],
-    "description": "Dedicated arm and delt volume with supersets — the classic Arnold pairing day.",
+    "description": "Encyclopedia Level-1 shoulders and arms day — delts, bis, and tris trained fresh (not after chest/back). High volume, 8-12 reps, often supersetted.",
     "source": {
-      "name": "Arnold's Golden Six - Fitness Volt",
-      "url": "https://fitnessvolt.com/arnolds-golden-six-routine/"
+      "name": "The New Encyclopedia of Modern Bodybuilding (Arnold Split)",
+      "url": "https://www.strengthlog.com/arnold-split/"
     },
     "exercises": [
       {
@@ -4904,12 +4669,14 @@
     "focus": [
       "chest",
       "biceps",
-      "triceps"
+      "triceps",
+      "calves",
+      "abs"
     ],
     "description": "Haney day one — chest with arms; pyramid up, stimulate without annihilating.",
     "source": {
-      "name": "Lee Haney Workout - The Barbell",
-      "url": "https://thebarbell.com/lee-haney-workout/"
+      "name": "Lee Haney 3-on/1-off — Poliquin / Muscle & Fitness",
+      "url": "https://poliquingroup.com/ArticlesMultimedia/Articles/Article/2690/Workout_Systems_Lee_Haneys_4-Day_Training_Split.aspx"
     },
     "exercises": [
       {
@@ -5091,6 +4858,34 @@
             "intensity": "Heavy & controlled — straight set, stop shy of failure"
           }
         ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Calves every Haney training day."
       }
     ],
     "collection": "legend"
@@ -5112,8 +4907,8 @@
     ],
     "description": "Legs in the middle of the rotation — pre-exhaust extensions before squats when needed.",
     "source": {
-      "name": "Lee Haney Training Split - Fitness Volt",
-      "url": "https://fitnessvolt.com/lee-haney-training-split-protein-sources/"
+      "name": "Lee Haney 3-on/1-off — Poliquin / Muscle & Fitness",
+      "url": "https://poliquingroup.com/ArticlesMultimedia/Articles/Article/2690/Workout_Systems_Lee_Haneys_4-Day_Training_Split.aspx"
     },
     "exercises": [
       {
@@ -5340,11 +5135,13 @@
       "back",
       "lats",
       "shoulders",
-      "traps"
+      "traps",
+      "calves",
+      "abs"
     ],
     "description": "Pulling and pressing paired — push-pull logic to spare the joints.",
     "source": {
-      "name": "Lee Haney's 4-Day Training Split - Poliquin Group",
+      "name": "Lee Haney 3-on/1-off — Poliquin / Muscle & Fitness",
       "url": "https://poliquingroup.com/ArticlesMultimedia/Articles/Article/2690/Workout_Systems_Lee_Haneys_4-Day_Training_Split.aspx"
     },
     "exercises": [
@@ -5544,6 +5341,34 @@
             "intensity": "Heavy & controlled — straight set, stop shy of failure"
           }
         ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Calves every Haney training day."
       }
     ],
     "collection": "legend"
@@ -5561,11 +5386,12 @@
       "back",
       "lats",
       "biceps",
-      "forearms"
+      "forearms",
+      "abs"
     ],
-    "description": "Pull day — stretch between sets, moderate loads, mind-muscle connection.",
+    "description": "Official Growth Program Day 1 — back, biceps, forearms, abs. Moderate loads, 8-12 reps, abs every session.",
     "source": {
-      "name": "The Growth Program - Frank Zane",
+      "name": "The Growth Program — Frank Zane (official)",
       "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/"
     },
     "exercises": [
@@ -5587,12 +5413,22 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5602,51 +5438,46 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "seated-cable-row",
-        "sets": 4,
+        "sets": 3,
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5656,24 +5487,24 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5683,41 +5514,64 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
-        "exerciseId": "decline-crunch",
+        "exerciseId": "hammer-curl",
         "sets": 3,
-        "repRange": "15-20",
+        "repRange": "10-12",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Forearm/brachialis emphasis on pull day."
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -5736,12 +5590,13 @@
     "focus": [
       "quads",
       "hamstrings",
-      "calves"
+      "calves",
+      "abs"
     ],
-    "description": "Extensions, curls, squats, leg press — Zane's leg template with daily abs.",
+    "description": "Official Growth Program Day 2 — thighs, calves, abs.",
     "source": {
-      "name": "Frank Zane Training Split - Fitness Volt",
-      "url": "https://fitnessvolt.com/frank-zane-training-split/"
+      "name": "The Growth Program — Frank Zane (official)",
+      "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/"
     },
     "exercises": [
       {
@@ -5762,39 +5617,22 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "lying-leg-curl",
-        "sets": 4,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
+            "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
-            "label": "2",
+            "label": "4",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5804,51 +5642,73 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "leg-press",
-        "sets": 4,
+        "sets": 3,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5858,46 +5718,46 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "decline-crunch",
         "sets": 3,
-        "repRange": "15-20",
+        "repRange": "15-25",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -5916,12 +5776,13 @@
     "focus": [
       "chest",
       "shoulders",
-      "triceps"
+      "triceps",
+      "abs"
     ],
-    "description": "Push day — chest, delts, triceps with controlled negatives and inter-set stretching.",
+    "description": "Official Growth Program Day 3 — chest, shoulders, triceps, abs.",
     "source": {
-      "name": "Frank Zane - SimplyShredded interview",
-      "url": "https://simplyshredded.com/the-legend-of-zane-an-interview.html"
+      "name": "The Growth Program — Frank Zane (official)",
+      "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/"
     },
     "exercises": [
       {
@@ -5942,12 +5803,22 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5957,24 +5828,24 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -5984,24 +5855,24 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -6011,19 +5882,19 @@
         "repRange": "8-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
@@ -6033,46 +5904,46 @@
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "decline-crunch",
         "sets": 3,
-        "repRange": "15-20",
+        "repRange": "15-25",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -8300,705 +8171,6 @@
     "collection": "legend"
   },
   {
-    "id": "jackson-chest-biceps",
-    "name": "The Blade - Chest & Biceps",
-    "day": "Day 1",
-    "styleId": "jackson-blade",
-    "sortOrder": 1,
-    "labels": [
-      "Reference split"
-    ],
-    "focus": [
-      "chest",
-      "biceps"
-    ],
-    "description": "Dexter's chest and biceps pairing — compounds first, moderate consistent volume.",
-    "source": {
-      "name": "Dexter Jackson - Generation Iron",
-      "url": "https://generationiron.com/dexter-jackson-workout/"
-    },
-    "exercises": [
-      {
-        "exerciseId": "incline-bench-press-smith",
-        "sets": 4,
-        "repRange": "8-10",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "barbell-bench-press",
-        "sets": 4,
-        "repRange": "8-10",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "incline-dumbbell-flye",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "preacher-curl-barbell",
-        "sets": 4,
-        "repRange": "8-10",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "cable-biceps-curl",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      }
-    ],
-    "collection": "legend"
-  },
-  {
-    "id": "jackson-quads-calves",
-    "name": "The Blade - Quads & Calves",
-    "day": "Day 2",
-    "styleId": "jackson-blade",
-    "sortOrder": 2,
-    "labels": [
-      "Reference split"
-    ],
-    "focus": [
-      "quads",
-      "calves"
-    ],
-    "description": "High-rep extensions and heavy leg press — quad detail for stage conditioning.",
-    "source": {
-      "name": "The Blade - Iron Man Magazine",
-      "url": "https://www.ironmanmagazine.com/the-blade/"
-    },
-    "exercises": [
-      {
-        "exerciseId": "leg-extension",
-        "sets": 4,
-        "repRange": "15-20",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "leg-press",
-        "sets": 5,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "barbell-squat",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "walking-lunge",
-        "sets": 3,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 4,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "seated-calf-raise",
-        "sets": 3,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      }
-    ],
-    "collection": "legend"
-  },
-  {
-    "id": "jackson-shoulders-triceps",
-    "name": "The Blade - Shoulders, Triceps & Calves",
-    "day": "Day 4",
-    "styleId": "jackson-blade",
-    "sortOrder": 3,
-    "labels": [
-      "Reference split"
-    ],
-    "focus": [
-      "shoulders",
-      "triceps",
-      "calves"
-    ],
-    "description": "Machine pressing and high-rep arm work — supersets common in Dexter's prep.",
-    "source": {
-      "name": "Dexter Jackson Workout - SPC Fitz",
-      "url": "https://www.spcfitz.com/dexter-jackson-workout-routine/"
-    },
-    "exercises": [
-      {
-        "exerciseId": "machine-shoulder-press",
-        "sets": 4,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "dumbbell-lateral-raise",
-        "sets": 3,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "rear-delt-fly-machine",
-        "sets": 3,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "triceps-pushdown",
-        "sets": 5,
-        "repRange": "10-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "lying-triceps-extension",
-        "sets": 4,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "weighted-triceps-dip",
-        "sets": 3,
-        "repRange": "10-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 3,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      }
-    ],
-    "collection": "legend"
-  },
-  {
-    "id": "jackson-back-hams",
-    "name": "The Blade - Back & Hamstrings",
-    "day": "Day 5",
-    "styleId": "jackson-blade",
-    "sortOrder": 4,
-    "labels": [
-      "Reference split"
-    ],
-    "focus": [
-      "back",
-      "lats",
-      "hamstrings",
-      "lower-back"
-    ],
-    "description": "Back thickness and ham detail — deadlifts, rows, and high-rep leg curls.",
-    "source": {
-      "name": "Dexter Jackson - Fitness Volt",
-      "url": "https://fitnessvolt.com/dexter-jackson-diet-training-program/"
-    },
-    "exercises": [
-      {
-        "exerciseId": "lat-pulldown",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "deadlift",
-        "sets": 4,
-        "repRange": "6-8",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "t-bar-row",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "lying-leg-curl",
-        "sets": 4,
-        "repRange": "10-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "standing-leg-curl",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "romanian-deadlift",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      }
-    ],
-    "collection": "legend"
-  },
-  {
     "id": "gaspari-chest-triceps",
     "name": "Annihilation - Chest & Triceps",
     "day": "Day 1",
@@ -9360,21 +8532,21 @@
   },
   {
     "id": "gaspari-shoulders-traps",
-    "name": "Annihilation - Shoulders & Traps",
+    "name": "Annihilation - Shoulders (Pre-Exhaust)",
     "day": "Day 4",
     "styleId": "gaspari-annihilation",
     "sortOrder": 3,
     "labels": [
-      "Annihilation reference"
+      "Gaspari Nutrition"
     ],
     "focus": [
       "shoulders",
-      "traps",
-      "rear-delts"
+      "rear-delts",
+      "traps"
     ],
-    "description": "Gaspari pre-exhaust shoulder template — laterals and front raises before pressing.",
+    "description": "Official Gaspari Nutrition pre-exhaust shoulder template: high-rep laterals and front raises first, then presses, rear delts, and face pulls — isolation before compounds.",
     "source": {
-      "name": "Pre-Exhaust Shoulder Training - Gaspari Nutrition",
+      "name": "Pre-Exhaustion Shoulder Training — Gaspari Nutrition",
       "url": "https://gasparinutrition.com/blogs/old-school-training-tips/pre-exhaustion-in-a-shoulder-workout"
     },
     "exercises": [
@@ -9396,15 +8568,25 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ],
-        "notes": "Phase 1 pre-exhaust."
+        "notes": "Pre-exhaust medial delts — slow tempo, pause at top."
       },
       {
         "exerciseId": "front-raise",
@@ -9412,22 +8594,22 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ],
-        "notes": "Phase 1 pre-exhaust."
+        "notes": "Seated/alternating front raises before presses."
       },
       {
         "exerciseId": "military-press",
@@ -9435,27 +8617,50 @@
         "repRange": "8-10",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ],
-        "notes": "Phase 2 compound — moderate weight after pre-exhaust."
+        "notes": "Presses after isolation — moderate load, delts already pre-fatigued."
+      },
+      {
+        "exerciseId": "machine-shoulder-press",
+        "sets": 3,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Arnold-press style full-delt work from the Gaspari sample."
       },
       {
         "exerciseId": "rear-delt-fly-machine",
@@ -9463,46 +8668,63 @@
         "repRange": "15-20",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "face-pull",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       },
       {
         "exerciseId": "barbell-shrug",
-        "sets": 4,
+        "sets": 3,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
           }
         ]
       }
@@ -9684,6 +8906,846 @@
             "label": "2",
             "kind": "working",
             "intensity": "Heavy & controlled — straight set, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-chest-abs",
+    "name": "The Blade - Chest & Abs",
+    "day": "Mon",
+    "styleId": "jackson-blade",
+    "sortOrder": 1,
+    "labels": [
+      "Iron Man interview split"
+    ],
+    "focus": [
+      "chest",
+      "abs"
+    ],
+    "description": "Iron Man interview Monday: bench, incline, decline, optional crossovers precontest; abs (crunches / hanging raises).",
+    "source": {
+      "name": "The Blade — Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "decline-bench-press",
+        "sets": 3,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "cable-crossover",
+        "sets": 3,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Precontest detail — optional off-season."
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 3,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-raise-parallel-bars",
+        "sets": 3,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Hanging knee-ups / leg raises."
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-back-calves",
+    "name": "The Blade - Back & Calves",
+    "day": "Tue",
+    "styleId": "jackson-blade",
+    "sortOrder": 2,
+    "labels": [
+      "Iron Man interview split"
+    ],
+    "focus": [
+      "back",
+      "lats",
+      "calves"
+    ],
+    "description": "Iron Man interview Tuesday: pulldowns, bent-over rows, T-bar, deadlifts; standing & seated calves.",
+    "source": {
+      "name": "The Blade — Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lat-pulldown",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 3,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "deadlift",
+        "sets": 3,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 3,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-quads",
+    "name": "The Blade - Quads",
+    "day": "Fri",
+    "styleId": "jackson-blade",
+    "sortOrder": 3,
+    "labels": [
+      "Iron Man interview split"
+    ],
+    "focus": [
+      "quads"
+    ],
+    "description": "Iron Man interview Friday quads alone: squats (up to 5 sets), hack squats, lunges, high-rep extensions for detail.",
+    "source": {
+      "name": "The Blade — Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "barbell-squat",
+        "sets": 5,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "5",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "hack-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "leg-extension",
+        "sets": 4,
+        "repRange": "15-30",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Dexter cited very high-rep extensions for ripped quads."
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-shoulders-arms",
+    "name": "The Blade - Shoulders & Arms",
+    "day": "Sat",
+    "styleId": "jackson-blade",
+    "sortOrder": 4,
+    "labels": [
+      "Iron Man interview split"
+    ],
+    "focus": [
+      "shoulders",
+      "rear-delts",
+      "biceps",
+      "triceps"
+    ],
+    "description": "Iron Man interview Saturday: machine presses, laterals, rear laterals; curls and pushdowns/skulls/dips. Supersets common.",
+    "source": {
+      "name": "The Blade — Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "machine-shoulder-press",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "dumbbell-lateral-raise",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "rear-delt-fly-machine",
+        "sets": 3,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "triceps-pushdown",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 3,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 3,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          }
+        ]
+      }
+    ],
+    "collection": "legend"
+  },
+  {
+    "id": "jackson-hams",
+    "name": "The Blade - Hamstrings",
+    "day": "Sun",
+    "styleId": "jackson-blade",
+    "sortOrder": 5,
+    "labels": [
+      "Iron Man interview split"
+    ],
+    "focus": [
+      "hamstrings"
+    ],
+    "description": "Iron Man interview Sunday: lying and seated leg curls plus stiff-legged deadlifts — hams alone after Friday quads.",
+    "source": {
+      "name": "The Blade — Iron Man Magazine",
+      "url": "https://www.ironmanmagazine.com/the-blade/"
+    },
+    "exercises": [
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "12-30",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "High-rep curls for detail when chasing condition."
+      },
+      {
+        "exerciseId": "standing-leg-curl",
+        "sets": 4,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Straight working set — controlled, stop shy of failure"
+          }
+        ],
+        "notes": "Seated/standing curl variation."
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 4,
+        "repRange": "6-10",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Controlled 1s up / 1s down — Iron Man interview cadence."
           }
         ]
       }

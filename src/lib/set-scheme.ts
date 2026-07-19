@@ -56,6 +56,13 @@ const STYLE_PROTOCOLS: Record<string, SetProtocolGuide> = {
     failure:
       'Not a failure-first method. Occasional drop sets, forced reps, or partials at the end of a movement are optional.',
   },
+  'heath-fst7': {
+    title: 'FST-7 set scheme (Hany Rambod / Phil Heath)',
+    warmup: '1–2 progressive warm-ups on compounds; never near failure.',
+    working: '3–4 straight working sets on most exercises in the 8–12 zone.',
+    failure:
+      'FST-7 finisher: 7 isolation sets × 8–12 with only 30–45s rest — flex and stretch between sevens. Not every set is to failure; the density creates the pump.',
+  },
   personal: {
     title: 'My Hevy set scheme (HIT-style)',
     warmup: 'W1 and W2 are progressive warm-ups — never taken near failure.',
