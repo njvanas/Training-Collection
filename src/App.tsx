@@ -3,13 +3,6 @@ import { ExercisesView } from './components/ExercisesView';
 import { HevyFoldersView } from './components/HevyFoldersView';
 import { LegendsExplorer } from './components/LegendsExplorer';
 import { ThemeToggle } from './components/ThemeToggle';
-import {
-  exercises,
-  getLegendRoutineGroups,
-  getLegendRoutines,
-  hevyFolders,
-  styles,
-} from './lib/db';
 import type { Theme } from './lib/theme';
 
 type Tab = 'legends' | 'hevy' | 'exercises';
@@ -41,66 +34,45 @@ type AppProps = {
 
 export function App({ initialTheme }: AppProps) {
   const [tab, setTab] = useState<Tab>('legends');
-  const routineCount = getLegendRoutineGroups().length;
-  const workoutCount = getLegendRoutines().length;
 
   return (
     <div className="app">
       <div className="atmosphere" aria-hidden />
 
-      <header className="hero">
-        <div className="hero-top">
-          <p className="hero-brand-mark">Iron Legends</p>
-          <ThemeToggle initialTheme={initialTheme} />
-        </div>
-        <h1>
-          Find how the
-          <span className="accent"> legends </span>
-          trained
-        </h1>
-        <p>
-          Search a bodybuilder, open their methodology, and dig into every
-          training routine with warm-ups, working sets, and failure protocols
-          laid out clearly.
-        </p>
-        <div className="hero-stats" aria-label="Collection size">
-          <div className="hero-stat">
-            <div className="n">{styles.length}</div>
-            <div className="l">Legends</div>
-          </div>
-          <div className="hero-stat">
-            <div className="n">{routineCount}</div>
-            <div className="l">Routines</div>
-          </div>
-          <div className="hero-stat">
-            <div className="n">{workoutCount}</div>
-            <div className="l">Workouts</div>
-          </div>
-          <div className="hero-stat">
-            <div className="n">{exercises.length}</div>
-            <div className="l">Exercises</div>
-          </div>
-          <div className="hero-stat">
-            <div className="n">{hevyFolders.length}</div>
-            <div className="l">My folders</div>
-          </div>
-        </div>
+      <header className="chrome">
+        <a className="chrome-brand" href="#top">
+          Iron <span>Legends</span>
+        </a>
+        <nav className="chrome-nav" aria-label="Main sections">
+          {TABS.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              className={`chrome-link${tab === t.id ? ' active' : ''}`}
+              onClick={() => setTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </nav>
+        <ThemeToggle initialTheme={initialTheme} />
       </header>
 
-      <nav className="tabs" aria-label="Main sections">
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            className={`tab${tab === t.id ? ' active' : ''}`}
-            onClick={() => setTab(t.id)}
-          >
-            {t.label}
-          </button>
-        ))}
-      </nav>
-
-      {renderTab(tab)}
+      <main id="top" className="main">
+        {tab !== 'legends' ? (
+          <section className="page-masthead">
+            <h1 className="page-masthead-title">
+              {tab === 'hevy' ? 'My Routines' : 'Exercises'}
+            </h1>
+            <p className="page-masthead-copy">
+              {tab === 'hevy'
+                ? 'Open your personal Hevy folders to log workouts.'
+                : 'Browse the shared exercise library used across legend routines.'}
+            </p>
+          </section>
+        ) : null}
+        {renderTab(tab)}
+      </main>
 
       <footer className="footer">
         Iron Legends — train hard, recover fully, track everything.

@@ -226,11 +226,16 @@ function MethodologyPanel({ style }: { style: TrainingStyle }) {
           defaultOpen
           anchorId={`${style.id}-principles`}
         >
-          <ul className="principles">
+          <ol className="principle-list">
             {style.principles.map((p, i) => (
-              <li key={i}>{p}</li>
+              <li key={i}>
+                <span className="principle-num" aria-hidden>
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span className="principle-text">{p}</span>
+              </li>
             ))}
-          </ul>
+          </ol>
         </AccordionItem>
 
         <AccordionItem
@@ -569,38 +574,63 @@ export function LegendsExplorer() {
 
   return (
     <div className="legends-browse">
-      <div className="legends-search-shell">
-        <label className="legends-search-label" htmlFor="legend-search">
-          Find a legend, method, or workout
-        </label>
-        <div className="legends-search-row">
-          <span className="legends-search-icon" aria-hidden>
-            ⌕
-          </span>
-          <input
-            id="legend-search"
-            className="legends-search"
-            type="search"
-            placeholder="Yates, HIT, Day 1 Chest, FST-7…"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            autoComplete="off"
-          />
-          {query || filterId ? (
+      <section className="legends-masthead">
+        <p className="legends-kicker">Bodybuilding methodologies</p>
+        <h1 className="legends-headline">
+          Find how the <span className="outline">legends</span> trained
+        </h1>
+        <p className="legends-lede">
+          Search a bodybuilder, open their method, then dig into every workout
+          with warm-ups and working sets spelled out.
+        </p>
+
+        <div className="legends-search-shell">
+          <label className="visually-hidden" htmlFor="legend-search">
+            Find a legend, method, or workout
+          </label>
+          <div className="legends-search-row">
+            <input
+              id="legend-search"
+              className="legends-search"
+              type="search"
+              placeholder="Yates, HIT, Day 1 Chest, FST-7…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              autoComplete="off"
+            />
+            {query || filterId ? (
+              <button
+                type="button"
+                className="legends-search-clear"
+                onClick={() => {
+                  setQuery('');
+                  setFilterId(null);
+                }}
+              >
+                Clear
+              </button>
+            ) : null}
             <button
               type="button"
-              className="legends-search-clear"
+              className="legends-search-go"
+              aria-label="Search legends"
               onClick={() => {
-                setQuery('');
-                setFilterId(null);
+                document.getElementById('legend-results')?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start',
+                });
               }}
             >
-              Clear
+              →
             </button>
-          ) : null}
+          </div>
         </div>
 
-        <div className="legends-filter-rail" role="group" aria-label="Browse by school">
+        <div
+          className="legends-filter-rail"
+          role="group"
+          aria-label="Browse by school"
+        >
           <button
             type="button"
             className={`legends-filter-chip${filterId === null ? ' active' : ''}`}
@@ -624,14 +654,14 @@ export function LegendsExplorer() {
           ))}
         </div>
 
-        <p className="legends-search-hint">
+        <p className="legends-search-hint" id="legend-results">
           {filtered.length} of {styles.length} legends
           {normalized ? ` matching “${query.trim()}”` : ''}
           {filterId
             ? ` · ${FILTER_CHIPS.find((c) => c.id === filterId)?.label ?? ''}`
             : ''}
         </p>
-      </div>
+      </section>
 
       {filtered.length === 0 ? (
         <div className="empty legends-empty">

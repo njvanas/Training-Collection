@@ -29,7 +29,7 @@ export function applyTheme(theme: Theme): void {
     meta.dataset.dynamic = 'true';
     document.head.appendChild(meta);
   }
-  meta.content = theme === 'dark' ? '#0f1117' : '#5b4fe8';
+  meta.content = theme === 'dark' ? '#0c0b0a' : '#1a1512';
 }
 
 export function storeTheme(theme: Theme): void {
