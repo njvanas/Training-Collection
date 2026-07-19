@@ -1849,7 +1849,6 @@ table.ex tr:last-child td {
 /* ── Legends explorer ── */
 .legends-browse {
   margin-top: 4px;
-  animation: legend-fade-up 0.45s ease both;
 }
 
 .legends-masthead {
@@ -1857,12 +1856,12 @@ table.ex tr:last-child td {
   flex-direction: column;
   align-items: stretch;
   gap: 0;
-  padding: clamp(36px, 8vw, 72px) 0 28px;
-  max-width: 52rem;
+  padding: 20px 0 18px;
+  max-width: 40rem;
 }
 
 .legends-kicker {
-  margin: 0 0 14px;
+  margin: 0 0 10px;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -1873,28 +1872,27 @@ table.ex tr:last-child td {
 .legends-headline {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(40px, 8vw, 72px);
+  font-size: clamp(28px, 5vw, 44px);
   font-weight: 800;
-  letter-spacing: -0.04em;
-  line-height: 0.98;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  color: var(--text);
 }
 
-.legends-headline .outline {
-  color: transparent;
-  -webkit-text-stroke: 1.5px var(--accent);
-  text-stroke: 1.5px var(--accent);
+.legends-headline .accent {
+  color: var(--accent-ink);
 }
 
 .legends-lede {
-  margin: 18px 0 0;
+  margin: 12px 0 0;
   max-width: 36rem;
-  font-size: 16px;
-  line-height: 1.55;
+  font-size: 15px;
+  line-height: 1.5;
   color: var(--text-muted);
 }
 
 .legends-search-shell {
-  margin: 28px 0 0;
+  margin: 20px 0 0;
   padding: 0;
   background: transparent;
   border: none;
@@ -1907,9 +1905,9 @@ table.ex tr:last-child td {
   align-items: center;
   gap: 8px;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1.5px solid var(--border);
   border-radius: 999px;
-  padding: 6px 6px 6px 22px;
+  padding: 5px 5px 5px 18px;
   box-shadow: var(--shadow);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -1926,15 +1924,15 @@ table.ex tr:last-child td {
   background: transparent;
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
-  padding: 14px 4px;
+  padding: 12px 4px;
   outline: none;
 }
 
 .legends-search::placeholder {
   color: var(--text-muted);
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .legends-search-clear {
@@ -1955,13 +1953,13 @@ table.ex tr:last-child td {
 
 .legends-search-go {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border: none;
-  border-radius: 14px;
+  border-radius: 12px;
   background: var(--accent);
   color: #1a1512;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
@@ -1974,7 +1972,7 @@ table.ex tr:last-child td {
 }
 
 .legends-search-hint {
-  margin: 16px 2px 0;
+  margin: 12px 2px 0;
   font-size: 13px;
   color: var(--text-muted);
 }
@@ -1983,7 +1981,7 @@ table.ex tr:last-child td {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .legends-filter-chip {
@@ -2055,7 +2053,7 @@ table.ex tr:last-child td {
   gap: 14px;
   text-align: left;
   padding: 22px;
-  min-height: 280px;
+  min-height: 0;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -2064,7 +2062,6 @@ table.ex tr:last-child td {
   overflow: hidden;
   color: inherit;
   font-family: var(--font-body);
-  animation: legend-fade-up 0.5s ease both;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
@@ -2144,10 +2141,6 @@ table.ex tr:last-child td {
 }
 
 /* Legend detail */
-.legend-detail {
-  animation: legend-fade-up 0.4s ease both;
-}
-
 .legend-detail-hero {
   display: flex;
   gap: 20px;
@@ -2220,9 +2213,15 @@ table.ex tr:last-child td {
 
 .legend-detail-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  grid-template-columns: 1fr;
   gap: 28px;
   align-items: start;
+}
+
+@media (min-width: 980px) {
+  .legend-detail-layout {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  }
 }
 
 .legend-col-title {
@@ -2368,10 +2367,6 @@ table.ex tr:last-child td {
   font-size: 12px;
   color: var(--text-muted);
   font-weight: 600;
-}
-
-.legend-workout-detail {
-  animation: legend-fade-up 0.35s ease both;
 }
 
 @keyframes legend-fade-up {

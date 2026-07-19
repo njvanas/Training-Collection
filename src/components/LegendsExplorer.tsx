@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   getLegendRoutineGroupsByStyle,
   getRoutine,
@@ -182,8 +182,8 @@ function RoutineGroupBlock({
       <div className="legend-routine-block-head" id={`group-${group.id}`}>
         <h3>{group.label}</h3>
         <p className="sub">
-          {style.creator} · {group.workouts.length} workout
-          {group.workouts.length === 1 ? '' : 's'}
+          {style.creator} · {group.workouts.length}{' '}
+          {group.workouts.length === 1 ? 'workout' : 'workouts'}
         </p>
       </div>
       <div className="legend-workout-grid">
@@ -519,6 +519,10 @@ export function LegendsExplorer() {
     [normalized, filterId],
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [view]);
+
   if (view.kind === 'workout') {
     const routine = getRoutine(view.routineId);
     const style = styles.find((s) => s.id === view.styleId);
@@ -577,7 +581,7 @@ export function LegendsExplorer() {
       <section className="legends-masthead">
         <p className="legends-kicker">Bodybuilding methodologies</p>
         <h1 className="legends-headline">
-          Find how the <span className="outline">legends</span> trained
+          Find how the <span className="accent">legends</span> trained
         </h1>
         <p className="legends-lede">
           Search a bodybuilder, open their method, then dig into every workout
