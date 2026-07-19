@@ -1213,7 +1213,7 @@
         "exerciseId": "deadlift",
         "sets": 1,
         "repRange": "5-8",
-        "notes": "One heavy set to near-failure. Shrugs can be substituted if needed.",
+        "notes": "Mentzer Ideal: regular-style deadlift taken near failure (not always absolute failure).",
         "setScheme": [
           {
             "label": "Warm-ups",
@@ -1223,7 +1223,7 @@
           {
             "label": "F1",
             "kind": "failure",
-            "intensity": "One all-out set to momentary muscular failure"
+            "intensity": "Near failure — heavy systemic set; stop short of form breakdown"
           }
         ]
       }
@@ -2477,18 +2477,19 @@
   },
   {
     "id": "doucette-legs",
-    "name": "HTLT Hardcore - Legs",
+    "name": "HTLT Hardcore - Legs & Biceps",
     "day": "Day 1",
     "styleId": "htlt",
     "focus": [
       "quads",
       "hamstrings",
       "glutes",
-      "calves"
+      "calves",
+      "biceps"
     ],
-    "description": "Representative HTLT Hardcore leg day following Doucette's public principles: controlled 2-1-1 tempo, target the rep range, warm-ups stop 3-5 reps shy of failure, and only the last set of each movement goes 'all out'. Beat last time.",
+    "description": "Representative HTLT Hardcore Day 1 (Legs & Biceps): controlled tempo, target rep ranges, warm-ups stop 3–5 RIR, last set of each movement can go all-out. Exercise list is representative of the paid Hardcore template.",
     "source": {
-      "name": "Greg Doucette - HTLT Programs",
+      "name": "HTLT Training Programs — Coach Greg Inc.",
       "url": "https://www.gregdoucette.com/products/htlt-training-programs"
     },
     "exercises": [
@@ -2675,18 +2676,17 @@
   },
   {
     "id": "doucette-chest-arms",
-    "name": "HTLT Hardcore - Chest & Arms",
+    "name": "HTLT Hardcore - Chest, Shoulders & Triceps",
     "day": "Day 2",
     "styleId": "htlt",
     "focus": [
       "chest",
-      "triceps",
-      "biceps",
-      "shoulders"
+      "shoulders",
+      "triceps"
     ],
-    "description": "Representative HTLT Hardcore chest and arms day. Slow tempo for time under tension, rep-range targets, and a single 'all out' final set per movement (advanced lifters may add a drop set or partials).",
+    "description": "Representative HTLT Hardcore Day 2 (Chest, Shoulders & Triceps). Exercise list is representative — not a free public canon spreadsheet.",
     "source": {
-      "name": "Greg Doucette - HTLT Programs",
+      "name": "HTLT Training Programs — Coach Greg Inc.",
       "url": "https://www.gregdoucette.com/products/htlt-training-programs"
     },
     "exercises": [
@@ -2751,6 +2751,34 @@
         ]
       },
       {
+        "exerciseId": "military-press",
+        "sets": 3,
+        "repRange": "8-12",
+        "notes": "Shoulders with the push day in Hardcore Template I.",
+        "setScheme": [
+          {
+            "label": "WU",
+            "kind": "warmup",
+            "intensity": "12–20 reps, 3–5 RIR"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Target range, 2-1-1 tempo"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Target range, controlled"
+          },
+          {
+            "label": "3",
+            "kind": "all-out",
+            "intensity": "All-out finisher"
+          }
+        ]
+      },
+      {
         "exerciseId": "weighted-triceps-dip",
         "sets": 3,
         "repRange": "10-15",
@@ -2781,61 +2809,6 @@
         "exerciseId": "lying-triceps-extension",
         "sets": 3,
         "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "WU",
-            "kind": "warmup",
-            "intensity": "12–20 reps, 3–5 reps in reserve"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Target rep range, 2-1-1 tempo"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Target rep range, 2-1-1 tempo"
-          },
-          {
-            "label": "3",
-            "kind": "all-out",
-            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
-          }
-        ]
-      },
-      {
-        "exerciseId": "barbell-curl",
-        "sets": 3,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "WU",
-            "kind": "warmup",
-            "intensity": "12–20 reps, 3–5 reps in reserve"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Target rep range, 2-1-1 tempo"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Target rep range, 2-1-1 tempo"
-          },
-          {
-            "label": "3",
-            "kind": "all-out",
-            "intensity": "All-out finisher — to failure OK; partials or drop set optional"
-          }
-        ]
-      },
-      {
-        "exerciseId": "cable-biceps-curl",
-        "sets": 3,
-        "repRange": "12-15",
-        "notes": "Squeeze and control; last set all out.",
         "setScheme": [
           {
             "label": "WU",
@@ -2895,19 +2868,18 @@
   },
   {
     "id": "doucette-back-shoulders",
-    "name": "HTLT Hardcore - Back & Shoulders",
+    "name": "HTLT Hardcore - Back",
     "day": "Day 3",
     "styleId": "htlt",
     "focus": [
       "back",
       "lats",
       "rear-delts",
-      "shoulders",
       "traps"
     ],
-    "description": "Representative HTLT Hardcore back and shoulders day. Full range of motion, controlled tempo, target the rep range, and progress 'harder than last time'. Run the 3-day split across 5-7 days so each muscle is hit twice weekly.",
+    "description": "Representative HTLT Hardcore Day 3 — back-focused (width and thickness). Shoulders already hit on Day 2 in Template I; rear-delt / upper-back work can still appear here.",
     "source": {
-      "name": "Greg Doucette - HTLT Programs",
+      "name": "HTLT Training Programs — Coach Greg Inc.",
       "url": "https://www.gregdoucette.com/products/htlt-training-programs"
     },
     "exercises": [
@@ -3909,7 +3881,7 @@
     "styleId": "arnold-golden-era",
     "sortOrder": 1,
     "labels": [
-      "Golden Six"
+      "Golden Six (early career)"
     ],
     "focus": [
       "chest",
@@ -3919,7 +3891,7 @@
       "quads",
       "abs"
     ],
-    "description": "Arnold's early full-body routine — six lifts, 3× per week on non-consecutive days. Add weight when you exceed rep targets.",
+    "description": "Early-career Golden Six only — not the competitive Olympia program. Six lifts, 3×/week on non-consecutive days. Add weight when you exceed rep targets.",
     "source": {
       "name": "Arnold's Golden Six - Fitness Volt",
       "url": "https://fitnessvolt.com/arnolds-golden-six-routine/"
@@ -8172,12 +8144,12 @@
   },
   {
     "id": "gaspari-chest-triceps",
-    "name": "Annihilation - Chest & Triceps",
+    "name": "Old-School Intensity - Chest & Triceps",
     "day": "Day 1",
     "styleId": "gaspari-annihilation",
     "sortOrder": 1,
     "labels": [
-      "Annihilation reference"
+      "Gaspari Nutrition era"
     ],
     "focus": [
       "chest",
@@ -8352,12 +8324,12 @@
   },
   {
     "id": "gaspari-back-biceps",
-    "name": "Annihilation - Back & Biceps",
+    "name": "Old-School Intensity - Back & Biceps",
     "day": "Day 2",
     "styleId": "gaspari-annihilation",
     "sortOrder": 2,
     "labels": [
-      "Annihilation reference"
+      "Gaspari Nutrition era"
     ],
     "focus": [
       "back",
@@ -8532,12 +8504,12 @@
   },
   {
     "id": "gaspari-shoulders-traps",
-    "name": "Annihilation - Shoulders (Pre-Exhaust)",
+    "name": "Old-School Intensity - Shoulders (Pre-Exhaust)",
     "day": "Day 4",
     "styleId": "gaspari-annihilation",
     "sortOrder": 3,
     "labels": [
-      "Gaspari Nutrition"
+      "Gaspari Nutrition era"
     ],
     "focus": [
       "shoulders",
@@ -8733,12 +8705,12 @@
   },
   {
     "id": "gaspari-legs",
-    "name": "Annihilation - Legs",
+    "name": "Old-School Intensity - Legs",
     "day": "Day 5",
     "styleId": "gaspari-annihilation",
     "sortOrder": 4,
     "labels": [
-      "Annihilation reference"
+      "Gaspari Nutrition era"
     ],
     "focus": [
       "quads",
