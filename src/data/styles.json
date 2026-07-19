@@ -680,18 +680,18 @@
     "displayOrder": 9,
     "tags": [
       "High volume",
-      "5-day split",
+      "20 working sets",
       "Short rest",
       "Olympia prep"
     ],
-    "summary": "Jay Cutler's One Step Closer training, filmed by Mitsuru Okabe through the 2005 Mr. Olympia and the weeks after: legendary Gold's Gym volume — stacks of exercises and sets with short rest, controlled mind-muscle work, and heavy compounds (500-lb deadlifts, 140-lb one-arm rows, 405 front squats). Contest-prep back and shoulders/traps/calves/abs come first on the DVD; chest, arms, and legs were shot post-show while still full and dense. Scale the set counts down if you are not a seasoned high-volume lifter.",
+    "summary": "Jay Cutler's One Step Closer / Olympia-era high-volume training: about 20 working sets per body part (typically 4–5 exercises × 3–4 working sets — warm-ups do not count), short 30–60s rests, and bodybuilding rep ranges that live in the 10–15 zone more than pure strength work. Filmed at Gold's through the 2005 Olympia and the weeks after — stacks of angles, controlled mind-muscle reps, and dense pumps. Scale down if you cannot recover from pro-level volume.",
     "principles": [
-      "Volume drives growth — many exercises and sets per body part, built up over years.",
-      "Rest ~30-60 seconds between most sets; keep the session dense and the pump high.",
-      "Control the rep and the contraction — feel the muscle through a full range; do not chase ego weight.",
-      "Train each major body part once per week on a dedicated day; calves (and often abs) get extra attention.",
-      "Hard sessions earn recovery — rest after brutal back and leg days in the weekly rotation.",
-      "Consistency over novelty — the same high-volume blueprint, progressed for decades."
+      "Aim for ~20 working sets per body part — Jay's career standard (warm-ups and feel sets do not count).",
+      "Use 4–5 exercises and 3–4 working sets each; vary angles, not just load.",
+      "Rest ~30–60 seconds — speed training for metabolic stress and the pump.",
+      "Reps stay mostly in the 10–15 bodybuilding range; compounds can sit 8–12 when heavy.",
+      "Control every rep — contraction and stretch beat ego weight.",
+      "Rest after brutal back and leg days in the 3-on / 1-off / 2-on / 1-off rotation."
     ],
     "intensityTechniques": [
       "drop-set",
@@ -701,20 +701,24 @@
     "guidelines": {
       "trainingDaysPerWeek": "5 (classic 3 on, 1 off, 2 on, 1 off rotation)",
       "frequencyPerMuscle": "Once per week; calves twice; abs often with shoulders.",
-      "warmupProtocol": "2 progressive warm-up sets on the first compound; lighter warm-ups on later lifts as needed.",
-      "workingSetProtocol": "High-volume sessions: typically 3-4 working sets per exercise after warm-ups, 15-25+ total sets on large body parts for advanced lifters. Scale to 12-16 sets when adapting. Sessions run long — quality over rushing.",
+      "warmupProtocol": "1–2 progressive warm-ups / feel sets on the first compound of the day (and when load jumps). Warm-ups are not part of the ~20 working-set target.",
+      "workingSetProtocol": "~20 working sets per body part: usually 5 movements × 4 working sets (or 4 × 3–4). Arms day hits both biceps and triceps near that volume each. Short rests; sessions run long.",
       "repRanges": [
         {
           "target": "Compounds",
-          "range": "6-12 reps"
+          "range": "8-12 reps (often closer to 10-12)"
         },
         {
-          "target": "Isolation & detail",
-          "range": "10-15 reps"
+          "target": "Isolation & pump work",
+          "range": "12-15 reps"
+        },
+        {
+          "target": "Legs (extensions, curls, lunges)",
+          "range": "12-20 reps"
         },
         {
           "target": "Calves & abs",
-          "range": "12-20+ reps"
+          "range": "15-20+ reps"
         }
       ]
     },
@@ -768,6 +772,10 @@
       {
         "title": "Jay Cutler — Heir to the Olympia Throne (MESO-Rx / Ron Harris)",
         "url": "https://thinksteroids.com/articles/jay-cutler-ifbb-pro-bodybuilder/"
+      },
+      {
+        "title": "Jay Cutler on Sets Per Body Part — Fitness Volt",
+        "url": "https://fitnessvolt.com/jay-cutler-sets-per-body-part/"
       }
     ]
   },

@@ -47,6 +47,15 @@ const STYLE_PROTOCOLS: Record<string, SetProtocolGuide> = {
     failure:
       'Only the final set of each movement goes all-out (advanced). Partials or a drop set optional.',
   },
+  'cutler-volume': {
+    title: 'Cutler high-volume set scheme',
+    warmup:
+      '1–2 warm-ups / feel sets on the first compound (and when load jumps). Warm-ups do not count toward the ~20 working-set target.',
+    working:
+      '~20 working sets per body part — typically 4 working sets × 4–5 exercises, 10–15 reps, 30–60s rest. Chase the pump; stop shy of failure.',
+    failure:
+      'Not a failure-first method. Occasional drop sets, forced reps, or partials at the end of a movement are optional.',
+  },
   personal: {
     title: 'My Hevy set scheme (HIT-style)',
     warmup: 'W1 and W2 are progressive warm-ups — never taken near failure.',
@@ -123,6 +132,8 @@ export function resolveSetScheme(
       return { sets: colemanScheme(slot), inferred: true };
     case 'htlt':
       return { sets: htltScheme(slot), inferred: true };
+    case 'cutler-volume':
+      return { sets: cutlerScheme(slot), inferred: true };
     default:
       return {
         sets: [
@@ -253,6 +264,21 @@ function htltScheme(slot: RoutineExercise): ResolvedSet[] {
     intensity: 'All-out finisher — to failure OK, partials/drop optional',
   });
 
+  return sets;
+}
+
+function cutlerScheme(slot: RoutineExercise): ResolvedSet[] {
+  const sets: ResolvedSet[] = [
+    { label: 'W1', kind: 'warmup', intensity: '~30% — groove only' },
+    { label: 'W2', kind: 'warmup', intensity: '~60% — feel set' },
+  ];
+  for (let i = 1; i <= slot.sets; i += 1) {
+    sets.push({
+      label: String(i),
+      kind: 'working',
+      intensity: 'Working set — 10–15 reps, 30–60s rest, chase the pump',
+    });
+  }
   return sets;
 }
 

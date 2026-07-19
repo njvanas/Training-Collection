@@ -6091,7 +6091,7 @@
     "focus": [
       "chest"
     ],
-    "description": "Post-Olympia chest from One Step Closer (~290 lb, still shredded and full): incline dumbbell press, flat bench, dips / incline barbell, decline or flye work, and pullovers — angle after angle with high set counts.",
+    "description": "Post-Olympia chest from One Step Closer: five angles × 4 working sets (~20 working sets). Incline dumbbell and barbell pressing, flat bench, dips, flye/decline work, and pullovers — higher-rep bodybuilding volume, short rest.",
     "source": {
       "name": "Jay Cutler — One Step Closer 2/5",
       "url": "https://www.youtube.com/watch?v=qcSiPF6ZGsM"
@@ -6099,181 +6099,181 @@
     "exercises": [
       {
         "exerciseId": "incline-dumbbell-press",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Incline dumbbell press leads the DVD chest segment."
-      },
-      {
-        "exerciseId": "barbell-bench-press",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Flat barbell bench for mid-pec mass."
-      },
-      {
-        "exerciseId": "weighted-triceps-dip",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Chest-focused dips (paired with incline barbell work on the DVD)."
-      },
-      {
-        "exerciseId": "incline-barbell-press",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Incline barbell press for upper-chest thickness."
-      },
-      {
-        "exerciseId": "decline-bench-press",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Decline press / pec-flye pairing for lower-chest sweep."
-      },
-      {
-        "exerciseId": "dumbbell-pullover",
         "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Pullovers finish the chest — stretch and ribcage expansion."
+        "notes": "Leads the DVD chest segment — 4 working sets after warm-ups."
+      },
+      {
+        "exerciseId": "barbell-bench-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Flat barbell for mid-pec mass — stay in the 10-12 zone."
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Second incline angle for upper-chest thickness."
+      },
+      {
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 4,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Chest-focused dips — lean forward, higher reps for the pump."
+      },
+      {
+        "exerciseId": "decline-bench-press",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Decline / lower-chest sweep from the DVD pairing."
+      },
+      {
+        "exerciseId": "dumbbell-pullover",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Pullovers finish chest — stretch and high-rep pump."
       }
     ],
     "collection": "legend"
@@ -6291,7 +6291,7 @@
       "triceps",
       "biceps"
     ],
-    "description": "Arms at Gold's from One Step Closer: rope and wide pushdowns, close-grip bench / dips, overhead and reverse-grip extensions, then preacher, alternating, barbell, one-arm preacher, and hammer curls — tris and bis both buried in volume.",
+    "description": "Arms at Gold's from One Step Closer: ~4 working sets on each movement, higher-rep pushdowns and curls. Triceps and biceps each land near Jay's ~20 working-set body-part target — dense volume, short rest, no ego swinging.",
     "source": {
       "name": "Jay Cutler — One Step Closer (Full DVD)",
       "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
@@ -6299,232 +6299,303 @@
     "exercises": [
       {
         "exerciseId": "triceps-pushdown",
-        "sets": 5,
-        "repRange": "10-12",
+        "sets": 4,
+        "repRange": "12-15",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Rope / pushdown opens triceps — short rest, full squeeze."
+        "notes": "Rope / pushdown opens tris — 12-15 for the pump."
       },
       {
         "exerciseId": "close-grip-bench-press",
         "sets": 4,
-        "repRange": "8-12",
+        "repRange": "10-12",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Close-grip bench (DVD pairs with dips for mass)."
+        "notes": "Close-grip mass builder (DVD pairs with dips)."
       },
       {
         "exerciseId": "overhead-triceps-extension-cable",
         "sets": 4,
-        "repRange": "10-12",
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Overhead cable extensions for the long head."
+        "notes": "Overhead cable — long-head stretch, higher reps."
+      },
+      {
+        "exerciseId": "lying-triceps-extension",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Skull crushers / EZ extensions for belly of the tri."
       },
       {
         "exerciseId": "one-arm-triceps-pushdown",
         "sets": 4,
-        "repRange": "10-12",
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Reverse / one-arm pushdown detail work."
+        "notes": "One-arm / reverse-grip detail — finish tris near 20 working sets."
       },
       {
         "exerciseId": "preacher-curl-barbell",
         "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Preacher curls start the biceps block."
-      },
-      {
-        "exerciseId": "alternating-dumbbell-curl",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Alternate dumbbell curls for peak contraction."
-      },
-      {
-        "exerciseId": "barbell-curl",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Standing barbell curls for overall arm mass."
-      },
-      {
-        "exerciseId": "hammer-curl",
-        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Hammer curls for brachialis thickness."
+        "notes": "Preacher curls open the biceps block."
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Standing barbell curls — controlled, 10-12."
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Alternate dumbbell curls for peak and pump."
+      },
+      {
+        "exerciseId": "hammer-curl",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Hammers for brachialis — higher reps to finish near 20 for bis."
+      },
+      {
+        "exerciseId": "cable-biceps-curl",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Cable curls keep constant tension for the last pump."
       }
     ],
     "collection": "legend"
@@ -6543,7 +6614,7 @@
       "lats",
       "lower-back"
     ],
-    "description": "Contest-prep back session from One Step Closer (~3.5 weeks out of the 2005 Olympia at Gold's): front pulldowns, heavy one-arm rows, bent-over and corner T-bar rows, seated rows, then deadlifts — high volume, short rest, brutal thickness work.",
+    "description": "Contest-prep back from One Step Closer (~3.5 weeks out): width then thickness — pulldowns, one-arm rows, bent-over and corner T-bar rows, seated rows, incline DB rows, then deadlifts. About 4 working sets each (~24+ working sets) in the 10-12 zone Jay lived in on camera.",
     "source": {
       "name": "Jay Cutler — One Step Closer (Full DVD)",
       "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
@@ -6551,191 +6622,209 @@
     "exercises": [
       {
         "exerciseId": "lat-pulldown",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Front / wide pulldowns open the DVD back workout for width."
-      },
-      {
-        "exerciseId": "one-arm-dumbbell-row",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Jay's favorite thickness builder — filmed with ~140 lb for high reps."
-      },
-      {
-        "exerciseId": "barbell-row",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Bent-over rows for mid-back density."
-      },
-      {
-        "exerciseId": "t-bar-row",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Corner T-bar rows at Gold's — plates stacked to the end of the bar."
-      },
-      {
-        "exerciseId": "seated-cable-row",
         "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Seated rows deeper in the session for thickness after width work."
+        "notes": "Front pulldowns open for width — 4 working sets."
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Favorite thickness builder — DVD shows heavy DBs for higher reps."
+      },
+      {
+        "exerciseId": "barbell-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Bent-over rows for mid-back density."
+      },
+      {
+        "exerciseId": "t-bar-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Corner T-bar at Gold's — plates to the collar."
+      },
+      {
+        "exerciseId": "seated-cable-row",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Seated rows deeper in the session — squeeze and higher reps."
+      },
+      {
+        "exerciseId": "iso-lateral-row",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Machine / incline-style row angle from the DVD exercise list."
       },
       {
         "exerciseId": "deadlift",
         "sets": 4,
-        "repRange": "6-10",
+        "repRange": "8-12",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Heavy conventional deadlifts (DVD shows up to ~500 lb) to finish the back."
+        "notes": "Heavy conventional deadlifts to finish — still multiple working sets, not a one-and-done."
       }
     ],
     "collection": "legend"
@@ -6756,7 +6845,7 @@
       "calves",
       "abs"
     ],
-    "description": "Delts, traps, calves, and abs from One Step Closer: standing military presses, seated laterals, front raises, rear-delt machine and cable laterals, shrugs and upright rows, then standing/seated calves and crunches — the session Teased as next up in Part 4/5.",
+    "description": "Shoulders/traps from One Step Closer (Part 4/5 teases this session): military presses, laterals, front raises, rear-delt machine and cables, shrugs, upright rows — ~4×12-15 on delts (~20+ working sets), then high-rep calves and abs.",
     "source": {
       "name": "Jay Cutler — One Step Closer Part 4/5",
       "url": "https://www.youtube.com/watch?v=KaxiL6ayp_M"
@@ -6764,97 +6853,97 @@
     "exercises": [
       {
         "exerciseId": "military-press",
-        "sets": 5,
-        "repRange": "8-12",
+        "sets": 4,
+        "repRange": "10-12",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Standing barbell presses featured on the DVD shoulder day."
+        "notes": "Standing barbell presses — DVD shoulder opener."
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
-        "sets": 5,
-        "repRange": "10-15",
+        "sets": 4,
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Seated side laterals — high volume for medial delts."
+        "notes": "Seated/standing laterals — medial delts thrive on higher reps."
       },
       {
         "exerciseId": "front-raise",
         "sets": 4,
-        "repRange": "10-15",
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Dumbbell front raises for anterior delts."
+        "notes": "Dumbbell front raises — 12-15 controlled reps."
       },
       {
         "exerciseId": "rear-delt-fly-machine",
@@ -6862,24 +6951,24 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
         "notes": "Rear delts on the pec-deck / rear-fly machine."
@@ -6890,148 +6979,139 @@
         "repRange": "12-15",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Standing cable rear laterals — DVD highlight for rear-delt detail."
-      },
-      {
-        "exerciseId": "barbell-shrug",
-        "sets": 5,
-        "repRange": "10-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Barbell (and dumbbell) shrugs for traps."
+        "notes": "Standing cable rear laterals — DVD highlight."
+      },
+      {
+        "exerciseId": "barbell-shrug",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Shrugs for traps — higher reps, short rest."
       },
       {
         "exerciseId": "upright-row",
         "sets": 4,
-        "repRange": "10-12",
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Dumbbell upright rows to finish traps/delts."
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 5,
-        "repRange": "12-20",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Standing calves — hit hard every shoulder session on the DVD."
+        "notes": "Upright rows finish delts/traps near the 20-set mark."
       },
       {
-        "exerciseId": "seated-calf-raise",
+        "exerciseId": "standing-calf-raise",
         "sets": 4,
-        "repRange": "12-20",
+        "repRange": "15-20",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Standing calves — high reps, full stretch."
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 4,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Seated calves for soleus volume."
       },
       {
         "exerciseId": "decline-crunch",
@@ -7039,27 +7119,27 @@
         "repRange": "15-25",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Abs trained as hard as any other body part in this segment."
+        "notes": "Abs trained as hard as any other part on this DVD day."
       }
     ],
     "collection": "legend"
@@ -7078,7 +7158,7 @@
       "hamstrings",
       "calves"
     ],
-    "description": "December 2005 leg day from One Step Closer (~295 lb): leg extensions into presses, hack / front squats (405 featured), walking lunges, seated and lying leg curls, stiff-leg deadlifts, and more press/curl volume — Jay's trademark sweep built here.",
+    "description": "December 2005 leg day from One Step Closer: extensions, presses, hack and front squats, walking lunges, lying curls, stiff-legs, and calves — 4 working sets and higher-rep quad/ham work that built the Cutler sweep. Expect 20+ working sets before calves.",
     "source": {
       "name": "Jay Cutler — One Step Closer (Full DVD)",
       "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
@@ -7086,94 +7166,94 @@
     "exercises": [
       {
         "exerciseId": "leg-extension",
-        "sets": 5,
-        "repRange": "12-20",
+        "sets": 4,
+        "repRange": "15-20",
         "setScheme": [
           {
             "label": "W1",
             "kind": "warmup",
-            "intensity": "~30% of working weight"
+            "intensity": "~30% — groove only, never near failure"
           },
           {
             "label": "W2",
             "kind": "warmup",
-            "intensity": "~60% of working weight"
+            "intensity": "~60% — feel set, still not a working set"
           },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Extensions pre-exhaust the quads before heavy compounds."
+        "notes": "High-rep extensions pre-exhaust — classic Cutler quad opener."
       },
       {
         "exerciseId": "leg-press",
-        "sets": 5,
-        "repRange": "10-15",
+        "sets": 4,
+        "repRange": "12-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
-        "notes": "Heavy leg presses — DVD shows stacks of 45s."
+        "notes": "Heavy presses still in a bodybuilding 12-15 zone."
       },
       {
         "exerciseId": "hack-squat",
         "sets": 4,
-        "repRange": "8-12",
+        "repRange": "10-15",
         "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
           {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
         ],
         "notes": "Hack squats paired with front squats on the DVD."
@@ -7181,146 +7261,170 @@
       {
         "exerciseId": "front-squat",
         "sets": 4,
-        "repRange": "6-10",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Front squats with ~405 lb featured in the December session."
-      },
-      {
-        "exerciseId": "walking-lunge",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Walking lunges for sweep and conditioning."
-      },
-      {
-        "exerciseId": "lying-leg-curl",
-        "sets": 4,
         "repRange": "10-12",
         "setScheme": [
           {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
             "label": "1",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Lying (and seated) leg curls for hamstrings."
-      },
-      {
-        "exerciseId": "romanian-deadlift",
-        "sets": 4,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          }
-        ],
-        "notes": "Dumbbell stiff-leg deadlifts for hamstring stretch."
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 5,
-        "repRange": "12-20",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Front squats (~405 featured) — upright torso, deep quads."
+      },
+      {
+        "exerciseId": "walking-lunge",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Walking lunges for sweep — higher reps each leg."
+      },
+      {
+        "exerciseId": "lying-leg-curl",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Lying leg curls — 4 working sets for hams."
+      },
+      {
+        "exerciseId": "standing-leg-curl",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Standing leg curls from the DVD hamstring list."
+      },
+      {
+        "exerciseId": "romanian-deadlift",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Dumbbell stiff-leg deadlifts — stretch under control."
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 4,
+        "repRange": "15-20",
+        "setScheme": [
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          },
+          {
+            "label": "4",
+            "kind": "working",
+            "intensity": "Working set — controlled tempo, short rest (30-60s), chase the pump; stop shy of failure"
+          }
+        ],
+        "notes": "Standing calves to close the session."
       }
     ],
     "collection": "legend"
