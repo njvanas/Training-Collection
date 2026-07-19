@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { StylesView } from './components/StylesView';
 import { ExercisesView } from './components/ExercisesView';
-import { PlansView } from './components/PlansView';
 import { HevyFoldersView } from './components/HevyFoldersView';
+import { LegendsExplorer } from './components/LegendsExplorer';
 import { ThemeToggle } from './components/ThemeToggle';
 import {
   exercises,
@@ -13,21 +12,18 @@ import {
 } from './lib/db';
 import type { Theme } from './lib/theme';
 
-type Tab = 'methodologies' | 'plans' | 'hevy' | 'exercises';
+type Tab = 'legends' | 'hevy' | 'exercises';
 
 const TABS: { id: Tab; label: string }[] = [
-  { id: 'methodologies', label: 'Methodologies' },
-  { id: 'plans', label: 'Training Routines' },
+  { id: 'legends', label: 'Legends' },
   { id: 'hevy', label: 'My Routines' },
   { id: 'exercises', label: 'Exercises' },
 ];
 
 function renderTab(tab: Tab) {
   switch (tab) {
-    case 'methodologies':
-      return <StylesView />;
-    case 'plans':
-      return <PlansView />;
+    case 'legends':
+      return <LegendsExplorer />;
     case 'hevy':
       return <HevyFoldersView />;
     case 'exercises':
@@ -44,34 +40,37 @@ type AppProps = {
 };
 
 export function App({ initialTheme }: AppProps) {
-  const [tab, setTab] = useState<Tab>('methodologies');
+  const [tab, setTab] = useState<Tab>('legends');
   const routineCount = getLegendRoutineGroups().length;
   const workoutCount = getLegendRoutines().length;
 
   return (
     <div className="app">
+      <div className="atmosphere" aria-hidden />
+
       <header className="hero">
         <div className="hero-top">
+          <p className="hero-brand-mark">Iron Legends</p>
           <ThemeToggle initialTheme={initialTheme} />
         </div>
         <h1>
-          Iron <span className="accent">Legends</span>
+          Find how the
+          <span className="accent"> legends </span>
+          trained
         </h1>
         <p>
-          A public reference for bodybuilding&apos;s greatest training
-          methodologies — Dorian Yates, Mike Mentzer, Ronnie Coleman, and Greg
-          Doucette. Read how each legend trained, browse complete training
-          routines with every warm-up and working set spelled out, or open my
-          personal Hevy folders to log your own workouts.
+          Search a bodybuilder, open their methodology, and dig into every
+          training routine with warm-ups, working sets, and failure protocols
+          laid out clearly.
         </p>
-        <div className="hero-stats">
+        <div className="hero-stats" aria-label="Collection size">
           <div className="hero-stat">
             <div className="n">{styles.length}</div>
-            <div className="l">Methodologies</div>
+            <div className="l">Legends</div>
           </div>
           <div className="hero-stat">
             <div className="n">{routineCount}</div>
-            <div className="l">Training routines</div>
+            <div className="l">Routines</div>
           </div>
           <div className="hero-stat">
             <div className="n">{workoutCount}</div>
@@ -83,7 +82,7 @@ export function App({ initialTheme }: AppProps) {
           </div>
           <div className="hero-stat">
             <div className="n">{hevyFolders.length}</div>
-            <div className="l">My routines</div>
+            <div className="l">My folders</div>
           </div>
         </div>
       </header>
@@ -104,8 +103,7 @@ export function App({ initialTheme }: AppProps) {
       {renderTab(tab)}
 
       <footer className="footer">
-        Iron Legends — train hard, recover fully, track everything. Methodology
-        research for lifters everywhere.
+        Iron Legends — train hard, recover fully, track everything.
       </footer>
     </div>
   );

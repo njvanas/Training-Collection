@@ -25,5 +25,5 @@ const gradients: Record<string, string> = {
 
 /** A distinct avatar gradient per curator (keyed by style id). */
 export function curatorGradient(styleId: string): string {
-  return gradients[styleId] ?? 'linear-gradient(135deg, #5b4fe8, #7a70ff)';
+  return gradients[styleId] ?? 'linear-gradient(135deg, #c45c26, #7a3418)';
 }
