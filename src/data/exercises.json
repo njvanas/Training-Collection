@@ -953,5 +953,42 @@
       "Deep stretch overhead, pull the weight over the chest.",
       "Keep elbows slightly bent and fixed."
     ]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": "Incline Dumbbell Press",
+    "hevyName": "Incline Bench Press (Dumbbell)",
+    "primaryMuscle": "chest",
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": "dumbbell",
+    "category": "compound",
+    "cues": [
+      "Set the bench to a moderate incline.",
+      "Press up and slightly together without locking out hard.",
+      "Lower with a stretch across the upper chest."
+    ]
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "hevyName": "Squat (Barbell)",
+    "aliases": [
+      "Barbell Front Squat"
+    ],
+    "primaryMuscle": "quads",
+    "secondaryMuscles": [
+      "glutes",
+      "abs"
+    ],
+    "equipment": "barbell",
+    "category": "compound",
+    "cues": [
+      "Bar across the front delts, elbows high.",
+      "Sit between the heels with an upright torso.",
+      "Drive up through the mid-foot."
+    ]
   }
 ]

@@ -6081,25 +6081,24 @@
   },
   {
     "id": "cutler-chest-calves",
-    "name": "Olympia Split - Chest & Calves",
+    "name": "One Step Closer - Chest",
     "day": "Day 1",
     "styleId": "cutler-volume",
     "sortOrder": 1,
     "labels": [
-      "Olympia-era split"
+      "One Step Closer"
     ],
     "focus": [
-      "chest",
-      "calves"
+      "chest"
     ],
-    "description": "High-volume chest with short rest; calves hit twice weekly in this split.",
+    "description": "Post-Olympia chest from One Step Closer (~290 lb, still shredded and full): incline dumbbell press, flat bench, dips / incline barbell, decline or flye work, and pullovers — angle after angle with high set counts.",
     "source": {
-      "name": "Jay Cutler Workout - Hunt Fitness",
-      "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+      "name": "Jay Cutler — One Step Closer 2/5",
+      "url": "https://www.youtube.com/watch?v=qcSiPF6ZGsM"
     },
     "exercises": [
       {
-        "exerciseId": "incline-barbell-press",
+        "exerciseId": "incline-dumbbell-press",
         "sets": 5,
         "repRange": "8-12",
         "setScheme": [
@@ -6116,19 +6115,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Incline dumbbell press leads the DVD chest segment."
       },
       {
         "exerciseId": "barbell-bench-press",
@@ -6148,22 +6148,107 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Flat barbell bench for mid-pec mass."
       },
       {
-        "exerciseId": "incline-dumbbell-flye",
+        "exerciseId": "weighted-triceps-dip",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Chest-focused dips (paired with incline barbell work on the DVD)."
+      },
+      {
+        "exerciseId": "incline-barbell-press",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Incline barbell press for upper-chest thickness."
+      },
+      {
+        "exerciseId": "decline-bench-press",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Decline press / pec-flye pairing for lower-chest sweep."
+      },
+      {
+        "exerciseId": "dumbbell-pullover",
         "sets": 4,
         "repRange": "10-12",
         "setScheme": [
@@ -6180,94 +6265,36 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
-      },
-      {
-        "exerciseId": "cable-crossover",
-        "sets": 4,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "standing-calf-raise",
-        "sets": 5,
-        "repRange": "12-15",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
+        ],
+        "notes": "Pullovers finish the chest — stretch and ribcage expansion."
       }
     ],
     "collection": "legend"
   },
   {
     "id": "cutler-arms",
-    "name": "Olympia Split - Arms",
+    "name": "One Step Closer - Arms",
     "day": "Day 2",
     "styleId": "cutler-volume",
     "sortOrder": 2,
     "labels": [
-      "Olympia-era split"
+      "One Step Closer"
     ],
     "focus": [
-      "biceps",
-      "triceps"
+      "triceps",
+      "biceps"
     ],
-    "description": "Dedicated arm day — alternating bis and tris with high set counts.",
+    "description": "Arms at Gold's from One Step Closer: rope and wide pushdowns, close-grip bench / dips, overhead and reverse-grip extensions, then preacher, alternating, barbell, one-arm preacher, and hammer curls — tris and bis both buried in volume.",
     "source": {
-      "name": "Jay Cutler - SET FOR SET",
-      "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+      "name": "Jay Cutler — One Step Closer (Full DVD)",
+      "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
     },
     "exercises": [
       {
@@ -6288,54 +6315,23 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Rope / pushdown opens triceps — short rest, full squeeze."
       },
       {
-        "exerciseId": "barbell-curl",
-        "sets": 5,
-        "repRange": "8-12",
-        "setScheme": [
-          {
-            "label": "W1",
-            "kind": "warmup",
-            "intensity": "~30% of working weight"
-          },
-          {
-            "label": "W2",
-            "kind": "warmup",
-            "intensity": "~60% of working weight"
-          },
-          {
-            "label": "1",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "2",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          }
-        ]
-      },
-      {
-        "exerciseId": "lying-triceps-extension",
+        "exerciseId": "close-grip-bench-press",
         "sets": 4,
         "repRange": "8-12",
         "setScheme": [
@@ -6352,17 +6348,18 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Close-grip bench (DVD pairs with dips for mass)."
       },
       {
-        "exerciseId": "hammer-curl",
+        "exerciseId": "overhead-triceps-extension-cable",
         "sets": 4,
         "repRange": "10-12",
         "setScheme": [
@@ -6379,14 +6376,15 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Overhead cable extensions for the long head."
       },
       {
         "exerciseId": "one-arm-triceps-pushdown",
@@ -6406,14 +6404,15 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Reverse / one-arm pushdown detail work."
       },
       {
         "exerciseId": "preacher-curl-barbell",
@@ -6433,36 +6432,121 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Preacher curls start the biceps block."
+      },
+      {
+        "exerciseId": "alternating-dumbbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Alternate dumbbell curls for peak contraction."
+      },
+      {
+        "exerciseId": "barbell-curl",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Standing barbell curls for overall arm mass."
+      },
+      {
+        "exerciseId": "hammer-curl",
+        "sets": 4,
+        "repRange": "10-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Hammer curls for brachialis thickness."
       }
     ],
     "collection": "legend"
   },
   {
     "id": "cutler-back",
-    "name": "Olympia Split - Back",
+    "name": "One Step Closer - Back",
     "day": "Day 3",
     "styleId": "cutler-volume",
     "sortOrder": 3,
     "labels": [
-      "Olympia-era split"
+      "One Step Closer"
     ],
     "focus": [
       "back",
       "lats",
       "lower-back"
     ],
-    "description": "Brutal back volume — always followed by a rest day in Cutler's rotation.",
+    "description": "Contest-prep back session from One Step Closer (~3.5 weeks out of the 2005 Olympia at Gold's): front pulldowns, heavy one-arm rows, bent-over and corner T-bar rows, seated rows, then deadlifts — high volume, short rest, brutal thickness work.",
     "source": {
-      "name": "Jay Cutler - BarBend",
-      "url": "https://barbend.com/news/how-strong-was-jay-cutler/"
+      "name": "Jay Cutler — One Step Closer (Full DVD)",
+      "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
     },
     "exercises": [
       {
@@ -6483,19 +6567,53 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Front / wide pulldowns open the DVD back workout for width."
+      },
+      {
+        "exerciseId": "one-arm-dumbbell-row",
+        "sets": 5,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Jay's favorite thickness builder — filmed with ~140 lb for high reps."
       },
       {
         "exerciseId": "barbell-row",
@@ -6515,19 +6633,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Bent-over rows for mid-back density."
       },
       {
         "exerciseId": "t-bar-row",
@@ -6547,19 +6666,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Corner T-bar rows at Gold's — plates stacked to the end of the bar."
       },
       {
         "exerciseId": "seated-cable-row",
@@ -6579,19 +6699,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Seated rows deeper in the session for thickness after width work."
       },
       {
         "exerciseId": "deadlift",
         "sets": 4,
-        "repRange": "6-8",
+        "repRange": "6-10",
         "setScheme": [
           {
             "label": "W1",
@@ -6606,40 +6727,43 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Heavy conventional deadlifts (DVD shows up to ~500 lb) to finish the back."
       }
     ],
     "collection": "legend"
   },
   {
     "id": "cutler-shoulders-traps",
-    "name": "Olympia Split - Shoulders & Traps",
+    "name": "One Step Closer - Shoulders, Traps, Calves & Abs",
     "day": "Day 5",
     "styleId": "cutler-volume",
     "sortOrder": 4,
     "labels": [
-      "Olympia-era split"
+      "One Step Closer"
     ],
     "focus": [
       "shoulders",
       "traps",
-      "rear-delts"
+      "rear-delts",
+      "calves",
+      "abs"
     ],
-    "description": "Delts and traps with high volume and short rest.",
+    "description": "Delts, traps, calves, and abs from One Step Closer: standing military presses, seated laterals, front raises, rear-delt machine and cable laterals, shrugs and upright rows, then standing/seated calves and crunches — the session Teased as next up in Part 4/5.",
     "source": {
-      "name": "Jay Cutler Workout - Hunt Fitness",
-      "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+      "name": "Jay Cutler — One Step Closer Part 4/5",
+      "url": "https://www.youtube.com/watch?v=KaxiL6ayp_M"
     },
     "exercises": [
       {
-        "exerciseId": "smith-machine-shoulder-press",
+        "exerciseId": "military-press",
         "sets": 5,
         "repRange": "8-12",
         "setScheme": [
@@ -6656,24 +6780,25 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Standing barbell presses featured on the DVD shoulder day."
       },
       {
         "exerciseId": "dumbbell-lateral-raise",
         "sets": 5,
-        "repRange": "10-12",
+        "repRange": "10-15",
         "setScheme": [
           {
             "label": "W1",
@@ -6688,19 +6813,48 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Seated side laterals — high volume for medial delts."
+      },
+      {
+        "exerciseId": "front-raise",
+        "sets": 4,
+        "repRange": "10-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Dumbbell front raises for anterior delts."
       },
       {
         "exerciseId": "rear-delt-fly-machine",
@@ -6720,14 +6874,43 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Rear delts on the pec-deck / rear-fly machine."
+      },
+      {
+        "exerciseId": "one-arm-cable-lateral-raise",
+        "sets": 4,
+        "repRange": "12-15",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Standing cable rear laterals — DVD highlight for rear-delt detail."
       },
       {
         "exerciseId": "barbell-shrug",
@@ -6747,19 +6930,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Barbell (and dumbbell) shrugs for traps."
       },
       {
         "exerciseId": "upright-row",
@@ -6779,36 +6963,125 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Dumbbell upright rows to finish traps/delts."
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "3",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Standing calves — hit hard every shoulder session on the DVD."
+      },
+      {
+        "exerciseId": "seated-calf-raise",
+        "sets": 4,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
         ]
+      },
+      {
+        "exerciseId": "decline-crunch",
+        "sets": 4,
+        "repRange": "15-25",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Abs trained as hard as any other body part in this segment."
       }
     ],
     "collection": "legend"
   },
   {
     "id": "cutler-legs",
-    "name": "Olympia Split - Legs",
+    "name": "One Step Closer - Legs",
     "day": "Day 6",
     "styleId": "cutler-volume",
     "sortOrder": 5,
     "labels": [
-      "Olympia-era split"
+      "One Step Closer"
     ],
     "focus": [
       "quads",
       "hamstrings",
       "calves"
     ],
-    "description": "Quad-dominant leg day — extensions, press, squats, then hamstrings and calves.",
+    "description": "December 2005 leg day from One Step Closer (~295 lb): leg extensions into presses, hack / front squats (405 featured), walking lunges, seated and lying leg curls, stiff-leg deadlifts, and more press/curl volume — Jay's trademark sweep built here.",
     "source": {
-      "name": "Jay Cutler - SET FOR SET",
-      "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+      "name": "Jay Cutler — One Step Closer (Full DVD)",
+      "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
     },
     "exercises": [
       {
@@ -6829,24 +7102,25 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Extensions pre-exhaust the quads before heavy compounds."
       },
       {
         "exerciseId": "leg-press",
         "sets": 5,
-        "repRange": "10-12",
+        "repRange": "10-15",
         "setScheme": [
           {
             "label": "W1",
@@ -6861,23 +7135,52 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Heavy leg presses — DVD shows stacks of 45s."
       },
       {
-        "exerciseId": "barbell-squat",
-        "sets": 5,
+        "exerciseId": "hack-squat",
+        "sets": 4,
+        "repRange": "8-12",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Hack squats paired with front squats on the DVD."
+      },
+      {
+        "exerciseId": "front-squat",
+        "sets": 4,
         "repRange": "6-10",
         "setScheme": [
           {
@@ -6893,24 +7196,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
-          },
-          {
-            "label": "3",
-            "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Front squats with ~405 lb featured in the December session."
       },
       {
         "exerciseId": "walking-lunge",
         "sets": 4,
-        "repRange": "8-10",
+        "repRange": "8-12",
         "setScheme": [
           {
             "label": "W1",
@@ -6925,14 +7224,15 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Walking lunges for sweep and conditioning."
       },
       {
         "exerciseId": "lying-leg-curl",
@@ -6952,19 +7252,20 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
-        ]
+        ],
+        "notes": "Lying (and seated) leg curls for hamstrings."
       },
       {
-        "exerciseId": "standing-calf-raise",
-        "sets": 5,
-        "repRange": "12-15",
+        "exerciseId": "romanian-deadlift",
+        "sets": 4,
+        "repRange": "8-12",
         "setScheme": [
           {
             "label": "W1",
@@ -6979,17 +7280,45 @@
           {
             "label": "1",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "2",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          }
+        ],
+        "notes": "Dumbbell stiff-leg deadlifts for hamstring stretch."
+      },
+      {
+        "exerciseId": "standing-calf-raise",
+        "sets": 5,
+        "repRange": "12-20",
+        "setScheme": [
+          {
+            "label": "W1",
+            "kind": "warmup",
+            "intensity": "~30% of working weight"
+          },
+          {
+            "label": "W2",
+            "kind": "warmup",
+            "intensity": "~60% of working weight"
+          },
+          {
+            "label": "1",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
+          },
+          {
+            "label": "2",
+            "kind": "working",
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           },
           {
             "label": "3",
             "kind": "working",
-            "intensity": "Heavy & controlled — straight set, stop shy of failure"
+            "intensity": "High volume — controlled, short rest (30-60s), stop shy of failure"
           }
         ]
       }

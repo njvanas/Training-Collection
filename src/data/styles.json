@@ -675,23 +675,23 @@
   },
   {
     "id": "cutler-volume",
-    "name": "High-Volume Split",
+    "name": "One Step Closer Volume",
     "creator": "Jay Cutler",
     "displayOrder": 9,
     "tags": [
       "High volume",
       "5-day split",
       "Short rest",
-      "Mind-muscle"
+      "Olympia prep"
     ],
-    "summary": "Jay Cutler's Olympia-era training: a three-on, one-off, two-on, one-off five-day split with legendary session volume — often 20-30 sets per body part built up over years. Short 30-60 second rest periods, relentless mind-muscle connection, and working for the pump over pure strength. Back and leg days are brutal enough to always follow with a rest day.",
+    "summary": "Jay Cutler's One Step Closer training, filmed by Mitsuru Okabe through the 2005 Mr. Olympia and the weeks after: legendary Gold's Gym volume — stacks of exercises and sets with short rest, controlled mind-muscle work, and heavy compounds (500-lb deadlifts, 140-lb one-arm rows, 405 front squats). Contest-prep back and shoulders/traps/calves/abs come first on the DVD; chest, arms, and legs were shot post-show while still full and dense. Scale the set counts down if you are not a seasoned high-volume lifter.",
     "principles": [
-      "Volume drives growth — add sets gradually over years, not all at once.",
-      "Rest 30-60 seconds between most sets to keep metabolic stress high.",
-      "Control the rep; feel the muscle through the full range — no ego lifting.",
-      "Train each body part once per week on a dedicated day; calves twice.",
-      "Place rest days after back and legs — the hardest sessions in the rotation.",
-      "Consistency beats novelty — same split for decades with progressive volume."
+      "Volume drives growth — many exercises and sets per body part, built up over years.",
+      "Rest ~30-60 seconds between most sets; keep the session dense and the pump high.",
+      "Control the rep and the contraction — feel the muscle through a full range; do not chase ego weight.",
+      "Train each major body part once per week on a dedicated day; calves (and often abs) get extra attention.",
+      "Hard sessions earn recovery — rest after brutal back and leg days in the weekly rotation.",
+      "Consistency over novelty — the same high-volume blueprint, progressed for decades."
     ],
     "intensityTechniques": [
       "drop-set",
@@ -699,33 +699,33 @@
       "partials"
     ],
     "guidelines": {
-      "trainingDaysPerWeek": "5 (3 on, 1 off, 2 on, 1 off)",
-      "frequencyPerMuscle": "Once per week; calves twice.",
-      "warmupProtocol": "2 warm-up sets on the first compound; quick warm-ups thereafter.",
-      "workingSetProtocol": "15-25+ sets per large body part for advanced lifters; 3-4 working sets per exercise with short rest. Scale volume down to 12-16 sets when adapting the split.",
+      "trainingDaysPerWeek": "5 (classic 3 on, 1 off, 2 on, 1 off rotation)",
+      "frequencyPerMuscle": "Once per week; calves twice; abs often with shoulders.",
+      "warmupProtocol": "2 progressive warm-up sets on the first compound; lighter warm-ups on later lifts as needed.",
+      "workingSetProtocol": "High-volume sessions: typically 3-4 working sets per exercise after warm-ups, 15-25+ total sets on large body parts for advanced lifters. Scale to 12-16 sets when adapting. Sessions run long — quality over rushing.",
       "repRanges": [
         {
           "target": "Compounds",
           "range": "6-12 reps"
         },
         {
-          "target": "Isolation",
+          "target": "Isolation & detail",
           "range": "10-15 reps"
         },
         {
-          "target": "Calves",
-          "range": "12-20 reps"
+          "target": "Calves & abs",
+          "range": "12-20+ reps"
         }
       ]
     },
     "splitOverview": [
       {
         "day": "Day 1",
-        "focus": "Chest & Calves"
+        "focus": "Chest"
       },
       {
         "day": "Day 2",
-        "focus": "Triceps & Biceps"
+        "focus": "Arms (Triceps & Biceps)"
       },
       {
         "day": "Day 3",
@@ -737,11 +737,11 @@
       },
       {
         "day": "Day 5",
-        "focus": "Shoulders & Traps"
+        "focus": "Shoulders, Traps, Calves & Abs"
       },
       {
         "day": "Day 6",
-        "focus": "Quads, Hamstrings & Calves"
+        "focus": "Legs"
       },
       {
         "day": "Day 7",
@@ -750,16 +750,24 @@
     ],
     "sources": [
       {
-        "title": "Jay Cutler Workout: The Mr. Olympia Routine - Hunt Fitness",
-        "url": "https://kylehuntfitness.com/jay-cutler-workout-the-mr-olympia-routine-that-built-a-legend/"
+        "title": "Jay Cutler — One Step Closer (Full DVD)",
+        "url": "https://www.youtube.com/watch?v=tbK4zFcuVIk"
       },
       {
-        "title": "How Strong Was Jay Cutler? - BarBend",
-        "url": "https://barbend.com/news/how-strong-was-jay-cutler/"
+        "title": "Jay Cutler — One Step Closer 1/5",
+        "url": "https://www.youtube.com/watch?v=qj1tHjSN_nM"
       },
       {
-        "title": "Jay Cutler Bodybuilder Workout Routine - SET FOR SET",
-        "url": "https://www.setforset.com/blogs/news/jay-cutler-bodybuilder"
+        "title": "Jay Cutler — One Step Closer 2/5",
+        "url": "https://www.youtube.com/watch?v=qcSiPF6ZGsM"
+      },
+      {
+        "title": "Jay Cutler — One Step Closer Part 4/5",
+        "url": "https://www.youtube.com/watch?v=KaxiL6ayp_M"
+      },
+      {
+        "title": "Jay Cutler — Heir to the Olympia Throne (MESO-Rx / Ron Harris)",
+        "url": "https://thinksteroids.com/articles/jay-cutler-ifbb-pro-bodybuilder/"
       }
     ]
   },
